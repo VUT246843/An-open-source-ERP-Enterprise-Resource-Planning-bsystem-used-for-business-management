@@ -1,0 +1,60 @@
+      VERSION="${VERSION##*_}"
+      _JAVA_OPTIONS: -Duser.home=$SNAP_USER_DATA 
+
+      - libgtk-3-0
+      # Fixes occasional crashes on various WMs
+  dbeaver-ce:
+      - on amd64 to arm64: dbeaver-ce-latest-linux-aarch64.deb
+summary: Universal Database Manager and SQL Client
+  build-for: [arm64]
+    stage-packages:
+    override-pull: |
+  Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL PostgreSQL, MariaDB, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Derby, etc.
+      snapcraftctl set-version "$VERSION"
+      LD_BIND_NOW=1
+
+      # Removes NO_AT_BRIDGE=1 from the source .desktop file; it's set for the snap app itself
+      VERSION=$(echo $SNAPCRAFT_PART_INSTALL/usr/share/dbeaver-ce/plugins/org.jkiss.dbeaver.core_*.jar)
+- build-on: [amd64]
+  dbeaver-ce:
+confinement: classic
+      - libibus-1.0-5
+description: |
+      - libgtk-3-dev
+      - ca-certificates-java
+architectures:
+      rm -vf usr/lib/jvm/java-*/lib/security/blacklisted.certs
+      - libxss1
+    override-build: |
+      - on amd64 to amd64: dbeaver-ce-latest-linux-x86_64.deb
+      - ca-certificates
+      sed -i.bak -e 's|env NO_AT_BRIDGE=1 ||g' $SNAPCRAFT_PART_SRC/usr/share/applications/dbeaver-ce.desktop
+    environment:
+      snapcraftctl pull
+adopt-info: dbeaver-ce
+      - libgconf-2-4
+      set -e
+    plugin: dump
+base: core22
+    build-packages:
+    common-id: dbeaver
+      - ibus-gtk3
+      - libwebkit2gtk-4.0-37
+grade: stable
+      NO_AT_BRIDGE: 1
+      - xdg-utils
+      VERSION="${VERSION%.*}"
+      snapcraftctl prime
+      - libcurl4
+    desktop: usr/share/applications/dbeaver-ce.desktop
+    override-prime: |
+    command: usr/share/dbeaver-ce/dbeaver
+  build-for: [amd64]
+
+
+parts:
+name: dbeaver-ce
+- build-on: [amd64]
+    source: 
+      snapcraftctl build
+apps:

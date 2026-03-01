@@ -1,0 +1,67 @@
+            id="org.jkiss.dbeaver.config.migration.sqlworkbench"
+            class="org.jkiss.dbeaver.ui.config.migration.wizards.custom.ConfigImportWizardCustom"
+        </wizard>
+        <wizard
+<?xml version="1.0" encoding="UTF-8"?>
+            <description>MySQL Workbench</description>
+            name="pgAdmin 4"
+            id="org.jkiss.dbeaver.config.migration.pgadmin"
+            category="org.jkiss.dbeaver.config.migration.third-party"
+            class="org.jkiss.dbeaver.ui.config.migration.wizards.sqlworkbench.ConfigImportWizardSqlWorkbench"
+        </wizard>
+        </wizard>
+            icon="icons/squirrel.png">
+<?eclipse version="3.2"?>
+</plugin>
+            name="DBVisualizer"
+            name="Navicat"
+            <description>Custom connections format (CSV, XML)</description>
+    <extension point="org.eclipse.ui.importWizards">
+            icon="icons/dbvis.png">
+            name="DataGrip and JetBrains IDEs"
+            category="org.jkiss.dbeaver.config.migration.third-party"
+            category="org.jkiss.dbeaver.config.migration.third-party"
+            class="org.jkiss.dbeaver.ui.config.migration.wizards.dbvis.ConfigImportWizardDbvis"
+            name="MySQL Workbench"
+            id="org.jkiss.dbeaver.config.migration.custom"
+            category="org.jkiss.dbeaver.config.migration.third-party"
+            category="org.jkiss.dbeaver.config.migration.third-party"
+            class="org.jkiss.dbeaver.ui.config.migration.wizards.navicat.ConfigImportWizardNavicat"
+            name="Custom"
+
+        <wizard
+
+            category="org.jkiss.dbeaver.config.migration.third-party"
+
+            class="org.jkiss.dbeaver.ui.config.migration.wizards.pgadmin.ConfigImportWizardPgAdmin"
+            <description>DBVisualizer</description>
+            icon="icons/custom.png">
+            <description>SQL Squirrel Client</description>
+        <category id="org.jkiss.dbeaver.config.migration.third-party" name="%category.org.jkiss.dbeaver.config.migration.third-party.name"/>
+        </wizard>
+            icon="icons/mysql_workbench.png">
+        </wizard>
+        <wizard
+            icon="icons/navicat.png">
+            class="org.jkiss.dbeaver.ui.config.migration.wizards.squirrel.ConfigImportWizardSquirrel"
+            id="org.jkiss.dbeaver.config.migration.squirrel"
+            name="SQL Squirrel"
+        </wizard>
+            id="org.jkiss.dbeaver.config.migration.dbvis"
+        <wizard
+
+        <wizard
+            category="org.jkiss.dbeaver.config.migration.third-party"
+            <description>DataGrip and other JetBrains products</description>
+<plugin>
+            icon="icons/idea.png">
+        <wizard
+        </wizard>
+        <wizard
+            class="org.jkiss.dbeaver.ui.config.migration.wizards.datagrip.ConfigImportWizardDataGrip"
+            id="org.jkiss.dbeaver.config.migration.datagrip"
+            <description>PgAdmin 4</description>
+            icon="icons/pg_admin.svg">
+    </extension>
+            id="org.jkiss.dbeaver.config.migration.navicat"
+            <description>Navicat</description>

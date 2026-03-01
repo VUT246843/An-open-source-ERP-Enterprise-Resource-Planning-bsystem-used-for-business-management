@@ -1,0 +1,72 @@
+                description="%tree.ddl.node.tip"
+        </configurator>
+        </editor>
+        </editor>
+            <objectType name="org.jkiss.dbeaver.ext.generic.model.GenericUniqueKey"/>
+                main="false"
+
+
+                id="generic.table.ddl.view"
+        </editor>
+                id="org.jkiss.dbeaver.ext.generic.dataSourceWizardView"
+<plugin>
+                label="Definition"
+                main="false"
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog">
+                position="additions_end"
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder" embeddable="false">
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+        <editor
+
+<?xml version="1.0" encoding="UTF-8"?>
+                class="org.jkiss.dbeaver.ext.generic.views.GenericConnectionPage"
+                id="generic.view.source.view"
+        </handler>
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+                type="folder">
+        </view>
+                class="org.jkiss.dbeaver.ext.generic.editors.GenericSourceViewEditor"
+
+            <objectType name="org.jkiss.dbeaver.ext.generic.model.GenericScriptObject"/>
+        <configurator class="org.jkiss.dbeaver.ext.generic.views.GenericTableForeignKeyConfigurator">
+                embeddable="false">
+
+<?eclipse version="3.2"?>
+        <editor
+                icon="#sql_text"
+                label="%editor.source.name" description="%editor.source.name" icon="#sql_text" position="additions_middle"
+        </configurator>
+            <objectType name="org.jkiss.dbeaver.ext.generic.model.GenericTable" if="object.supportsDDL()"/>
+        <configurator class="org.jkiss.dbeaver.ext.generic.views.GenericTablePrimaryKeyConfigurator">
+            <objectType name="org.jkiss.dbeaver.ext.generic.model.GenericView" if="object.supportsDDL()"/>
+    </extension>
+                id="org.jkiss.dbeaver.ext.generic.dataSourceEditorView"
+        <editor id="generic.source.view" class="org.jkiss.dbeaver.ext.generic.editors.GenericSourceViewEditor"
+        <view
+                icon="#database_icon_default">
+            <extension id="msaccess" extensions="accdb,mdb" icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/msaccess_icon_big.png"/>
+
+                dataSource="generic"
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+                class="org.jkiss.dbeaver.ext.generic.views.GenericConnectionPage"
+</plugin>
+        <view
+        <handler id="msaccess" class="org.jkiss.dbeaver.ext.generic.file.MSAccessFileDatabaseHandler" remote="false" order="102">
+            <objectType name="org.jkiss.dbeaver.ext.generic.model.GenericTableIndex"/>
+                class="org.jkiss.dbeaver.ui.editors.sql.SQLSourceViewer"
+                label="DDL"
+                label="%dialog.connection.header"
+    </extension>
+        </view>
+    <extension point="org.jkiss.dbeaver.fileTypeHandler">
+                dataSource="generic"
+                description="View definition"
+                position="additions_end"
+    </extension>
+                icon="#sql_text"
+                label="%dialog.connection.header"
+        </configurator>
+                icon="#database_icon_default"
+        <configurator class="org.jkiss.dbeaver.ext.generic.views.GenericTableIndexConfigurator">
+                type="folder"
+            <objectType name="org.jkiss.dbeaver.ext.generic.model.GenericTableForeignKey"/>

@@ -1,0 +1,25 @@
+    </extension>
+            <contentTypeBinding contentTypeId="org.jkiss.dbeaver.erd"/>
+                base-type="org.eclipse.core.runtime.text"
+    </extension>
+    <extension point="org.eclipse.core.contenttype.contentTypes">
+        <type id="er-diagram" name="ER Diagram"
+              icon="icons/erd.svg"
+                file-extensions="erd"
+<plugin>
+              managable="true">
+</plugin>
+        </type>
+        <content-type
+                name="ER diagram"
+<?eclipse version="3.2"?>
+                default-charset="utf-8"
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+                id="org.jkiss.dbeaver.erd"
+    <extension point="org.jkiss.dbeaver.resourceType">
+            <root folder="Diagrams"/>
+                priority="normal"/>
+              folderIcon="icons/erd_folder.svg"

@@ -1,0 +1,28 @@
+  ~ you may not use this file except in compliance with the License.
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  ~ See the License for the specific language governing permissions and
+    <artifactId>org.jkiss.dbeaver.ext.dameng.ui</artifactId>
+        <groupId>org.jkiss.dbeaver</groupId>
+  ~
+</project>  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~
+        <version>1.0.0-SNAPSHOT</version>
+    <packaging>eclipse-plugin</packaging>
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~ DBeaver - Universal Database Manager
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    </parent>
+  ~ limitations under the License.
+        <artifactId>plugins</artifactId>
+  ~ You may obtain a copy of the License at
+  -->
+
+  ~
+<!--
+    <parent>
+  ~ Copyright (C) 2010-2024 DBeaver Corp and others
+    <version>1.0.59-SNAPSHOT</version>
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>

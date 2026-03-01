@@ -1,0 +1,23 @@
+        <manager class="org.jkiss.dbeaver.ext.sqlite.ui.data.manager.SQLiteValueManager" id="org.jkiss.dbeaver.ext.sqlite.ui.data.manager.SQLiteValueManager">
+        </handler>
+
+</plugin>
+
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+            <supports dataSource="org.jkiss.dbeaver.ext.sqlite.model.SQLiteDataSource"/>
+
+    </extension>
+        <propertyConfigurator class="org.jkiss.dbeaver.ext.sqlite.auth.LibSQLAuthModelToken"
+
+    </extension>
+    <extension point="org.jkiss.dbeaver.fileTypeHandler">
+<?xml version="1.0" encoding="UTF-8"?>
+                              uiClass="org.jkiss.dbeaver.ext.sqlite.ui.config.LibSQLTokenAuthModelConfigurator"/>
+    </extension>
+        <handler id="sqlite" class="org.jkiss.dbeaver.ext.sqlite.ui.SQLiteFileDatabaseHandler" remote="false" order="101">
+    <extension point="org.jkiss.dbeaver.dataManager">
+<plugin>
+
+<?eclipse version="3.2"?>
+        </manager>
+            <extension id="sqlite" extensions="db,sdb,sqlite,db3,s3db,sqlite3,sl3,db2,s2db,sqlite2,sl2" icon="platform:/plugin/org.jkiss.dbeaver.ext.sqlite/icons/sqlite_icon_big.png"/>

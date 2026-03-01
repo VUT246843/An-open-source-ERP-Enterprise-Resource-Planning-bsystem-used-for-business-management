@@ -1,0 +1,101 @@
+    </extension>
+    <extension point="org.eclipse.ui.menus">
+    <extension point="org.eclipse.ui.commandImages">
+
+
+                    </iterate>
+            label="%dialog.connection.header"
+            targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog">
+
+                <with variable="selection">
+    <extension point="org.eclipse.ui.commands">
+        <page category="org.jkiss.dbeaver.preferences.drivers" id="org.jkiss.dbeaver.preferences.cubrid.general" class="org.jkiss.dbeaver.ext.cubrid.ui.views.PrefPageCubrid" name="%views.PrefPageCubrid.name">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+            icon="platform:/plugin/org.jkiss.dbeaver.ext.cubrid/icons/cubrid_icon.png"
+              priority="101"
+    </extension>
+        <view
+    </extension>
+<plugin>
+
+            class="org.jkiss.dbeaver.ext.cubrid.ui.editors.CubridPrivilageEditor"
+              description="%sql.plan.view.fulltext.tip"
+            <datasource id="cubrid"/>
+
+                id="cubridResult"
+        <configurator class="org.jkiss.dbeaver.ext.cubrid.ui.config.CubridProcedureConfigurator">
+                label="%controls.CubridInfoPanel.label"
+
+         <panel
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/table.svg"
+                        </adapt>
+        <image commandId="org.jkiss.dbeaver.cubrid.OIDNavigator" icon="platform:/plugin/org.jkiss.dbeaver.ext.cubrid/icons/cubrid_icon.png"/>
+            <objectType name="org.jkiss.dbeaver.ext.cubrid.model.CubridProcedure"/>
+            targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard">
+        </handler>
+    </extension>
+                </with>
+            </command>
+    </extension>
+
+            class="org.jkiss.dbeaver.ext.cubrid.ui.views.CubridConnectionPage"
+        <view
+                    <count value="+"/>
+            icon="platform:/plugin/org.jkiss.dbeaver.ext.cubrid/icons/cubrid_icon.png"
+<?eclipse version="3.2"?>
+    </extension>
+              class="org.jkiss.dbeaver.ext.cubrid.ui.editors.CubridSQLPlanViewProvider">
+        </menuContribution>
+    <extension point="org.jkiss.dbeaver.resultset.panel">
+                <visibleWhen checkEnabled="true"/>
+                default="true"
+            <command commandId="org.jkiss.dbeaver.cubrid.OIDNavigator">
+            dataSource="cubrid"
+    </extension>
+            dataSource="cubrid"
+            label="%editor.general.name"
+            main="true"
+            label="%dialog.connection.header"
+              label="%sql.plan.view.fulltext.name"
+        <view id="fulltext"
+
+                        <adapt type="org.jkiss.dbeaver.model.struct.DBSObject">
+<?xml version="1.0" encoding="UTF-8"?>
+              icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/page_explain_plan.svg"
+        </view>
+        </page>
+    <extension point="org.jkiss.dbeaver.sql.plan.view">
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+        </editor>
+        </view>
+        <command id="org.jkiss.dbeaver.cubrid.OIDNavigator" name="%views.CubridOIDSearchDiaglog.name" description="views.CubridOIDSearchDiaglog.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+                description="%controls.CubridInfoPanel.description"
+
+            objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridPrivilage"
+        </view>
+    <extension point="org.eclipse.ui.handlers">
+</plugin>
+        <editor
+            id="org.jkiss.dbeaver.ext.cubrid.dataSourceWizardView"
+             <datasource id="cubrid"/>
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+    <extension point="org.eclipse.ui.preferencePages">
+            id="org.jkiss.dbeaver.ext.cubrid.ui.editors.CubridPrivilageEditor"
+        </configurator>
+            description="General user settings"
+            icon="#user">
+            id="org.jkiss.dbeaver.ext.cubrid.dataSourceEditorView"
+            </enabledWhen>
+                            <instanceof value="org.jkiss.dbeaver.ext.cubrid.model.CubridDataSource"/>
+                    <iterate operator="and">
+                class="org.jkiss.dbeaver.ext.cubrid.ui.controls.CubridInfoPanel">
+    </extension>
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+            <enabledWhen>
+    </extension>
+
+        </panel>
+    </extension>
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=object">
+            class="org.jkiss.dbeaver.ext.cubrid.ui.views.CubridConnectionPage"
+        <handler commandId="org.jkiss.dbeaver.cubrid.OIDNavigator" class="org.jkiss.dbeaver.ext.cubrid.ui.config.CubridOIDHandler">

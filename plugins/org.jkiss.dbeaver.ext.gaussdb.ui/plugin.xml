@@ -1,0 +1,28 @@
+    </editor>
+    </configurator>
+    </configurator>
+</plugin>
+  </extension>
+    </configurator>
+      <objectType name="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBPackage"/>
+      <objectType name="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBFunction"/>
+      <objectType name="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBProcedure"/>
+      <objectType name="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBPackage"/>
+    <editor id="postgresql.source.view" class="org.jkiss.dbeaver.ext.gaussdb.ui.editors.GaussDBPackageDeclareViewEditor" label="%db.editor.declare.name" description="%db.editor.source.description" icon="#sql_text" position="additions_middle" contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder" embeddable="false">
+  <extension point="org.jkiss.dbeaver.dataSourceView">
+      <objectType name="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBDatabase"/>
+      <objectType name="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBPackage"/>
+    <view id="org.jkiss.dbeaver.ext.postgresql.dataSourceEditorView" dataSource="gaussdb" targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog" label="%dialog.connection.header" class="org.jkiss.dbeaver.ext.gaussdb.ui.views.GaussDBConnectionPage" icon="platform:/plugin/org.jkiss.dbeaver.ext.gaussdb/icons/gaussdb_icon.png"/>
+<?eclipse version="3.2"?>
+    <configurator class="org.jkiss.dbeaver.ext.gaussdb.ui.config.GaussDBProcedureConfigurator">
+    <configurator class="org.jkiss.dbeaver.ext.gaussdb.ui.config.GaussDBDatabaseConfigurator">
+    <configurator class="org.jkiss.dbeaver.ext.gaussdb.ui.config.GaussDBFunctionConfigurator">
+    <editor id="postgresql.source.view" class="org.jkiss.dbeaver.ext.gaussdb.ui.editors.GaussDBPackageBodyViewEditor" label="%db.editor.body.name" description="%db.editor.source.description" icon="#sql_text" position="additions_middle" contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder" embeddable="false">
+    </configurator>
+  <extension point="org.jkiss.dbeaver.databaseEditor">
+  </extension>
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+    </editor>
+    <view id="org.jkiss.dbeaver.ext.postgresql.dataSourceWizardView" dataSource="gaussdb" targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard" label="%dialog.connection.header" class="org.jkiss.dbeaver.ext.gaussdb.ui.views.GaussDBConnectionPage" icon="platform:/plugin/org.jkiss.dbeaver.ext.gaussdb/icons/gaussdb_icon.png"/>
+    <configurator class="org.jkiss.dbeaver.ext.gaussdb.ui.config.GaussDBPackageConfigurator">

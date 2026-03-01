@@ -1,0 +1,135 @@
+                    <source>${java.version}</source>
+        </plugins>
+        <sourceDirectory>${project.basedir}/src</sourceDirectory>
+                </configuration>
+            <plugin>
+            <plugin>
+                            <ws>gtk</ws>
+    <packaging>pom</packaging>
+    </profiles>
+        <!-- dbeaver-jdbc-libsql-->
+        <module>product</module>
+                            <os>macosx</os>
+                            <arch>aarch64</arch>
+                            <arch>x86_64</arch>
+                <groupId>org.eclipse.tycho</groupId>
+                <version>${tycho-version}</version>
+                            <Created-By>dbeaver.io</Created-By>
+    </parent>
+                <!-- Tests -->
+            </plugin>
+
+                <configuration>
+        <dbeaver-product>DBeaver</dbeaver-product>
+    <artifactId>dbeaver</artifactId>
+                            <ws>cocoa</ws>
+                    <useProjectSettings>false</useProjectSettings>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+                            <ws>gtk</ws>
+            </modules>
+                    <target>${java.version}</target>
+                        </environment>
+                    <pomDependencies>consider</pomDependencies>
+                            <Built-By>dbeaver.io</Built-By>
+
+            <!-- Set Built-By info -->
+                            <ws>cocoa</ws>
+        <!-- desktop build: includes UI components and products -->
+    <modules>
+        <profile>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                    <compilerId>${tycho.compiler.id}</compilerId>
+                </configuration>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+                <groupId>org.eclipse.tycho</groupId>
+        </profile>
+        <tsa/>
+                </configuration>
+                        <environment>
+                <groupId>org.eclipse.tycho</groupId>
+                <module>test</module>
+            <activation><property><name>!headless-platform</name></property></activation>
+            <plugin>
+        <testSourceDirectory>${project.basedir}/tests</testSourceDirectory>
+                    <environments>
+
+            </plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                        </environment>
+                <configuration>
+                            <os>win32</os>
+    <build>
+        <key.storage.path>/etc/</key.storage.path>
+                <artifactId>tycho-packaging-plugin</artifactId>
+    <groupId>org.jkiss.dbeaver</groupId>
+        <version>2.6.0-SNAPSHOT</version>
+                        <environment>
+                <extensions>true</extensions>
+                            <os>win32</os>
+        <module>plugins</module>
+                <version>${tycho-version}</version>
+                            <os>linux</os>
+                        <environment>
+                        </environment>
+
+                        <environment>
+
+                            <arch>aarch64</arch>
+                    </environments>
+
+            <id>desktop</id>
+
+                            <arch>aarch64</arch>
+                <version>${tycho-version}</version>
+            </plugin>
+<?xml version="1.0" encoding="UTF-8"?>
+                <version>${tycho-version}</version>
+    <properties>
+                        <environment>
+                <artifactId>target-platform-configuration</artifactId>
+                        </environment>
+
+                            <arch>x86_64</arch>
+                            <ws>win32</ws>
+                        </environment>
+        <module>../dbeaver-jdbc-libsql</module>
+        <groupId>com.dbeaver.common</groupId>
+            <plugin>
+    <profiles>
+        <plugins>
+                    </archive>
+                        </manifestEntries>
+                        <manifestEntries>
+    </build>
+
+</project>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <artifactId>tycho-compiler-plugin</artifactId>
+                <artifactId>tycho-maven-plugin</artifactId>
+
+        <module>features</module>
+
+
+    <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../dbeaver-common/pom.xml</relativePath>
+            <modules>
+
+            <!-- Tycho build -->
+                            <arch>x86_64</arch>
+                <configuration>
+                            <ws>win32</ws>
+
+                            <os>macosx</os>
+                    <compilerVersion>${java.version}</compilerVersion>
+        <artifactId>com.dbeaver.common.main</artifactId>
+                        <environment>
+    </modules>
+    <parent>
+    <modelVersion>4.0.0</modelVersion>
+                        </environment>
+
+                            <Build-Time>${maven.build.timestamp}</Build-Time>
+    </properties>
+            </plugin>
+                    <archive>
+                            <os>linux</os>

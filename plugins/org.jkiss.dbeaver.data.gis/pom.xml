@@ -1,0 +1,16 @@
+        <version>1.0.0-SNAPSHOT</version>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+    <artifactId>org.jkiss.dbeaver.data.gis</artifactId>
+         <relativePath>../</relativePath>
+        <groupId>org.jkiss.dbeaver</groupId>
+        <artifactId>plugins</artifactId>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+</project>
+    <modelVersion>4.0.0</modelVersion>
+    </parent>
+    <version>1.0.199-SNAPSHOT</version>
+    <parent>
+    <packaging>eclipse-plugin</packaging>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+        <artifactId>tests</artifactId>
+  ~
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  -->
+    <version>1.0.36-SNAPSHOT</version>
+  ~ See the License for the specific language governing permissions and
+    <artifactId>org.jkiss.dbeaver.ext.clickhouse.test</artifactId>
+        <groupId>org.jkiss.dbeaver</groupId>
+  ~ you may not use this file except in compliance with the License.
+</project>
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  ~ Copyright (C) 2010-2024 DBeaver Corp and others
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+         xmlns="http://maven.apache.org/POM/4.0.0"
+  ~ DBeaver - Universal Database Manager
+
+    <packaging>eclipse-test-plugin</packaging>
+<!--
+        <relativePath>../</relativePath>
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ You may obtain a copy of the License at
+    </parent>
+  ~
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+  ~ Unless required by applicable law or agreed to in writing, software
+        <version>1.0.0-SNAPSHOT</version>
+  ~ limitations under the License.

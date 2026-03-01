@@ -1,0 +1,15 @@
+</plugin>
+            handler="org.jkiss.dbeaver.model.cli.command.ListNetworkHandlersParameterHandler"/>
+
+            exitAfterExecute="true"
+            exitAfterExecute="true"
+    <extension-point id="org.jkiss.dbeaver.commandLine" name="Command line extension" schema="schema/org.jkiss.dbeaver.commandLine.exsd"/>
+        <parameter
+        <parameter
+<?xml version="1.0" encoding="UTF-8"?>
+    </extension>
+
+            handler="org.jkiss.dbeaver.model.cli.command.ListAuthenticationModelParameterHandler"/>
+<plugin>
+    <extension point="org.jkiss.dbeaver.commandLine">
+<?eclipse version="3.2"?>

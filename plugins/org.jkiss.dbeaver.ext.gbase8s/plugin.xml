@@ -1,0 +1,73 @@
+            <drivers managable="true">
+            label="GBase 8s">
+                    class="com.gbasedbt.jdbc.Driver"
+                    defaultUser="gbasedbt"
+<plugin>
+                    <parameter name="query-set-active-db" value="DATABASE ?" />
+            dialect="generic"
+                    <parameter name="ping-sql" value="SELECT 1 FROM dual" />
+                </driver>
+<?eclipse version="3.2"?>
+            class="org.jkiss.dbeaver.ext.gbase8s.model.meta.GBase8sMetaModel"
+            id="gbase8s"
+            objectType="org.jkiss.dbeaver.ext.gbase8s.model.GBase8sUniqueKey" />
+            description="GBase 8s connector"
+            parent="generic"
+            <treeInjection path="generic/catalog/schema/table"
+                    categories="sql">
+                <driver
+            </drivers>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+                    <property name="@dbeaver-default-database.meta.client.name.disable" value="true" />
+        <meta id="gbase8s"
+            driverClass="com.gbasedbt.jdbc.Driver" />
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+
+                changeFolderType="org.jkiss.dbeaver.ext.gbase8s.model.GBase8sTableTrigger"/>
+
+
+            class="org.jkiss.dbeaver.ext.gbase8s.edit.GBase8sTableColumnManager"
+                    <parameter name="omit-catalog-name" value="false" />
+            icon="icons/gbase8s_icon.png"
+
+            objectType="org.jkiss.dbeaver.ext.gbase8s.model.GBase8sTable" />
+                    <property name="@dbeaver-default-dataformat.type.timestamp.pattern" value="yyyy-MM-dd HH.mm.ss.ffffff" />
+    </extension>
+                    webURL="https://cdn.gbase.cn/products/27/duljCAzDVSy_SLTpy7j1l/GBase%208s%20V8.8%20JDBC%20Driver%20%E7%A8%8B%E5%BA%8F%E5%91%98%E6%8C%87%E5%8D%97.pdf"
+    <extension point="org.jkiss.dbeaver.objectManager">
+                    defaultPort="9088"
+    </extension>
+                changeFolderType="org.jkiss.dbeaver.ext.gbase8s.model.GBase8sTable"/>
+                    sampleURL="jdbc:gbasedbt-sqli://{host}:{port}/{database}:GBASEDBTSERVER={server}"
+                changeFolderType="org.jkiss.dbeaver.ext.gbase8s.model.GBase8sTableColumn"/>
+                    <parameter name="legacy-sql-dialect" value="true" />
+                    supportedPageFields="host,port,database,server"
+                    iconBig="icons/gbase8s_icon_big.png"
+            class="org.jkiss.dbeaver.ext.gbase8s.edit.GBase8sUniqueKeyManager"
+
+                    <property name="OPT_GOAL" value="0" />
+            <treeInjection path="generic/catalog/schema/tableTrigger"
+                    description="%driver.gbase8s.description"
+                    icon="icons/gbase8s_icon.png"
+                    <parameter name="query-get-active-db" value="SELECT odb_dbname FROM sysmaster?sysopendb WHERE odb_iscurrent = 'Y' AND odb_sessionid = DBINFO('sessionid')" />
+    </extension>
+                    <file type="jar" path="maven:/com.gbasedbt:jdbc:RELEASE[3.5.1]"/>
+                    label="GBase 8s"
+</plugin>
+            <treeInjection path="generic/catalog/schema/table/uniqueKey"
+            class="org.jkiss.dbeaver.ext.gbase8s.GBase8sDataSourceProvider"
+                changeFolderType="org.jkiss.dbeaver.ext.gbase8s.model.GBase8sUniqueKey"/>
+                    logoImage="icons/gbase8s_logo.png"
+            <treeInjection path="generic/catalog/schema/index" remove="true"/>
+                    id="gbase8s"
+
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+        <manager
+            objectType="org.jkiss.dbeaver.ext.gbase8s.model.GBase8sTableColumn" />
+<?xml version="1.0" encoding="UTF-8"?>
+        <manager class="org.jkiss.dbeaver.ext.gbase8s.edit.GBase8sTableManager"
+        </datasource>
+                    <property name="SQLMODE" value="oracle" />
+            <treeInjection path="generic/catalog/schema/table/attribute"
+        <datasource
+        <manager

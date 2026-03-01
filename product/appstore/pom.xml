@@ -1,0 +1,73 @@
+                    </products>
+    <parent>
+<?xml version="1.0" encoding="UTF-8"?>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                </executions>
+                        <goals>
+            </plugin>
+                                <win32>dbeaver</win32>
+                            </rootFolders>
+                    </execution>
+                        </goals>
+                <configuration>
+        </plugins>
+    <build>
+                        </goals>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+                            <type>eclipse-plugin</type>
+                </configuration>
+    </parent>
+            </plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                </configuration>
+                <configuration>
+        <version>1.0.0-SNAPSHOT</version>
+    <name>DBeaver CE AppStore</name>
+</project>
+                    <formats>
+                            <id>org.jkiss.dbeaver.core.appstore</id>
+                    </execution>
+        <plugins>
+                        <macosx>tar.gz</macosx>
+                <groupId>org.eclipse.tycho</groupId>
+        <relativePath>../../</relativePath>
+                            <goal>materialize-products</goal>
+                            <rootFolders>
+                            <id>org.apache.ant</id>
+    </build>
+                    <products>
+            <plugin>
+                        <product>
+                        <id>materialize-products</id>
+                                <version>1.99.1</version>
+                            </restrictTo>
+                            <!--<goal>archive-products</goal>-->
+                <artifactId>tycho-p2-director-plugin</artifactId>
+                    </filters>
+                            <restrictTo>
+
+                <executions>
+                                <macosx>DBeaver.app</macosx>
+                <version>${tycho-version}</version>
+            <plugin>
+                    <execution>
+                <artifactId>target-platform-configuration</artifactId>
+                        </filter>
+    <artifactId>appstore</artifactId>
+        <artifactId>dbeaver</artifactId>
+                        <win32>zip</win32>
+    <modelVersion>4.0.0</modelVersion>
+                        <filter>
+                    <execution>
+                    <filters>
+    <version>26.0.1-SNAPSHOT</version>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    <packaging>eclipse-repository</packaging>
+                        </product>
+                        <id>archive-products</id>
+                        <goals>
+                            <archiveFileName>dbeaver-ce-${dbeaver-version}</archiveFileName>
+                    </formats>
+
+                <version>${tycho-version}</version>
+        <groupId>org.jkiss.dbeaver</groupId>

@@ -1,0 +1,30 @@
+<plugin>
+<?xml version="1.0" encoding="UTF-8"?>
+    <extension point="org.jkiss.dbeaver.fileTypeHandler">
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog">
+        <view
+<?eclipse version="3.2"?>
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+                class="org.jkiss.dbeaver.ext.duckdb.ui.DuckDBConnectionPage"
+        </view>
+</plugin>
+                dataSource="duckdb"
+                label="%duckdb.dialog.connection.header"
+        </handler>
+                id="org.jkiss.dbeaver.ext.duckdb.dataSourceWizardView"
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+                dataSource="duckdb"
+                class="org.jkiss.dbeaver.ext.duckdb.ui.DuckDBConnectionPage"
+    </extension>
+                label="%duckdb.dialog.connection.header"
+
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon.png">
+
+        <view
+                id="org.jkiss.dbeaver.ext.duckdb.dataSourceEditorView"
+        <handler id="duckdb" class="org.jkiss.dbeaver.ext.duckdb.ui.DuckDBFileDatabaseHandler" remote="false" order="103">
+
+        </view>
+            <extension id="duckdb" extensions="duckdb,ddb" icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon_big.png"/>
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon.png"
+    </extension>

@@ -1,0 +1,118 @@
+    </extension>
+                id="org.jkiss.dbeaver.bookmark"
+            type="proxy"
+    <extension-point id="org.jkiss.dbeaver.mavenRepository" name="%extension-point.org.jkiss.dbeaver.mavenRepository.name" schema="schema/org.jkiss.dbeaver.mavenRepository.exsd"/>
+    <extension point="org.jkiss.dbeaver.networkHandler">
+
+
+    <extension point="org.jkiss.dbeaver.mavenRepository">
+            </propertyGroup>
+    <extension-point id="org.jkiss.dbeaver.driverManager" name="%extension-point.org.jkiss.dbeaver.driverManager.name" schema="schema/org.jkiss.dbeaver.driverManager.exsd"/>
+    <extension-point id="org.jkiss.dbeaver.task" name="%extension-point.org.jkiss.dbeaver.task.name" schema="schema/org.jkiss.dbeaver.task.exsd"/>
+    </extension>
+<?eclipse version="3.2"?>
+    <extension point="org.jkiss.dbeaver.driverManager">
+            order="3"
+
+        <category id="graph" name="%driver.category.graph.name" description="%driver.category.graph.description" icon="#folder_database" rank="23" promoted="true"/>
+    <extension-point id="org.jkiss.dbeaver.dataSourceHandler" name="%extension-point.org.jkiss.dbeaver.dataSourceHandler.name" schema="schema/org.jkiss.dbeaver.dataSourceHandler.exsd"/>
+    <extension point="org.jkiss.dbeaver.language">
+
+    <extension-point id="org.jkiss.dbeaver.language" name="%extension-point.org.jkiss.dbeaver.language.name" schema="schema/org.jkiss.dbeaver.language.exsd"/>
+    <extension point="org.eclipse.core.contenttype.contentTypes">
+        <category id="hadoop" name="%driver.category.hadoop.name" description="%driver.category.hadoop.description" icon="#folder_database" rank="20" promoted="true"/>
+    <extension-point id="org.jkiss.dbeaver.productFeature" name="%extension-point.org.jkiss.dbeaver.productFeature.name" schema="schema/org.jkiss.dbeaver.productFeature.exsd"/>
+        <!--
+        <category id="analytic" name="%driver.category.analytical.name" description="%driver.category.analytical.description" icon="#folder_database" rank="10" promoted="true"/>
+    </extension>
+        <datasourceOrigin id="local" label="Local configuration" class="org.jkiss.dbeaver.registry.DataSourceOriginProviderLocal"/>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+    <extension-point id="org.jkiss.dbeaver.pluginService" name="%extension-point.org.jkiss.dbeaver.pluginService.name" schema="schema/org.jkiss.dbeaver.pluginService.exsd"/>
+            description="Database authentication (username/password)"
+        <language code="fr" label="Français"/>
+                priority="normal"
+            codeName="Proxy"
+                describer="org.jkiss.dbeaver.ui.resources.bookmarks.BookmarkContentTypeDescriber"/>
+        <language code="ar" label="العربية"/>
+    <extension-point id="org.jkiss.dbeaver.dataSourceStorage" name="%extension-point.org.jkiss.dbeaver.dataSourceStorage.name" schema="schema/org.jkiss.dbeaver.dataSourceStorage.exsd"/>
+            </describer>
+                <property id="password" label="Password" type="string" features="password"/>
+        <language code="tw" label="繁體中文"/>
+        -->
+<plugin>
+
+    </extension>
+        <language code="zh" label="简体中文"/>
+            id="native"
+
+            <describer class="org.eclipse.core.runtime.content.BinarySignatureDescriber">
+    <!-- Non UI extensions -->
+<?xml version="1.0" encoding="UTF-8"?>
+                <parameter name="signature" value="4C,00,00,00,01,14,02,00,00,00,00,00,C0,00,00,00,00,00,00,46"/>
+        <repository id="maven-central" name="%maven.respository.central" url="https://repo1.maven.org/maven2/" order="0"/>
+        <type id="default"/>
+    </extension>
+        <language code="en" label="English"/>
+            default="true">
+        </authModel>
+        <!-- Non-HTTPS Maven Central is no longer alive. Hooray. -->
+        <content-type
+                <parameter name="offset" value="0"/>
+    <extension-point id="org.jkiss.dbeaver.resourceType" name="%extension-point.org.jkiss.dbeaver.resourceType.name" schema="schema/org.jkiss.dbeaver.resourceType.exsd"/>
+    <extension-point id="org.jkiss.dbeaver.resources" name="%extension-point.org.jkiss.dbeaver.resources.name" schema="schema/org.jkiss.dbeaver.resources.exsd"/>
+
+    </extension>
+            label="Username/password"
+            prefix="proxy"
+
+        </content-type>
+        <language code="it" label="Italiano"/>
+
+        <language code="ro" label="Română"/>
+        <language code="ja" label="日本語"/>
+        <category id="fulltext" name="%driver.category.fulltext.name" description="%driver.category.fulltext.description" icon="#folder_database" rank="22" promoted="true"/>
+                file-extensions="bm"
+            handlerClass="org.jkiss.dbeaver.model.impl.net.SocksProxyImpl"/>
+
+    <extension-point id="org.jkiss.dbeaver.objectManager" name="%extension-point.org.jkiss.dbeaver.objectManager.name" schema="schema/org.jkiss.dbeaver.objectManager.exsd"/>
+</plugin>
+    <extension-point id="org.jkiss.dbeaver.dataSourceProvider" name="%extension-point.org.jkiss.dbeaver.dataSourceProvider.name" schema="schema/org.jkiss.dbeaver.dataSourceProvider.exsd"/>
+
+        <authModel
+
+    <!-- Language names should be written in their respective languages. Do not localize them -->
+        <repository id="oss.sonatype.org" snapshot="true" name="%maven.repository.sonatype" url="https://oss.sonatype.org/content/repositories/snapshots/" order="0"/>
+    <extension-point id="org.jkiss.dbeaver.dataSourceAuth" name="%extension-point.org.jkiss.dbeaver.dataSourceAuth.name" schema="schema/org.jkiss.dbeaver.dataSourceAuth.exsd"/>
+                <!-- http://msdn.microsoft.com/en-us/library/dd871305%28PROT.10%29.aspx -->
+        <category id="sql" name="%driver.category.sql.name" description="%driver.category.sql.description" icon="#folder_database" rank="4" promoted="true"/>
+                name="Database Bookmarks"
+        <handler
+        <language code="uk" label="Українська"/>
+        <language code="pt_BR" label="Português (BR)"/>
+    <extension point="org.jkiss.dbeaver.dataSourceAuth">
+
+            label="%handler.socks_proxy.label"
+        <language code="es" label="Español"/>
+        <category id="timeseries" name="%driver.category.timeseries.name" description="%driver.category.timeseries.description" icon="#folder_database" rank="15" promoted="true"/>
+    <extension point="org.jkiss.dbeaver.resourceType">
+            secured="true"
+        <content-type file-extensions="lnk" id="org.jkiss.dbeaver.shortcut" name="Windows shortcuts" priority="normal">
+            class="org.jkiss.dbeaver.model.impl.auth.AuthModelDatabaseNative"
+        <language code="de" label="Deutsch"/>
+        <language code="ru" label="Русский"/>
+    </extension>
+        <category id="nosql" name="%driver.category.nosql.name" description="%driver.category.nosql.description" icon="#folder_database" rank="5" promoted="true"/>
+
+        <category id="file" name="%driver.category.file.name" description="%driver.category.file.description" icon="#folder_database" rank="11" promoted="true"/>
+
+    <extension-point id="org.jkiss.dbeaver.product.bundles" name="%extension-point.org.jkiss.dbeaver.product.bundles.name" schema="schema/org.jkiss.dbeaver.product.bundles.exsd"/>
+                <repository id="maven-central-unsecure" name="%maven.respository.central.unsecure" url="http://central.maven.org/maven2/" order="99999"/>
+        <language code="ko" label="한국어"/>
+            <propertyGroup label="Database user">
+    </extension>
+            description="%handler.socks_proxy.description"
+            id="socks_proxy"
+        <category id="embedded" name="%driver.category.embedded.name" description="%driver.category.embedded.description" icon="#folder_database" rank="12" promoted="true"/>
+                <property id="user" label="User" type="string"/>
+            desktop="true"
+    <extension-point id="org.jkiss.dbeaver.networkHandler" name="%extension-point.org.jkiss.dbeaver.networkHandler.name" schema="schema/org.jkiss.dbeaver.networkHandler.exsd"/>

@@ -1,0 +1,104 @@
+            label="WMI"
+            <type name="*"/>
+                            </items>
+        </datasource>
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+        <view
+
+<plugin>
+    <extension
+                id="org.jkiss.dbeaver.ext.wmi.dataSourceEditorView"
+
+            description="WMI connector"
+    </extension>
+                                    <items label="Properties" itemLabel="Property" path="attribute" property="allAttributes"/>
+</plugin>
+            <tree
+    </extension>
+                    <file type="lib" os="win32" arch="x86" path="platform:/plugin/org.jkiss.wmi/native/x86/jkiss_wmi.dll"/>
+        </provider>
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog"
+                                <folder type="org.jkiss.dbeaver.ext.wmi.model.WMIClassAttribute" label="Properties" icon="#columns" description="Class properties" navigable="false" id="ClassAttributes">
+                dataSource="wmi"
+                            </items>
+                <!--folder type="org.jkiss.dbeaver.ext.wmi.model.WMIClass" label="Classes" description="WMI classes">
+                label="%dialog.connection.datasource.header"
+<?xml version="1.0" encoding="UTF-8"?>
+                  label="WMI data source"
+            </tree>
+                icon="icons/wmi_icon.png">
+                    <file type="lib" os="win32" arch="x86_64" path="platform:/plugin/org.jkiss.wmi/native/x64/jkiss_wmi.dll"/>
+                        </folder>
+            </drivers>
+                    iconBig="icons/wmi_icon_big.png"
+            label="WMI data types provider">
+                        </folder>
+        <dialect id="wmi" parent="basic" class="org.jkiss.dbeaver.ext.wmi.model.WMIDialect" label="WMI" description="WMI SQL dialect." icon="icons/wmi_icon.png">
+    </extension>
+            icon="icons/wmi_icon.png"
+                                </folder>
+            <datasource id="wmi"/>
+                id="org.jkiss.dbeaver.ext.wmi.dataSourceWizardView"
+        </view>
+
+                </folder-->
+    </extension>
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+        <provider
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+            id="WMIValueHandlerProvider"
+                        <folder type="org.jkiss.dbeaver.ext.wmi.model.WMIClass" label="Classes" icon="icons/classes.png" description="Classes">
+                class="org.jkiss.dbeaver.ext.wmi.views.WMIConnectionPage"
+        <view
+                label="%dialog.connection.datasource.header"
+                    <items label="Classes" itemLabel="Class" path="allClass" property="allClasses" icon="icons/class.svg">
+                <!--/folder-->
+        <manager class="org.jkiss.dbeaver.ext.wmi.edit.WMINamespaceManager" objectType="org.jkiss.dbeaver.ext.wmi.model.WMINamespace" label="Namespace manager"/>
+        </dialect>
+        </view>
+                    class="org.jkiss.wmi.service.WMIServiceNative"
+
+                    id="wmi"
+                            <items label="Classes" itemLabel="Class" path="class" property="classes" icon="icons/class.svg" id="Class">
+                                    <items label="Methods" itemLabel="Method" path="method" property="methods"/>
+            class="org.jkiss.dbeaver.ext.wmi.model.WMIValueHandlerProvider"
+                <driver
+                    icon="icons/wmi_icon.png"
+            class="org.jkiss.dbeaver.ext.wmi.WMIDataSourceProvider"
+                        <folder type="org.jkiss.dbeaver.ext.wmi.model.WMIClass" label="Associations" icon="icons/associations.png" description="Class Associations">
+                        </folder>
+                </driver>
+                <!--folder type="org.jkiss.dbeaver.ext.wmi.model.WMIContainer" label="Hierarchy" description="WMI namespace and class hierarchy"-->
+                dataSource="wmi"
+        point="org.jkiss.dbeaver.dataSourceProvider">
+                                <items ref="ClassAttributes"/>
+                            <items label="Properties" itemLabel="Property" path="property" property="attributes"/>
+        <datasource
+
+                class="org.jkiss.dbeaver.ext.wmi.views.WMIConnectionPage"
+                        <items ref="Namespace"/>
+                    <!--items ref="Class"/-->
+
+                                </folder>
+                  path="wmi">
+                    description="WMI Native driver"
+    </extension>
+                icon="icons/wmi_icon.png">
+                  icon="icons/wmi_icon.png"
+                                <folder type="org.jkiss.dbeaver.ext.wmi.model.WMIClassMethod" label="Methods" icon="#procedures" description="Class methods" navigable="false" id="ClassMethods">
+            <drivers managable="false">
+<?eclipse version="3.2"?>
+                        <folder type="org.jkiss.dbeaver.ext.wmi.model.WMIClassProperty" label="Properties" icon="#columns" description="Class properties" navigable="false" id="ClassAttributes">
+            dialect="wmi">
+    <extension point="org.jkiss.dbeaver.objectManager">
+                    label="WMI"
+
+                    categories="embedded">
+                            <items label="Associations" itemLabel="Association" path="association" property="associations" icon="icons/association.svg" id="Association">
+                    </items>
+
+                    <items label="Namespaces" itemLabel="Namespace" path="namespace" property="namespaces" icon="icons/namespace.png" id="Namespace">
+            id="wmi"
+                    customDriverLoader="true"
+                    </items>

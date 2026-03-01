@@ -1,0 +1,907 @@
+        <dashboard id="postgresql.blockIO" label="Block IO" group="Standard" defaultView="timeseries" updatePeriod="2000"
+                    iconBig="icons/yellowbrick_icon_big.png"
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreView" label="%tree.tviews.node.name" id="folderView" icon="#folder_view" description="%tree.tviews.node.tip">
+                        icon="icons/risingwave_icon.png"
+                    <!-- Postgis -->
+                                                <items label="%tree.index_columns.node.name" path="column" property="attributeReferences" icon="#column" navigable="false" inline="true">
+                    </propertyGroup>
+                        description="%driver.risingwave.description"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreSchemaManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema"/>
+                                            <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+    </extension>
+                    id="yellowbrick-jdbc"
+                    </folder>
+        <task id="pgDatabaseBackupAll" name="%task.pgDatabaseBackupAll.name" description="%task.pgDatabaseBackupAll.description"
+                    </propertyGroup>
+                <property id="host" description="Host name" defaultValue="${host}"/>
+                    <propertyGroup label="SQL">
+            <propertyGroup label="Method">
+                        description="%driver.cratedb.description"
+                                    <items label="%tree.table.node.name" path="table" property="tables" icon="#table">
+                <driver
+                    iconBig="icons/postgresql_icon_big.png"
+    </extension>
+                                    <items label="%tree.role.members.node.name" itemLabel="%tree.role.member.node.name" path="members" property="members" visibleIf="!object.canLogin"/>
+                description="%handler.ssl.description"
+                        class="com.edb.Driver"
+
+
+                    <property name="loginTimeout" value="20"/>
+                <property id="password" description="User password" defaultValue="${password}"/>
+                    <file type="license" path="licenses/external/pg.txt"/>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreMViewManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreMaterializedView"/>
+                                                <items label="%tree.reference_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true" virtual="true">
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablePolicy" label="%tree.policies.node.name" description="%tree.policies.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsRowLevelSecurity()">
+                                            <items label="%tree.constraint.node.name" path="uniqueKey" property="constraints" icon="#unique-key">
+                                            <itemType label="%tree.partition.node.name" icon="#partition" type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablePartition"/>
+            <propertyGroup label="Advanced SSL Settings">
+        </task>
+                                        </folder>
+                                        </folder>
+                        useURL="true"
+                    icon="icons/postgresql_icon.png"
+                    </dist>
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                    category="AWS"
+                        <items label="%tree.collation.node.name" path="collation" property="defaultInstance.collations" icon="#collation"/>
+<?eclipse version="3.2"?>
+                <driver
+                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreInformation" label="%tree.information.node.name"
+            <scope group="com.amazon.redshift"/>
+                                            <items label="%tree.index.node.name" path="index" property="indexes" icon="#index">
+                <property id="password" description="User password" defaultValue="${password}"/>
+            <propertyGroup label="Options">
+                    <property name="loginTimeout" value="20"/>
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+              confirmationMessage="%pgDatabaseRestore.confirmationMessage">
+                    <parameter name="hostType" value="instance"/>
+                                    <items label="%tree.mview.node.name" path="view" property="materializedViews" icon="#view">
+                    iconBig="icons/redshift_icon_big.svg"
+                                </folder>
+            <datasource id="postgresql"/>
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                </driver>
+                    description="AWS Redshift JDBC driver"
+                    <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreAvailableExtension" label="%tree.avalextensions.node.name" icon="#extensions" description="%tree.extensions.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsExtensions()">
+
+                                </folder>
+                                            </items>
+                    sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                    icon="icons/timescale_icon.png"
+                    webURL="https://yellowbrick.com/"
+        <authModel
+                                <items label="%tree.job.step.node.name" path="step" property="steps" icon="#job"/>
+
+                id="postgre_ssl"
+                <property id="sslMode" label="SSL Mode" type="string" description="SSL Mode" validValues="disable,allow,prefer,require,verify-ca,verify-full" defaultValue=""/>
+                <property id="port" description="Port number" defaultValue="${port}"/>
+                    <treeContribution category="connectionEditor"/>
+                        defaultPort="5444"
+        </dialect>
+                    class="io.yellowbrick.jdbc.YellowbrickDriver"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreJobScheduleManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreJobSchedule"/>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+                                <items label="%tree.foreignServer.node.name" path="foreignServer" property="foreignServers">
+                    categories="timeseries"
+                label="PostgreSQL"
+                        iconBig="icons/yugabyte_icon_big.png"
+
+                    <property name="socketFactory" value="com.google.cloud.sql.postgres.SocketFactory"/>
+                                <items label="%tree.setting.node.name" path="setting" property="settings" icon="#setting"/>
+            </query>
+                                </folder>
+                </provider-properties>
+    </extension>
+                        class="org.postgresql.Driver"
+                <property id="dsn" description="DSN" defaultValue="${database}"/>
+            <datasource id="postgresql"/>
+                                            </items>
+                    propertiesURL="https://docs.aws.amazon.com/redshift/latest/mgmt/configure-jdbc-options.html"
+                    <file type="license" path="licenses/external/pg.txt"/>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+                        webURL="https://www.cockroachlabs.com/product/cockroachdb/"
+
+                </driver>
+                                    </items>
+                description="%datasource.postgresql.description"
+                    <file type="jar" path="maven:/com.google.cloud.sql:postgres-socket-factory:RELEASE"/>
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreJobSchedule" label="%tree.job.schedules.node.name">
+                    useURL="false"
+                    description="Obsolete"
+                    dialect="postgresql">
+        </task>
+                    label="PostgreSQL"
+                                            </items>
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/cratedb_icon.png"
+                                <icon if="object.utility || object.external" icon="#schema_util"/>
+                        <file type="lib" name="libzstd.dll"/>
+            <datasource id="postgresql"/>
+                <client id="postgresql_client" label="PostgreSQL Binaries">
+                            <items label="%tree.event.trigger.node.name" path="eventTrigger" property="eventTriggers" icon="#trigger"/>
+                                        <folder label="%tree.dependencies.node.name" icon="#references" description="%tree.dependencies.node.tip" virtual="true" visibleIf="connected &amp;&amp; dataSource.serverType.supportsDependencies()">
+    
+                            </folder>
+            <drivers managable="true">
+    </extension>
+                        </items>
+        <fdw id="clickhouse" fdwId="clickhousedb_fdw" databases="clickhouse" name="Clickhouse" description="Clickhouse FDW by Percona Labs" docURL="https://github.com/Percona-Lab/clickhousedb_fdw">
+              icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/export.svg" type="postgresql"
+                    iconBig="icons/timescale_icon_big.png"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase"/>
+                    class="org.postgresql.Driver"
+                                            <items label="%tree.reference.node.name" path="reference" property="references" icon="#reference" virtual="true">
+                    defaultUser="postgres"
+                                        <folder label="%tree.dependencies.node.name" icon="#references" description="%tree.dependencies.node.tip" virtual="true" visibleIf="connected &amp;&amp; dataSource.serverType.supportsDependencies()">
+    </extension>
+                                            </items>
+
+                </driver>
+                    <file type="license" path="licenses/external/pg.txt"/>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreAttribute" label="%tree.columns.node.name" icon="#columns" description="View columns">
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/cratedb_icon_big.png"
+                <property id="ssl.client.cert.value" label="Client Certificate" type="file" description="Choose client certificate file" features="secured" length="MULTILINE"/>
+            <types value=""/>
+
+        </generator>
+                                            </items>
+            <datasource id="postgresql"/>
+
+                <property id="dbname" description="Database name" defaultValue="${database}"/>
+                    categories="sql"
+                    <items label="%tree.database.node.name" path="database" property="databases" icon="#database">
+                        </folder>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreJobStepManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreJobStep"/>
+                    defaultPort="5432"
+                    label="Greenplum"
+        <backup id="backupPostgre" class="org.jkiss.dbeaver.ext.postgresql.backup.JDBCDatabasePostgresBackupHandler" dialect="postgresql"
+        <method id="pgInsertIgnore" class="org.jkiss.dbeaver.ext.postgresql.model.PostgreInsertReplaceMethodIgnore" label="ON CONFLICT DO NOTHING" description="Insert ignore duplicate key value"/>
+    </extension>
+                        defaultDatabase="crate"
+                    </folder>
+                    class="org.postgresql.Driver"
+                        icon="icons/cockroach_icon.png"
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreProcedure" label="%tree.procedures.node.name" icon="#procedures" description="%tree.procedures.node.tip">
+                </driver>
+            <datasource id="postgresql"/>
+        <generator id="alterTypeAddValue" class="org.jkiss.dbeaver.ext.postgresql.model.sql.generator.SQLGeneratorTypeAddValue" label="ADD VALUE" description="ALTER TYPE ADD VALUE" order="1002">
+                                        </folder>
+            <datasource id="postgresql"/>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreAttribute" label="%tree.columns.node.name" icon="#columns" description="View columns">
+                    dialect="postgresql">
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip">
+        <task id="pgToolRefreshMView" name="%tasks.mview.refresh.node.name" description="%tasks.mview.refresh.node.description" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolMViewRefresh">
+        </fdw>
+                </driver>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase"/>
+                                        </items>
+    </extension>
+    <extension-point id="org.jkiss.dbeaver.postgresql.fdw.config" name="PostgreSQL Foreign Data Wrappers Config" schema="schema/org.jkiss.dbeaver.postgresql.fdw.config.exsd"/>
+                    </items>
+                                        </folder>
+                    sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                                            </items>
+    </extension>
+                <driver
+    (SELECT sum(xact_commit) AS "Commit" FROM pg_stat_database),
+                    <property name="connectTimeout" value="20"/>
+                <property id="ssl.ca.cert" label="CA Certificate Path" type="string" description="Path to a CA certificate file"
+                    supportedConfigurationTypes="MANUAL,URL"
+                        <file type="lib" name="libpq.dll"/>
+
+                    <parameter name="serverType" value="risingwave"/>
+                    <parameter name="serverType" value="materialize"/>
+                    <property name="loginTimeout" value="20"/>
+                                        </folder>
+                        label="CockroachDB"
+        </generator>
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreSetting" label="%tree.settings.node.name" icon="#settings" description="Settings">
+                        description="%driver.gcloudpg.description"
+    <extension point="org.jkiss.dbeaver.networkHandler">
+                        propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+    (SELECT sum(xact_rollback) AS "Rollback" FROM pg_stat_database)
+                <provider-properties drivers="*">
+                        </folder>
+                        defaultDatabase="materialize"
+                                            <items label="%tree.procedure_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="parameters" navigable="false"/>
+            <functions value=""/>
+            <property name="insertMethods" value="pgInsertIgnore,pgReplaceIgnore"/>
+                secured="false"
+    <extension point="org.jkiss.dbeaver.objectManager">
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreAggregate" label="%tree.aggregates.node.name" icon="#functions" description="%tree.aggregates.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsAggregates()">
+                        defaultHost="project:region:instance"
+        </generator>
+                        webURL="https://www.crate.io/"
+                    defaultUser="postgres"
+
+                        </folder>
+                    <property name="connectTimeout" value="20"/>
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablespace" label="%tree.tablespaces.node.name" icon="#tablespaces" description="Tablespaces" visibleIf="connected &amp;&amp; dataSource.serverType.supportsTablespaces()">
+                                        </folder>
+                        <file type="exec" name="pg_restore.exe"/>
+                        useURL="true"
+                        icon="icons/yugabyte_icon.png"
+        <generator id="tableUpdateFrom" class="org.jkiss.dbeaver.ext.postgresql.model.sql.generator.SQLGeneratorUpdateFrom" label="UPDATE FROM" description="UPDATE FROM (UPDATE with JOIN)" order="8">
+            requiresLocalConfiguration="true">
+                                </folder>
+                    dialect="postgresql">
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+
+                <driver
+                                        </folder>
+                    <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreJob" label="%tree.jobs.node.name" description="%tree.jobs.node.description" visibleIf="connected &amp;&amp; dataSource.serverType.supportsJobs()">
+                prefix="ssl"
+                        <property id="postgresql.dd.plain.string" label="Show $$ quote as String" type="boolean" description="Show $$ quote as String"/>
+                                        </folder>
+                </folder>
+                label="%handler.ssl.name"
+            <datasource id="postgresql"/>
+                        webURL="https://www.materialize.com/"
+<?xml version="1.0" encoding="UTF-8"?>
+                    <parameter name="needsPort" value="false"/>
+
+                    <parameter name="serverType" value="gcloudpg"/>
+    </extension>
+                                </folder>
+                <property id="dbname" description="Database name" defaultValue="${database}"/>
+                        id="postgres-gcloud-jdbc"
+                          desktop="true"/>
+                        <property id="read-keys-with-columns" label="Read table keys with columns" type="boolean" description="Read table constraints at the stage of reading columns for proper keys recognition. This setting may reduce metadata loading performance."/>
+                                            </items>
+        </dashboard>
+                    </propertyGroup>
+                </driver>
+    </extension>
+                    <property name="loginTimeout" value="20"/>
+                description="%provider.data.type.postgresql.description"
+        </task>
+                                        </folder>
+                        id="postgres-cratedb-jdbc"
+                    <property name="connectTimeout" value="20"/>
+    <extension point="org.jkiss.dbeaver.task">
+                        sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase"/>
+                        <file type="lib" name="libcrypto-3-x64.dll"/>
+                <property id="user" description="User name" defaultValue="${user}"/>
+            <query>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreObject" if="object.dataSource.serverType.supportsNativeClient()"/>
+                    </folder>
+            <ddlKeywords value=""/>
+                                    </items>
+                    propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+                    <property name="escapeSyntaxCallMode" value="callIfNoReturn"/>
+                        supportedConfigurationTypes="MANUAL,URL"
+                    <replace provider="postgresql" driver="postgresql"/>
+                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase" label="%tree.databases.node.name" icon="#folder_database" description="%tree.databases.node.tip">
+            </tree>
+                </driver>
+            <datasource id="postgresql"/>
+                    <dist os="win32" targetPath="clients/postgresql/win/17" remotePath="repo:/drivers/postgresql/client/win/17" resourcePath="clients/postgresql/win/17">
+            </propertyGroup>
+
+	                    iconBig="icons/google_cloud_sql_icon_big.png"
+                        <items label="%tree.accessMethod.node.name" path="accessMethod" property="defaultInstance.accessMethods" icon="#accessMethod">
+    <extension point="org.jkiss.dbeaver.sqlInsertMethod">
+              handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreDatabaseRestoreHandler" requiresMutability="true"
+                        categories="sql,cloud">
+                                </folder>
+                label="backup" description="Backup database">
+                        id="postgres-yugabytedb-jdbc"
+                        sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+    (SELECT sum(blks_hit) as "Hits" FROM pg_stat_database)
+                                                <items label="%tree.constraint.columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+                </driver>
+                                    </items>
+                    propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+                                    </items>
+    <extension point="org.jkiss.dbeaver.sqlGenerator">
+            <propertyGroup label="Options">
+                    useURL="true"
+                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreRole" label="%tree.roles.node.name" icon="#folder_user" description="%tree.roles.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsRoles()" adminFolder="true">
+                                        </folder>
+                                    <items label="%tree.role.belongs.node.name" itemLabel="%tree.role.belongs.node.name" path="members" property="belongs" icon="#folder_user"/>
+            calc="delta" value="bytes" fetch="columns" showByDefault="true" description="Shows blocking IO operations per second">
+                    <property name="loginTimeout" value="20"/>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTrigger" label="%tree.triggers.node.name" icon="#triggers" description="View triggers" visibleIf="connected &amp;&amp; dataSource.serverType.supportsTriggers()">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase"/>
+                                        </folder>
+                        <file type="exec" name="pg_dumpall.exe"/>
+                    <property name="connectTimeout" value="20"/>
+        <serverType id="yellowbrick" name="Yellowbrick" class="org.jkiss.dbeaver.ext.postgresql.model.impls.yellowbrick.PostgreServerYellowBrick" logo="icons/yellowbrick_logo.png" customURL="true"/>
+                    <parameter name="serverType" value="timescale"/>
+              handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreDatabaseBackupHandler" requiresExportPrivileges="true">
+                                <items label="%tree.job.schedule.node.name" path="schedule" property="schedules" icon="#job_schedule"/>
+                    id="postgres-jdbc"
+                    defaultDatabase="dev"
+        <serverType id="risingwave" name="RisingWave" class="org.jkiss.dbeaver.ext.postgresql.model.impls.PostgreServerRisingWave" logo="icons/risingwave_logo.png" customURL="true" supportsClient="false"/>
+                    <propertyGroup label="Misc">
+        <serverType id="cockroach" name="CockroachDB" class="org.jkiss.dbeaver.ext.postgresql.model.impls.cockroach.PostgreServerCockroachDB" logo="icons/cockroach_logo.png" customURL="true"/>
+                                    <items label="%tree.foreign.table.node.name" path="foreignTable" property="foreignTables" icon="#table">
+                        supportedConfigurationTypes="MANUAL,URL"
+              icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/import.svg" type="postgresql"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreTablespaceManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablespace"/>
+                                            </items>
+                    <parameter name="serverType" value="greenplum"/>
+                            </folder>
+        <generator id="tableInsertOnConflict" class="org.jkiss.dbeaver.ext.postgresql.model.sql.generator.SQLGeneratorInsertOnConflict" label="INSERT ON CONFLICT" description="INSERT into table ON CONFLICT" order="7">
+                    defaultPort="5432"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase" if="object.dataSource.serverType.supportsNativeClient()"/>
+                                    </items>
+    </extension>
+                <property id="ssl.client.key" label="Client Private Key Path" type="string" description="Path to a client private key file"
+
+                    <property name="client_protocol_version" value="0"/>
+                                            <items label="%tree.dependency.node.name" path="dependency" property="dependencies" icon="#reference" virtual="true"/>
+                    <property name="loginTimeout" value="20"/>
+                        description="%driver.materialize.description"
+                                    <items label="%tree.tview.node.name" path="view" property="views" icon="#view">
+                        iconBig="icons/edb_icon_big.png"
+                <driver
+
+    (SELECT sum(blks_read) as "Read" FROM pg_stat_database),
+                        <items label="%tree.avalextension.node.name" path="extension" property="defaultInstance.availableExtensions" icon="#extension"/>
+        </fdw>
+        <handler
+                                            </items>
+        <serverType id="materialize" name="Materialize" class="org.jkiss.dbeaver.ext.postgresql.model.impls.materialize.PostgreServerMaterialize" logo="icons/materialize_logo.png" customURL="true"/>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreEventTriggerManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreEventTrigger"/>
+        </fdw>
+                                        <folder label="%tree.dependencies.node.name" icon="#references" description="%tree.dependencies.node.tip" virtual="true" visibleIf="connected &amp;&amp; dataSource.serverType.supportsDependencies()">
+                    useURL="true"
+            <datasource id="postgresql"/>
+                                        </folder>
+
+                        defaultUser="admin"
+            description="PostgreSQL PGPASS password"
+                        <property id="@dbeaver-read-all-data-types-db@" label="Read all data types" type="boolean" description="Read all database data types. Including array types."/>
+                    <property name="connectTimeout" value="20"/>
+                                <folder id="belongs" type="org.jkiss.dbeaver.ext.postgresql.model.PostgreRoleMember" label="%tree.role.belongs.node.name" icon="#folder_user" description="%tree.role.belongs.node.tip" navigable="false">
+                    <file type="jar" path="maven:/com.fasterxml.jackson.core:jackson-core:RELEASE[2.16.0]" load-optional-dependencies="true" bundle="!drivers.redshift"/>
+                                            <items label="%tree.dependency.node.name" path="dependency" property="dependencies" icon="#reference" virtual="true"/>
+                                        <items icon="#column" label="%tree.index_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" inline="true" navigable="false" virtual="true">
+            <datasource id="postgresql"/>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                                            <items label="%tree.foreign_key.node.name" path="association" property="foreignKeys" icon="#foreign-key">
+              handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreDatabaseBackupAllHandler" requiresExportPrivileges="true">
+                    useURL="true"
+            <dmlKeywords value=""/>
+            <execKeywords value=""/>
+                <driver id="postgres-yellowbrick-jdbc"/>
+                id="postgresql"
+                        webURL="https://enterprisedb.com/"
+            </propertyGroup>
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreOperatorClass" label="%tree.opClasses.node.name" icon="#operator" description="%tree.opClasses.node.tip">
+                    <replace provider="generic" driver="aws_redshift_42"/>
+                                        <items label="%tree.userMapping.node.name" path="userMapping" property="userMappings" icon="#user" />
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                        <items label="%tree.language.node.name" path="language" property="defaultInstance.languages" icon="#language"/>
+                            </folder>
+                        class="org.postgresql.Driver"
+                    sampleURL="jdbc:redshift://{host}:{port}/{database}"
+        <datasource
+                                </folder>
+    <extension point="org.jkiss.dbeaver.dashboard">
+        <generator id="tableDeleteUsing" class="org.jkiss.dbeaver.ext.postgresql.model.sql.generator.SQLGeneratorDeleteUsing" label="DELETE USING" description="DELETE USING (DELETE with JOIN)" order="9">
+        <meta id="postgresql" class="org.jkiss.dbeaver.ext.postgresql.model.generic.PostgreMetaModel" driverClass="org.postgresql.Driver,com.edb.Driver,com.amazon.redshift.jdbc4.Driver,com.amazon.redshift.jdbc41.Driver,com.amazon.redshift.jdbc42.Driver"/>
+                        </items>
+    <extension point="org.jkiss.dbeaver.postgresql.serverType">
+                        <file type="lib" name="libiconv-2.dll"/>
+                        iconBig="icons/risingwave_icon_big.png"
+                    databaseDocumentationSuffixURL="Database-driver-PostgreSQL"
+                        </folder>
+        </task>
+        <category id="postgreTool" parent="postgresql" name="%org.jkiss.dbeaver.task.category.postgreTool.name" description="%org.jkiss.dbeaver.task.category.postgreTool.description" icon="icons/postgresql_icon.png"/>
+
+                                            <items label="%tree.index.node.name" path="index" property="indexes" icon="#index">
+                    <property name="loginTimeout" value="20"/>
+        <!-- SQL tools -->
+                        useURL="true"
+                        class="org.postgresql.Driver"
+                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreExtension" label="%tree.extensions.node.name" icon="#folder_admin" description="%tree.extensions.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsExtensions()">
+            <propertyGroup label="SSL Settings">
+                        description="%driver.edb.description"
+
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreTablePolicyManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablePolicy"/>
+                                    <items label="%tree.aggregate.node.name" path="aggregate" property="aggregateFunctions" icon="#function"/>
+    </extension>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase" if="object.dataSource.serverType.supportsNativeClient()"/>
+                        categories="sql">
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableConstraint" label="%tree.constraints.node.name" icon="#constraints" description="%tree.constraints.node.tip" visibleIf="!object.view">
+                        propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+                    threadSafe="false"
+                <driver
+            </propertyGroup>
+        <fdw id="mysql" fdwId="mysql_fdw" databases="mysql" name="MySQL" description="MySQL FDW by EDB" docURL="https://github.com/EnterpriseDB/mysql_fdw">
+                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreInformation" label="%tree.information.node.name"
+                <property id="ssl.method" label="Method" type="string" validValues="CERTIFICATES" defaultValue="CERTIFICATES"
+                    description="Yellowbrick JDBC driver"
+                                                </items>
+        </task>
+                    id="postgres-redshift-jdbc"
+            </propertyGroup>
+        PostgreSQL extension
+                    class="org.postgresql.Driver"
+                        supportedConfigurationTypes="MANUAL,URL"
+                    <parameter name="serverType" value="cratedb"/>
+        <task id="pgDatabaseBackup" name="%task.pgDatabaseBackup.name" description="%task.pgDatabaseBackup.description"
+                        useURL="true"
+                                            <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                                        </folder>
+                    <file type="jar" path="maven:/net.postgis:postgis-geometry:RELEASE[2.5.0]" ignore-dependencies="true" optional="true" bundle="!drivers.postgresql"/>
+                    <parameter name="serverType" value="postgresql"/>
+                <driver
+                <driver
+        <dashboard id="postgresql.transactionCount" label="Transactions per second" group="Standard" defaultView="timeseries" updatePeriod="2000"
+                    defaultUser="awsuser"
+                                    <items icon="#index" label="%tree.index.node.name" path="index" property="indexes" virtual="true">
+                    <file type="license" path="licenses/external/pg.txt"/>
+                        defaultUser="edb"
+                    icon="icons/postgresql_icon.png"
+                        class="org.postgresql.Driver"
+        </task>
+                    class="com.amazon.redshift.Driver"
+        <serverType id="postgresql" name="PostgreSQL" class="org.jkiss.dbeaver.ext.postgresql.model.impls.PostgreServerPostgreSQL" logo="icons/postgresql_logo.png" customURL="true" turnOffPreparedStatements="true"/>
+                                    </folder>
+                    <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreCharset" label="%tree.encodings.node.name" icon="#encodings" description="Encodings" visibleIf="connected &amp;&amp; dataSource.serverType.supportsEncodings()">
+                                    </items>
+                        <file type="exec" name="pg_dump.exe"/>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreDatabaseManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase"/>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableColumn" label="%tree.columns.node.name" icon="#columns" description="%tree.columns.node.tip" visibleIf="!object.partition">
+        </datasource>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableReal" label="%tree.tablechildren.node.name" icon="#folder_table" description="Table children" virtual="true" visibleIf="object.hasSubClasses() &amp;&amp; !object.partition">
+                        label="Materialize"
+        </backup>
+        </fdw>
+                                            <items label="%tree.dependency.node.name" path="dependency" property="dependencies" icon="#reference" virtual="true"/>
+                    <file type="license" path="licenses/external/pg.txt"/>
+                <property id="sslFactory" label="SSL Factory" type="file" description="SSL Factory"/>
+                        defaultPort="4566"
+                                            <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                                <folder id="members" type="org.jkiss.dbeaver.ext.postgresql.model.PostgreRoleMember" label="%tree.role.members.node.name" icon="#folder_user" description="%tree.role.members.node.tip" visibleIf="!object.canLogin"  navigable="false">
+            </drivers>
+
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableForeignKey" label="%tree.foreign_keys.node.name" icon="#foreign-keys" description="%tree.foreign_key.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsForeignKeys()">
+                    <file type="jar" path="drivers/postgis" optional="true" bundle="drivers.postgresql"/>
+                                        </folder>
+                                </items>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreSequenceManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreSequence"/>
+                        defaultUser="root"
+                                        </folder>
+                class="org.jkiss.dbeaver.ext.postgresql.model.data.PostgreValueHandlerProvider"
+                        propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+        </handler>
+        <task id="pgToolTriggerDisable" name="%task.pgToolTriggerDisable.name" description="%task.pgToolTriggerDisable.name" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolTableTriggerDisable">
+                <driver
+    <extension-point id="org.jkiss.dbeaver.postgresql.serverType" name="PostgreSQL Server Type" schema="schema/org.jkiss.dbeaver.postgresql.serverType.exsd"/>
+                                            <items label="%tree.attribute.node.name" path="attribute" property="attributes" icon="#attribute"/>
+
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreForeignKeyManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableForeignKey"/>
+                    <replace provider="generic" driver="aws_redshift"/>
+                <driver
+                                                <items label="%tree.constraint.columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+                    <property name="connectTimeout" value="20"/>
+                        propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+        <task id="pgDatabaseRestore" name="%task.pgDatabaseRestore.name" description="%task.pgDatabaseRestore.description"
+                    promoted="1"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreDataTypeManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreDataType"/>
+                    defaultDatabase="postgres"
+
+    </extension>
+                                            <items label="%tree.dependency.node.name" path="dependency" property="dependencies" icon="#reference" virtual="true"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTriggerBase" if="object.enabledState == 'D'"/>
+    <!-- SQL Generators -->
+            <datasource id="postgresql"/>
+
+                        categories="sql">
+                                            <items label="%tree.rule.node.name" path="rule" property="rules" icon="#rule"/>
+        </authModel>
+            <propertyGroup label="Options">
+                        supportedConfigurationTypes="MANUAL,URL"
+                        <items label="%tree.job.node.name" path="job" property="defaultInstance.jobs" icon="#job">
+                        useURL="true"
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase" label="%tree.partitions.node.name" icon="#folder_table" description="%tree.partitions.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsPartitions()">
+        <fdw id="odbc" fdwId="odbc_fdw" databases="odbc" name="ODBC" description="ODBC FDW by CartoDB" docURL="https://github.com/CartoDB/odbc_fdw">
+                                            </items>
+                        databaseDocumentationSuffixURL="Database-driver-PostgreSQL-on-Google-Cloud"
+                            </folder>
+                    supportedConfigurationTypes="MANUAL,URL"
+            <nativeClients>
+                <folder label="%tree.administer.node.name" icon="#folder_admin" id="folderAdmin" description="%tree.administer.node.tip" adminFolder="true">
+                    <property name="loginTimeout" value="20"/>
+
+            <datasource id="postgresql"/>
+        <task id="pgToolTriggerEnable" name="%task.pgToolTriggerEnable.name" description="%task.pgToolTriggerEnable.name" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolTableTriggerEnable">
+        <serverType id="redshift" name="Redshift" class="org.jkiss.dbeaver.ext.postgresql.model.impls.redshift.PostgreServerRedshift" logo="icons/redshift_logo.png" customURL="true" cloudServer="true" supportsClient="false"/>
+                    <file type="jar" path="drivers/yellowbrick" bundle="drivers.yellowbrick"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema" if="object.dataSource.serverType.supportsNativeClient()"/>
+                                        </folder>
+                                        </folder>
+                        id="postgres-risingwave-jdbc"
+    (SELECT count(*) AS "Total" FROM pg_catalog.pg_stat_activity sa WHERE state IS NOT NULL)
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase"/>
+                                                </items>
+        <provider
+    (SELECT count(*) AS "Active" FROM pg_catalog.pg_stat_activity sa WHERE state='active'),
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreRoleManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreRole"/>
+                        <property id="@dbeaver-show-non-default-db@" label="Show all databases" type="boolean" description="Show all databases on server. Otherwise show current database only."/>
+                    <parameter name="serverType" value="edb"/>
+                          desktop="true"/>
+	                    icon="icons/google_cloud_sql_icon.png"
+                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreEventTrigger" label="%tree.event.triggers.node.name" icon="#triggers" description="%tree.event.triggers.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsEventTriggers()">
+                          desktop="true"/>
+        <fdw id="oracle" fdwId="oracle_fdw" databases="oracle" name="Oracle" description="Oracle FDW" docURL="https://github.com/laurenz/oracle_fdw">
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreSequence" label="%tree.sequences.node.name" icon="#sequences" description="%tree.sequences.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsSequences()">
+                        propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+                    sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                    <file type="jar" path="maven:/com.fasterxml.jackson.core:jackson-databind:RELEASE[2.16.0]" load-optional-dependencies="true" bundle="!drivers.redshift"/>
+                        defaultUser="materialize"
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreJobStep" label="%tree.job.steps.node.name">
+                    <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreLanguage" label="%tree.languages.node.name" icon="#languages" description="Languages" visibleIf="connected &amp;&amp; dataSource.serverType.supportsLanguages()">
+                        class="org.postgresql.Driver"
+
+                    id="postgresql"
+        <dialect id="postgresql" parent="basic" class="org.jkiss.dbeaver.ext.postgresql.model.PostgreDialect" label="PostgreSQL" description="PostgreSQL dialect." icon="icons/postgresql_icon.png">
+                        webURL="https://cloud.google.com/sql"
+                    dialect="postgresql">
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreForeignServer" label="%tree.foreignServers.node.name" description="Foreign servers" visibleIf="connected &amp;&amp; dataSource.serverType.supportsForeignServers()">
+                        categories="sql">
+        </task>
+
+        </dashboard>
+                        iconBig="icons/cockroach_icon_big.png"
+                        label="RisingWave"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase" if="object.dataSource.serverType.supportsNativeClient()"/>
+
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase"/>
+                                        </folder>
+        <task id="pgToolTableAnalyze" name="%tasks.analyze.table.node.name" description="%tasks.analyze.table.node.description" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolBaseAnalyze">
+        <task id="pgToolDatabaseVacuum" name="%tasks.vacuum.database.node.name" description="%tasks.vacuum.database.node.name" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolBaseVacuum">
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+                                        </folder>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreRule" label="%tree.rules.node.name" icon="#rules" description="Table rules" visibleIf="connected &amp;&amp; dataSource.serverType.supportsRules()">
+
+            <datasource id="postgresql"/>
+                </folder>
+                <property id="port" description="Port number" defaultValue="${port}"/>
+                        webURL="https://www.risingwave.com/"
+                        <folder label="%tree.storage.node.name" icon="#folder_info" id="storage" description="%tree.storage.node.tip">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema" if="object.dataSource.serverType.supportsNativeClient()"/>
+        <task id="pgScriptExecute" name="%task.pgScriptExecute.name" description="%task.pgScriptExecute.description" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.svg" type="postgresql" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreScriptExecuteHandler">
+                    webURL="http://timescale.com/"
+                                            </items>
+                    <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreCollation" label="%tree.collations.node.name" icon="#collations" description="Collations" visibleIf="connected &amp;&amp; dataSource.serverType.supportsCollations()">
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableColumn" label="%tree.columns.node.name" icon="#columns" description="%tree.columns.node.tip" visibleIf="!object.isPartition()">
+    <!-- Unsecure (http) repository. We can't use it by default, sorry -->
+                                        </folder>
+                type="config"
+            </query>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableConstraint" label="%tree.constraints.node.name" icon="#constraints" description="%tree.constraints.node.tip">
+                        id="postgres-cockroach-jdbc"
+                    defaultPort="5432"
+                    iconBig="icons/postgresql_icon_big.png"
+                        supportedConfigurationTypes="MANUAL,URL"
+                <property id="username" description="User name" defaultValue="${user}"/>
+
+                                <items label="%tree.tablespace.node.name" path="tablespace" property="tablespaces" icon="#tablespace"/>
+                                            <items label="%tree.partition.node.name" path="partition" property="partitions" icon="#partition" recursive="../..">
+                                            <items label="%tree.dependency.node.name" path="dependency" property="dependencies" icon="#reference" virtual="true"/>
+    <extension point="org.jkiss.dbeaver.postgresql.fdw.config">
+</plugin>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+                                                <items label="%tree.index_columns.node.name" path="column" property="attributeReferences" icon="#column" navigable="false" inline="true">
+                    <property name="loginTimeout" value="20"/>
+                        <property id="postgresql.dd.tag.string" label="Show $tagName$ quote as String" type="boolean" description="Show $tagName$ quote as String"/>
+                <property id="ssl.client.key.value" label="Client Private Key" type="file" description="Choose client private key file" features="secured,password" length="MULTILINE"/>
+                        supportedConfigurationTypes="MANUAL,URL"
+                    id="postgres-timescale-jdbc"
+        </task>
+                        label="EDB"
+                    <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreAccessMethod" label="%tree.accessMethods.node.name" icon="#languages" description="%tree.accessMethods.node.tip">
+                    <file type="license" path="licenses/external/pg.txt"/>
+                        <items label="%tree.encoding.node.name" path="encoding" property="defaultInstance.encodings" icon="#encoding"/>
+        <serverType id="cratedb" name="CrateDB" class="org.jkiss.dbeaver.ext.postgresql.model.impls.PostgreServerCrateDB" logo="icons/cratedb_logo.png" customURL="true"/>
+                        <file type="lib" name="libwinpthread-1.dll"/>
+            <propertyGroup label="Options">
+
+            </query>
+        <serverType id="yugabytedb" name="YugabyteDB" class="org.jkiss.dbeaver.ext.postgresql.model.impls.PostgreServerYugabyteDB" logo="icons/yugabyte_logo.png" customURL="true"/>
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTrigger" label="%tree.triggers.node.name" icon="#triggers" description="%tree.triggers.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsTriggers()">
+                label="%provider.data.type.postgresql.name">
+        <serverType id="gcloudpg" name="Google Cloud SQL - PostgreSQL" class="org.jkiss.dbeaver.ext.postgresql.model.impls.PostgreServerGCloud" logo="icons/google_cloud_sql_logo.png" customURL="true" cloudServer="true" needsPort="false" supportsClient="false"/>
+                    <property name="connectTimeout" value="20"/>
+                    <file type="jar" path="maven:/net.postgis:postgis-jdbc:RELEASE[2.5.0]" ignore-dependencies="true" optional="true" bundle="!drivers.postgresql"/>
+                order="2"
+            class="org.jkiss.dbeaver.ext.postgresql.model.AuthModelPgPass"
+                        label="Google Cloud SQL - PostgreSQL"
+                            </folder>
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreDataType" label="%tree.types.node.name" icon="#data_types" description="%tree.types.node.tip">
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreMaterializedView" label="%tree.mviews.node.name" icon="#folder_view" description="%tree.mviews.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsMaterializedViews()">
+        </task>
+                                        </folder>
+                                <items label="%tree.opClass.node.name" itemLabel="%tree.opClass.node.name" path="operatorClass" property="operatorClasses" icon="#operator"/>
+    (SELECT sum(xact_commit) + sum(xact_rollback) AS "Total" FROM pg_stat_database),
+                        sampleURL="jdbc:edb://{host}[:{port}]/[{database}]"
+            </propertyGroup>
+    (SELECT count(*) AS "Idle" FROM pg_catalog.pg_stat_activity sa WHERE state='idle'),
+                        propertiesURL="https://github.com/GoogleCloudPlatform/cloud-sql-jdbc-socket-factory#postgresql-1"
+            </propertyGroup>
+                    supportedConfigurationTypes="MANUAL,URL"
+            </propertyGroup>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+                    <file type="jar" path="maven:/io.yellowbrick:yellowbrick-jdbc:0.9.3" bundle="!drivers.yellowbrick"/>
+                <property id="ssl.client.cert" label="Client Certificate Path" type="string" description="Path to a client certificate file"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgrePartitionManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablePartition"/>
+    <extension point="org.jkiss.dbeaver.mavenRepository">
+                                </folder>
+                            </folder>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreProcedureManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreProcedure"/>
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTable" label="%tree.tables.node.name" icon="#folder_table" description="%tree.tables.node.tip">
+                    databaseDocumentationSuffixURL="Database-driver-Amazon-Redshift"
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+                        sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+        <category id="postgresql" name="PostgreSQL" description="%org.jkiss.dbeaver.task.category.postgresql.description" icon="icons/postgresql_icon.png"/>
+                        description="%driver.yugabytedb.description"
+        <dashboard id="postgresql.sessionCount" label="Server sessions" defaultView="timeseries" group="Standard" updatePeriod="2000"
+
+                    icon="icons/yellowbrick_icon.png"
+                        categories="sql">
+    <extension point="org.jkiss.dbeaver.generic.meta">
+<plugin>
+                            </folder>
+                        icon="icons/edb_icon.png"
+        <task id="pgToolDatabaseAnalyze" name="%tasks.analyze.database.node.name" description="%tasks.analyze.database.node.name" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolBaseAnalyze">
+                desktop="false"
+                    defaultPort="5432"
+                handlerClass="org.jkiss.dbeaver.ext.postgresql.model.net.PostgreSSLHandlerImpl">
+    </extension>
+            <keywords value=""/>
+        <task id="pgToolTableVacuum" name="%tasks.vacuum.table.node.name" description="%tasks.vacuum.table.node.description" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolBaseVacuum">
+
+        <serverType id="edb" name="EnterpriseDB" class="org.jkiss.dbeaver.ext.postgresql.model.impls.PostgreServerEdb" logo="icons/edb_logo.png" customURL="true"/>
+                        iconBig="icons/materialize_icon_big.png"
+                        defaultDatabase="edb"
+                    webURL="https://jdbc.postgresql.org/"
+                    <parameter name="serverType" value="cockroach"/>
+                        <property id="show-database-statistics" label="Show database statistics" type="boolean" description="Show statistics for entire databases. May be slow if you have big number of databases."/>
+                                        <folder label="%tree.procedure_columns.node.name" icon="#columns" description="%tree.procedure_columns.node.name">
+                            </folder>
+            <query>
+    <!--
+            calc="value" value="integer" fetch="columns" showByDefault="true" description="Shows active/idle server sessions">
+                    class="org.postgresql.Driver"
+
+                    <file type="jar" path="drivers/postgis" optional="true" bundle="drivers.postgresql"/>
+                                <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableForeign" label="%tree.foreign.tables.node.name" icon="#folder_link" description="%tree.foreign.tables.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsForeignServers()">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase"/>
+        </task>
+                        id="postgres-edb-jdbc"
+                                    <items label="%tree.type.node.name" path="dataType" property="dataTypes" icon="#data_type">
+                        icon="#folder_info" id="folder_info" description="%tree.information.node.tip" adminFolder="true">
+                    categories="sql"
+                        id="postgres-materialize-jdbc"
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                codeName="SSL"
+                        defaultPort="6875"
+        <serverType id="timescale" name="TimescaleDB" class="org.jkiss.dbeaver.ext.postgresql.model.impls.PostgreServerTimescale" logo="icons/timescale_logo.png" customURL="true"/>
+                        icon="icons/materialize_icon.png"
+
+        <fdw id="postgresql" fdwId="postgres_fdw" databases="postgresql" name="PostgreSQL" description="Default FDW for PostgreSQL servers" docURL="https://www.postgresql.org/docs/current/postgres-fdw.html">
+                          desktop="true" hidden="true"/>
+                    <parameter name="serverType" value="yellowbrick"/>
+
+        <task id="pgToolTableTruncate" name="%tasks.truncate.node.name" description="%tasks.truncate.node.description" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/admin.svg" type="postgreTool" handler="org.jkiss.dbeaver.ext.postgresql.tasks.PostgreToolTableTruncate">
+     -->
+<!--                    <file type="jar" path="drivers/waffle" optional="true" bundle="drivers.postgresql"/>-->
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase" if="object.dataSource.serverType.supportsNativeClient()"/>
+                                            <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger"/>
+
+                    <file type="license" path="licenses/external/pg.txt"/>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+
+                        sampleURL="jdbc:postgresql:///[{database}]?cloudSqlInstance={host}"
+            <query>
+
+                <driver
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase"/>
+    </extension>
+                                            <items label="%tree.constraint.node.name" path="uniqueKey" property="constraints" icon="#unique-key">
+                <property id="dbname" description="Database name" defaultValue="${database}"/>
+                                <folder type="org.jkiss.dbeaver.model.struct.rdb.DBSTableIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsIndexes()" virtual="true">
+                                            <items label="%tree.rule.node.name" path="rule" property="rules" icon="#rule"/>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreIndexManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreIndex"/>
+                                        <folder label="%tree.references.node.name" icon="#references" description="%tree.references.node.tip" virtual="true" visibleIf="connected &amp;&amp; dataSource.serverType.supportsForeignKeys()">
+        <method id="pgReplaceIgnore" class="org.jkiss.dbeaver.ext.postgresql.model.PostgreInsertReplaceMethod" label="ON CONFLICT DO UPDATE SET" description="Insert replace duplicate key value"/>
+                        <property id="replace-legacy-timezone" label="Replace legacy timezone" type="boolean" description="Replace legacy timezone. Enable only if you need to connect with legacy timezone like Europe/Kyiv or Asia/Calcutta"/>
+            <propertyGroup label="Options">
+                <property id="host" description="Host name" defaultValue="${host}"/>
+                    sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema" label="%tree.schemas.node.name" icon="#folder_schema" description="%tree.schemas.node.tip">
+                    description="%driver.postgresql.description"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTriggerBase" if="object.enabledState != 'D'"/>
+            <property name="" value=""/>
+                            </items>
+
+                    sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                        propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+        </provider>
+                        defaultPort="5432"
+                        defaultDatabase="yugabyte"
+                    webURL="https://jdbc.postgresql.org/"
+                        <file type="lib" name="liblz4.dll"/>
+                    <property name="escapeSyntaxCallMode" value="callIfNoReturn"/>
+        </repository>
+            <datasource id="postgresql"/>
+                    dialect="postgresql">
+    <extension point="org.jkiss.dbeaver.sqlBackup">
+                <driver
+                        categories="sql">
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreDataTypeAttribute" label="%tree.attributes.node.name" icon="#attributes" description="Type attributes" visibleIf="object.hasAttributes()">
+                        <property id="@dbeaver-chosen-role@" label="User role" type="string" description="User role for connection"/>
+                        </folder>
+                    <property name="connectTimeout" value="20"/>
+            label="PostgreSQL PgPass"
+                </driver>
+                    supportedConfigurationTypes="MANUAL,URL"
+            <datasource id="greenplum"/>
+                                                <items label="%tree.foreign_key_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+        </dashboard>
+            <datasource id="postgresql"/>
+                                <icon if="object.system" icon="#schema_system"/>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreExtensionManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreExtension"/>
+                </driver>
+                dialect="postgresql">
+                        sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                                        <folder label="%tree.dependencies.node.name" icon="#references" description="%tree.dependencies.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsDependencies()">
+                                </folder>
+                        useURL="true"
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                        <property id="@dbeaver-show-unavailable-db@" label="Show unavailable databases" type="boolean" description="Show databases not unavailable for connection."/>
+                                    <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreUserMapping" label="%tree.userMappings.node.name" icon="#folder_user"  description="User Mappings" >
+                    categories="sql,analytic,bigdata,aws"
+                        label="CrateDB"
+
+                </driver>
+              icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/export.svg" type="postgresql"
+                    <replace provider="generic" driver="postgresql"/>
+                    propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+                        <property id="@dbeaver-show-template-db@" label="Show template databases" type="boolean" description="Show template databases."/>
+                    <file type="license" path="licenses/external/pg.txt"/>
+                class="org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider"
+                                            <items label="%tree.tablechildren.node.name" path="subTables" property="subTables" icon="#table" virtual="true" recursive="../.." >
+                </driver>
+                                    <items label="%tree.procedure.node.name" itemLabel="%tree.procedure.node.name" path="procedure" property="procedures" icon="#procedure">
+
+                    description="%driver.timescale.description"
+                    </folder>
+                            <items label="%tree.role.node.name" path="users" property="authIds" icon="#user">
+                    <file type="license" path="licenses/external/pg.txt"/>
+                        <file type="lib" name="libssl-3-x64.dll"/>
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                                                </items>
+
+                    <replace provider="postgresql" driver="postgres-yellowbrick-jdbc"/>
+                                            <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                                <icon if="!object.canLogin" icon="#user_group"/>
+                                        <folder label="%tree.dependencies.node.name" icon="#references" description="%tree.dependencies.node.tip" virtual="true" visibleIf="connected &amp;&amp; dataSource.serverType.supportsDependencies()">
+                    label="TimescaleDB"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreTableColumnManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableColumn"/>
+                    propertiesURL="https://jdbc.postgresql.org/documentation/head/connect.html#connection-parameters"
+                <property id="ssl.ca.cert.value" label="CA Certificate" type="file" description="Choose CA certificate file" features="secured" length="MULTILINE"/>
+                    label="PostgreSQL (Old)"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreViewManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreView"/>
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+                        description="%driver.cockroach.description"
+                        <file type="lib" name="libintl-9.dll"/>
+                <property id="dbserver" description="Database connection string" defaultValue="//${host}:${port}/${database}"/>
+                    <property name="connectTimeout" value="20"/>
+                                <items label="%tree.opFamily.node.name" itemLabel="%tree.opFamily.node.name" path="operatorFamily" property="operatorFamilies" icon="#family"/>
+                    id="postgres-greenplum-jdbc"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreJobManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreJob"/>
+SELECT
+                    webURL="https://docs.aws.amazon.com/redshift/latest/mgmt/configure-jdbc-connection.html"
+                        defaultDatabase="dev"
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreTriggerManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTrigger"/>
+        </task>
+        </task>
+                        useURL="true"
+                        defaultUser="root"
+                    defaultDatabase="postgres"
+                        label="YugabyteDB"
+
+                    </folder>
+                    <property name="loginTimeout" value="20"/>
+                                            <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger"/>
+                                        </folder>
+        </generator>
+                                                </items>
+                            <items label="%tree.extension.node.name" path="extension" property="extensions" icon="#package"/>
+        </fdw>
+        <repository id="aws-redshift-maven-repo" name="AWS Redshift Repository" url="https://s3.amazonaws.com/redshift-maven-repository/release" order="20">
+                    description="PostgreSQL generic driver. Can be used for old (7.x) or non-standard PostgreSQL servers."
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                    <parameter name="serverType" value="yugabytedb"/>
+SELECT
+                        class="org.postgresql.Driver"
+                        defaultPort="26257"
+            <datasource id="postgresql"/>
+                </driver>
+                        defaultDatabase="system"
+            id="postgres_pgpass"
+                    label="Yellowbrick"
+
+                                        </folder>
+            <tree path="postgresql" label="PostgreSQL data source">
+                    useURL="true"
+                <!-- Bad driver: it must be declared in generic provider -->
+                    <file type="jar" path="maven:/com.github.waffle:waffle-jna:RELEASE[3.5.1]" if="properties.gsslib=='sspi'" optional="true" bundle="!drivers.postgresql"/>
+                        </folder>
+                    defaultUser="postgres"
+
+                    <propertyGroup label="Database list">
+
+                                        </folder>
+            calc="delta" value="integer" fetch="columns" showByDefault="true" description="Shows commit/rollback transactions per second">
+                        defaultUser="yugabyte"
+                <property id="port" description="Port number" defaultValue="${port}"/>
+                    defaultDatabase="postgres"
+
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                                </folder>
+            </propertyGroup>
+                    </folder>
+                <driver
+                    label="Redshift"
+    <extension point="org.jkiss.dbeaver.dataSourceAuth">
+                    dialect="postgresql">
+                id="PostgreValueHandlerProvider"
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsIndexes()">
+
+                <property id="host" description="Host name" defaultValue="${host}"/>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreConstraintManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableConstraint"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.PostgreDataSourceProvider"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreMaterializedView"/>
+        <manager class="org.jkiss.dbeaver.ext.postgresql.edit.PostgreTableManager" objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreTable"/>
+                    <property name="connectTimeout" value="20"/>
+                            <items label="%tree.schema.node.name" path="schema" property="schemas" icon="#schema">
+                        defaultPort="5433"
+                    defaultPort="5432"
+SELECT
+
+                </client>
+                            </items>
+                    <property name="connectTimeout" value="20"/>
+                    defaultPort="5439"
+                        supportedConfigurationTypes="MANUAL,URL"
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+                                </folder>
+                        <file type="exec" name="psql.exe"/>
+                        sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                    <property name="loginTimeout" value="20"/>
+                    categories="sql"
+                                        <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreRule" label="%tree.rules.node.name" icon="#rules" description="%tree.rules.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsRules()">
+                    icon="icons/redshift_icon.svg"
+                    <file type="license" path="licenses/external/pg.txt"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDataType"/>
+                    <file type="jar" path="maven:/com.amazon.redshift:redshift-jdbc42:RELEASE[2.2.0]" load-optional-dependencies="true" bundle="!drivers.redshift"/>
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreForeignDataWrapper" label="%tree.foreignDataWrappers.node.name" description="Foreign data wrappers" visibleIf="connected &amp;&amp; dataSource.serverType.supportsForeignServers()">
+
+            </nativeClients>
+            <datasource id="postgresql"/>
+                                                </items>
+                                    </items>
+                                            </items>
+                                icon="#folder_info" id="information" description="%tree.information.node.tip" adminFolder="true">
+                                                </items>
+                icon="icons/postgresql_icon.png"
+                        categories="sql">
+            <type name="*"/>
+
+                            <folder type="org.jkiss.dbeaver.ext.postgresql.model.PostgreOperatorFamily" label="%tree.opFamilies.node.name" icon="#family" description="%tree.opFamilies.node.tip" visibleIf="connected &amp;&amp; dataSource.serverType.supportsOpFamily()">
+                                <items label="%tree.foreignDataWrapper.node.name" path="foreignDataWrapper" property="foreignDataWrappers"/>
+                                    <items label="%tree.sequence.node.name" path="sequence" property="sequences" icon="#sequence"/>
+                    <parameter name="serverType" value="redshift"/>
+                        webURL="https://www.yugabyte.com/yugabytedb/"
+                </folder>
+                                            <items label="%tree.policy.node.name" path="policy" property="policies" icon="#locked"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+                        defaultPort="5432"

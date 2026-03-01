@@ -1,0 +1,114 @@
+        <category id="org.jkiss.dbeaver.core.database" name="%category.dbconnection.name" description="%category.dbconnection.description"/>
+                label="%fontDefinition.org.jkiss.dbeaver.ui.fonts.monospace.label"
+            <property-name name="background-color"/>
+              </with>
+          </or>
+                value="Segoe UI-regular-9">
+                        <iterate operator="or">
+                id="org.jkiss.dbeaver.ui.perspective"
+        <provider class="org.jkiss.dbeaver.ui.css.ConElementProvider">
+    </extension>
+   </extension>
+        </handler>
+        </stylesheet>
+                </and>
+    </extension>
+            </activeWhen>
+                  <equals value="org.jkiss.dbeaver.core.perspective"/>
+        </themeElementCategory>
+                label="%fontDefinition.org.jkiss.dbeaver.ui.fonts.main.label"
+        <notification id="generic" name="Generic notification" hidden="true"/>
+      <definition id="DBeaverPerspectiveActive">
+                id="org.jkiss.dbeaver.dbeaver.ui.fonts.monospace"
+    <extension point="org.eclipse.ui.themes">
+            handler="org.jkiss.dbeaver.ui.css.ConControlElementHandler">
+        <stylesheet uri="css/e4-high_contrast_dbeaver_prefstyle.css">
+    <extension-point id="org.jkiss.dbeaver.notifications" name="UI notifications" schema="schema/org.jkiss.dbeaver.notifications.exsd"/>
+<plugin>
+                    <with variable="activeContexts">
+      </definition>
+           </not>
+
+                categoryId="org.jkiss.dbeaver.ui.fonts"
+
+    </extension>
+       <definition id="LocalWorkspace">
+               <test property="org.jkiss.dbeaver.core.global.distributed"/>
+    <extension point="org.eclipse.e4.ui.css.swt.theme">
+    
+            <fontValue os="macosx" value="Sans-regular-13"/>
+
+    </extension>
+        <!-- Any control handler. Sets background if parent control is ConComposite or has CSS style. -->
+            <description>%fontDefinition.org.jkiss.dbeaver.ui.fonts.main.description</description>
+                id="org.jkiss.dbeaver.dbeaver.ui.fonts.main"
+<?eclipse version="3.4"?>
+        <handler
+        </handler>
+            <activeWhen>
+    <extension point="org.eclipse.ui.newWizards">
+        </handler>
+    <extension-point id="org.jkiss.dbeaver.ui.propertyConfigurator" name="Property configurator" schema="schema/org.jkiss.dbeaver.ui.propertyConfigurator.exsd"/>
+    <extension point="org.eclipse.ui.commands">
+        <fontDefinition
+    </extension>
+        <fontDefinition
+                        </iterate>
+                parentId="org.eclipse.ui.contexts.window"
+   <extension point="org.eclipse.core.expressions.definitions">
+                categoryId="org.jkiss.dbeaver.ui.fonts"
+            <themeid refid="org.eclipse.e4.ui.css.theme.high-contrast"/>
+
+            <property-name name="background-color"/>
+<?xml version="1.0" encoding="UTF-8"?>
+        <category id="org.jkiss.dbeaver.core.new.general" name="%category.org.jkiss.dbeaver.core.new.general.name"/>
+        <context
+        </provider>
+
+                <and>
+        <handler
+    </extension>
+                            <equals value="org.eclipse.ui.contexts.window"/>
+                    <with variable="activePart">
+        </fontDefinition>
+        </fontDefinition>
+        <themeElementCategory label="%themeElementCategory.org.jkiss.dbeaver.dbeaver.ui.fonts.label" id="org.jkiss.dbeaver.ui.fonts">
+
+              </with>
+            adapter="org.eclipse.e4.ui.css.swt.dom.ControlElement"
+        <handler commandId="org.eclipse.ui.window.openEditorDropDown" class="org.jkiss.dbeaver.ui.CustomWorkbookEditorsHandler">
+                  <test property="org.jkiss.dbeaver.core.global.standalone"/>
+            <widget class="org.jkiss.dbeaver.ui.ConComposite"/>
+           <not>
+              <with variable="activeWorkbenchWindow.activePerspective">
+       
+    </extension>
+            composite="false"
+    <extension point="org.eclipse.ui.handlers">
+
+    </extension>
+                name="DBeaver Perspective"
+                    </with>
+              <with variable="selection">
+          <or>
+                value="Courier New-regular-10">
+    <extension point="org.eclipse.e4.ui.css.core.propertyHandler">
+                description="DBeaver Perspective Context"/>
+            <description>%fontDefinition.org.jkiss.dbeaver.ui.fonts.monospace.description</description>
+</plugin>
+            handler="org.jkiss.dbeaver.ui.css.ConCompositeElementHandler">
+
+            <description>%themeElementCategory.org.jkiss.dbeaver.ui.fonts.description</description>
+            <fontValue os="macosx" value="Courier-regular-13"/>
+       </definition>
+    <extension point="org.eclipse.e4.ui.css.core.elementProvider">
+    </extension>
+        <!-- ConComposite widget handler. -->
+
+                    </with>
+    <extension point="org.jkiss.dbeaver.notifications">
+            composite="true"
+    <extension point="org.eclipse.ui.contexts">
+            <fontValue os="linux" value="Monospace-regular-10"/>
+            adapter="org.jkiss.dbeaver.ui.css.ConCompositeElement"
+                        <instanceof value="org.eclipse.ui.IWorkbenchPart"/>

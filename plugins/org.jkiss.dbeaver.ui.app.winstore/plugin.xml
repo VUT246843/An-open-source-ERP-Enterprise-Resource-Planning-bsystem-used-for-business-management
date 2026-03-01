@@ -1,0 +1,13 @@
+    <extension point="org.jkiss.dbeaver.pluginService">
+
+        <service class="org.jkiss.dbeaver.winstore.WinStoreEnvPathMapper" name="org.jkiss.dbeaver.runtime.IEnvironmentPathMapper"/>
+<plugin>
+    
+<?eclipse version="3.2"?>
+    <extension point="org.jkiss.dbeaver.service">
+    </extension>
+    </extension>
+<?xml version="1.0" encoding="utf-8"?>
+        <service class="org.jkiss.dbeaver.winstore.WinStoreService"/>
+
+</plugin>

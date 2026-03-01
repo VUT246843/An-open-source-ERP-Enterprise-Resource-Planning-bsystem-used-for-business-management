@@ -1,0 +1,44 @@
+<!--
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+                class="org.jkiss.dbeaver.ui.editors.sql.SQLSourceViewer"
+                embeddable="false">
+  ~
+  ~ you may not use this file except in compliance with the License.
+                label="%editor.source.ddl.name"
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+            <objectType name="org.jkiss.dbeaver.ext.dameng.model.DamengTableConstraint"/>
+        </editor>
+  ~ Copyright (C) 2010-2024 DBeaver Corp and others
+  ~ DBeaver - Universal Database Manager
+                description="%editor.source.ddl.description"
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested"
+<?xml version="1.0" encoding="UTF-8"?>
+                icon="#sql_text"
+            <objectType name="org.jkiss.dbeaver.ext.dameng.model.DamengSchema"/>
+            <objectType name="org.jkiss.dbeaver.ext.dameng.model.DamengUser"/>
+        <configurator class="org.jkiss.dbeaver.ext.dameng.ui.config.DamengSequenceConfigurator">
+  ~ limitations under the License.
+</plugin>  ~
+
+            <objectType name="org.jkiss.dbeaver.ext.dameng.model.DamengSequence"/>
+  -->
+    </extension>
+                type="folder"
+  ~ You may obtain a copy of the License at
+<plugin>
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+
+            <objectType name="org.jkiss.dbeaver.ext.dameng.model.DamengTablespace"/>
+            <objectType name="org.jkiss.dbeaver.ext.dameng.model.DamengRole"/>
+        </configurator>
+            <objectType name="org.jkiss.dbeaver.ext.dameng.model.DamengSequence"/>
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+  ~ See the License for the specific language governing permissions and
+        <configurator class="org.jkiss.dbeaver.ext.dameng.ui.config.DamengSchemaConfigurator">
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+        </configurator>
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        <editor id="source.ddl"
+<?eclipse version="3.2"?>
+                position="additions_middle"

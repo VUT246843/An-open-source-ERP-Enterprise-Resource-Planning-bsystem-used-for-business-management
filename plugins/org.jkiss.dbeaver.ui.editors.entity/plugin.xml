@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <configurator class="org.jkiss.dbeaver.ui.editors.object.config.EntityAttributeConfigurator">
+<plugin>
+            <objectType name="org.jkiss.dbeaver.model.struct.DBSEntityAttribute"/>
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+    </extension>
+
+<?eclipse version="3.2"?>
+</plugin>
+        </configurator>
+

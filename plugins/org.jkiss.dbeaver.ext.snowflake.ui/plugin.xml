@@ -1,0 +1,29 @@
+                label="%snowflake.dialog.connection.header"
+                dataSource="snowflake,snowflake_ee"
+        </view>
+    </extension>
+        <view
+                id="org.jkiss.dbeaver.ext.snowflake.dataSourceWizardView"
+<plugin>
+<?eclipse version="3.2"?>
+                class="org.jkiss.dbeaver.ext.snowflake.ui.SnowflakeConnectionPage"
+
+                class="org.jkiss.dbeaver.ext.snowflake.ui.SnowflakeConnectionPage"
+        </view>
+                id="org.jkiss.dbeaver.ext.snowflake.dataSourceEditorView"
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog">
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.snowflake/snowflake_icon.png"
+                dataSource="snowflake,snowflake_ee"
+<?xml version="1.0" encoding="UTF-8"?>
+        <view
+</plugin>
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.snowflake/icons/snowflake_icon.png">
+
+                label="%snowflake.dialog.connection.header"
+
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+    </extension>
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+        <propertyConfigurator class="org.jkiss.dbeaver.ext.snowflake.model.auth.SnowflakeAuthModelSnowflake" uiClass="org.jkiss.dbeaver.ext.snowflake.ui.config.SnowflakeAuthSnowflakeConfigurator"/>

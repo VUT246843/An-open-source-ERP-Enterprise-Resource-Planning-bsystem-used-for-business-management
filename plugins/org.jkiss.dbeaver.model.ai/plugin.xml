@@ -1,0 +1,56 @@
+<plugin>
+            supportsFunctions="true"
+    </extension>
+    <extension point="com.dbeaver.ai.prompt">
+        <completionEngine id="copilot"
+        <definition id="org.jkiss.dbeaver.core.ai.completion.enabled.by.policy">
+                <or>
+                    <test property="org.jkiss.dbeaver.core.global.hasEnvVariable" value="DBEAVER_AI_DISABLED"/>
+            properties="org.jkiss.dbeaver.model.ai.engine.openai.OpenAIProperties"
+            schemaGenerator="org.jkiss.dbeaver.model.ai.impl.AISchemaGeneratorImpl"/>
+    </extension>
+    <extension point="org.jkiss.dbeaver.sqlCommand">
+<?eclipse version="3.4"?>
+        <assistant id="ce-assistant" priority="1"
+            fallbacks="copilot-pro"/>
+
+    <extension-point id="com.dbeaver.ai.prompt" name="AI prompt generators" schema="schema/com.dbeaver.ai.prompt.exsd"/>
+            class="org.jkiss.dbeaver.model.ai.engine.openai.OpenAIEngine"
+    <extension-point id="com.dbeaver.ai.function" name="AI functions" schema="schema/com.dbeaver.ai.function.exsd"/>
+    <extension point="com.dbeaver.ai.engine">
+            properties="org.jkiss.dbeaver.model.ai.engine.copilot.CopilotProperties"
+        <completionEngine id="openai"
+    <extension point="org.eclipse.core.expressions.definitions">
+            sqlFormatter="org.jkiss.dbeaver.model.ai.impl.SimpleSqlFormatterImpl"
+            </not>
+            <not>
+    <extension point="com.dbeaver.ai.assistant">
+
+    </extension>
+
+                <reference definitionId="org.jkiss.dbeaver.core.ai.completion.enabled.by.policy"/>
+    <extension-point id="com.dbeaver.ai.assistant" name="AI assistants" schema="schema/com.dbeaver.ai.assistant.exsd"/>
+        </definition>
+    <extension-point id="com.dbeaver.ai.engine" name="AI integrations" schema="schema/com.dbeaver.ai.engine.exsd"/>
+
+
+            fallbacks="openai-pro"/>
+        <command id="ai" class="org.jkiss.dbeaver.model.ai.commands.SQLCommandAI" label="Execute prompt" description="Execute quary in human language by using AI translator">
+            class="org.jkiss.dbeaver.model.ai.engine.copilot.CopilotCompletionEngine"
+            </enabledWhen>
+            default="true"
+<?xml version="1.0" encoding="UTF-8"?>
+            label="Github Copilot"
+            supportsFunctions="true"
+        <!-- Enabled by the policy, has precedence over the user's preference -->
+        <prompt id="sql" label="SQL query generation" icon="icons/sql-generate.svg" class="org.jkiss.dbeaver.model.ai.prompt.AIPromptGenerateSql" description="Generates SQL query by user description in a natural language."/>
+                </or>
+            <enabledWhen>
+    </extension>
+        </command>
+    </extension>
+
+                    <test property="org.jkiss.dbeaver.core.global.hasPreference" value="ai.disabled"/>
+            label="OpenAI"
+</plugin>
+            class="org.jkiss.dbeaver.model.ai.impl.AIAssistantImpl"

@@ -1,0 +1,16 @@
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    <artifactId>org.jkiss.dbeaver.ext.postgresql.test</artifactId>
+    <version>1.0.132-SNAPSHOT</version>
+    <parent>
+    <modelVersion>4.0.0</modelVersion>
+<?xml version="1.0" encoding="UTF-8"?>
+        <relativePath>../</relativePath>
+        <groupId>org.jkiss.dbeaver</groupId>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+        <artifactId>tests</artifactId>
+</project>
+    </parent>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+        <version>1.0.0-SNAPSHOT</version>
+    <packaging>eclipse-test-plugin</packaging>

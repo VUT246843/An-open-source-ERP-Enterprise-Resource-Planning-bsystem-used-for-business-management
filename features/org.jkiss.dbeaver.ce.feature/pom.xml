@@ -1,0 +1,54 @@
+    </parent>
+                        <configuration>
+        <version>1.0.0-SNAPSHOT</version>
+        <groupId>org.jkiss.dbeaver</groupId>
+                        <goals>
+    <parent>
+                                    <includes>
+<?xml version="1.0" encoding="UTF-8"?>
+                            <outputDirectory>${project.build.directory}/generated</outputDirectory>
+        <sourceCommit>-</sourceCommit>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+                            <overwrite>true</overwrite>
+
+            <!-- Generate and copy .eclipseproduct -->
+                        <phase>generate-resources</phase>
+                                    </includes>
+                                        <include>readme.txt</include>
+                            </resources>
+                        </goals>
+                <executions>
+    </build>
+                        </configuration>
+        <relativePath>../../</relativePath>
+                                        <include>.eclipseproduct</include>
+                                </resource>
+                                <resource>
+        <plugins>
+    <modelVersion>4.0.0</modelVersion>
+                            <resources>
+
+                </executions>
+                        <id>process-product-info</id>
+    <build>
+                    <execution>
+    <properties>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <packaging>eclipse-feature</packaging>
+                <artifactId>maven-resources-plugin</artifactId>
+                                    <directory>root</directory>
+    <artifactId>org.jkiss.dbeaver.ce.feature</artifactId>
+                    </execution>
+    </properties>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                                    <filtering>true</filtering>
+</project>
+
+        <sourceBranch>-</sourceBranch>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+    <version>26.0.1-SNAPSHOT</version>
+        <artifactId>dbeaver</artifactId>
+        </plugins>
+                            <goal>copy-resources</goal>

@@ -1,0 +1,41 @@
+        <node ref="stream_consumer">
+                        <property id="nullString" label="%dataTransfer.processor.xlsx.property.nullString.name" type="string" description="%dataTransfer.processor.xlsx.property.nullString.description" defaultValue="" required="false"/>
+                appFileExtension="xlsx"
+    </extension>
+<?xml version="1.0" encoding="UTF-8"?>
+                        <property id="dateFormat" label="%dataTransfer.processor.xlsx.property.dateFormat.name" type="string" description="%dataTransfer.processor.xlsx.property.dateFormat.description" defaultValue="MM/dd/yy" required="false" validValues="MM/dd/yy,d-MMM-yy,d-MMM,MMM-yy,h:mm:ss,MM/dd/yy h:mm"/>
+                    </propertyGroup>
+                description="%dataTransfer.processor.xlsx.description"
+                        <property id="extension" label="%dataTransfer.processor.xlsx.property.extension.label" defaultValue="xlsx"/>
+                        <property id="useDefaultSpreadsheetNames" label="%dataTransfer.processor.xlsx.property.useDefaultSpreadsheetNames.name" type="boolean" description="%dataTransfer.processor.xlsx.property.useDefaultSpreadsheetNames.description" defaultValue="true" required="true"/>
+                        <property id="exportSql" label="%dataTransfer.processor.xlsx.property.exportSql.name" type="boolean" description="%dataTransfer.processor.xlsx.property.exportSql.description" defaultValue="false" required="false"/>
+                        <property id="header" label="%dataTransfer.processor.xlsx.property.header.name" type="string" description="%dataTransfer.processor.xlsx.property.header.description" defaultValue="label" required="true" validValues="label,description,both,none"/>
+    <extension point="org.jkiss.dbeaver.dataTransfer">
+
+
+                        <property id="border" label="%dataTransfer.processor.xlsx.property.border.name" type="string" description="%dataTransfer.processor.xlsx.property.border.description" defaultValue="THIN" required="false" validValues="NONE,THIN,THICK"/>
+                order="10">
+<?eclipse version="3.4"?>
+                appName="Excel"
+                        <property id="trueString" label="%dataTransfer.processor.xlsx.property.boolStringTrue.name" type="string" description="%dataTransfer.processor.xlsx.property.boolStringTrue.description" defaultValue="true" required="false"/>
+                icon="icons/excel.svg"
+                        <property id="splitByColNum" label="%dataTransfer.processor.xlsx.property.splitByColNum.name" type="integer" description="%dataTransfer.processor.xlsx.property.splitByColNum.description" defaultValue="0" required="false"/>
+                    <propertyGroup label="%dataTransfer.processor.xlsx.propertyGroup.general.label">
+                label="%dataTransfer.processor.xlsx.name"
+                class="org.jkiss.dbeaver.data.office.export.DataExporterXLSX"
+                        <property id="appendStrategy" label="%dataTransfer.processor.xlsx.property.appendStrategy.name" type="string" description="%dataTransfer.processor.xlsx.property.appendStrategy.description" defaultValue="create new sheets" required="true" validValues="create new sheets,use existing sheets" allowCustomValues="false"/>
+                        <property id="headerfont" label="%dataTransfer.processor.xlsx.property.headerFont.name" type="string" description="%dataTransfer.processor.xlsx.property.headerFont.description" defaultValue="BOLD" required="false" validValues="NONE,BOLD,ITALIC,STRIKEOUT,UNDERLINE"/>
+                binary="true"
+                        <property id="splitSqlText" label="%dataTransfer.processor.xlsx.property.splitSqlText.name" type="boolean" description="%dataTransfer.processor.xlsx.property.splitSqlText.description" defaultValue="false" required="false"/>
+            <processor
+         </node>
+<plugin>
+                id="stream.xlsx"
+                        <property id="falseString" label="%dataTransfer.processor.xlsx.property.boolStringFalse.name" type="string" description="%dataTransfer.processor.xlsx.property.boolStringFalse.description" defaultValue="false" required="false"/>
+</plugin>
+                        <property id="rownumber" label="%dataTransfer.processor.xlsx.property.rowNumber.name" type="boolean" description="%dataTransfer.processor.xlsx.property.rowNumber.description" defaultValue="yes" required="false"/>
+                        <property id="splitByRowCount" label="%dataTransfer.processor.xlsx.property.splitByRowCount.name" type="integer" description="%dataTransfer.processor.xlsx.property.splitByRowCount.description" defaultValue="1048575" required="false"/>
+                contentType="application/vnd.ms-excel"
+                        <property id="trimString" label="%dataTransfer.processor.xlsx.property.trimString.name" type="boolean" description="%dataTransfer.processor.xlsx.property.trimString.description" defaultValue="false" required="false"/>
+            </processor>
+

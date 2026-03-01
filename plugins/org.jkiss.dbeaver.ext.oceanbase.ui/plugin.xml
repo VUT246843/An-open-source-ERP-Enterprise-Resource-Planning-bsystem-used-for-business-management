@@ -1,0 +1,38 @@
+                class="org.jkiss.dbeaver.ext.oceanbase.ui.views.OceanbaseConnectionPage"
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+                dataSource="oceanbase"
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+    </extension>
+        <view
+            uiClass="org.jkiss.dbeaver.ui.dialogs.connection.DatabaseNativeAuthModelConfigurator"/>
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog"
+                id="org.jkiss.dbeaver.ext.oceanbase.dataSourceWizardView"
+    </extension>
+        <editorContribution
+                label="%dialog.connection.header"
+<?xml version="1.0" encoding="UTF-8"?>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+            class="org.jkiss.dbeaver.ext.oceanbase.model.auth.OceanbaseAuthModelDatabaseNative"
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/sessions.svg">
+</plugin>
+                category="connectionEditor" label="%editor.session_manager.name"
+                id="org.jkiss.dbeaver.ext.oceanbase.dataSourceEditorView"
+
+        <propertyConfigurator
+
+                label="%dialog.connection.header"
+        </editorContribution>
+                dataSource="oceanbase"
+                editorId="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLSessionEditor"
+
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.oceanbase/icons/ob_icon.png"/>
+<?eclipse version="3.2"?>
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.oceanbase/icons/ob_icon.png"/>
+        <view
+<plugin>
+                class="org.jkiss.dbeaver.ext.oceanbase.ui.views.OceanbaseConnectionPage"
+    </extension>
+            <supports dataSource="oceanbase"/>
+
+

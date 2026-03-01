@@ -1,0 +1,165 @@
+   e) Provide Installation Information, but only if you would otherwise
+       of the Library that is interface-compatible with the Linked
+   GNU GPL, and only to the extent that such information is
+       License, and the Corresponding Application Code in a form
+Library side by side in a single library together with other library
+  2. Conveying Modified Versions.
+       1) Use a suitable shared library mechanism for linking with the
+  The Free Software Foundation may publish revised and/or new versions
+                   GNU LESSER GENERAL PUBLIC LICENSE
+
+
+
+
+
+the terms and conditions of version 3 of the GNU General Public
+received it does not specify a version number of the GNU Lesser
+
+apply, that proxy's public statement of acceptance of any version is
+
+without being bound by section 3 of the GNU GPL.
+   b) Accompany the object code with a copy of the GNU GPL and this license
+
+taken together, effectively do not restrict modification of the
+Application, but excluding the System Libraries of the Combined Work.
+code under terms of your choice, provided that, if the incorporated
+ Everyone is permitted to copy and distribute verbatim copies
+choice, if you do both of the following:
+
+   b) Give prominent notice with the combined library that part of it
+and utility programs needed for reproducing the Combined Work from the
+License, supplemented by the additional permissions listed below.
+Corresponding Source for the Combined Work, excluding any source code
+for portions of the Combined Work that, considered in isolation, are
+       recombine or relink the Application with a modified version of
+   ensure that, in the event an Application does not supply the
+   execution, include the copyright notice for the Library among
+material is not limited to numerical parameters, data structure
+       0) Convey the Minimal Corresponding Source under the terms of this
+  Each version is given a distinguishing version number. If the
+
+   these notices, as well as a reference directing the user to the
+published by the Free Software Foundation. If the Library as you
+by the Library, but which is not otherwise based on the Library.
+of the GNU Lesser General Public License "or any later version"
+with which the Combined Work was made is also called the "Linked
+
+
+License, and convey such a combined library under terms of your
+   a) under this License, provided that you make a good faith effort to
+   document.
+   a) Give prominent notice with each copy of the Combined Work that
+
+   Application with a modified version of the Linked Version. (If
+  6. Revised Versions of the GNU Lesser General Public License.
+Application with the Library.  The particular version of the Library
+   copies of the GNU GPL and this license document.
+
+
+  "The Library" refers to a covered work governed by this License,
+
+
+differ in detail to address new problems or concerns.
+  If the Library as you received it specifies that a proxy can decide
+   for conveying Corresponding Source.)
+
+that uses the facility (other than as an argument passed when the
+   b) Accompany the Combined Work with a copy of the GNU GPL and this license
+  0. Additional Definitions.
+   the Library is used in it and that the Library and its use are
+       Library.  A suitable mechanism is one that (a) uses at run time
+layouts and accessors, or small macros, inline functions and templates
+  You may place library facilities that are a work based on the
+       manner specified by section 6 of the GNU GPL for conveying
+based on the Application, and not on the Linked Version.
+   conveyed under the terms of this License.
+   covered by this License.
+   accompanying uncombined form of the same work.
+Defining a subclass of a class defined by the Library is deemed a mode
+permanent authorization for you to choose that version for the
+  5. Combined Libraries.
+       suitable for, and under terms that permit, the user to
+   covered by this License.
+   necessary to install and execute a modified version of the
+conditions either of that published version or of any later version
+  If you modify a copy of the Library, and, in your modifications, a
+
+  An "Application" is any work that makes use of an interface provided
+   function or data, the facility still operates, and performs
+   Library is used in it and that the Library and its use are
+
+   this License applicable to that copy.
+                       Version 3, 29 June 2007
+
+
+  The "Minimal Corresponding Source" for a Combined Work means the
+  The "Corresponding Application Code" for a Combined Work means the
+       system, and (b) will operate properly with a modified version
+   whatever part of its purpose remains meaningful, or
+   Information in the manner specified by section 6 of the GNU GPL
+
+  1. Exception to Section 3 of the GNU GPL.
+   c) For a Combined Work that displays copyright notices during
+applies to it, you have the option of following the terms and
+
+   is a work based on the Library, and explaining where to find the
+
+       Corresponding Source.
+
+facility is invoked), then you may convey a copy of the modified
+General Public License ever published by the Free Software Foundation.
+  As used herein, "this License" refers to version 3 of the GNU Lesser
+
+General Public License, and the "GNU GPL" refers to version 3 of the GNU
+   a) Give prominent notice with each copy of the object code that the
+       Version.
+   d) Do one of the following:
+
+versions will be similar in spirit to the present version, but may
+Library.
+Library as you received it specifies that a certain numbered version
+       the Linked Version to produce a modified Combined Work, in the
+the following:
+
+   a) Accompany the combined library with a copy of the same work based
+ of this license document, but changing it is not allowed.
+   on the Library, uncombined with any other library facilities,
+Version".
+   be required to provide such information under section 6 of the
+   document.
+
+version:
+facilities that are not Applications and are not covered by this
+facility refers to a function or data to be supplied by an Application
+  A "Combined Work" is a work produced by combining or linking an
+  You may convey a covered work under sections 3 and 4 of this License
+  3. Object Code Incorporating Material from Library Header Files.
+ Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+
+
+   b) under the GNU GPL, with none of the additional permissions of
+
+General Public License, you may choose any version of the GNU Lesser
+General Public License.
+   Combined Work produced by recombining or relinking the
+  This version of the GNU Lesser General Public License incorporates
+engineering for debugging such modifications, if you also do each of
+
+   you use option 4d0, the Installation Information must accompany
+whether future versions of the GNU Lesser General Public License shall
+a header file that is part of the Library.  You may convey such object
+   Code. If you use option 4d1, you must provide the Installation
+object code and/or source code for the Application, including any data
+       a copy of the Library already present on the user's computer
+   the Minimal Corresponding Source and Corresponding Application
+
+(ten or fewer lines in length), you do both of the following:
+portions of the Library contained in the Combined Work and reverse
+
+of the GNU Lesser General Public License from time to time. Such new
+other than an Application or a Combined Work as defined below.
+  4. Combined Works.
+  You may convey a Combined Work under terms of your choice that,
+of using an interface provided by the Library.
+
+  The object code form of an Application may incorporate material from

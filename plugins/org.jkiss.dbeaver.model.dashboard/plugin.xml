@@ -1,0 +1,48 @@
+                  label="Database"
+                  icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/browser.svg"
+                  label="Web"
+
+    <extension-point id="org.jkiss.dbeaver.dashboard" name="Dashboards" schema="schema/org.jkiss.dbeaver.dashboard.exsd"/>
+        <type id="dashboard" name="Dashboard"
+                  description="Database dashboards"
+        </type>
+<?eclipse version="3.2"?>
+    </extension>
+                name="Dashboard"
+              folderIcon="icons/dashboard_folder.svg"
+                file-extensions="dashboard"
+                  supportsCustomization="true"
+    <extension point="org.jkiss.dbeaver.dashboard">
+                default-charset="utf-8"
+
+            <root folder="Dashboards"/>
+    </extension>
+        <provider id="web"
+
+<plugin>
+                  defaultRenderer="browser"
+                  dataType="timeseries"/>
+</plugin>
+    <extension point="org.eclipse.core.contenttype.contentTypes">
+                  class="org.jkiss.dbeaver.model.dashboard.registry.WebDashboardProvider"
+              icon="icons/dashboard.svg"
+                  databaseRequired="true"
+    <extension point="org.jkiss.dbeaver.resourceType">
+                  class="org.jkiss.dbeaver.model.dashboard.registry.DatabaseDashboardProvider"
+                  supportsCustomization="true"
+                  icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/database.svg"
+                  dataType="provided"/>
+
+    </extension>
+        <provider id="database"
+<?xml version="1.0" encoding="UTF-8"?>
+
+            <contentTypeBinding contentTypeId="org.jkiss.dbeaver.dashboard"/>
+                  defaultRenderer="timeseries"
+        <content-type
+                  description="Web dashboards"
+                base-type="org.eclipse.core.runtime.text"
+              managable="true">
+                priority="normal"/>
+                id="org.jkiss.dbeaver.dashboard"
+

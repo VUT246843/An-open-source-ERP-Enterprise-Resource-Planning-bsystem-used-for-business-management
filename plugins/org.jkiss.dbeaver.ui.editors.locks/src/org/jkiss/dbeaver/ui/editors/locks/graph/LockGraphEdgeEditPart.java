@@ -1,0 +1,54 @@
+		installEditPolicy(EditPolicy.CONNECTION_ROLE,
+		installEditPolicy(EditPolicy.CONNECTION_ENDPOINTS_ROLE,
+	protected IFigure createFigure() {
+        
+		
+import org.eclipse.gef.editpolicies.ConnectionEndpointEditPolicy;
+ *     http://www.apache.org/licenses/LICENSE-2.0
+		PolylineConnection connection = (PolylineConnection) super.createFigure();
+	@Override
+
+        connection.setLineWidth(1);
+        
+ * You may obtain a copy of the License at
+	protected void createEditPolicies() {
+	}
+package org.jkiss.dbeaver.ui.editors.locks.graph;
+
+	@Override
+
+        decoration.setTemplate(PolygonDecoration.TRIANGLE_TIP);
+ *
+				new LockGraphConnectionEditPolicy());
+}
+	}
+				new ConnectionEndpointEditPolicy());
+import org.eclipse.gef.EditPolicy;
+ * Licensed under the Apache License, Version 2.0 (the "License");
+
+
+import org.eclipse.gef.editparts.AbstractConnectionEditPart;
+        
+import org.eclipse.draw2d.PolylineConnection;
+        connection.setSourceDecoration(decoration);
+        return connection;
+ * you may not use this file except in compliance with the License.
+		
+ * limitations under the License.
+ *
+ * distributed under the License is distributed on an "AS IS" BASIS,
+public class LockGraphEdgeEditPart extends AbstractConnectionEditPart {
+        PolygonDecoration decoration = new PolygonDecoration();
+ *
+import org.eclipse.draw2d.IFigure;
+/*
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+ * See the License for the specific language governing permissions and
+ * Copyright (C) 2010-2025 DBeaver Corp and others
+
+ * Unless required by applicable law or agreed to in writing, software
+ * DBeaver - Universal Database Manager
+import org.eclipse.draw2d.PolygonDecoration;
+		
+ */

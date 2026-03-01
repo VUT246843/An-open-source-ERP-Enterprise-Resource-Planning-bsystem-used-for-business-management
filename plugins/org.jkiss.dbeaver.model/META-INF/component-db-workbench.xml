@@ -1,0 +1,11 @@
+  <implementation class="org.jkiss.dbeaver.model.impl.app.ApplicationWorkbenchImpl"/>
+<!--
+<?xml version="1.0" encoding="UTF-8"?>
+  <service>
+-->
+  <reference field="platformUIInstance" interface="org.jkiss.dbeaver.runtime.ui.DBPPlatformUI"/>
+</scr:component>
+  <reference field="platformInstance" interface="org.jkiss.dbeaver.model.app.DBPPlatform"/>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="db-platform">
+  </service>
+    <provide interface="org.jkiss.dbeaver.model.app.DBPApplicationWorkbench"/>

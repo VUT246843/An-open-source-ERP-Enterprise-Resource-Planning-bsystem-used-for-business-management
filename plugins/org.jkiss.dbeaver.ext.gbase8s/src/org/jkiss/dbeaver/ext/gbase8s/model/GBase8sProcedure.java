@@ -1,0 +1,45 @@
+ * Unless required by applicable law or agreed to in writing, software
+public class GBase8sProcedure extends GenericProcedure {
+ *
+ */
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+import org.jkiss.dbeaver.ext.generic.model.*;
+    @Override
+
+ * distributed under the License is distributed on an "AS IS" BASIS,
+}
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ * @author Chao Tian
+            String description, DBSProcedureType procedureType, GenericFunctionResultType functionResultType) {
+
+ * DBeaver - Universal Database Manager
+    }
+        super(container, procedureName, specificName, description, procedureType, functionResultType);
+/**
+
+
+import org.jkiss.dbeaver.model.struct.rdb.DBSProcedureType;
+
+    public GenericPackage getPackage() {
+ * You may obtain a copy of the License at
+        return getContainer().getCatalog();
+ * Copyright (C) 2010-2024 DBeaver Corp and others
+    }
+ *
+package org.jkiss.dbeaver.ext.gbase8s.model;
+ * See the License for the specific language governing permissions and
+    public GenericCatalog getCatalog() {
+    @Property(hidden = true, order = 3, labelProvider = GenericCatalog.CatalogNameTermProvider.class)
+/*
+    public GBase8sProcedure(GenericStructContainer container, String procedureName, String specificName,
+    @Property(hidden = true, order = 5)
+import org.jkiss.dbeaver.model.meta.Property;
+ * you may not use this file except in compliance with the License.
+    @Override
+ */
+        return getContainer() instanceof GenericPackage ? (GenericPackage) getContainer() : null;
+
+    }
+ * limitations under the License.
+ *

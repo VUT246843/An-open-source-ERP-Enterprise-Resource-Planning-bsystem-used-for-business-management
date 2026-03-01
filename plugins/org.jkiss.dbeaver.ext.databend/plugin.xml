@@ -1,0 +1,79 @@
+                secured="false"
+                    iconBig="icons/databend_icon_big.png"
+                    <parameter name="supports-references" value="false"/>
+                    class="com.databend.jdbc.DatabendDriver"
+
+    </extension>
+                label="Databend"
+<plugin>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+            <drivers managable="true">
+                    sampleURL="jdbc:databend://{username}:{password}@{host}:{port}[/{database}]"
+        </dialect>
+              driverClass="com.databend.jdbc.DatabendDriver"
+    </extension>
+        <datasource
+                prefix="ssl"
+        <meta id="databend"
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                    <file type="jar" path="maven:/com.databend:databend-jdbc:RELEASE[0.3.9]" load-optional-dependencies="true" bundle="!drivers.databend" />
+    </extension>
+                    supportedConfigurationTypes="MANUAL,URL"
+                    <parameter name="supports-indexes" value="false"/>
+                    <file type="jar" path="drivers/databend" bundle="drivers.databend"/>
+                    <parameter name="supports-multi-insert" value="true"/>
+                    icon="icons/databend_icon.png"
+            <objectType name="org.jkiss.dbeaver.ext.databend.DatabendDataSourceProvider"/>
+
+            </drivers>
+                handlerClass="org.jkiss.dbeaver.model.impl.net.SSLHandlerImpl">
+                </driver>
+<?eclipse version="3.2"?>
+                type="config"
+                    <parameter name="alter-table-add-column" value="true"/>
+
+                    <parameter name="omit-catalog" value="false"/>
+                dialect="databend">
+                parent="generic"
+                desktop="true"
+    <extension point="org.jkiss.dbeaver.networkHandler">
+                    <parameter name="supports-truncate" value="false"/>
+
+
+                    webURL="https://github.com/datafuselabs/databend-jdbc"
+                description="SSL settings"
+                    <parameter name="omit-schema" value="false"/>
+                    label="Databend"
+    </extension>
+                    <property name="@dbeaver-default-dataformat.type.timestamp.pattern" value="yyyy-MM-dd HH:mm:ss[.fffffffff]"/>
+
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    <!-- Disable server timezone as it confuses during timestamp edit -->
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+              class="org.jkiss.dbeaver.ext.databend.model.DatabendMetaModel"
+        <dialect id="databend" parent="generic" class="org.jkiss.dbeaver.ext.databend.model.DatabendSQLDialect" label="Databend" description="Databend SQL dialect." icon="icons/databend_icon.png">
+
+                    <parameter name="query-get-active-db" value="SELECT CURRENT_DATABASE()"/>
+                label="SSL"
+                    categories="sql,analytic,columns">
+</plugin>
+
+              dialect="databend"/>
+<?xml version="1.0" encoding="UTF-8"?>
+                id="databend-ssl"
+                order="2"
+                icon="icons/databend_icon.png"
+                codeName="SSL"
+        </datasource>
+        </handler>
+                    <property name="use_server_time_zone" value="false"/>
+                description="Databend"
+        <handler
+                    id="databend"
+                id="databend"
+                    <parameter name="query-set-active-db" value="USE &quot;?&quot;"/>
+                    description="Databend driver (server version 1.0.0+)"
+                    defaultPort="8000"
+                class="org.jkiss.dbeaver.ext.databend.DatabendDataSourceProvider"
+                <driver
+                    <property name="use_time_zone" value="false"/>

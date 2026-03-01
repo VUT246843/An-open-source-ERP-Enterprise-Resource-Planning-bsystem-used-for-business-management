@@ -1,0 +1,83 @@
+                id="DuckDBValueHandlerProvider"
+            <drivers managable="true">
+                    </propertyGroup>
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon.png"
+        <dialect id="duckdb"
+                parent="generic"
+    </extension>
+
+            <type name="BLOB"/>
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon.png"
+
+<?eclipse version="3.2"?>
+                label="DuckDB data types provider">
+                </provider-properties>
+                        description="DuckDB JDBC driver"
+                    <file type="license" path="https://raw.githubusercontent.com/duckdb/duckdb/master/LICENSE" bundle="!drivers.duckdb"/>
+                        class="org.duckdb.DuckDBDriver"
+                <provider-properties>
+                 label="DuckDB"
+<?xml version="1.0" encoding="UTF-8"?>
+                 description="DuckDB dialect"
+
+                id="duckdb"
+    </extension>
+        <datasource
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+
+        <manager class="org.jkiss.dbeaver.ext.duckdb.edit.DuckDBSequenceManager"
+            <type name="GEOMETRY"/>
+
+                 icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon.png"/>
+            <type kind="STRUCT"/>
+                description="DuckDB data types provider"
+                        id="duckdb_jdbc"
+                        categories="sql,embedded">
+                        sampleURL="jdbc:duckdb:{file}"
+                 class="org.jkiss.dbeaver.ext.duckdb.model.DuckDBSQLDialect"
+                <driver
+<plugin>
+        <provider
+        </datasource>
+                    <file type="jar" path="drivers/duckdb" bundle="drivers.duckdb"/>
+              dialect="duckdb"/>
+
+        <meta id="duckdb_jdbc"
+
+                class="org.jkiss.dbeaver.ext.duckdb.model.DuckDBDataSourceProvider"
+                        <property id="duckdb.dd.tag.string" label="Show $tagName$ quote as String" type="boolean" description="Show $tagName$ quote as String"/>
+                        embedded="true"
+                 parent="generic"
+    <extension point="org.jkiss.dbeaver.generic.meta">
+                        <property id="duckdb.dd.plain.string" label="Show $$ quote as String" type="boolean" description="Show $$ quote as String"/>
+    </extension>
+                    <replace provider="generic" driver="duckdb_jdbc"/>
+                        anonymous="true"
+                    <propertyGroup label="SQL">
+                        webURL="https://duckdb.org/docs/api/java"
+                dialect="duckdb">
+        </provider>
+                        label="DuckDB"
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/duckdb_icon_big.png"
+                label="DuckDB"
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+
+</plugin>
+                        supportedConfigurationTypes="MANUAL,URL"
+              class="org.jkiss.dbeaver.ext.duckdb.model.DuckMetaModel"
+    </extension>
+                 objectType="org.jkiss.dbeaver.ext.duckdb.model.DuckDBSequence"/>
+                class="org.jkiss.dbeaver.ext.duckdb.model.data.DuckDBValueHandlerProvider"
+                        defaultPort=""
+    <extension point="org.jkiss.dbeaver.objectManager">
+              driverClass="org.duckdb.DuckDBDriver"
+                description="DuckDB JDBC connector"
+                    <file type="jar" path="maven:/org.duckdb:duckdb_jdbc:RELEASE" bundle="!drivers.duckdb"/>
+                inheritProviderProperties="true"
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                </driver>
+            <datasource class="org.jkiss.dbeaver.ext.duckdb.model.DuckDBDataSource"/>
+    </extension>
+
+            </drivers>
+                parent="GenericValueHandlerProvider"

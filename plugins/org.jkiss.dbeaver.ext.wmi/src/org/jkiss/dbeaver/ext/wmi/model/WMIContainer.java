@@ -1,0 +1,61 @@
+
+ * distributed under the License is distributed on an "AS IS" BASIS,
+    public WMIDataSource getDataSource()
+ * limitations under the License.
+/**
+        return null;
+public abstract class WMIContainer extends WMIPropertySource implements DBSObject
+import org.jkiss.dbeaver.model.struct.DBSObject;
+    public String getDescription()
+ * See the License for the specific language governing permissions and
+ * You may obtain a copy of the License at
+/*
+    {
+{
+
+
+    }
+ * Entity container
+ * you may not use this file except in compliance with the License.
+
+    @NotNull
+    }
+    {
+        return true;
+ *
+}
+ * Licensed under the Apache License, Version 2.0 (the "License");
+        this.parent = parent;
+    {
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * Unless required by applicable law or agreed to in writing, software
+ * Copyright (C) 2010-2024 DBeaver Corp and others
+
+
+    }
+package org.jkiss.dbeaver.ext.wmi.model;
+ */
+ * DBeaver - Universal Database Manager
+    }
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+    }
+import org.jkiss.code.NotNull;
+        return parent.getDataSource();
+    {
+
+    protected final WMINamespace parent;
+    protected WMIContainer(WMINamespace parent)
+    public boolean isPersisted()
+    public DBSObject getParentObject()
+
+        return parent;
+    {
+    @Override
+import org.jkiss.code.Nullable;
+    @Nullable
+ */
+    @Override
+ *
+    @Override
+    @Override

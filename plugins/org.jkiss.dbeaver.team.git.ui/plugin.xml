@@ -1,0 +1,118 @@
+            </command>
+            <command commandId="org.jkiss.dbeaver.git.commands.projectFromGit">
+        <image commandId="org.jkiss.dbeaver.git.commands.projectFromGit" icon="icons/clone.svg"/>
+    </extension>
+        <menuContribution allPopups="false" locationURI="toolbar:dbeaver-tools?after=additions">
+
+            <activeWhen>
+        </handler>
+        <handler commandId="org.jkiss.dbeaver.git.commands.share" class="org.jkiss.dbeaver.team.git.ui.handlers.ProjectShareHandler">
+                <test property="GitSelection.resourcesSingleRepository"/>
+            </command>
+    </extension>
+        <image commandId="org.jkiss.dbeaver.git.commands.share" icon="icons/share.png"/>
+                <separator name="projects" visible="true"/>
+
+                <visibleWhen checkEnabled="true"/>
+            <separator name="share" visible="true"/>
+    <extension point="org.eclipse.ui.bindings">
+    <extension point="org.jkiss.dbeaver.notifications">
+                <command commandId="org.jkiss.dbeaver.git.commands.projectFromGit" mnemonic="G"/>
+        <command categoryId="org.jkiss.dbeaver.git.commands.category" id="org.jkiss.dbeaver.git.commands.commit" name="%command.org.jkiss.dbeaver.git.commands.commit.name"/>
+        </handler>
+
+            </enabledWhen>
+                <visibleWhen><reference definitionId="DBeaverPerspectiveActive"/></visibleWhen>
+        <command categoryId="org.jkiss.dbeaver.git.commands.category" id="org.jkiss.dbeaver.git.commands.projectFromGit" name="%command.org.jkiss.dbeaver.git.commands.projectFromGit.name"/>
+                namespace="org.jkiss.dbeaver.team.git"
+            <separator name="view" visible="true"/>
+        <category id="org.jkiss.dbeaver.git.commands.category" name="Git Category"/>
+                <visibleWhen><reference definitionId="DBeaverPerspectiveActive"/></visibleWhen>
+    </extension>
+
+
+            <command commandId="org.jkiss.dbeaver.git.commands.update" mnemonic="L">
+
+        <handler commandId="org.jkiss.dbeaver.git.commands.commit" class="org.jkiss.dbeaver.team.git.ui.handlers.GITCommitHandler">
+    <extension point="org.eclipse.ui.menus">
+
+        <image commandId="org.jkiss.dbeaver.git.commands.update" icon="icons/pull.svg"/>
+        <menuContribution allPopups="false" locationURI="menu:org.jkiss.dbeaver.core.projectNavigator?before=additions">
+        <key commandId="org.jkiss.dbeaver.git.commands.update" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SHIFT+U"/>
+        <key commandId="org.jkiss.dbeaver.git.commands.commit" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SHIFT+K"/>
+                <command commandId="org.jkiss.dbeaver.git.commands.share" mnemonic="G"/>
+
+                <visibleWhen><reference definitionId="DBeaverPerspectiveActive"/></visibleWhen>
+        </menuContribution>
+                <command commandId="org.jkiss.dbeaver.git.commands.commit" mnemonic="C"/>
+    <extension point="org.eclipse.ui.handlers">
+            </menu>
+        <handler commandId="org.jkiss.dbeaver.git.commands.showHistory" class="org.jkiss.dbeaver.team.git.ui.handlers.GITHistoryHandler">
+        <propertyTester
+            <menu id="org.jkiss.dbeaver.team.git.menu" label="Git" mnemonic="M">
+        </menuContribution>
+            </activeWhen>
+            </activeWhen>
+            </command>
+                <visibleWhen><reference definitionId="DBeaverPerspectiveActive"/></visibleWhen>
+<?eclipse version="3.2"?>
+
+            </command>
+        </propertyTester>
+    <extension point="org.eclipse.ui.commands">
+    </extension>
+        <command categoryId="org.jkiss.dbeaver.git.commands.category" id="org.jkiss.dbeaver.git.commands.share" name="%command.org.jkiss.dbeaver.git.commands.share.name"/>
+        <handler commandId="org.jkiss.dbeaver.git.commands.projectFromGit" class="org.jkiss.dbeaver.team.git.ui.handlers.ProjectCloneHandler">
+    <extension point="org.eclipse.core.expressions.propertyTesters">
+        <menuContribution locationURI="menu:file?before=properties">
+<?xml version="1.0" encoding="UTF-8"?>
+        <menuContribution allPopups="false" locationURI="toolbar:org.jkiss.dbeaver.core.projectNavigator?before=additions">
+            <command commandId="org.jkiss.dbeaver.git.commands.showHistory" icon="icons/clone.svg" label="Git" style="pulldown" id="org.jkiss.dbeaver.menu.git">
+                <visibleWhen checkEnabled="true"/>
+                <not>
+            <command commandId="org.jkiss.dbeaver.git.commands.projectFromGit">
+                <command commandId="org.jkiss.dbeaver.git.commands.update" mnemonic="L"/>
+        </menuContribution>
+<plugin>
+            <command commandId="org.jkiss.dbeaver.git.commands.share" mnemonic="G">
+        <menuContribution locationURI="menu:org.jkiss.dbeaver.menu.git">
+        <image commandId="org.jkiss.dbeaver.git.commands.commit" icon="icons/push.svg"/>
+        </menuContribution>
+
+                <command commandId="org.jkiss.dbeaver.core.view.toggle" style="toggle"><parameter name="viewId" value="org.eclipse.egit.ui.RepositoriesView"/></command>
+
+</plugin>
+                <test property="GitSelection.resourcesSingleRepository"/>
+                type="org.eclipse.core.resources.IResource">
+            <activeWhen>
+                <visibleWhen><reference definitionId="DBeaverPerspectiveActive"/></visibleWhen>
+            <separator name="git" visible="false"/>
+    <extension point="org.eclipse.ui.commandImages">
+                id="org.jkiss.dbeaver.team.git.ui.handlers.GitPropertyTester"
+        </handler>
+        <handler commandId="org.jkiss.dbeaver.git.commands.update" class="org.jkiss.dbeaver.team.git.ui.handlers.GITUpdateHandler">
+                    <test property="GitSelection.projectsSingleRepository" />
+        </handler>
+    </extension>
+        <notification id="git.project.added" name="Project was added to Git"/>
+                </not>
+            </command>
+                <separator name="view" visible="true"/>
+        <command categoryId="org.jkiss.dbeaver.git.commands.category" id="org.jkiss.dbeaver.git.commands.showHistory" name="%command.org.jkiss.dbeaver.git.commands.showHistory.name"/>
+
+    </extension>
+        <command categoryId="org.jkiss.dbeaver.git.commands.category" id="org.jkiss.dbeaver.git.commands.update" name="%command.org.jkiss.dbeaver.git.commands.update.name"/>
+            </activeWhen>
+            <activeWhen>
+            <separator name="git" visible="true"/>
+        </handler>
+                <test property="org.jkiss.dbeaver.core.global.ui.canCreateProject"/>
+                properties="canShare,canCommit,canUpdate"
+    </extension>
+
+            <enabledWhen>
+        </menuContribution>
+            </command>
+            <command commandId="org.jkiss.dbeaver.git.commands.commit" mnemonic="C">
+            <command commandId="org.jkiss.dbeaver.core.view.toggle" style="toggle"><parameter name="viewId" value="org.eclipse.egit.ui.RepositoriesView"/></command>
+                class="org.jkiss.dbeaver.team.git.ui.handlers.GitPropertyTester"

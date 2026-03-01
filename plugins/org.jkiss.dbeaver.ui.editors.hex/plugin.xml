@@ -1,0 +1,54 @@
+        <streamManager class="org.jkiss.dbeaver.ui.data.BinaryStreamValueManager" id="binary" label="Binary" primaryMime="octet/binary" supportedMime="text,binary,app,application"
+    </extension>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.binary"/>
+
+    <extension point="org.jkiss.dbeaver.service">
+            <activeWhen><with variable="activeFocusControlId"><equals value="org.jkiss.dbeaver.ui.hexEditor"/></with></activeWhen>
+<plugin>
+            id="org.jkiss.dbeaver.hex.editor.color.caret"
+    </extension>
+        </themeElementCategory>
+<?eclipse version="3.2"?>
+        </colorDefinition>
+            <description>%colorDefinition.org.jkiss.dbeaver.hex.editor.color.caret.description</description>
+    </extension>
+    </extension>
+</plugin>
+        <handler commandId="org.eclipse.ui.edit.paste" class="org.jkiss.dbeaver.ui.editors.binary.HexCommandHandler">
+    <extension point="org.jkiss.dbeaver.dataManager">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        </page>
+            label="%colorDefinition.org.jkiss.dbeaver.hex.editor.color.text.label"
+
+        <page category="org.jkiss.dbeaver.preferences.main.resultset.editors" id="org.jkiss.dbeaver.ui.editors.binary.pref.HexPreferencesPage" class="org.jkiss.dbeaver.ui.editors.binary.pref.HexPreferencesPage" name="%pref.page.name.binary.editor">
+        <colorDefinition
+    <extension point="org.eclipse.ui.preferencePages">
+            value="COLOR_BLACK">
+
+    <extension point="org.eclipse.ui.themes">
+            value="232,242,254">
+            <description>%colorDefinition.org.jkiss.dbeaver.hex.editor.color.text.description</description>
+
+        <colorDefinition
+        <service name="org.jkiss.dbeaver.ui.data.IHexEditorService" class="org.jkiss.dbeaver.ui.editors.binary.HexEditorService"/>
+<?xml version="1.0" encoding="UTF-8"?>
+        </handler>
+            categoryId="org.jkiss.dbeaver.ui.presentation.hex"
+
+            <description>%themeElementCategory.org.jkiss.dbeaver.ui.presentation.hex.description</description>
+            categoryId="org.jkiss.dbeaver.ui.presentation.hex"
+            id="org.jkiss.dbeaver.hex.editor.color.text"
+                       description="Hex editor" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/types/binary.svg"/>
+
+    <extension point="org.eclipse.ui.handlers">
+        <!-- Colors for Hex editor -->
+            label="%colorDefinition.org.jkiss.dbeaver.hex.editor.color.caret.label"
+        <handler commandId="org.eclipse.ui.edit.copy" class="org.jkiss.dbeaver.ui.editors.binary.HexCommandHandler">
+        </handler>
+
+    </extension>
+
+        <themeElementCategory label="%themeElementCategory.org.jkiss.dbeaver.ui.presentation.hex.label" id="org.jkiss.dbeaver.ui.presentation.hex">
+
+            <activeWhen><with variable="activeFocusControlId"><equals value="org.jkiss.dbeaver.ui.hexEditor"/></with></activeWhen>
+        </colorDefinition>

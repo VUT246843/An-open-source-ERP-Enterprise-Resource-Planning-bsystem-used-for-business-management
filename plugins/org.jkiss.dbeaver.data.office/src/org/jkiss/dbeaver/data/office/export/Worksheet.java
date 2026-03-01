@@ -1,0 +1,58 @@
+ *
+ * DBeaver - Universal Database Manager
+ * Licensed under the Apache License, Version 2.0 (the "License");
+	public int getCurrentRow()
+public class Worksheet {
+ * limitations under the License.
+
+		currentRow++;
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	public void incRow(){
+	public Object getColumnVal()
+		super();
+	public Worksheet(Sheet sh, Object columnVal, int currentRow)
+	
+	
+	}
+	}
+		return sh;
+ * distributed under the License is distributed on an "AS IS" BASIS,
+}
+	{
+	
+	{
+	
+	}
+ * Copyright (C) 2017 Andrew Khitrin (ahitrin@gmail.com)
+	}
+import org.apache.poi.ss.usermodel.Sheet;
+ *     http://www.apache.org/licenses/LICENSE-2.0
+		sh = null;
+		this.sh = sh;
+	private Object columnVal;
+		return currentRow;
+
+	}
+ *
+	{
+	}
+ *
+	
+ * See the License for the specific language governing permissions and
+	
+ * you may not use this file except in compliance with the License.
+/*
+ * You may obtain a copy of the License at
+		return columnVal;
+package org.jkiss.dbeaver.data.office.export;
+		this.currentRow = currentRow;
+	{
+
+	private Sheet sh;
+ * Unless required by applicable law or agreed to in writing, software
+ */
+	
+		this.columnVal = columnVal;
+	public void dispose(){
+	private int currentRow;
+	public Sheet getSh()

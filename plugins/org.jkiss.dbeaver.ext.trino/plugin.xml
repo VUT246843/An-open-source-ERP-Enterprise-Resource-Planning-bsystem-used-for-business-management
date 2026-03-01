@@ -1,0 +1,10 @@
+    </extension>
+<plugin>
+        <meta id="trino" class="org.jkiss.dbeaver.ext.trino.model.TrinoMetaModel" driverClass="io.trino.jdbc.TrinoDriver" dialect="generic"/>
+
+
+<?eclipse version="3.2"?>
+</plugin>
+
+<?xml version="1.0" encoding="UTF-8"?>
+    <extension point="org.jkiss.dbeaver.generic.meta">

@@ -1,0 +1,14 @@
+  <version>1.0.204-SNAPSHOT</version>
+    <groupId>org.jkiss.dbeaver</groupId>
+    <version>1.0.0-SNAPSHOT</version>
+  <parent>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+  <artifactId>org.jkiss.dbeaver.ext.postgresql.debug.core</artifactId>
+</project>
+     <relativePath>../</relativePath>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+    <artifactId>plugins</artifactId>
+<?xml version="1.0" encoding="UTF-8"?>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <packaging>eclipse-plugin</packaging>

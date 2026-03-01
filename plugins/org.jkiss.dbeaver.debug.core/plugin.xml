@@ -1,0 +1,60 @@
+
+                value="true">
+    </extension>
+    <extension point="org.eclipse.debug.core.sourceContainerTypes">
+        <sourceLocator id="org.jkiss.dbeaver.debug.sourceLocator" class="org.jkiss.dbeaver.debug.sourcelookup.DBGSourceLookupDirector" name="%procedureSourceLocator.name"/>
+</plugin>
+        <sourceContainerType id="org.jkiss.dbeaver.debug.core.datasourceSourceContainerType" class="org.jkiss.dbeaver.debug.sourcelookup.DatabaseSourceContainerTypeDelegate" name="Databases" description="A collection of databases"/>
+        <launchConfigurationType
+                sourceLocatorId="org.jkiss.dbeaver.debug.sourceLocator"
+            point="org.eclipse.core.resources.markers">
+                sourcePathComputerId="org.jkiss.dbeaver.debug.sourcePathComputer">
+                name="%databaseLineBreakpoint.name">
+            name="%databaseLineBreakpoint.name"
+                delegate="org.jkiss.dbeaver.debug.core.DatabaseLaunchDelegate"
+        <!-- Setting category="org.jkiss.dbeaver.debug" will show this configuration only in this category and not in general configurations dialog -->
+        <attribute name="org.jkiss.dbeaver.debug.core.procedureOid"/>
+    <extension point="org.eclipse.debug.core.launchConfigurationTypes">
+        </launchConfigurationType>
+    </extension>
+        <persistent
+    </extension>
+    </extension>
+        <super type="org.eclipse.debug.core.lineBreakpointMarker"/>
+<?eclipse version="3.4"?>
+    <extension id="databaseBreakpointMarker" name="%databaseBreakpoint.name" point="org.eclipse.core.resources.markers">
+
+        <super type="org.jkiss.dbeaver.runtime.marker.datasourceId"/>
+
+        </sourcePathComputer>
+
+    <extension point="org.eclipse.debug.core.sourceLocators">
+<plugin>
+                delegateName="%launchConfigurationType.dbeaver.delegateName"
+        <persistent value="true"/>
+                delegateDescription="%launchConfigurationType.dbeaver.delegateDescription"
+                class="org.jkiss.dbeaver.debug.core.breakpoints.DatabaseLineBreakpoint"
+        <super type="org.eclipse.debug.core.breakpointMarker"/>
+        <sourcePathComputer class="org.jkiss.dbeaver.debug.sourcelookup.DBGSourcePathComputer" id="org.jkiss.dbeaver.debug.sourcePathComputer">
+                name="%launchConfigurationType.dbeaver.name"
+    </extension>
+
+                modes="run,debug"
+            id="databaseLineBreakpointMarker"
+        </breakpoint>
+
+                markerType="org.jkiss.dbeaver.debug.core.databaseLineBreakpointMarker"
+        <breakpoint
+    </extension>
+    <extension point="org.eclipse.debug.core.sourcePathComputers">
+    <!-- Breakpoints -->
+        </persistent>
+    </extension>
+    <extension point="org.eclipse.debug.core.breakpoints">
+        <super type="org.jkiss.dbeaver.debug.core.databaseBreakpointMarker"/>
+
+                id="org.jkiss.dbeaver.debug.core.databaseLineBreakpoint"
+                id="org.jkiss.dbeaver.debug.launchConfiguration"
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <extension

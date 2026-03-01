@@ -1,0 +1,30 @@
+                class="org.jkiss.dbeaver.ext.phoenix.model.data.PhoenixValueHandlerProvider"
+        <dialect id="apache_phoenix" parent="generic" class="org.jkiss.dbeaver.ext.phoenix.model.PhoenixSQLDialect" label="Phoenix" description="Apache Phoenix SQL dialect." icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/phoenix_icon.png">
+<plugin>
+
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                description="phoenix data types provider"
+    </extension>
+        </dialect>
+    </extension>
+    
+        <meta id="phoenixServer" class="org.jkiss.dbeaver.ext.phoenix.model.PhoenixMetaModel" driverClass="org.apache.phoenix.jdbc.PhoenixDriver" dialect="apache_phoenix"/>
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+    </extension>
+        <provider
+                id="PhoenixValueHandlerProvider"
+            <datasource class="org.jkiss.dbeaver.ext.phoenix.model.PhoenixDataSource"/>
+
+
+        </provider>
+
+<?eclipse version="3.2"?>
+
+</plugin>
+                label="Phoenix data types provider">
+            <type standard="ARRAY"/>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+<?xml version="1.0" encoding="UTF-8"?>
+
+ 
+                parent="GenericValueHandlerProvider"

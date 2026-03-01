@@ -1,0 +1,27 @@
+    <extension point="org.jkiss.dbeaver.workbenchHandler">
+<?xml version="1.0" encoding="UTF-8"?>
+    </extension>
+    <extension point="org.eclipse.ui.handlers">
+
+    </extension>
+    <extension point="org.eclipse.ui.commandImages">
+    </extension>
+
+
+<?eclipse version="3.2"?>
+
+        <handler class="org.jkiss.dbeaver.ui.config.sample.SampleDatabaseHandler" commandId="org.jkiss.dbeaver.ext.sample.database.commands.create"/>
+        </menuContribution>
+</plugin>
+
+<plugin>
+    </extension>
+        <command id="org.jkiss.dbeaver.ext.sample.database.commands.create" name="%commands.create.name" description="%commands.create.description"/>
+
+    <extension point="org.eclipse.ui.commands">
+        <menuContribution allPopups="false" locationURI="menu:help?after=installation_help">
+    <extension point="org.eclipse.ui.menus">
+        <image commandId="org.jkiss.dbeaver.ext.sample.database.commands.create" icon="platform:/plugin/org.jkiss.dbeaver.ext.sqlite/icons/sqlite_icon.png"/>
+        <workbenchWindowInitializer class="org.jkiss.dbeaver.ui.config.sample.WorkbenchInitializerCreateSampleDatabase" order="3"/>
+            <command commandId="org.jkiss.dbeaver.ext.sample.database.commands.create"/>
+    </extension>

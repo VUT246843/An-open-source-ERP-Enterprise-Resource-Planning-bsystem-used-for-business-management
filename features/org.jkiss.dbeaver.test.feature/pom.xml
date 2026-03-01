@@ -1,0 +1,16 @@
+        <groupId>org.jkiss.dbeaver</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+
+</project>
+    </parent>
+    <packaging>eclipse-feature</packaging>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+<?xml version="1.0" encoding="UTF-8"?>
+    <artifactId>org.jkiss.dbeaver.test.feature</artifactId>
+    <version>26.0.1-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+        <relativePath>../../</relativePath>
+        <artifactId>dbeaver</artifactId>
+    <parent>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

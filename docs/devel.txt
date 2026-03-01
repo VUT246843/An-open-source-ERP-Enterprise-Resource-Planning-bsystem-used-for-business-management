@@ -1,0 +1,15 @@
+
+	- master (keeps recent stable version of DBeaver, usually result of merge with devel)
+These repositories are not required to build or work in CE version.
+=================================
+Pull requests should always be based on devel.
+There are a few other repositories (EE version, product installer, tools, DBeaver web site) which are not public.
+There are two main branches:
+DBeaver CE sources can be checked out from https://github.com/dbeaver/dbeaver
+Other public branches could be created for some particular needs.
+
+	- devel (where all current development happens)
+
+Developers always commit/push in devel.
+
+Development process

@@ -1,0 +1,1726 @@
+                    <parameter name="driver-properties" value="charset,columnTypes,commentChar,cryptoFilterClassName,cryptoFilterParameterTypes,cryptoFilterParameters,defectiveHeaders,fileExtension,fileTailParts,fileTailPattern,fileTailPrepend,fixedWidths,function.NAME,headerline,ignoreNonParseableLines,indexedFiles,isHeaderFixedWidth,missingValue,quotechar,quoteStyle,locale,separator,skipLeadingLines,skipLeadingDataLines,suppressHeaders,timestampFormat, timeFormat, dateFormat,timeZoneName,trimHeaders,trimValues"/>
+                    <property id="omit-schema" label="Omit schema(s)" description="Do not read and use schemas information" type="boolean" required="false" defaultValue="false"/>
+                        label="Dremio"
+
+                    categories="sql">
+                                    </items>
+                    class="com.informix.jdbc.IfxDriver"
+                        sampleURL="jdbc:elasticsearch://https://{host}:{port}/"
+                    class="net.ucanaccess.jdbc.UcanaccessDriver"
+                    defaultPort="1527"
+                    defaultPort="1111"
+
+                                </folder>
+                <column id="NUM_PREC_RADIX" index="10"/>
+                    description="Qubole JDBC driver"
+                    <parameter name="read-only-meta-data" value="true"/>
+    <extension point="org.jkiss.dbeaver.objectManager">
+                    sampleURL="jdbc:qubole://{server}/{host}[/{database}]"
+                    description="DolphinDB Driver"
+                    <parameter name="schema-filters-enabled" value="true"/>
+                        sampleURL="jdbc:db2://{host}[:{port}]/{database}"
+                    categories="sql,object">
+                <driver
+                    <property name="databaseName" value="{database}"/>
+                </driver>
+                    webURL="http://db.apache.org/"
+                    label="Derby Server"
+                        iconBig="icons/salesforce_pro_icon.png"
+            </driver-properties>
+                <driver id="snowflake_generic"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+
+                    <file type="jar" path="maven:/com.taosdata.jdbc:taos-jdbcdriver:RELEASE"/>
+                    <parameter name="supports-catalog-selection" value="true"/>
+                    <parameter name="query-get-active-db" value="getCurrentCatalog()"/>
+                    icon="icons/dbf_icon.png"
+                    propertiesURL="http://csvjdbc.sourceforge.net/doc.html"
+                    <file type="license" path="https://raw.githubusercontent.com/ibmdb/node-ibm_db/master/LICENSE" bundle="!drivers.informix"/>
+                <driver
+                    <parameter name="read-only-data" value="false"/>
+                        <file type="jar" path="maven:/com.sqream:sqream-jdbc:RELEASE"/>
+                </driver>
+                    <parameter name="query-set-active-db" value="SET SCHEMA ?"/>
+                        label="Redis"
+
+                    icon="icons/impala_icon.png"
+
+                <driver id="salesforce_jdbc"/>
+                    categories="sql,embedded">
+                    icon="icons/hsqldb_icon.png"
+                        icon="icons/presto_icon.png"
+                    <parameter name="krb5.show-ssl-jks" value="true"/>
+                    icon="icons/presto_icon.png"
+                    iconBig="icons/machbase_icon_big.png"
+                <!-- CrateDB -->
+                    webURL="https://calcite.apache.org/avatica/docs/client_reference.html"
+                    <parameter name="ddl-drop-column-short" value="true"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+                </driver>-->
+                <driver id="aws_redshift_42"/>
+                    icon="icons/orientdb_icon.png"
+                <column id="UPDATE_RULE" index="10"/>
+
+                    <property  name="conmode" value="1"/>
+                    <property id="shutdown-url-param" label="Shutdown parameter" description="Database shutdown URL parameter" type="string" required="false" defaultValue=""/>
+            </object>
+                    <parameter name="supports-multi-insert" value="false"/>
+                    label="OpenSearch"
+                </driver>
+                    categories="sql,analytic,timeseries">
+                    <parameter name="omit-single-schema" value="false"/>
+            class="org.jkiss.dbeaver.ext.generic.GenericDataSourceProvider"
+                <driver
+                            </items>
+                                    </items>
+                    <parameter name="stored-unquoted-case" value="lower"/>
+                                </folder>
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                    <file type="jar" path="maven:/com.machbase:machjdbc:RELEASE"/>
+                    description="Cloudera Impala. You can download JDBC driver files from https://www.cloudera.com/"
+                        webURL="https://lucene.apache.org/solr/"
+                        supportedConfigurationTypes="MANUAL,URL"
+                    <file type="jar" path="maven:/org.postgresql:postgresql:RELEASE[42.7.2]" bundle="!drivers.postgresql"/>
+                        categories="nosql,bigdata,document">
+                    <file type="jar" path="maven:/org.apache.ignite:ignite-core:RELEASE[2.16.0]" bundle="!drivers.apache_ignite"/>
+
+                    <file type="jar" path="maven:/com.intersystems:intersystems-jdbc:RELEASE" bundle="!drivers.intersystem"/>
+                    <file type="license" path="https://raw.githubusercontent.com/elastic/elasticsearch/main/licenses/SSPL-1.0%2BELASTIC-LICENSE-2.0.txt" bundle="!drivers.elasticsearch"/>
+                        label="Jennifer"
+                        description="PostgreSQL JDBC driver. Can be used for old PostgreSQL versions or some PostgreSQL based databases (before 8.x).">
+                    <property name="progressiveStreaming" value="2"/>
+                        class="com.salesforce.datacloud.jdbc.DataCloudJDBCDriver"
+            </object>
+                    <file type="jar" path="drivers/derby" bundle="drivers.derby"/>
+                        label="MonetDB"
+                    sampleURL="jdbc:phoenix:{host}[:{port}]"
+                        label="MySQL (Old)"
+                    class="com.nuodb.jdbc.Driver"
+                                        </items>
+
+                    <parameter name="supports-select-count" value="true"/>
+                <column id="NON_UNIQUE" index="4"/>
+                        webURL="https://crate.io/docs/clients/jdbc/en/latest/"
+
+                    <parameter name="supports-delimiter-in-views" value="true"/>
+                    categories="hadoop"
+                    description="Pervasive JDBC driver"
+<?xml version="1.0" encoding="UTF-8"?>
+            </object>
+                <driver
+                    embedded="true"
+                        defaultDatabase="https://login.salesforce.com"
+                <column id="PKTABLE_CAT" index="1"/>
+                    <parameter name="identifier-quotes" value="`:`"/>
+                                    <items label="%tree.foreign_key.node.name" path="association" property="associations" icon="#foreign-key">
+                                </folder>
+                    label="Informix"
+                        sampleURL="jdbc:odbc:{database}"
+                </driver>
+                    class="org.opensearch.jdbc.Driver"
+                <driver
+                    <parameter name="supports-indexes" value="false"/>
+                    defaultPort="1583"
+                        sampleURL="jdbc:Sqream://{host}:{port}/{database};cluster=true"
+                        description="Driver for Apache Cassandra 2.x/3.x/4.x"
+                    <property id="script-delimiter-redefiner" label="Script delimiter redefiner" description="SQL clause which redefines script delimiter value" type="string" required="false"/>
+                </driver>
+                <column id="REMARKS" index="13"/>
+                    class="com.taosdata.jdbc.ws.WebSocketDriver"
+                    <parameter name="supports-references" value="false"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    <parameter name="query-get-active-db" value="select current_schema()"/>
+                    iconBig="icons/msaccess_icon_big.png"
+
+                    <notAvailableDriver title="%deprecated.title" description="%deprecated.description" message="%driver.odbc.deprecation.reason"/>
+                        sampleURL="jdbc:solr://{host}:{port}/[?collection={database}]"
+                            <items label="%tree.trigger.node.name" path="tableTrigger" property="tableTriggers" icon="#trigger"/>
+                    icon="icons/teradata_icon.png"
+                    <property id="query-shutdown" label="Shutdown database" description="Query to shutdown active database connection. Used for some embedded databases" type="string" required="false" defaultValue=""/>
+                <column id="CHAR_OCTET_LENGTH" index="16"/>
+                <driver
+            <object type="foreign-key">
+
+                    defaultPort="5432"
+                    <file type="license" path="drivers/hsqldb/LICENSE.txt" bundle="drivers.hsqldb"/>
+                <column id="PROCEDURE_CAT" index="1"/>
+                        sampleURL="jdbc:presto://{host}:{port}[/{database}]"
+                    sampleURL="jdbc:virtuoso://{host}:{port}/DATABASE={database}/CHARSET=UTF-8"
+                    category="Flat files"
+                </driver>
+                Deprecated drivers.
+                        iconBig="icons/sqream_icon_big.png"
+                    <parameter name="use-search-string-escape" value="true"/>
+
+                    id="apache_kylin"
+                        supportedConfigurationTypes="MANUAL,URL"
+                    id="tdengine"
+                    description="Kyuubi Thrift Server connector"
+                        description="Salesforce JDBC driver"
+                        label="Elasticsearch"
+                        label="Solr"
+                        description="ODBC bridge driver"
+                    <parameter name="krb5.show-ssl-jks" value="true"/>
+                        sampleURL="jdbc:q:{host}:{port}"
+                        sampleURL="jdbc:monetdb://{host}[:{port}]/[{database}]"
+                        </folder>
+                <driver
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+		                icon="icons/teiid_icon.png"
+                    id="orientdb_jdbc"
+                    class="com.orientechnologies.orient.jdbc.OrientJdbcDriver"
+                    <!-- At the moment HTTPS link doesn't work. But we can't keep HTTP anyway. -->
+                            </items>
+                    label="SnappyData"
+                    <parameter name="supports-stored-code" value="true"/>
+                class="org.jkiss.dbeaver.ext.generic.data.GenericValueHandlerProvider"
+                    <parameter name="multiple-results-fails-on-max-rows" value="true"/>
+                        description="Apache SolrJ JDBC driver"
+                    <property id="term-database" label="Driver database label" description="Custom value for driver database label in connection page" type="string" required="false" defaultValue=""/>
+                    defaultPort="1527"
+                        sampleURL="jdbc:mysql://{host}[:{port}]/[{database}]"
+                    logoImage="icons/apache_logo.png"
+                    class="org.relique.jdbc.csv.CsvDriver"
+                    <property name="shutdown" value="true"/>
+                <column id="TABLE_NAME" index="3"/>
+                    categories="hadoop"
+                    <file type="jar" path="maven:/mysql:mysql-connector-java:RELEASE[5.1.49]"/>
+                <column id="FKTABLE_CAT" index="5"/>
+                        categories="sql,columns">
+                    sampleURL="jdbc:Cache://{host}:{port}/{database}"
+                <driver id="mssql_ms"/>
+                        defaultPort="6718"
+                <column id="IS_NULLABLE" index="18"/>
+                <column id="TABLE_SCHEM" index="2"/>
+                    <property id="split-procedures-and-functions" label="Split procedures and functions" description="Show procedures and functions in different folders" type="boolean" required="false" defaultValue="false"/>
+                </driver>
+                <driver
+                    <file type="jar" path="maven:/io.prestosql:presto-jdbc:RELEASE"/>
+                                <items label="%tree.procedures.node.name" itemLabel="%tree.procedure.node.name" path="procedure" property="procedures" icon="#procedure">
+                <column id="TABLE_TYPE" index="4"/>
+                <column id="SCOPE_TABLE" index="21"/>
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericViewManager"          objectType="org.jkiss.dbeaver.ext.generic.model.GenericView"/>
+                        categories="fulltext">
+                </driver>
+                <driver
+                <driver
+                    class="io.snappydata.jdbc.ClientDriver"
+                    sampleURL="jdbc:avatica:remote:url=http://{host}:{port}/druid/v2/sql/avatica/"
+    </extension>
+                </driver>
+                    <file type="license" path="drivers/maxdb/LICENSE.txt" bundle="drivers.maxdb"/>
+                </driver>
+                    sampleURL="jdbc:hive2://{host}[:{port}][/{database}]"
+                </driver>
+                    categories="sql">
+                    <parameter name="legacy-sql-dialect" value="true"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+                    webURL="https://www.actian.com/databases/ingres/"
+                <column id="INDEX_QUALIFIER" index="5"/>
+
+                    <parameter name="omit-catalog" value="true"/>
+                    sampleURL="jdbc:snappydata://{host}[:{port}]/"
+                    <file type="jar" path="maven:/com.ingres.jdbc:iijdbc:RELEASE[12.0-4.4.4]" bundle="!drivers.ingres"/>
+                    <file type="jar" path="maven:/org.apache.solr:solr-solrj:RELEASE"/>
+                        webURL="https://docs.dremio.com/drivers/dremio-jdbc-driver.html"
+                <driver id="azure_databricks"/>
+                        databaseDocumentationSuffixURL="Database-driver-MySQL"
+                        id="cql-ce"
+                <!-- Dremio -->
+                    <parameter name="supports-truncate" value="true"/>
+            <type kind="DATETIME"/>
+                <column id="TYPE_NAME" index="7"/>
+                <column id="PROCEDURE_NAME" index="3"/>
+                <driver
+                    <file type="jar" path="drivers/cache" bundle="drivers.cache"/>
+                    sampleURL="jdbc:TAOS-WS://{host}:{port}/[{db}]"
+                <driver
+                    id="virtuoso_opensource"
+                <driver
+                        class="sun.jdbc.odbc.JdbcOdbcDriver"
+                <!-- Jennifer -->
+                    icon="icons/netezza_icon.png"
+                    <property id="omit-catalog-name" label="Omit catalog name in queries" description="Omit catalog name in generated queries" type="boolean" required="false" defaultValue="false"/>
+                <column id="CHAR_OCTET_LENGTH" index="17"/>
+                        supportsDistributedMode="false"
+                    supportedConfigurationTypes="MANUAL,URL"
+                        databaseDocumentationSuffixURL="Database-driver-Salesforce"
+                <items label="#catalog" path="catalog" property="catalogList" icon="#database" optional="true">
+                    icon="icons/tdengine_icon.png"
+                    <property id="supports-struct-cache" label="Driver supports structure cache" description="Driver supports structure cache reading. Enables schema columns, keys, etc." type="boolean" required="false" defaultValue="true"/>
+                <!-- TDengine Cloud -->
+                        defaultPort="50000"
+                    defaultPort="8080"
+                    <file type="license" path="licenses/external/mit.txt"/>
+                        webURL="https://jdbc.postgresql.org/"
+                    <file type="jar" path="https://github.com/TIBCOSoftware/snappydata/releases/download/v1.3.0/snappydata-jdbc_2.11-1.3.0.jar"/>
+            <drivers managable="true">
+                        <folder type="org.jkiss.dbeaver.ext.generic.model.GenericSynonym" label="%tree.synonyms.node.name" icon="#synonyms" description="Synonyms" visibleIf="object.dataSource.metaModel.supportsSynonyms(object.dataSource)">
+                    label="Apache Kylin"
+                    <property name="suppressHeaders" value="false"/>
+                    <parameter name="supports-truncate" value="false"/>
+                    <file type="jar" path="maven:/com.qubole:jdbc:RELEASE"/>
+                    <file type="jar" path="maven:/net.sourceforge.csvjdbc:csvjdbc:RELEASE" bundle="!drivers.csvjdbc"/>
+                    defaultPort="II7"
+                    <parameter name="supports-limits" value="true"/>
+    <extension-point id="org.jkiss.dbeaver.generic.meta" name="Generic meta model retrieval" schema="schema/org.jkiss.dbeaver.generic.meta.exsd"/>
+                    iconBig="icons/gemfire_icon_big.png"
+                    <property id="supports-catalog-selection" label="Driver can change default catalog" description="Driver does support catalog change" type="boolean" required="false" defaultValue="true"/>;
+                    <parameter name="active-entity-type" value="schema"/>
+                    id="qubole_jdbc"
+                    <parameter name="supports-multi-insert" value="true"/>
+                    description="MACHBASE standard driver"
+                </items>
+                    <parameter name="driver-properties" value="charset,columnTypes,commentChar,cryptoFilterClassName,cryptoFilterParameterTypes,cryptoFilterParameters,defectiveHeaders,fileExtension,fileTailParts,fileTailPattern,fileTailPrepend,fixedWidths,function.NAME,headerline,ignoreNonParseableLines,indexedFiles,isHeaderFixedWidth,missingValue,quotechar,quoteStyle,locale,separator,skipLeadingLines,skipLeadingDataLines,suppressHeaders,timestampFormat, timeFormat, dateFormat,timeZoneName,trimHeaders,trimValues"/>
+                    <parameter name="alter-table-add-column" value="true"/>
+                        categories="fulltext">
+
+                    defaultPort="5656"
+                    <property id="native-format-timestamp" label="Timestamp format" description="Format pattern for timestamp columns" type="string" required="false"/>
+                <driver
+    </extension>
+                    id="teradata"
+                    iconBig="icons/nuodb_icon_big.png"
+                    webURL="http://www.intersystems.com/cache/"
+                        iconBig="icons/salesforce_icon_big.svg"
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericForeignKeyManager"    objectType="org.jkiss.dbeaver.ext.generic.model.GenericTableForeignKey"/>
+                dialect="generic">
+                <driver
+                    categories="sql">
+                    defaultPort="6041"
+                    icon="icons/mimer_icon.png"
+
+                    <parameter name="supports-references" value="false"/>
+                            </items>
+                    defaultPort="7200"
+                            <items label="%tree.tview.node.name" path="view" property="views" icon="#view">
+                        class="com.ibm.db2.jcc.DB2Driver"
+                <column id="IS_AUTOINCREMENT" index="23"/>
+                <column id="SELF_REFERENCING_COL_NAME" index="9"/>
+
+                        supportedConfigurationTypes="MANUAL,URL"
+                    <file type="jar" path="drivers/apache_spark" bundle="drivers.apache_spark"/>
+
+                    sampleURL="jdbc:trino://{host}:{port}[/{database}]"
+                        description="OpenEdge Progress JDBC driver"
+                    icon="icons/intersystems_icon.png"
+
+                        iconBig="icons/omnisci_icon_big.png"
+                    <parameter name="query-set-active-db" value="SET CURRENT_SCHEMA = ?"/>
+                    <parameter name="schema-filters-enabled" value="false"/>
+                <column id="REF_GENERATION" index="10"/>
+                <column id="REMARKS" index="4"/>
+                    <parameter name="supports-indexes" value="false"/>
+
+                We leave just IDs to allow correct driver migration.
+                    label="Virtuoso"
+                                    <items label="%tree.uni_key.node.name" path="uniqueKey" property="constraints" icon="#unique-key">
+                    <parameter name="supports-truncate" value="false"/>
+                -->
+                    <property name="@dbeaver-default-resultset.column.label.ignore" value="true"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+                <column id="IS_NULLABLE" index="19"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    defaultPort="21050"
+                    class="com.dolphindb.jdbc.Driver"
+                                </items>
+                    <parameter name="active-entity-type" value="schema"/>
+                        iconBig="icons/elasticsearch_icon_big.png"
+                </driver>
+                <driver
+                    <file type="jar" path="drivers/intersystem" bundle="drivers.intersystem"/>
+
+                        label="Salesforce Data 360 (Legacy)"
+                    <file type="jar" path="maven:/io.trino:trino-jdbc:RELEASE" bundle="!drivers.trino"/>
+                        label="ODBC - Legacy"
+                        sampleURL="jdbc:ignite:thin://{host}[:{port}][;schema={database}]"
+                    categories="sql">
+
+                    description="Facebook Presto (prestodb) JDBC driver"
+                <column id="TABLE_CAT" index="1"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+-->
+                                </folder>
+                        <folder id="databaseTrigger" type="org.jkiss.dbeaver.ext.generic.model.GenericContainerTrigger" label="%tree.triggers.node.name" icon="#triggers" description="Global triggers" visibleIf="object.dataSource.metaModel.supportsDatabaseTriggers(object.dataSource)">
+                    <property id="query-get-active-db" label="Get active database" description="Query to obtain active database name" type="string" required="false" defaultValue=""/>
+                <!-- MonetDB -->
+                    <property id="omit-single-schema" label="Omit single schema" description="Hide schema is there is only one schema on server" type="boolean" required="false" defaultValue="false"/>
+                    sampleURL="jdbc:relique:csv:{folder}"
+                        webURL="https://code.kx.com/q/interfaces/jdbc-client-for-kdb/"
+                    supportedConfigurationTypes="MANUAL,URL"
+                        iconBig="icons/solr_icon_big.png"
+                    class="com.ingres.jdbc.IngresDriver"
+                    <file type="jar" path="maven:/org.apache.derby:derbyclient:RELEASE[10.17.1.0]" bundle="!drivers.derby"/>
+                    <parameter name="query-get-active-db" value="SELECT CURRENT SCHEMA FROM SYSIBM.SYSDUMMY1"/>
+            id="generic"
+                <driver
+                    label="Machbase"
+                    categories="hadoop"
+                        webURL="https://www.mysql.com/products/connector/"
+                        class="org.apache.ignite.IgniteJdbcThinDriver"
+                    <parameter name="dual-table" value="SYSIBM.SYSDUMMY1"/>
+                    <parameter name="supports-truncate" value="false"/>
+                    <parameter name="supports-truncate" value="false"/>
+                    <replace provider="generic" driver="db2"/>
+                    categories="sql">
+                        webURL="https://www.ibm.com/software/data/db2/express/download.html"
+                                </items>
+                description="Elasticsearch datasource"
+                            </items>
+                    defaultPort="1528"
+                        icon="icons/opendistro_icon.png"
+                    anonymous="true"
+                        icon="icons/kx_icon.png"
+                    <parameter name="read-only-meta-data" value="true"/>
+                        webURL="https://docs.omnisci.com/v5.1.1/6_jdbc.html"
+                        iconBig="icons/salesforce_icon_big.svg"
+                    <file type="jar" path="drivers/apache_ignite" bundle="drivers.apache_ignite"/>
+
+                <column id="SPECIFIC_NAME" index="6"/>
+                        id="foundationdb"
+                    label="Trino"
+                <driver id="yandex_clickhouse"/>
+                <column id="NULLABLE" index="11"/>
+                class="org.jkiss.dbeaver.ext.generic.GenericDataSourceProvider"
+                    <parameter name="stored-quoted-case" value="mixed"/>
+                    id="kyuubi_hive"
+                        webURL="https://github.com/teiid/teiid"
+                        defaultPort="9200"
+                    sampleURL="jdbc:sapdb://{host}[:{port}]/{database}"
+                icon="icons/elasticsearch_icon.png"
+                                <items icon="#column" label="%tree.index_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" inline="true" navigable="false" virtual="true">
+                <!-- OrientDB -->
+                    icon="icons/informix_icon.png"
+                    <parameter name="read-only-meta-data" value="true"/>
+                        label="Db2 for LUW (Old 8.x)"
+                    defaultPort="8080"
+                <column id="REMARKS" index="12"/>
+                    icon="icons/gemfire_icon.png"
+
+                    supportedConfigurationTypes="MANUAL,URL"
+                        category="Db2"
+<!--
+                    <property id="identifier-quotes" label="Identifier quotes" description="Quotes used for escaping identifiers. Syntax is: open1:close1,open2:close2" type="string" required="false" defaultValue=""/>
+                    <parameter name="stored-quoted-case" value="lower"/>
+
+                    id="snappydata_store_client"
+                    <parameter name="read-only-meta-data" value="true"/>
+                    <parameter name="supports-references" value="false"/>
+                    iconBig="icons/calcite_icon_big.png"
+                <column id="COLUMN_NAME" index="4"/>
+                    class="com.intersystems.jdbc.IRISDriver"
+                    class="org.apache.derby.jdbc.EmbeddedDriver"
+                    <file type="jar" path="maven:/com.omnisci:omnisci-jdbc:RELEASE"/>
+                <column id="TABLE_SCHEM" index="2"/>
+                    description="Derby (Java DB) server driver"
+                    defaultPort=""
+                                        <items label="%tree.foreign_key_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+                        label="PrestoSQL"
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+
+                        label="Teiid"
+                    defaultPort=""
+                    <property id="native-format-time" label="Time format" description="Format pattern for time columns" type="string" required="false"/>
+                <driver id="aws_athena_42"/>
+                    <parameter name="omit-catalog" value="true"/>
+                    <parameter name="omit-catalog-name" value="true"/>
+                    sampleURL="jdbc:informix-sqli://{host}:{port}/{database}:INFORMIXSERVER={server}"
+                <driver
+                    webURL="https://github.com/jdbcx/jdbcx"
+                        id="neo4j_jdbc"
+                    <parameter name="legacy-sql-dialect" value="false"/>
+                    categories="sql,bigdata,hadoop">
+                                    <items label="%tree.reference.node.name" path="reference" property="references" icon="#reference" virtual="true">
+
+                                </folder>
+                    category="Hadoop"
+                    class="com.intersys.jdbc.CacheDriver"
+                    webURL="https://github.com/orientechnologies/orientdb-jdbc"
+                    supportedConfigurationTypes="MANUAL,URL"
+                        categories="sql">
+                <!-- Drivers Teasers -->
+
+                </driver>
+                    supportedConfigurationTypes="MANUAL,URL"
+                        id="apache_solrj"
+                <column id="INDEX_NAME" index="6"/>
+                    id="apache_calcite_avatica"
+                    <parameter name="query-get-active-db" value="SELECT * FROM (VALUES (current_schema))"/>
+                    <parameter name="query-set-active-db" value="DATABASE ?"/>
+                </driver>
+                    iconBig="icons/drill_icon_big.png"
+                    class="org.netezza.Driver"
+                    class="io.trino.jdbc.TrinoDriver"
+                </driver>
+                    description="Microsoft Access driver"
+                <!-- Apache Ignite -->
+                    sampleURL="jdbc:hsqldb:hsql://{host}[:{port}]/[{database}]"
+                    class="com.qubole.jdbc.jdbc41.core.QDriver"
+                    <parameter name="alter-table-add-column" value="true"/>
+                    description="CsvJdbc driver for handling CSV files. Included in DBeaver Community Edition."
+                <driver id="mssql"/>
+                        icon="icons/cubrid_icon.png"
+
+                            <items label="%tree.package.node.name" path="package" property="packages" icon="#package">
+                        sampleURL="jdbc:omnisci:{host}:{port}:{database}"
+                    iconBig="icons/derby_icon_big.png"
+                        id="salesforce_datacloud_jdbc"
+                    icon="icons/virtuoso_icon.png"
+                    <property id="omit-single-catalog" label="Omit single catalog" description="Hide catalog (database) is there is only one catalog on server" type="boolean" required="false" defaultValue="false"/>
+                    <parameter name="supports-references" value="true"/>
+                    description="Derby (Java DB) embedded driver"
+                        <folder type="org.jkiss.dbeaver.model.struct.DBSDataType" label="%tree.dataTypes.node.name" icon="#data_types" description="%tree.dataTypes.node.tip">
+                    class="com.machbase.jdbc.MachDriver"
+                    id="pervasive_jdbc"
+                        icon="icons/jennifer_icon.png"
+                <driver id="db2_iseries"/>
+                    <parameter name="read-only-meta-data" value="true"/>
+                </driver>
+                    <replace provider="generic" driver="opendistro_generic"/>
+                    icon="icons/intersystems_icon.png"
+                    webURL="https://kyuubi.apache.org/"
+                        defaultPort="31010"
+                        sampleURL="jdbc:salesforce-datacloud://{database}"
+                    <parameter name="supports-references" value="false"/>
+                <driver
+                    supportsDistributedMode="false"
+                <column id="KEY_SEQ" index="5"/>
+                    <parameter name="supports-truncate" value="false"/>
+                        webURL="https://apacheignite-sql.readme.io/docs/jdbc-driver"
+                        icon="icons/odbc_icon.png"
+                    <parameter name="use-search-string-escape" value="true"/>
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableColumn" label="%tree.columns.node.name" icon="#columns" description="View columns">
+                    <parameter name="supports-views" value="true"/>
+
+                    supportedConfigurationTypes="MANUAL,URL"
+
+                    label="Apache Spark"
+                    id="mimer"
+                <column id="DATA_TYPE" index="6"/>
+                <column id="DECIMAL_DIGITS" index="9"/>
+                                    <items label="%tree.procedure_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="parameters" navigable="false"/>
+                    webURL="http://www.machbase.com"
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.mysql/icons/mysql_icon_big.png"
+                    categories="graph">
+                    sampleURL="jdbc:IRIS://{host}:{port}/{database}"
+                    icon="icons/derby_icon.png"
+                        defaultPort="5432"
+                <!-- PrestoDB -->
+                    icon="icons/calcite_icon.png"
+                <!-- KDB - removed as it doesn't work anyway -->
+                <column id="COLUMN_SIZE" index="7"/>
+                        id="couchbase-ce"
+                    class="org.apache.kyuubi.jdbc.KyuubiHiveDriver"
+                    <file type="jar" path="maven:/javax.xml.bind:jaxb-api:RELEASE"/>
+                        label="SQream DB"
+                    description="Spark Thrift Server connector"
+                    embedded="true"
+                <!-- Qubole
+                    <parameter name="omit-type-cache" value="true"/>
+                    logoImage="icons/teradata_logo.png"
+                    <file type="license" path="https://communities.actian.com/s/supportservices/policy/policy-license-terms"/>
+                    label="InterSystems IRIS"
+                <column id="NULLABLE" index="12"/>
+                    defaultPort="10009"
+                    description="Trino JDBC driver, newer replacement for PrestoSQL"
+                    <file type="jar" path="maven:/com.openlinksw:virtjdbc4_3:RELEASE"/>
+
+                    sampleURL="jdbc:hsqldb:file:{folder}"
+                    class="org.apache.phoenix.jdbc.PhoenixDriver"
+                </driver>
+                    categories="sql">
+                    <property name="rewriteBatchedStatements" value="true"/>
+                    <file type="license" path="licenses/external/lgpl-2.1.txt"/>
+                        sampleURL="jdbc:queryService-jdbc:{database}"
+
+                <column id="RADIX" index="11"/>
+
+                    description="SAP MaxDB - The SAP Database System"
+                        id="mongo-ce"
+                    singleConnection="true"
+
+                    <parameter name="use-search-string-escape" value="true"/>
+                <column id="TABLE_CAT" index="1"/>
+                    <parameter name="supports-scroll" value="true"/>
+                    <parameter name="stored-unquoted-case" value="mixed"/>
+                        id="cubrid_jdbc"
+                        iconBig="icons/kx_icon_big.png"
+                        id="monetdb"
+                    <notAvailableDriver title="%not.available.title" description="%not.available.description" message="%driver.mongodb.reason"/>
+    </extension>
+
+                        icon="icons/ignite_icon.png"
+                    webURL="https://www.developers.net/ibmshowcase/focus/Informix"
+                    <file type="jar" path="maven:/com.salesforce.datacloud:jdbc:shaded:RELEASE" bundle="!drivers.salesforce_datacloud"/>
+                    <parameter name="query-get-active-db" value="SELECT CURRENT_SCHEMA"/>
+                <column id="COLUMN_TYPE" index="5"/>
+                    iconBig="icons/jdbcx_icon_big.png"
+                <driver
+                        defaultPort="8080"
+                        icon="icons/elasticsearch_icon.png"
+                class="org.jkiss.dbeaver.ext.generic.GenericDataSourceProvider"
+                    <property id="ddl-drop-column-short" label="Drop column short syntax" description="Use 'ALTER TABLE DROP column-name' instead of standard syntax" type="boolean" required="false" defaultValue="false"/>
+                    <parameter name="dual-table" value="SYSIBM.SYSDUMMY1"/>
+                    supportsDistributedMode="false"
+                <column id="PKTABLE_SCHEM" index="2"/>
+                        class="org.elasticsearch.xpack.sql.jdbc.EsDriver"
+                    <parameter name="active-entity-type" value="schema"/>
+                    <parameter name="omit-single-catalog" value="true"/>
+                    <parameter name="supports-multi-insert" value="true"/>
+                <driver
+                    label="Ingres"
+                    label="NuoDB"
+                    icon="icons/sap_maxdb_icon.png"
+                    <parameter name="supports-multi-insert" value="true"/>
+                    class="com.facebook.presto.jdbc.PrestoDriver"
+
+                    id="DolphinDB"
+                    <parameter name="create-url-param" value=";create=true"/>
+                </driver>
+                    <parameter name="query-get-active-db" value="select current_database()"/>
+                    categories="sql">
+                    <file type="jar" path="maven:/org.apache.derby:derbytools:RELEASE[10.17.1.0]" bundle="!drivers.derby"/>
+                    icon="icons/kyuubi_hive_icon.png"
+                    label="PrestoDB"
+                        defaultPort="31000"
+                    category="Hadoop"
+        <repository id="s3-maven-qubole-releases" name="Qubole Release Repository on S3" url="http://maven-qubole.s3-website-us-east-1.amazonaws.com/maven/release">
+                </driver>
+                    <property id="read-only-data" label="Driver cannot modify data" description="Driver does not support data (e.g. in table) editing." type="boolean" required="false" defaultValue="false"/>
+                <column id="SPECIFIC_NAME" index="20"/>
+                        description="Community Presto (prestosql) JDBC driver, use Trino for newer releases"
+                        icon="icons/sqream_icon.png"
+                        iconBig="icons/neo4j_icon_big.png"
+                    <parameter name="use-search-string-escape" value="false"/>
+                <driver
+                    supportedConfigurationTypes="MANUAL,URL"
+                <driver
+                    iconBig="icons/pervasive_icon_big@2x.png"
+                        webURL="https://documentation.progress.com/output/ua/OpenEdge_latest/dmsdv/connecting-from-a-java-application-using-a-url.html#"
+
+                <column id="TYPE_CAT" index="6"/>
+                    iconBig="icons/trino_icon_big.png"
+
+                    singleConnection="true">
+
+
+                    label="Cloudera Impala"
+                    supportsDistributedMode="false"
+                    webURL="http://hsqldb.org/"
+                </driver>
+                    iconBig="icons/phoenix_icon_big.png"
+                    label="CSV Basic"
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    webURL="http://www.intersystems.com/iris/"
+                    <property id="legacy-sql-dialect" label="Use legacy SQL dialect for DDL" description="Use legacy SQL dialect for DDL" type="boolean" required="false" defaultValue="false"/>
+                    <parameter name="supports-truncate" value="false"/>
+                <driver
+                    description="IBM Informix Dynamic Server"
+
+                <propertyGroup label="Formatting" description="SQL values formats">
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericUniqueKey" label="%tree.uni_keys.node.name" icon="#constraints" description="%tree.uni_keys.node.tip" visibleIf="!object.view &amp;&amp; (object.dataSource.info.supportsReferentialIntegrity() || object.container.dataSource.metaModel.supportsUniqueKeys())">
+            </drivers>
+                    supportedConfigurationTypes="MANUAL,URL"
+                        iconBig="icons/mongodb_icon_big.png"
+                    icon="icons/hsqldb_icon.png"
+                <driver
+            </drivers>
+        </meta>
+                <column id="COLUMN_NAME" index="4"/>
+                    <parameter name="read-only-data" value="true"/>
+                    sampleURL="jdbc:machbase://{host}/mhdb"
+                </driver>
+                    iconBig="icons/tdengine_icon_big.png"
+                    label="CrateDB (Legacy)"
+            <driver-properties>
+                    <file type="jar" path="drivers/elasticsearch" bundle="drivers.elasticsearch"/>
+                    label="DBF"
+                </driver>
+                    <parameter name="omit-catalog" value="false"/>
+                    <property id="script-delimiter-after-query" label="Use script delimiter after query" description="Keep SQL script delimiter after each SQL query" type="boolean" required="false" defaultValue="false"/>
+                    <property id="string-escape-char" label="String escape character" description="Character used to escape special symbols in strings" type="string" required="false" defaultValue=""/>
+
+                    <!--<file type="jar" path="https://github.com/SnappyDataInc/snappydata/releases/download/v0.8/snappydata-client-1.5.4.jar"/>-->
+                    label="Qubole"
+                                        <items label="%tree.reference_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true" virtual="true">
+        </provider>
+                                    <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger"/>
+                </driver>
+        </dialect>
+                        label="PostgreSQL (Old)"
+                    singleConnection="true">
+                    label="Pervasive SQL"
+                    <parameter name="supports-table-constraints" value="false"/>
+                    class="io.crate.client.jdbc.CrateDriver"
+                    icon="icons/drill_icon.png"
+                    iconBig="icons/dolphindb_icon_big.png"
+                    <property id="script-delimiter" label="Script delimiter" description="Literal for SQL queries separation in scripts" type="string" required="false" defaultValue=";"/>
+                    id="trino_jdbc"
+                    <parameter name="string-escape-char" value="\"/>
+                <driver
+    </extension>
+                    class="com.teradata.jdbc.TeraDriver"
+                    <parameter name="supports-table-constraints" value="true"/>
+
+                    categories="sql,analytic">
+                <column id="SQL_DATETIME_SUB" index="16"/>
+                        iconBig="icons/jennifer_icon_big.png"
+                <column id="ORDINAL_POSITION" index="17"/>
+                <column id="TABLE_SCHEM" index="1"/>
+                        label="Couchbase"
+                <column id="TYPE_SCHEM" index="7"/>
+                    defaultPort="443"
+                    <file type="jar" path="maven:/net.sf.ucanaccess:ucanaccess:RELEASE"/>
+                <driver
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.postgresql/icons/postgresql_icon_big.png"
+                    <property id="ddl-drop-column-brackets" label="Drop column - use brackets" description="Use 'ALTER TABLE DROP (column-name)'" type="boolean" required="false" defaultValue="false"/>
+                <!-- Real drivers -->
+                <driver
+                    description="TDengine driver"
+                    <parameter name="query-set-active-db" value="SET CURRENT SCHEMA = ?"/>
+                    databaseDocumentationSuffixURL="Database-driver-Netezza"
+                    <parameter name="create-url-param" value=";create=true"/>
+
+                </propertyGroup>
+                    icon="icons/snappy_icon.png"
+                    <parameter name="ddl-drop-column-short" value="false"/>
+
+
+                    <parameter name="supports-scroll" value="true"/>
+                <driver
+            </object>
+                    label="JDBCX"
+                    <parameter name="supports-references" value="false"/>
+        </repository>
+                        webURL="https://www.elastic.co/guide/en/elasticsearch/reference/current/sql-jdbc.html"
+
+                    anonymous="true"
+                    <parameter name="split-procedures-and-functions" value="true"/>
+                icon="icons/opendistro_icon.png"
+                    iconBig="icons/opensearch_icon_big.png"
+                    <parameter name="supports-struct-cache" value="true"/>
+                                <items label="%tree.function_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="parameters" navigable="false"/>
+                    class="com.sap.dbtech.jdbc.DriverSapDB"
+                    <file type="jar" path="maven:/com.teradata.jdbc:terajdbc:RELEASE" bundle="!drivers.teradata"/>
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericTableColumnManager"   objectType="org.jkiss.dbeaver.ext.generic.model.GenericTableColumn"/>
+                    <notAvailableDriver title="%not.available.title" description="%not.available.description" message="%driver.neo4j.reason"/>
+                        databaseDocumentationSuffixURL="Database-driver-IBM-Db2"
+                    description="InterSystems Cache"
+                    description="NuoDB"
+
+                        id="mysql3"
+            </object>
+                <driver
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    <file type="jar" path="https://github.com/forcedotcom/Salesforce-CDP-jdbc/releases/download/release_2024.4B/Salesforce-cdp-1.19.4.jar"/>
+                    <file type="license" path="drivers/elasticsearch/LICENSE.txt" bundle="drivers.elasticsearch"/>
+                        description="OmniSci (formerly MapD) SQL Analytics Engine"
+            <object type="schema">
+                    <parameter name="supports-indexes" value="false"/>
+                        label="OmniSci (formerly MapD)"
+                    <file type="jar" path="https://github.com/jennifersoft/jennifer5-jdbc-driver/archive/refs/tags/v5.5.3.2.zip"/>
+                    <file type="jar" path="drivers/postgresql" bundle="drivers.postgresql"/>
+                    <parameter name="query-get-active-db" value="SELECT * FROM (VALUES (current_schema))"/>
+                <driver
+                    sampleURL="jdbc:derby://{host}:{port}/{database};create=false"
+                        categories="sql">
+                </driver>
+                    iconBig="icons/snappy_icon_big.png"
+                    <property id="supports-embedded-database-creation" label="Can create database from scratch" description="Driver supports creation of the database structure from scratch.\nControls whether the button 'Create' is visible on the connection page.\nUsed by some embedded databases" type="boolean" required="false" defaultValue="true"/>
+                        categories="fulltext">
+                        sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+                    category="Hadoop"
+                    description="Pivotal GemfireXD"
+                <column id="TABLE_NAME" index="3"/>
+                        id="salesforce_datacloud"
+                <driver
+                <column id="TYPE_NAME" index="6"/>
+                        defaultPort="3108"
+                    id="opensearch"
+                        defaultPort="8001"
+                <driver id="aws_redshift"/>
+                    embedded="true"
+
+                    <parameter name="supports-truncate" value="false"/>
+                    <property id="schema-filters-enabled" label="Use schema filters" description="Use JDBC schema filters when database doesn't support catalogs. Otherwise just read all database schemas and filter on client-side." type="boolean" required="false" defaultValue="false"/>
+    <extension point="org.jkiss.dbeaver.mavenRepository">
+                    defaultPort="9001"
+                    <file type="jar" path="drivers/informix" bundle="drivers.informix"/>
+                        description="Driver for MongoDB"
+                <driver
+                        databaseDocumentationSuffixURL="Database-driver-Salesforce"
+                <driver
+                        sampleURL="jdbc:CUBRID:{host}:{port}:{database}:::"
+                <column id="PROCEDURE_NAME" index="3"/>
+                    id="ingres"
+                    supportedConfigurationTypes="MANUAL,URL"
+        <meta id="indexed" class="org.jkiss.dbeaver.ext.generic.model.meta.GenericMetaModel">
+                    <replace provider="generic" driver="es_generic"/>
+                        description="MonetDB JDBC driver"
+                These drivers are replaced in specific extensions.
+
+                </driver>
+                    id="jdbcx"
+                    <property id="alter-table-add-column" label="Add COLUMN keyword in alter table query" description="Add COLUMN keyword after keyword ADD and before column name in alter table query" type="boolean" required="false" defaultValue="false"/>
+
+                    supportedConfigurationTypes="MANUAL,URL"
+                    <file type="jar" path="drivers/maxdb" bundle="drivers.maxdb"/>
+                    <parameter name="alter-table-add-column" value="false"/>
+                    categories="timeseries">
+                <!-- DolphinDB -->
+                        categories="graph">
+                    description="OpenSearch open source search and analytics suite (ex ElasticSearch)"
+                                </folder>
+                    webURL="https://www.cloudera.com/downloads/connectors/impala/jdbc/2-5-41.html"
+                    <file type="jar" path="maven:/com.amazon.opendistroforelasticsearch.client:opendistro-sql-jdbc:1.1.0.0"/>
+                    label="HSQL Embedded"
+                    supportedConfigurationTypes="MANUAL,URL"
+
+                    webURL="http://csvjdbc.sourceforge.net/"
+                </driver>
+                    embedded="true"
+                        description="CUBRID JDBC driver"
+                    logoImage="icons/virtuoso_logo.png"
+                        </folder>
+                    iconBig="icons/derby_icon_big.png"
+                    <parameter name="supports-references" value="false"/>
+            <object type="table">
+                 </driver>
+                    <parameter name="supports-references" value="false"/>
+
+                    class="com.pervasive.jdbc.v2.Driver"
+                <column id="TABLE_SCHEM" index="2"/>
+                    <file type="jar" path="maven:/com.orientechnologies:orientdb-jdbc:RELEASE"/>
+                    webURL="http://www.tdengine.com"
+                    <parameter name="supports-indexes" value="false"/>
+                <column id="COLUMN_NAME" index="4"/>
+                    <property name="fileExtension" value=".dbf"/>
+                <driver id="db2"/>
+                        icon="icons/salesforce_icon.svg"
+                    <parameter name="query-get-active-db" value="SELECT DATABASE"/>
+                    supportedConfigurationTypes="MANUAL"
+                    <file type="jar" path="maven:/org.apache.derby:derby:RELEASE[10.17.1.0]" bundle="!drivers.derby"/>
+
+                    <parameter name="query-set-active-db" value="SET SCHEMA ?"/>
+                                <folder label="%tree.references.node.name" icon="#references" description="%tree.references.node.tip" visibleIf="!object.view &amp;&amp; object.dataSource.info.supportsReferentialIntegrity()" virtual="true">
+                        defaultPort="443"
+                        iconBig="icons/openedge_icon_big.png"
+                    description="InterSystems IRIS."
+                        supportedConfigurationTypes="MANUAL,URL"
+        <datasource
+                <column id="COLUMN_NAME" index="9"/>
+                        description="Driver for Neo4j"
+                        id="openedge_generic"
+                </driver>
+                <driver
+                    supportsDistributedMode="false"
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                </driver>
+                <driver
+                            <items label="%tree.sequence.node.name" path="sequence" property="sequences" icon="#sequence"/>
+                        description="AWS Timestream Driver"
+                    <parameter name="supports-multiple-results" value="false"/>
+                    webURL="https://docs.actian.com/psql/PSQLv11/jdbc/wwhelp/wwhimpl/common/html/wwhelp.htm#href=jdbc_gd.1.3.html&amp;single=true"
+                    categories="sql">
+                    <parameter name="supports-references" value="false"/>
+                    defaultPort="5480"
+                </propertyGroup>
+                        defaultPort="15432"
+                </driver>
+                    <parameter name="read-only-meta-data" value="false"/>
+                            <items label="%tree.synonym.node.name" path="synonym" property="synonyms" icon="#synonym"/>
+                    categories="codeql,graphql,prompt,prql,rest,script,shell,sql"
+                    <property id="dual-table" label="Dual table name" description="Name of dummy 'DUAL' table which is used for expressions evaluation" type="string" required="false" defaultValue=""/>
+                    description="HyperSQL DataBase - Embedded Mode"
+                    <file type="jar" path="maven:/com.taosdata.jdbc:taos-jdbcdriver:RELEASE"/>
+
+                    <file type="jar" path="drivers/ingres" bundle="drivers.ingres"/>
+                    class="org.apache.hive.jdbc.HiveDriver"
+                </driver>
+                        </folder>
+                        label="Timestream"
+                    <parameter name="identifier-quotes" value="`:`"/>
+        <datasource
+                    <property id="create-url-param" label="Create database parameter" description="Database create URL parameter" type="string" required="false" defaultValue=""/>
+                    sampleURL="jdbc:orient:remote:{host}/{database}"
+                </driver>
+                <column id="FKTABLE_NAME" index="7"/>
+                </driver>
+                </driver>
+                <column id="LENGTH" index="9"/>
+                    defaultPort="1360"
+                        sampleURL="jdbc:datadirect:openedge://{host}:{port};databaseName={database}"
+                    id="cratedb"
+                    <parameter name="stored-quoted-case" value="lower"/>
+                        description="%driver.apache.ignite.description"
+                    id="spark_hive"
+                    class="com.taosdata.jdbc.ws.WebSocketDriver"
+                    sampleURL="jdbc:com.nuodb://{host}[:{port}]/[{database}]"
+                        description="Couchbase Driver"
+                <column id="FKTABLE_SCHEM" index="6"/>
+                        id="timestream-ce"
+
+
+                <driver
+                                        </items>
+                    id="msaccess_ucanaccess"
+                    <file type="jar" path="maven:/net.sourceforge.csvjdbc:csvjdbc:RELEASE" bundle="!drivers.csvjdbc"/>
+                    <parameter name="supports-references" value="false"/>
+                        id="teiid"
+                dialect="generic">
+                    <parameter name="read-only-data" value="true"/>
+                    description="CsvJdbc driver for DBF files"
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+                <propertyGroup label="DDL" description="DDL generation options">
+                    iconBig="icons/intersystems_icon_big.png"
+                        supportsDistributedMode="false"
+                    <property name="fullyMaterializeInputStreams" value="true"/>
+                    <file type="jar" path="drivers/apache_calcite" bundle="drivers.apache_calcite"/>
+        </datasource>
+                    iconBig="icons/orientdb_icon_big.png"
+                                <folder label="%tree.procedure_columns.node.name" icon="#columns" description="Procedure parameters">
+            </object>
+                    <parameter name="script-delimiter-after-query" value="false"/>
+                        label="Neo4j"
+                <driver
+            <!-- Date/time value handler - needed to provide native datetime value formatting. Formatting itself provided in drivers configuration. -->
+                <!-- SQream DB -->
+                parent="generic"
+                        class="com.foundationdb.sql.jdbc.Driver"
+                    <property name="charset" value="UTF-8"/>
+                <driver id="sap_hana"/>
+                    <parameter name="supports-stored-code" value="false"/>
+                <driver
+                    <file type="jar" path="maven:/org.hsqldb:hsqldb:RELEASE" bundle="!drivers.hsqldb"/>
+                    <parameter name="query-get-active-db" value="SELECT ODB_DBName FROM SysMaster:informix.SysOpenDB WHERE ODB_IsCurrent = 'Y' AND ODB_SessionID = DBINFO('sessionid')"/>
+                    webURL="http://blog.pivotal.io/tag/gemfire-xd"
+                        categories="sql">
+                parent="generic"
+                <column id="COLUMN_DEF" index="13"/>
+
+                <driver
+
+                <driver id="db2_zos"/>
+                    <property id="supports-truncate" label="Driver supports TRUNCATE operation" description="Driver supports TRUNCATE command. It is much faster than DELETE without criteria." type="boolean" required="false" defaultValue="true"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    webURL="https://jaceklaskowski.gitbooks.io/mastering-apache-spark/spark-sql-thrift-server.html"
+                </propertyGroup>
+                                <icon if="object.sharedTable" icon="#table_shared"/>
+                    anonymous="true"
+                    category="Derby"
+            description="Generic JDBC connector"
+                        categories="sql">
+                        id="salesforce-ce"
+                    categories="timeseries">
+
+                    sampleURL="jdbc:presto://{host}:{port}[/{database}]"
+                    iconBig="icons/virtuoso_icon_big.png"
+                    label="TDengine"
+                </driver>
+                        defaultPort="33000"
+                    <file type="license" path="licenses/external/lgpl-2.0.txt"/>
+                <!-- Trino, formerly PrestoSQL -->
+                        <folder id="tableTrigger" type="org.jkiss.dbeaver.ext.generic.model.GenericTableTrigger" label="%tree.tableTriggers.node.name" icon="#triggers" description="%tree.tableTriggers.node.tip" visibleIf="object.dataSource.metaModel.supportsTriggers(object.dataSource)">
+                <column id="SCOPE_CATALOG" index="19"/>
+                        icon="icons/solr_icon.png"
+                        class="com.amazon.opendistroforelasticsearch.jdbc.Driver"
+                    <parameter name="supports-scroll" value="true"/>
+                <!-- OmniSci MapD -->
+                        webURL="https://prestosql.io/"
+
+                    <file type="jar" path="drivers/trino" bundle="drivers.trino"/>
+                        label="Open Distro Elasticsearch"
+                        </folder>
+                    <parameter name="omit-type-cache" value="false"/>
+                    <notAvailableDriver title="%not.available.title" description="%not.available.description" message="%driver.redis.reason"/>
+                </driver>
+                    description="Netezza database driver"
+                    description="CrateDB JDBC driver"
+                <driver
+                        supportsDistributedMode="false"
+                    categories="sql,object">
+                    <property  name="varcharAsString" value="true"/>
+                    <file type="jar" path="drivers/csvjdbc" bundle="drivers.csvjdbc"/>
+            icon="#database_icon_default"
+                    iconBig="icons/hsqldb_icon_big.png"
+                        supportedConfigurationTypes="MANUAL,URL"
+                        id="jennifer_jdbc"
+            <datasource id="generic"/>
+                <column id="KEY_SEQ" index="9"/>
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.postgresql/icons/postgresql_icon.png"
+
+                    id="netezza"
+                    sampleURL="jdbc:pervasive://{host}:{port}/{database}?transport=tcp"
+                    <parameter name="omit-catalog" value="true"/>
+                    iconBig="icons/impala_icon_big.png"
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericProcedureManager"     objectType="org.jkiss.dbeaver.ext.generic.model.GenericProcedure"/>
+                    <parameter name="supports-indexes" value="false"/>
+                <column id="TABLE_NAME" index="3"/>
+                        iconBig="icons/odbc_icon_big.png"
+                    icon="icons/qubole_icon.png"
+
+                        iconBig="icons/timestream_pro_icon.png"
+                                    <items label="%tree.procedure_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="parameters" navigable="false" inline="true"/>
+                    <parameter name="supports-select-count" value="false"/>
+            <drivers managable="true">
+    </extension>
+                <driver id="vertica"/>
+                        categories="nosql,bigdata,keyvalue">
+                        description="DB2 LUW driver for older DB2 versions (8.x)">
+                    <file type="jar" path="maven:/com.ibm.db2:jcc:RELEASE[11.5.9.0]" bundle="!drivers.db2"/>
+
+                        categories="sql,analytic,columns">
+                    supportedConfigurationTypes="MANUAL,URL"
+                    <parameter name="supports-truncate" value="false"/>
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.db2/icons/db2_icon.png"
+                    <parameter name="stored-unquoted-case" value="mixed"/>
+                    categories="hadoop">
+                        class="org.teiid.jdbc.TeiidDriver"
+
+                    <parameter name="use-search-string-escape" value="true"/>
+                    <property id="all-objects-pattern" label="All Objects Pattern" description="SQL pattern for all metadata objects" type="string" required="false" defaultValue="%" validValues="null,%"/>
+                        id="open_distro_elastic_search_jdbc"
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                <!-- Virtuoso  -->
+                    sampleURL="jdbc:kylin://{host}:{port}/{database}"
+                    iconBig="icons/cratedb_icon_big.png"
+                    propagateDriverProperties="true">
+                </driver>
+                    sampleURL="crate://{host}[:{port}]/"
+                    <property name="quotechar" value="&quot;"/>
+
+                    category="Hadoop"
+                                        <items label="%tree.uni_key.columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+                        label="KDB+"
+                    <parameter name="split-procedures-and-functions" value="false"/>
+                        iconBig="icons/cubrid_icon_big.png"
+                    webURL="http://www.nuodb.com/"
+                    supportsDistributedMode="false"
+                    categories="hadoop"
+                </driver>
+                </driver>
+                    categories="sql,analytic">
+                label="Elasticsearch"
+                    <file type="jar" path="maven:/io.snappydata:gemfirexd-client:RELEASE"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    iconBig="icons/hsqldb_icon_big.png"
+                    icon="icons/apache_icon.png"
+                    category="Flat files"
+                    id="machbase"
+
+                        supportsDistributedMode="false"
+                    defaultPort="2181"
+                 </driver>
+                <!-- Solr -->
+                        logoImage="icons/salesforce_logo.svg"
+                </driver>
+                <driver
+                        </folder>
+                description="Opendistro datasource"
+                    webURL="https://snappydatainc.github.io/snappydata/"
+                        webURL="https://github.com/forcedotcom/Salesforce-CDP-jdbc"
+                    class="com.cloudera.impala.jdbc41.Driver"
+                <propertyGroup label="Queries" description="Custom driver queries">
+                    <property id="supports-indexes" label="Driver supports indexes" description="Driver supports table indexes" type="boolean" required="false" defaultValue="true"/>
+                    description="TDengine Cloud driver"
+                    <parameter name="supports-views" value="false"/>
+                    <parameter name="supports-table-constraints" value="false"/>
+                </driver>
+                                    <items label="%tree.index.node.name" path="index" property="indexes" icon="#index">
+                        description="Teiid JDBC Driver.">
+                    icon="icons/csv_icon.png"
+                    <file type="jar" path="maven:/com.nuodb.jdbc:nuodb-jdbc:RELEASE"/>
+                    webURL=""
+                    category="SAP"
+        </datasource>
+                    category="Hadoop"
+                    <parameter name="query-set-active-db" value="DATABASE &quot;?&quot;"/>
+            <scope group="io.crate"/>
+                <column id="DEFERRABILITY" index="14"/>
+                        iconBig="icons/couchbase_pro_icon.png"
+                        sampleURL="jdbc:es://{host}:{port}/"
+                    id="derby"
+                    webURL="https://www.sdn.sap.com/irj/sdn/maxdb"
+                        iconBig="icons/cassandra_icon_big.png"
+
+                    <parameter name="use-search-string-escape" value="true"/>
+
+                    iconBig="icons/csv_icon_big.png"
+                </driver>
+                </driver>
+                    supportedConfigurationTypes="MANUAL,URL"
+                    sampleURL="jdbc:impala://{host}:{port}/{database}"
+                        </folder>
+                    <property id="use-search-string-escape" label="Escape LIKE masks in search queries" description="Use to access JDBC metadata API. Enabled by default but should be disabled for some (broken) drivers" type="boolean" required="false" defaultValue="false"/>
+                    singleConnection="true">
+                    icon="icons/cratedb_icon.png"
+                    label="Teradata"
+                    label="HSQL Server"
+                    category="HSQLDB"
+            <object type="catalog">
+                <driver
+                <!-- Teradata -->
+                    <file type="license" path="drivers/teradata/LICENSE.txt" bundle="drivers.teradata"/>
+                    <file type="jar" path="maven:/monetdb:monetdb-jdbc:RELEASE"/>
+                        webURL="https://www.cubrid.org/"
+                        class="io.prestosql.jdbc.PrestoDriver"
+                    <property id="supports-select-count" label="Driver supports SELECT count(*) clause" description="Driver supports SELECT count(*) clause" type="boolean" required="false" defaultValue="true"/>
+                        class="com.mysql.jdbc.Driver"
+                    <file type="jar" path="repo:/drivers/mimer/mimjdbc3.jar"/>
+            <object type="primary-key">
+                <driver
+                    <parameter name="query-get-active-db" value="SELECT CURRENT_SCHEMA FROM DUAL"/>
+                    <parameter name="supports-schema-selection" value="true"/>
+            <tree path="generic" label="Generic data source" supportsEntityMerge="true">
+                        id="db2_luw_old"
+                    <file type="jar" path="maven:/org.apache.hadoop:hadoop-core:RELEASE" bundle="!drivers.apache_spark"/>
+                <driver
+                    label="OrientDB"
+                <column id="IS_GENERATEDCOLUMN" index="24"/>
+                    class="org.apache.kylin.jdbc.Driver"
+                    id="hsqldb_server"
+                    description="Mimer SQL TCP/IP driver"
+                        label="Salesforce Data 360"
+                    <parameter name="read-only-meta-data" value="true"/>
+                    <parameter name="read-only-meta-data" value="true"/>
+                        class="org.postgresql.Driver"
+                    propertiesURL="http://csvjdbc.sourceforge.net/doc.html"
+                    <file type="jar" path="maven:/com.foundationdb:fdb-sql-layer-jdbc:RELEASE"/>
+            </object>
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericIndexManager"         objectType="org.jkiss.dbeaver.ext.generic.model.GenericTableIndex"/>
+                    <file type="jar" path="maven:/io.github.jdbcx:jdbcx-driver:RELEASE" load-optional-dependencies="true"/>
+
+                    <parameter name="supports-truncate" value="false"/>
+                    <parameter name="read-only-data" value="true"/>
+                </driver>
+                    <property id="active-entity-type" label="Active object type" description="Type of selectable object (schema, catalog)" type="string" required="false" defaultValue="" validValues="catalog,schema"/>
+                    <parameter name="use-search-string-escape" value="true"/>
+                    <parameter name="omit-catalog-name" value="false"/>
+                                    </items>
+                    <parameter name="query-set-active-db" value="SET search_path = &quot;?&quot;"/>
+                    <file type="license" path="drivers/db2/LICENSE.txt" bundle="drivers.db2"/>
+                            </items>
+                    webURL="http://cloud.tdengine.com"
+                    categories="hadoop"
+                    <file type="jar" path="drivers/salesforce_datacloud" bundle="drivers.salesforce_datacloud"/>
+                        label="Salesforce"
+                    sampleURL="jdbc:drill:zk={host}/{server}[;schema={database}]"
+                    <file type="jar" path="drivers/teradata" bundle="drivers.teradata"/>
+                    <file type="license" path="drivers/informix/LICENSE.txt" bundle="drivers.informix"/>
+                    label="Apache Phoenix"
+                        supportsDistributedMode="false"
+                        id="sqream_db"
+                    class="io.github.jdbcx.WrappedDriver"
+                    label="Apache Kyuubi"
+                <column id="DELETE_RULE" index="11"/>
+                <column id="PAGES" index="12"/>
+                    <file type="jar" path="maven:/org.apache.derby:derbytools:RELEASE[10.17.1.0]" bundle="!drivers.derby"/>
+                    <property id="query-set-active-db" label="Set active database" description="Query to change active database" type="string" required="false" defaultValue=""/>
+
+                        description="Elasticsearch JDBC driver"
+
+                    <file type="jar" path="maven:/org.apache.calcite.avatica:avatica-core:RELEASE[1.23.0]" bundle="!drivers.apache_calcite"/>
+                    category="Derby"
+                                        </items>
+                    <file type="jar" path="https://ftp.cubrid.org/CUBRID_Drivers/JDBC_Driver/JDBC-10.1.0.7663-cubrid.jar"/>
+                    <file type="license" path="https://raw.githubusercontent.com/nuodb/nuodb-odbc/main/LICENSE"/>
+                id="elasticsearch"
+        <!-- Elasticsearch data sources. Historically in another datasource provider but in fact generic -->
+
+                </driver>
+                                </folder>
+                    label="Derby Embedded"
+                <column id="TABLE_TYPE" index="1"/>
+                        </folder>
+                    supportedConfigurationTypes="MANUAL,URL"
+                        sampleURL="jdbc:dremio:direct={host}[:{port}][;schema={database}]"
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    <parameter name="query-set-active-db" value="SET CURRENT SCHEMA = ?"/>
+                        categories="sql">
+                    description="Apache Kylin JDBC driver"
+                </driver>
+                    id="iris"
+                <driver
+                    category="HSQLDB"
+
+                    label="MaxDB"
+                    categories="sql">
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableForeignKey" label="%tree.foreign_keys.node.name" icon="#foreign-keys" description="%tree.foreign_keys.node.tip" visibleIf="!object.view &amp;&amp; object.dataSource.info.supportsReferentialIntegrity()">
+                <driver id="h2_embedded"/>
+                        supportsDistributedMode="false"
+                        defaultDatabase="login.salesforce.com"
+                    <file type="jar" path="maven:/com.dolphindb:jdbc:RELEASE[3.00.1.0]" />
+                    supportedConfigurationTypes="MANUAL,URL"
+                        label="Apache Ignite"
+                    <parameter name="supports-truncate" value="false"/>
+                <driver id="apache_hive2"/>
+                    <file type="jar" path="drivers/hsqldb" bundle="drivers.hsqldb"/>
+                        <folder type="org.jkiss.dbeaver.ext.generic.model.GenericView" label="%tree.tviews.node.name" icon="#folder_view" description="%tree.tviews.node.tip" visibleIf="object.dataSource.metaModel.supportsViews(object.dataSource)">
+            </object>
+                        class="com.sqream.jdbc.SQDriver"
+                    <parameter name="shutdown-url-param" value=";shutdown=true"/>
+                    <property id="supports-delimiter-in-views" label="Delimiter in source view" description="Driver supports delimiter in view ddl" type="boolean" required="false" defaultValue="true"/>
+                    webURL="https://downloads.teradata.com/download/connectivity/jdbc-driver"
+                                <icon if="object.externalTable" icon="#table_external"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+                        defaultPort="3306"
+<!--                    <replace provider="generic" driver="cache"/>-->
+                    supportsDistributedMode="false"
+                        sampleURL="jdbc:fdbsql://{host}[:{port}]/{database}"
+
+                    <parameter name="supports-indexes" value="true"/>
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableColumn" label="%tree.columns.node.name" icon="#columns" description="%tree.columns.node.tip">
+                    <property id="script-delimiter-after-block" label="Use script delimiter after SQL block" description="Keep SQL script delimiter after SQL script blocks (BEGIN/END)" type="boolean" required="false" defaultValue="false"/>
+                </propertyGroup>
+                    <file type="jar" path="drivers/db2" bundle="drivers.db2"/>
+                    <file type="jar" path="repo:/drivers/dbf/dans-dbf-lib-1.0.0-beta-10.jar" bundle="!drivers.csvjdbc"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                        description="Jennifer JDBC driver"
+                        webURL="https://www.jennifersoft.com"
+                    id="informix"
+                    supportedConfigurationTypes="MANUAL,URL"
+        <datasource
+                        supportsDistributedMode="false"
+                    <file type="jar" path="maven:/com.facebook.presto:presto-jdbc:RELEASE"/>
+                    class="com.pivotal.gemfirexd.jdbc.ClientDriver"
+                    defaultPort="1972"
+                    supportedConfigurationTypes="MANUAL,URL"
+                        label="Cassandra"
+            <object type="procedure">
+                    supportedConfigurationTypes="MANUAL,URL"
+                </driver>
+                        iconBig="icons/opendistro_icon_big.png"
+                <!-- Cloudera -->
+                </driver>
+
+                    class="org.apache.calcite.avatica.remote.Driver"
+                        webURL="https://opendistro.github.io/for-elasticsearch-docs/docs/sql/jdbc/"
+        </datasource>
+                    webURL="http://ucanaccess.sourceforge.net/site.html"
+
+                    <parameter name="active-entity-type" value="schema"/>
+                    <notAvailableDriver title="%not.available.title" description="%not.available.description" message="%driver.cassandra.reason"/>
+                    label="TDengine Cloud"
+                <!-- Apache Druid / Avatica Calcite -->
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                        id="omnisci_mapd"
+                    <file type="jar" path="maven:/org.apache.derby:derbyshared:RELEASE[10.17.1.0]" bundle="!drivers.derby"/>
+                    sampleURL="jdbc:ingres://{host}:{port}/{database}"
+                    id="hsqldb_embedded"
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                <column id="TABLE_CAT" index="1"/>
+                <driver
+                <driver id="postgresql"/>
+
+                    <file type="jar" path="repo:/drivers/cache/CacheDB.jar" bundle="!drivers.cache"/>
+
+                </driver>
+                    <property name="connectionTimeout" value="20"/>
+                    <property id="supports-stored-code" label="Driver supports stored code" description="Whether this driver supports stored code (procedures, functions, packages, etc)" type="boolean" required="false" defaultValue="true"/>
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericTriggerManager"       objectType="org.jkiss.dbeaver.ext.generic.model.GenericTrigger"/>
+
+                    <parameter name="read-only-data" value="true"/>
+                        <folder type="org.jkiss.dbeaver.ext.generic.model.GenericSequence" label="%tree.sequences.node.name" icon="#sequences" description="%tree.sequences.node.tip" visibleIf="object.dataSource.metaModel.supportsSequences(object.dataSource)">
+                                    </items>
+<?eclipse version="3.2"?>
+                    defaultPort="1972"
+                    webURL="https://trino.io/"
+                <column id="PROCEDURE_CAT" index="1"/>
+                <driver
+                        class="jennifer.jdbc.driver.JenniferDriver"
+                        class="org.apache.solr.client.solrj.io.sql.DriverImpl"
+                        class="com.dremio.jdbc.Driver"
+                            <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger"/>
+                    sampleURL="jdbc:ucanaccess://{file}"
+                        supportedConfigurationTypes="MANUAL,URL"
+                        icon="icons/monetdb_icon.png"
+                        categories="hadoop">
+                    <property id="supports-references" label="Driver supports references" description="Driver supports table references (foreign keys)" type="boolean" required="false" defaultValue="true"/>
+                    iconBig="icons/informix_icon_big.png"
+                    class="org.apache.derby.client.ClientAutoloadedDriver"
+                <column id="SQL_DATA_TYPE" index="15"/>
+                    iconBig="icons/apache_icon_big.png"
+
+                </driver>
+                        description="KX Systems KDB JDBC driver"
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericPrimaryKeyManager"    objectType="org.jkiss.dbeaver.ext.generic.model.GenericUniqueKey"/>
+                    iconBig="icons/qubole_icon_big.png"
+                    sampleURL="jdbc:relique:csv:{folder}"
+
+                    id="cloudera_impala"
+                        description="Dremio JDBC driver"
+                <column id="TABLE_SCHEM" index="2"/>
+                <driver id="oracle"/>
+                    <property name="retrieveMessagesFromServerOnGetMessage" value="true"/>
+                <driver id="sqlite_jdbc"/>
+                    iconBig="icons/netezza_icon_big.png"
+                    categories="sql,bigdata,hadoop">
+                    category="Hadoop"
+                        iconBig="icons/dremio_icon_big.png"
+                    <file type="license" path="https://www.apache.org/licenses/LICENSE-2.0.txt" bundle="!drivers.teiid"/>
+                    categories="hadoop"
+
+
+                    <notAvailableDriver title="%not.available.title" description="%not.available.description" message="%driver.salesforce.reason"/>
+                -->
+                    webURL="https://github.com/dolphindb/jdbc"
+                            <items icon="#index" label="%tree.index.node.name" path="index" property="indexes" virtual="true">
+                <column id="PKCOLUMN_NAME" index="4"/>
+                <column id="COLUMN_DEF" index="14"/>
+                    <notAvailableDriver title="%not.available.title" description="%not.available.description" message="%driver.couchbase.reason"/>
+            <drivers managable="true">
+
+
+                    categories="sql,embedded">
+                <driver id="firebird_jaybird"/>
+                        defaultPort=""
+                    </items>
+                        description="Redis Driver"
+            <object type="procedure-column">
+                        id="redis-ce"
+                <column id="SQL_DATA_TYPE" index="14"/>
+                    <file type="jar" path="maven:/org.apache.derby:derbyshared:RELEASE[10.17.1.0]" bundle="!drivers.derby"/>
+                <driver id="sybase"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    icon="icons/trino_icon.png"
+                <column id="PROCEDURE_SCHEM" index="2"/>
+                    defaultPort="8082"
+            </drivers>
+                    icon="icons/nuodb_icon.png"
+                    <property id="supports-table-constraints" label="Driver supports constraints" description="Driver supports table constraints (primary keys)" type="boolean" required="false" defaultValue="true"/>
+                <column id="FKCOLUMN_NAME" index="8"/>
+                    <property name="serverName" value="{host}"/>
+                        id="prestosql_jdbc"
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+                                        <items label="%tree.index_columns.node.name" path="column" property="attributeReferences" icon="#column" navigable="false" inline="true">
+                    <parameter name="read-only-data" value="true"/>
+
+                <!-- PrestoSQL -->
+                        class="com.omnisci.jdbc.OmniSciDriver"
+                        defaultPort="5000"
+
+                    <parameter name="supports-references" value="false"/>
+                <driver
+                <column id="TABLE_CAT" index="1"/>
+
+                    categories="sql,embedded">
+                <column id="ORDINAL_POSITION" index="8"/>
+                    <property id="quote-reserved-words" label="Quote reserved words" description="Quote columns/table names if they conflicts with reserved SQL keywords" type="boolean" required="false" defaultValue="true"/>
+                    <os name="win32"/>
+                    <parameter name="supports-ddl-transactions" value="false"/>
+                <driver id="duckdb_jdbc"/>
+                    <property id="ping-sql" label="PING query" description="Query to check connection state" type="string" required="false" defaultValue=""/>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+            <scope group="monetdb"/>
+                <!-- TDengine -->
+                        sampleURL="jdbc:teiid:{database}@mms://{host}:{port}"
+                    description="Thin driver for Apache Phoenix HBase Database"
+                    <items label="#schema" path="schema" property="schemaList" icon="#schema" optional="true">
+                            <items label="%tree.table.node.name" path="table" property="physicalTables" icon="#table">
+                    sampleURL="jdbc:teradata://{host}/[DATABASE={database},]DBS_PORT={port}"
+                <driver
+                        defaultPort="6274"
+                <column id="TYPE_NAME" index="8"/>
+                    supportsDistributedMode="false"
+                <driver
+                    sampleURL="jdbcx:[extension:][vendor://{host}[:{port}][/{database}]]"
+                </driver>
+                    defaultPort="10000"
+                <driver
+                    <parameter name="supports-table-constraints" value="false"/>
+                </driver>
+                <driver
+                        label="FoundationDB"
+                    category="Hadoop"
+                    <property id="supports-views" label="Driver supports views" description="Driver supports table views" type="boolean" required="false" defaultValue="true"/>
+                    label="Cache"
+                    defaultPort=""
+                <column id="SOURCE_DATA_TYPE" index="22"/>
+                <driver
+                    <parameter name="supports-references" value="false"/>
+                    description="Apache Drill JDBC"
+                    description="Pivotal GemfireXD"
+                        categories="sql">
+                    webURL="http://phoenix.apache.org/"
+                            <items label="%tree.dataType.node.name" path="dataType" property="dataTypes" icon="#data_type"/>
+                <column id="ORDINAL_POSITION" index="18"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+
+                    <parameter name="query-set-active-db" value="use ?"/>
+                        </folder>
+
+
+                        sampleURL="jdbc:jennifer://{host}:{port}/"
+                    <property id="stored-quoted-case" label="Quoted string case" description="Letter capitalization of quoted strings (mixed/upper/lower)" type="string" required="false" defaultValue=""/>
+                        logoImage="icons/salesforce_logo.svg"
+                        supportsDistributedMode="false"
+                    <property name="connectTimeout" value="20"/>
+                    webURL="https://db.apache.org/"
+                    <file type="license" path="drivers/postgresql/LICENSE.txt" bundle="drivers.postgresql"/>
+                    <property name="separator" value=","/>
+                    <file type="jar" path="drivers/teiid" bundle="drivers.teiid"/>
+
+                    iconBig="icons/sap_maxdb_icon_big.png"
+                <column id="FILTER_CONDITION" index="13"/>
+                    class="org.apache.drill.jdbc.Driver"
+                        categories="analytic,hadoop,sql">
+                    <property id="read-only-meta-data" label="Driver cannot modify meta data" description="Driver does not support meta data (e.g. table or column creating) editing." type="boolean" required="false" defaultValue="false"/>
+                    webURL="https://github.com/openlink/virtuoso-opensource"
+                    <file type="license" path="drivers/hsqldb/LICENSE.txt" bundle="drivers.hsqldb"/>
+                    sampleURL="jdbc:gemfirexd://{host}[:{port}]/"
+                    <parameter name="supports-truncate" value="true"/>
+                    <parameter name="supports-indexes" value="false"/>
+                    <file type="jar" path="https://download.dremio.com/jdbc-driver/dremio-jdbc-driver-LATEST.jar" bundle="!drivers.dremio"/>
+                    class="org.hsqldb.jdbcDriver"
+                        webURL="https://sun.com"
+                    icon="icons/tdengine_icon.png"
+                        id="dremio"
+                    supportedConfigurationTypes="MANUAL,URL"
+                <column id="PK_NAME" index="13"/>
+                    <property id="native-format-date" label="Date format" description="Format pattern for date columns" type="string" required="false"/>
+                    databaseDocumentationSuffixURL="Database-driver-Teradata"
+                    icon="icons/opensearch_icon.png"
+                <driver
+                    iconBig="icons/tdengine_icon_big.png"
+                <!-- Teiid -->
+                    <file type="jar" path="maven:/org.teiid:teiid:jdbc:LATEST" bundle="!drivers.teiid" custom="true"/>
+                <driver
+            dialect="generic">
+                    <parameter name="supports-scroll" value="true"/>
+                    sampleURL="jdbc:mimer:tcp://{host}:{port}/{database}"
+                        defaultPort="50000"
+                <column id="FK_NAME" index="12"/>
+        </repository>
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.db2/icons/db2_icon_big.png"
+                        webURL="https://github.com/forcedotcom/datacloud-jdbc"
+                    categories="embedded,file">
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    <file type="jar" path="drivers/apache_phoenix" bundle="drivers.apache_phoenix"/>
+                <column id="CARDINALITY" index="11"/>
+                <!-- Legacy drivers -->
+
+                        description="Opendistro Elasticsearch JDBC driver"
+                    class="com.mimer.jdbc.Driver"
+
+                        </folder>
+                <column id="PKTABLE_NAME" index="3"/>
+                    <parameter name="omit-single-catalog" value="true"/>
+                <driver id="firebird_jaybird3"/>
+
+                    label="Mimer SQL"
+                    sampleURL="jdbc:dolphindb://{host}:{port}"
+
+                        </folder>
+                    <replace provider="generic" driver="salesforce_jdbc"/>
+                <column id="PRECISION" index="8"/>
+                    webURL="https://kylin.apache.org/docs23/howto/howto_jdbc.html"
+                <driver
+                    <file type="license" path="repo:/drivers/teradata/LICENSE.txt" bundle="!drivers.teradata"/>
+                                    </items>
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericSequenceManager"       objectType="org.jkiss.dbeaver.ext.generic.model.GenericSequence"/>
+                    defaultPort="443"
+                    description="HyperSQL DataBase - Server Mode"
+                    <property id="omit-catalog" label="Omit catalog(s)" description="Do not read and use catalog (aka database) information" type="boolean" required="false" defaultValue="false"/>
+                    description="Extended JDBC driver for dynamic multi-language queries with optional bridge server for federated datasource connectivity."
+                    supportedConfigurationTypes="MANUAL,URL"
+            <object type="table-type">
+                        iconBig="icons/teiid_icon_big.png"
+                    <parameter name="all-objects-pattern" value="%"/>
+                <!-- CUBRID -->
+                    iconBig="icons/spark_hive_icon_big.png"
+                <column id="TABLE_NAME" index="3"/>
+                <!--
+                    id="phoenix_hbase"
+                    categories="timeseries">
+                    id="sap_maxdb"
+                    sampleURL="jdbc:netezza://{host}:{port}/{database}"
+                        supportedConfigurationTypes="MANUAL,URL"
+                        iconBig="icons/redis_pro_icon.png"
+                                <items label="%tree.sub_table.node.name" optional="true" path="subtable" property="subTables" icon="#table" recursive=".." visibleIf="!object.view">
+                    description="Teradata JDBC Type 4 driver"
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip" visibleIf="object.dataSource.info.supportsIndexes()">
+        <repository id="monetdb-maven-repo" name="MonetDB Repository" url="https://clojars.org/repo/" order="20">
+                    defaultPort="8848"
+                    <file type="jar" path="https://github.com/KxSystems/kdb/raw/master/c/jdbc.jar"/>
+                </driver>
+                    webURL="http://csvjdbc.sourceforge.net/"
+                    <parameter name="read-only-meta-data" value="true"/>
+                        categories="sql">
+                    <parameter name="supports-schema-selection" value="false"/>
+                    <file type="jar" path="drivers/derby" bundle="drivers.derby"/>
+                <column id="SQL_DATETIME_SUB" index="15"/>
+                    icon="icons/derby_icon.png"
+            </object>
+                <driver
+                </driver>
+                </driver>
+                    class="org.hsqldb.jdbc.JDBCDriver"
+
+                id="GenericValueHandlerProvider"
+                    <parameter name="omit-catalog" value="true"/>
+                    <parameter name="supports-stored-code" value="false"/>
+                    <file type="jar" path="drivers/csvjdbc" bundle="drivers.csvjdbc"/>
+                </driver>
+                        webURL="https://docs.sqream.com/en/latest/guides/client_drivers/jdbc/index.html"
+        <dialect id="generic" parent="basic" class="org.jkiss.dbeaver.ext.generic.model.GenericSQLDialect" label="Generic" description="Dialect based on JDBC API information." icon="#database_icon_default" hidden="true">
+                    id="presto_jdbc"
+                    sampleURL="jdbc:derby:{folder}"
+
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    sampleURL="jdbc:opensearch://[{scheme}://][{host}][:{port}]"
+                <column id="ASC_OR_DESC" index="10"/>
+                        defaultPort="9983"
+                    <parameter name="omit-catalog" value="false"/>
+                        id="postgresql_generic"
+                    <parameter name="query-get-active-db" value="SELECT CURRENT SCHEMA FROM SYSIBM.SYSDUMMY1"/>
+                    <parameter name="supports-references" value="false"/>
+                </driver>
+                    webURL="http://developer.mimer.com/"
+                <driver
+                    <parameter name="read-only-data" value="true"/>
+                    <file type="jar" path="maven:/org.apache.kylin:kylin-jdbc:RELEASE"/>
+                        <folder type="org.jkiss.dbeaver.ext.generic.model.GenericProcedure" label="%tree.procedures.node.name" icon="#procedures" description="Procedures" visibleIf="object.dataSource.info.supportsStoredCode()">
+                    iconBig="icons/ingres_icon_big.png"
+    </extension>
+                        class="cubrid.jdbc.driver.CUBRIDDriver"
+                    class="virtuoso.jdbc4.Driver"
+                        icon="icons/openedge_icon.png"
+                        supportedConfigurationTypes="MANUAL,URL"
+                        iconBig="icons/presto_icon_big.png"
+                    <parameter name="split-procedures-and-functions" value="true"/>
+                    icon="icons/spark_hive_icon.png"
+                    sampleURL="jdbc:hive2://{host}[:{port}][/{database}]"
+                    icon="icons/jdbcx_icon.png"
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.mysql/icons/mysql_icon.png"
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableTrigger" label="%tree.triggers.node.name" icon="#triggers" description="%tree.triggers.node.tip" visibleIf="object.dataSource.metaModel.supportsTriggers(object.dataSource)">
+                        id="apache_ignite"
+                    <notAvailableDriver title="%not.available.title" description="%not.available.description" message="%driver.timestream.reason"/>
+                <column id="DATA_TYPE" index="5"/>
+            label="Generic"
+                    supportedConfigurationTypes="MANUAL,URL"
+                    defaultPort="1025"
+                <!-- Salesforce Data 360 (Legacy) -->
+                        description="Legacy Salesforce Data 360 JDBC driver"
+                    id="csvjdbc_dbf"
+                    label="DolphinDB"
+        <provider
+
+                    <parameter name="supports-truncate" value="false"/>
+                    <parameter name="quote-reserved-words" value="true"/>
+                        id="elastic_search_jdbc"
+            <object type="table-column">
+                    <parameter name="krb5.show-service" value="true"/>
+                    webURL="https://www.opensearch.org/"
+                    webURL="https://prestodb.io/"
+                        categories="analytics,sql">
+                        icon="icons/omnisci_icon.png"
+                    <replace provider="generic" driver="salesforce_jdbc"/>
+                    <file type="jar" path="maven:/org.opensearch.driver:opensearch-sql-jdbc:RELEASE[1.4.0.1]"/>
+                    <file type="jar" path="drivers/dremio" bundle="drivers.dremio"/>
+                    id="nuodb"
+                label="Generic data types provider">
+                id="open-distro-elasticsearch"
+                    webURL="https://crate.io/docs/clients/jdbc/en/latest/"
+                        supportedConfigurationTypes="MANUAL,URL"
+                    label="Netezza"
+                        id="kdb_jdbc"
+                    supportedConfigurationTypes="MANUAL,URL"
+<plugin>
+
+                        <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTable" label="%tree.tables.node.name" icon="#folder_table" description="%tree.tables.node.tip">
+                <driver
+                                        </items>
+                    description="OpenLink Virtuoso open source driver"
+                    categories="embedded,file">
+                <propertyGroup label="Parameters" description="Custom driver parameters">
+                    <property id="stored-unquoted-case" label="Unquoted string case" description="Letter capitalization of unquoted strings (mixed/upper/lower)" type="string" required="false" defaultValue=""/>
+                        supportedConfigurationTypes="MANUAL,URL"
+                    defaultPort="1533"
+                    id="derby_server"
+                        icon="icons/dremio_icon.png"
+                    icon="icons/phoenix_icon.png"
+                    <property name="portNumber" value="{port}"/>
+                <column id="PK_NAME" index="6"/>
+                </driver>
+                    embedded="true"
+                    iconBig="icons/mimer_icon_big.png"
+                        description="SQream DB - SQL Data Warehouse"
+                    <parameter name="identifier-quotes" value="[:]"/>
+                <column id="SCALE" index="10"/>
+                <column id="TABLE_CAT" index="1"/>
+                        supportedConfigurationTypes="MANUAL,URL"
+            <scope group="com.qubole"/>
+                <column id="REMARKS" index="5"/>
+                </driver>
+                    <property id="supports-scroll" label="Driver supports results scrolling" description="Driver supports resultset scrolling" type="boolean" required="false" defaultValue="false"/>
+        <manager class="org.jkiss.dbeaver.ext.generic.edit.GenericTableManager"         objectType="org.jkiss.dbeaver.ext.generic.model.GenericTable"/>
+
+
+                    <property id="supports-limits" label="Driver supports result set limit" description="Driver supports multiple result set limit (max rows)." type="boolean" required="false" defaultValue="true"/>
+                    singleConnection="true">
+                                </items>
+                        supportsDistributedMode="false"
+                </driver>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                    <parameter name="query-set-active-db" value="SET SCHEMA ?"/>
+                        categories="nosql">
+                    <parameter name="supports-embedded-database-creation" value="true"/>
+                    <property id="supports-multi-insert" label="Driver supports multi insert mode" description="Driver supports multi insert mode: INSERT VALUES(,,)(,,). Used for the multi insert data import" type="boolean" required="false" defaultValue="false"/>
+                    iconBig="icons/dbf_icon_big.png"
+                        supportsDistributedMode="false"
+                        label="MongoDB"
+                    <file type="jar" path="maven:/org.spark-project.hive:hive-jdbc:RELEASE" bundle="!drivers.apache_spark"/>
+            <object type="index">
+                    label="Apache Drill"
+                    <parameter name="supports-indexes" value="false"/>
+                    <parameter name="query-set-active-db" value="set catalog ?"/>
+                    <parameter name="supports-indexes" value="false"/>
+                <!-- Apache Kylin -->
+                    iconBig="icons/teradata_icon_big.png"
+                    <parameter name="omit-catalog-name" value="false"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+                    <property id="meta-model" label="Meta model type" description="Type of metadata reading model - standard or indexed" type="string" required="false" defaultValue="" validValues="standard,indexed"/>
+                <driver
+                    supportedConfigurationTypes="MANUAL,URL"
+                        <folder type="org.jkiss.dbeaver.model.struct.rdb.DBSTableIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip" visibleIf="object.dataSource.info.supportsIndexes()">
+                    <parameter name="supports-limits" value="true"/>
+                    supportedConfigurationTypes="MANUAL,URL"
+
+                <column id="TYPE" index="7"/>
+                    <file type="jar" path="drivers/hsqldb" bundle="drivers.hsqldb"/>
+                        webURL="https://www.monetdb.org/Documentation/Manuals/SQLreference/Programming/JDBC"
+                -->
+
+                    id="csvjdbc"
+                <!-- Pervasive SQL -->
+                    <parameter name="stored-unquoted-case" value="lower"/>
+                <driver id="exasol"/>
+                    <parameter name="ddl-drop-column-brackets" value="false"/>
+                    <file type="jar" path="maven:/io.crate:crate-jdbc:RELEASE"/>
+                    <property name="loginTimeout" value="20"/>
+                    webURL="http://hsqldb.org/"
+                    id="tdengine_cloud"
+                    <file type="jar" path="maven:/org.hsqldb:hsqldb:RELEASE" bundle="!drivers.hsqldb"/>
+
+                    <file type="jar" path="maven:/org.apache.kyuubi:kyuubi-hive-jdbc-shaded:RELEASE" bundle="!drivers.kyuubi"/>
+                    webURL="http://drill.apache.org/docs/using-the-jdbc-driver/"
+                    <parameter name="supports-select-count" value="false"/>
+                </driver>
+                        label="OpenEdge"
+                        class="jdbc"
+                        class="com.salesforce.cdp.queryservice.QueryServiceDriver"
+                <!-- Hadoop -->
+
+                <driver
+
+                        supportedConfigurationTypes="MANUAL,URL"
+                <column id="SCOPE_SCHEMA" index="20"/>
+                    iconBig="icons/kyuubi_hive_icon_big.png"
+                    <parameter name="omit-schema" value="false"/>
+                <driver
+                    <parameter name="supports-views" value="false"/>
+                    description="Ingres Database"
+                        icon="icons/salesforce_icon.svg"
+                    <property id="omit-type-cache" label="Omit type cache" description="Do not use data types provided by driver" type="boolean" required="false" defaultValue="false"/>
+            </tree>
+
+                <!--<driver
+            </object>
+                    categories="sql,hadoop">
+                    <parameter name="supports-multiple-results" value="true"/>
+</plugin>
+                    label="Apache Calcite Avatica"
+
+                    singleConnection="true">
+                </driver>
+                    supportedConfigurationTypes="MANUAL,URL"
+                        description="FoundationDB JDBC driver"
+                    id="cache"
+                <column id="PROCEDURE_TYPE" index="5"/>
+                    <parameter name="omit-single-catalog" value="false"/>
+                </driver>
+                    singleConnection="true">
+                    description="OrientDB JDBC driver"
+                    <property id="supports-schema-selection" label="Driver can change default schema" description="Driver does support schema change" type="boolean" required="false" defaultValue="true"/>
+                    <parameter name="script-delimiter-after-block" value="false"/>
+                <!-- Machbase -->
+
+                        description="Salesforce Data 360 JDBC driver"
+                            <items label="%tree.functions.node.name" itemLabel="%tree.function.node.name" path="function" property="functionsOnly" icon="#function">
+                    categories="sql,object">
+                        iconBig="icons/ignite_icon_big.png"
+
+                <!-- Salesforce Data 360 -->
+                    <file type="jar" path="maven:/org.elasticsearch.plugin:x-pack-sql-jdbc:8.17.1" bundle="!drivers.elasticsearch"/>
+                    <file type="jar" path="maven:/org.apache.phoenix:phoenix-client:RELEASE[4.14.1-HBase-1.4]" ignore-dependencies="true" bundle="!drivers.apache_phoenix"/>
+                    iconBig="icons/presto_icon_big.png"
+                        logoImage="icons/teiid_logo.png"
+                    category="MS Access"
+                    <file type="jar" path="drivers/kyuubi" bundle="drivers.kyuubi"/>
+                            </items>
+                <column id="PROCEDURE_SCHEM" index="2"/>
+                            <items label="%tree.procedures.node.name" itemLabel="%tree.procedure.node.name" path="procedure" property="proceduresOnly" icon="#procedure">
+                        categories="nosql,timeseries,aws">
+                    supportedConfigurationTypes="MANUAL,URL"
+                    <property id="term-server" label="Driver server label" description="Custom value for driver server label in connection page" type="string" required="false" defaultValue=""/>
+                </driver>
+                        <folder label="%tree.functions.node.name" icon="#functions" description="Functions" visibleIf="object.dataSource.info.supportsStoredCode() &amp;&amp; object.dataSource.splitProceduresAndFunctions()">
+
+                    <parameter name="krb5.show-service" value="true"/>
+                        class="nl.cwi.monetdb.jdbc.MonetDriver"
+                        categories="sql">
+                    iconBig="icons/intersystems_icon_big.png"
+                <column id="BUFFER_LENGTH" index="8"/>
+                    <parameter name="supports-references" value="false"/>
+                    <file type="jar" path="maven:/org.apache.derby:derby:RELEASE[10.17.1.0]" bundle="!drivers.derby"/>
+                <driver id="h2_server"/>
+                    description="Apache Calcite Avatica JDBC driver. Supports Apache Druid"
+                        categories="nosql,keyvalue">
+                        categories="timeseries">
+                    id="apache_drill"
+        <repository id="cratedb-maven-repo" name="CrateDB Repository" url="https://dl.bintray.com/crate/crate" order="21">
+                        supportedConfigurationTypes="MANUAL,URL"
+
+                    categories="sql,cloud">
+                <!-- OpenEdge -->
+                                <icon if="object.abstractTable" icon="#table_alias"/>
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                <driver
+                    label="Gemfire XD"
+                <!-- FoundationDB
+                    <property id="supports-multiple-results" label="Driver supports multiple results" description="Driver supports multiple results for a single query." type="boolean" required="false" defaultValue="false"/>
+                    icon="icons/dolphindb_icon.png"
+                    <property name="fullyMaterializeLobData" value="true"/>
+                    <parameter name="omit-catalog" value="true"/>
+                        label="CUBRID"
+                    <parameter name="script-delimiter" value=";"/>
+                <driver
+                    label="MS Access (UCanAccess)"
+                    <file type="jar" path="maven:/com.ibm.informix:jdbc:RELEASE[4.50.10.1]" bundle="!drivers.informix"/>
+                label="Open Distro Elasticsearch"
+                                    </items>
+                    <parameter name="query-get-active-db" value="SELECT CURRENT_SCHEMA FROM SYSIBM.SYSDUMMY1"/>
+                    categories="sql,embedded,file">
+                    <property name="fileExtension" value=".csv"/>
+                    <parameter name="supports-scroll" value="false"/>
+                    categories="sql">
+                        categories="sql,bigdata,hadoop">
+        </repository>
+                    <parameter name="omit-catalog-name" value="true"/>
+                    class="org.relique.jdbc.csv.CsvDriver"
+
+                    <property name="loginTimeout" value="20"/>
+                    id="gemfire_xd"
+                    webURL="https://docs.qubole.com/en/latest/connectivity-options/use-qubole-drivers/JDBC-driver/use-jdbc-driver.html"
+                        iconBig="icons/monetdb_icon_big.png"
+                        description="Driver for MySQL (4.x and earlier)">
+                    icon="icons/msaccess_icon.png"
+                    supportedConfigurationTypes="MANUAL,URL"
+
+
+                                </folder>
+                        class="com.ddtek.jdbc.openedge.OpenEdgeDriver"
+                <column id="TABLE_CATALOG" index="2"/>
+                    <file type="jar" path="maven:/org.apache.drill.exec:drill-jdbc-all:RELEASE"/>
+                    <parameter name="supports-truncate" value="false"/>
+                        id="odbc"

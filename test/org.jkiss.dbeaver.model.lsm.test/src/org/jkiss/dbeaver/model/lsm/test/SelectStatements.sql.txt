@@ -1,0 +1,110 @@
+OR PRODUCT.rowguid = DETAIL.rowguid;
+from dbname1.schemaname1.tablename1, dbname2.schemaname2.tablename2, schemaname3.tablename3;
+
+NATURAL INNER JOIN cd.er ON cd.er.id = aBc.id
+    CostMeasure.UnitMeasureCode,
+LEFT JOIN Production.UnitMeasure CostMeasure
+
+    Product.ProductNumber,
+ON ProductModel.ProductModelID = Product.ProductModelID
+    ProductVendor.StandardPrice,
+    ProductReview.ReviewerName,
+    SELECT PRODUCT.ProductID, PRODUCT.Name_
+ORDER BY yyy, zzz;
+UNION JOIN Production.ProductCategory
+ON ProductVendor.ProductID = Product.ProductID
+ON ProductModel.ProductModelID = Product.ProductModelID
+    Product.ProductID,
+FULL JOIN Production.UnitMeasure WeightUnitMeasureCode
+SELECT
+cross JOIN aB c
+ON ProductModelProductDescriptionCulture.ProductModelID = ProductModel.ProductModelID
+    ON PRODUCT.rowguid = DETAIL.rowguid;
+    ProductReview.ReviewerName,
+SELECT DISTINCT PRODUCT.ProductID, PRODUCT.Name_
+ON ProductCategory.ProductCategoryID = ProductSubCategory.ProductCategoryID
+    CostMeasure.Name AS CostMeasureName,
+    Product.ProductSubCategory
+    Product.Name AS ProductName,
+    INNER JOIN Sales.SalesOrderDetail DETAIL
+    ProductReview.Rating,
+    Product.ProductCategory,
+
+FROM Product Product
+FROM Production.Product
+FROM Production.Product PRODUCT
+LEFT JOIN Production.ProductReview
+select dbname1.schemaname1.tablename1.columnname1, schemaname2.tablename2.columnname2, tablename3.columnname3
+ON ProductModel.ProductModelID = ProductModelIllustration.ProductModelID
+    ProductReview.Rating,
+INNER JOIN Sales.SalesOrderDetail DETAIL
+ON Product.SizeUnitMeasureCode = SizeUnitMeasureCode.UnitMeasureCode
+from tablename as alias;
+
+LEFT OUTER join qwe ON qwe.id = aBc.id
+-- INTO Product
+UNION
+INNER JOIN Production.ProductSubCategory
+    Product.ProductID,
+    ProductVendor.AverageLeadTime,
+ORDER BY Product.ProductID DESC;
+SELECT ALL
+    ProductSubCategory.Name AS ProductSubCategory,
+    ProductVendor.StandardPrice,
+RIGHT JOIN Production.UnitMeasure SizeUnitMeasureCode
+LEFT JOIN Purchasing.ProductVendor
+ON ProductCategory.ProductCategoryID = ProductSubCategory.ProductCategoryID
+FROM Production.Product
+NATURAL UNION JOIN Production.ProductModelProductDescriptionCulture
+ON ProductVendor.UnitMeasureCode = CostMeasure.UnitMeasureCode;
+
+ON ProductReview.ProductID = Product.ProductID
+    Product.ProductNumber,
+FROM xxx yy, cc.ss.vv AS sub
+    CostMeasure.Name AS CostMeasureName,
+CROSS JOIN Production.ProductReview
+ON ProductSubCategory.ProductSubcategoryID = Product.ProductSubcategoryID
+NATURAL INNER JOIN Purchasing.ProductVendor
+ON ProductReview.ProductID = Product.ProductID
+NATURAL LEFT OUTER JOIN Production.ProductModelIllustration
+USING (MeasureID, Unit)
+    CostMeasure.UnitMeasureCode,
+LEFT JOIN Production.ProductCategory
+INNER OUTER JOIN Production.ProductModel
+from tablename as alias;
+
+ON ProductDescription.ProductDescriptionID = ProductModelProductDescriptionCulture.ProductDescriptionID
+INNER JOIN Production.ProductSubCategory
+
+ON Product.WeightUnitMeasureCode = WeightUnitMeasureCode.UnitMeasureCode
+    Product.ProductName,
+    Product.Name AS ProductName,
+select alias.*, columnname, alias.columnname
+    ProductVendor.AverageLeadTime,
+INNER JOIN Sales.SalesOrderDetail DETAIL
+SELECT DISTINCT
+    Product.ProductNumber,
+select diSTinCt *
+    ProductSubCategory.Name AS SubCategoryName
+    ProductCategory.Name AS CategoryName,
+ORDER BY Product.ModifiedDate DESC;
+    FROM Production.Product PRODUCT
+FROM Production.Product PRODUCT
+select a.*, columnname1 as alias1
+    Product.ProductID,
+ON ProductSubCategory.ProductSubcategoryID = Product.ProductSubcategoryID
+ON ProductVendor.ProductID = Product.ProductID
+LEFT JOIN Production.UnitMeasure CostMeasure
+ON PRODUCT.ProductID = DETAIL.ProductID
+SELECT c.s.v.a, w.b AS x
+
+    ProductCategory.Name AS ProductCategory,
+from t x inner join (select * from dbname1.tablename1) fromalias1;
+SELECT PRODUCT.ProductID, PRODUCT.Name_
+    Product.ProductModelID
+UNION JOIN jd
+
+NATURAL FULL OUTER JOIN Production.ProductDescription
+ON PRODUCT.ProductID = DETAIL.ProductID
+INNER JOIN Production.ProductModel
+

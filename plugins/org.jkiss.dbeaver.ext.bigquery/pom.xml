@@ -1,0 +1,14 @@
+  <artifactId>org.jkiss.dbeaver.ext.bigquery</artifactId>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>1.0.181-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
+  <modelVersion>4.0.0</modelVersion>
+</project>
+<?xml version="1.0" encoding="UTF-8"?>
+  <parent>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+     <relativePath>../</relativePath>
+  </parent>
+    <artifactId>plugins</artifactId>
+    <groupId>org.jkiss.dbeaver</groupId>
+  <packaging>eclipse-plugin</packaging>

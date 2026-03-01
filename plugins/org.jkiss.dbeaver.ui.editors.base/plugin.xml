@@ -1,0 +1,162 @@
+                        <test property="org.jkiss.dbeaver.core.datasource.synchronizable" value="true"/>
+                <with variable="selection">
+        <content-type
+        <propertyTester
+                    <count value="1"/>
+<plugin>
+                    <count value="1"/>
+                type="org.jkiss.dbeaver.ui.editors.IDatabaseEditor"/>
+                priority="normal"/>
+                        <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+                class="org.jkiss.dbeaver.ui.editors.DatabaseEditorPropertyTester"
+                            <test property="org.jkiss.dbeaver.core.datasource.synchronizable" value="true"/>
+                <with variable="selection">
+        <propertyTester
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSEntity"/>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSDataContainer"/>
+                </with>
+                properties="connected,connecting,transactional,synchronizable,transactionActive,supportsTransactions,editable,projectResourceEditable,projectResourceViewable"
+            </with>
+                        <test property="org.jkiss.dbeaver.core.datasource.connecting"/>
+                name="TSV file"
+                    <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+            </or>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSEntity"/>
+    <extension point="org.eclipse.ui.elementFactories">
+            <adapter type="org.jkiss.dbeaver.model.DBPDataSourceContainer"/>
+                    </iterate>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSObject"/>
+        <factory id="org.jkiss.dbeaver.ui.editors.DatabaseEditorInputFactory" class="org.jkiss.dbeaver.ui.editors.DatabaseEditorInputFactory"/>
+        <content-type
+            </or>
+                id="org.jkiss.dbeaver.ui.editors.text.TextEditorPropertyTester"
+    </extension>
+    <!-- File content types.
+                id="org.jkiss.dbeaver.ui.actions.DataSourcePropertyTester"
+                        </adapt>
+                namespace="org.jkiss.dbeaver.core.datasource"
+                type="org.jkiss.dbeaver.model.DBPContextProvider"/>
+        </factory>
+                namespace="org.jkiss.dbeaver.database.editor"
+                id="org.jkiss.dbeaver.csv"
+                    </iterate>
+                    </adapt>
+                file-extensions="csv"
+                            <test property="org.jkiss.dbeaver.core.datasource.connecting"/>
+                <with variable="activePart">
+                </with>
+                </with>
+            <or>
+        <propertyTester
+        <factory id="org.jkiss.dbeaver.ui.editors.NodeEditorInputFactory" class="org.jkiss.dbeaver.ui.editors.NodeEditorInputFactory"/>
+        <definition id="org.jkiss.dbeaver.core.datasource.disconnected">
+                            <test property="org.jkiss.dbeaver.core.datasource.connected" value="true"/>
+                    <iterate operator="and">
+                </with>
+            <extension id="file" extensions="*" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/file.svg"/>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSDataManipulator"/>
+                    <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+
+            <adapter type="org.jkiss.dbeaver.model.DBPDataSourceContainer"/>
+
+                        </adapt>
+        </definition>
+        </definition>
+                name="CSV file"
+                properties="available,canComment,canLoad,canSave"
+
+        </definition>
+
+        </handler>
+                <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSDataManipulator"/>
+        <definition id="org.jkiss.dbeaver.core.datasource.connecting">
+                        <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+        <definition id="org.jkiss.dbeaver.core.transactionActive">
+                </with>
+    <extension point="org.jkiss.dbeaver.fileTypeHandler">
+                priority="normal"/>
+    </extension>
+                </adapt>
+                base-type="org.eclipse.core.runtime.text"
+        </factory>
+                <with variable="selection">
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSObject"/>
+                priority="normal"/>
+
+                class="org.jkiss.dbeaver.ui.editors.text.TextEditorPropertyTester"
+    </extension>
+            <or>
+                class="org.jkiss.dbeaver.ui.actions.DataSourcePropertyTester"
+            </or>
+    <extension point="org.eclipse.core.expressions.propertyTesters">
+    <extension point="org.eclipse.core.expressions.definitions">
+      No special handling, just says to open these types in embedded text editor -->
+</plugin>
+
+                    <iterate operator="and">
+
+                file-extensions="tsv"
+                    <iterate operator="and">
+                    </adapt>
+                <with variable="activePart">
+                <with variable="activePart">
+                    </iterate>
+        <content-type
+                properties="active"
+                id="org.jkiss.dbeaver.log"
+        </definition>
+                            <test property="org.jkiss.dbeaver.core.datasource.connected" value="false"/>
+                        </adapt>
+            </or>
+
+
+            <with variable="activeEditor">
+                    <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+            <or>
+                </with>
+    <extension point="org.eclipse.core.runtime.adapters">
+                base-type="org.eclipse.core.runtime.text"
+
+                    </adapt>
+                name="Log file"
+                <with variable="selection">
+                id="org.jkiss.dbeaver.tsv"
+                <with variable="activePart">
+                    </adapt>
+        <factory adaptableType="org.eclipse.ui.IEditorPart" class="org.jkiss.dbeaver.ui.editors.DatabaseEditorAdapterFactory">
+                        <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+
+                    </iterate>
+                    <count value="1"/>
+                id="org.jkiss.dbeaver.ui.editors.DatabaseEditorPropertyTester"
+        <handler id="file" class="org.jkiss.dbeaver.ui.editors.file.AbstractFileHandler" databaseHandler="false" order="10000">
+        <definition id="org.jkiss.dbeaver.core.datasource.synchronizable">
+    </extension>
+                        <test property="org.jkiss.dbeaver.core.datasource.connected" value="false"/>
+<?xml version="1.0" encoding="UTF-8"?>
+        <definition id="org.jkiss.dbeaver.core.datasource.connected">
+
+    </extension>
+                </with>
+                        <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+            <or>
+                type="org.eclipse.ui.IEditorPart"/>
+                        <test property="org.jkiss.dbeaver.core.datasource.connected" value="true"/>
+    <extension point="org.eclipse.core.contenttype.contentTypes">
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSObject"/>
+                namespace="org.jkiss.dbeaver.ui.editors.text"
+        </definition>
+<?eclipse version="3.2"?>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSDataContainer"/>
+                base-type="org.eclipse.core.runtime.text"
+                </with>
+                    <count value="1"/>
+                    <iterate operator="and">
+                    <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+                        </adapt>
+        <factory adaptableType="org.eclipse.ui.IEditorInput" class="org.jkiss.dbeaver.ui.editors.DatabaseEditorAdapterFactory">
+                file-extensions="log"
+                    <test property="org.jkiss.dbeaver.core.datasource.transactionActive" value="true"/>
+    </extension>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSObject"/>

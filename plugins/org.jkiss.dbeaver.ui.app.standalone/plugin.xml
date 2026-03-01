@@ -1,0 +1,539 @@
+            <property name="appName" value="DBeaver CE"/>
+            <command commandId="org.eclipse.ui.edit.delete"/>
+            <property name="applicationXMI" value="org.jkiss.dbeaver.ui.app.standalone/dbeaver.e4xmi"/>
+    <extension point="org.eclipse.ui.commandImages">
+    <extension point="org.eclipse.core.runtime.applications" id="standalone" name="%extension.standalone.name">
+            <property name="rendererFactoryUri" value="bundleclass://org.jkiss.dbeaver.core/org.jkiss.dbeaver.ui.e4.DBeaverRendererFactory"/>
+    <extension point="org.eclipse.ui.menus">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.network.expert"/>
+            <property name="preferenceCustomization" value="plugin_customization.ini"/>
+        <page category="org.eclipse.ui.preferencePages.Workbench" id="org.jkiss.dbeaver.preferences.misc.qm" class="org.jkiss.dbeaver.ui.preferences.PrefPageQueryManager" name="%pref.page.name.query.manager">
+            <property name="startupProgressRect" value="3,291,594,6"/>
+
+    </extension>
+            <editorOnboardingCommand id="org.eclipse.ui.window.showKeyAssist"/>
+            <property name="rendererFactoryUri" value="bundleclass://org.jkiss.dbeaver.core/org.jkiss.dbeaver.ui.e4.DBeaverRendererFactory"/>
+                </with>
+    <extension point="org.jkiss.dbeaver.workbenchHandler">
+        </view>
+
+            hasArg="true"
+        <categoryActivityBinding activityId="dbeaver.app.StandaloneActivity" categoryId="dbeaver.app.StandaloneCategory"/>
+                <visibleWhen checkEnabled="true"/>
+    </extension>
+          <menu id="navigate" label="%menu.navigate">
+                </visibleWhen>
+
+            id="org.eclipse.search.ui.views.SearchView">
+        <command
+        <!-- File menu-->
+            <command commandId="org.eclipse.ui.window.customizePerspective"/>
+
+        />
+        </page>
+                    </command>
+        </page>
+        <page category="org.jkiss.dbeaver.preferences.drivers" id="org.jkiss.dbeaver.preferences.drivers.classpath" class="org.jkiss.dbeaver.ui.preferences.PrefPageDriversClasspath" name="%pref.page.name.drivers.classpath">
+        <command
+            <enabledWhen>
+        <image commandId="org.eclipse.ui.file.import" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/import.svg"/>
+            description="Clear logs, query history and restart"/>
+        <image commandId="org.eclipse.ui.file.refresh" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/refresh.svg"/>
+            <property name="email" value="%productEmail"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        </page>
+            <command commandId="org.eclipse.ui.navigate.openResource"/>
+        <page category="org.jkiss.dbeaver.preferences.main" id="org.jkiss.dbeaver.preferences.main.confirmations" class="org.jkiss.dbeaver.ui.preferences.PrefPageConfirmations" name="%pref.page.name.confirmations">
+        <image commandId="org.eclipse.search.ui.openSearchDialog" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/search.svg"/>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.morph.delimited.list">
+        <page category="org.jkiss.dbeaver.preferences.main.connections" id="org.jkiss.dbeaver.preferences.globalNetworkProfiles" class="org.jkiss.dbeaver.ui.preferences.PrefPageGlobalProjectNetworkProfiles" name="%pref.page.name.network.profiles">
+            <property name="copyright" value="© 2026 DBeaver Corp"/>
+            category="org.eclipse.ui"
+            <command commandId="org.eclipse.ui.window.preferences"/>
+            <separator name="settings" visible="true"/>
+            <separator name="properties" visible="true"/>
+            <command commandId="org.eclipse.ui.file.close"/>
+            <command commandId="org.eclipse.ui.edit.undo"/>
+        </view>
+        <product application="org.jkiss.dbeaver.ui.app.standalone.appstore" description="%productSubTitle" name="DBeaver CE">
+
+        <page id="org.jkiss.dbeaver.preferences.editors" class="org.jkiss.dbeaver.ui.preferences.PrefPageDatabaseEditors" name="%pref.page.name.editors">
+            </command>
+        <menuContribution allPopups="false" locationURI="menu:help?after=additions">
+        </view>
+        <!-- Hide Eclipse userstorage activities -->
+                categoryId="org.eclipse.ui.category.window"/>
+        <activityPatternBinding activityId="dbeaver.app.StandaloneActivity" pattern="org.eclipse.ui.ide/org.eclipse.ui.propertypages.project.reference"/>
+            <command commandId="org.eclipse.ui.file.print"/>
+        </view>
+
+            <command commandId="org.eclipse.ui.edit.rename"/>
+
+            <command commandId="org.eclipse.ui.file.import">
+        <workbenchWindowInitializer class="org.jkiss.dbeaver.ui.app.standalone.tipoftheday.TipOfTheDayInitializer" order="4"/>
+                description="%command.org.jkiss.dbeaver.ext.ui.tipoftheday.showPopup.description"
+
+
+        <activityPatternBinding activityId="dbeaver.app.StandaloneActivity" pattern="org.eclipse.ui.ide/org.eclipse.ui.propertypages.project.natures"/>
+        <application visible="true">
+
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+            </command>
+            <property name="startupMessageRect" value="60,270,270,21"/>
+            <command commandId="org.eclipse.ui.navigate.forwardHistory"/>
+        <handler commandId="org.jkiss.dbeaver.ui.window.minimize" class="org.jkiss.dbeaver.ui.app.standalone.actions.MinimizeWindowHandler"/>
+<plugin>
+        <command
+            <command commandId="org.eclipse.ui.file.saveAs"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.network.profiles"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                categoryId="org.jkiss.dbeaver.core.navigator"/>
+        <handler
+        </menuContribution>
+    </extension>
+
+            class="org.jkiss.dbeaver.ui.app.standalone.actions.CollectDiagnosticInfoHandler"
+    <extension point="org.eclipse.ui.bindings">
+        <image commandId="org.eclipse.ui.edit.text.gotoNextEditPosition" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/forward.svg"/>
+        <!-- Hide E4 view: Welcome, Bookmarks, Palette, Thumbnail -->
+                class="org.jkiss.dbeaver.ui.app.standalone.actions.MenuConfigurationPropertyTester"
+        <category id="dbeaver.app.StandaloneCategory" name="DBeaver standalone application activity category"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.database.connection"/>
+            allowMultiple="true"
+                description="Minimize the current window"
+            <command commandId="org.eclipse.ui.file.save"/>
+    </extension>
+        </page>
+            commandId="org.jkiss.dbeaver.core.util.collectDiagnosticInfo"
+        </page>
+                <menu id="format" label="%menu.format">
+        <key commandId="org.jkiss.dbeaver.ui.window.minimize" contextId="org.eclipse.ui.contexts.window" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="cocoa" sequence="COMMAND+M"/>
+                    </command>
+                <command commandId="org.eclipse.ui.navigate.nextSubTab"/>
+        <key commandId="org.eclipse.ui.help.dynamicHelp" contextId="org.eclipse.ui.contexts.window" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="F1"/>
+    </extension>
+            <separator name="import-export" visible="true"/>
+                id="org.jkiss.dbeaver.ui.app.standalone.actions.MenuConfigurationPropertyTester"
+            icon="icons/progress_view.svg"
+        <page category="org.jkiss.dbeaver.preferences.main.connections" id="org.jkiss.dbeaver.preferences.main.meta" class="org.jkiss.dbeaver.ui.preferences.PrefPageMetaData" name="%pref.page.name.meta">
+        <perspectiveExtension targetID="org.jkiss.dbeaver.core.perspective">
+        <page category="org.jkiss.dbeaver.preferences.main" id="org.jkiss.dbeaver.preferences.main.notifications" class="org.jkiss.dbeaver.ui.preferences.PrefPageNotifications" name="%pref.page.name.notifications">
+        <image commandId="org.eclipse.ui.edit.text.zoomOut" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/zoom_out.svg"/>
+        <menuContribution allPopups="false" locationURI="menu:help?after=org.jkiss.dbeaver.core.util.clearHistory">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                description="%command.org.jkiss.dbeaver.ui.try.pro.description"
+        <image commandId="org.eclipse.ui.edit.delete" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/delete.svg"/>
+    <extension point="org.eclipse.core.runtime.products" id="appstore">
+    </extension>
+            categoryId="org.jkiss.dbeaver.core.util"
+
+        </page>
+                id="org.jkiss.dbeaver.ext.ui.tipoftheday.showPopup"
+            <property name="versionInfoSize" value="8"/>
+            <command commandId="org.eclipse.ui.file.export">
+                </visibleWhen>
+                <command commandId="org.eclipse.ui.navigate.previousTab"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+        <page category="org.jkiss.dbeaver.preferences.main.connections" id="org.jkiss.dbeaver.preferences.client.connections" class="org.jkiss.dbeaver.ui.preferences.PrefPageConnectionClient" name="%pref.page.name.client.connections">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+            <command commandId="org.jkiss.dbeaver.core.edit.copy.special">
+        <!-- Text editors -->
+            <editorOnboardingCommand id="org.eclipse.ui.window.quickAccess"/>
+            handler="org.jkiss.dbeaver.ui.app.standalone.cli.SQLTranslatorHandler"/>
+        <page category="org.jkiss.dbeaver.preferences.drivers" id="org.jkiss.dbeaver.preferences.drivers.maven" class="org.jkiss.dbeaver.ui.preferences.PrefPageDriversMaven" name="%pref.page.name.drivers.maven">
+            id="org.eclipse.ui.views.PropertySheet"
+          </menu>
+            </command>
+        <command
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                    <test property="org.jkiss.dbeaver.ui.app.standalone.menu.configuration.isCommunity" value="true"/>
+                        <visibleWhen checkEnabled="true"/>
+                icon="icons/help.png"
+                class="org.jkiss.dbeaver.ui.help.LightweightHelpView"
+    </extension>
+            <command commandId="org.eclipse.ui.edit.paste"/>
+            <property name="website" value="%productWebsite"/>
+    </extension>
+            <command commandId="org.eclipse.ui.edit.copy"/>
+        <image commandId="org.eclipse.ui.edit.paste" icon="icons/eclipse/paste.svg"/>
+            <command commandId="org.jkiss.dbeaver.core.navigator.bookmark.add">
+        <!-- bind patterns -->
+            icon="platform:/plugin/org.jkiss.dbeaver.model/icons/status/error_small.svg"
+                    <equals value="nonExistentPartId"/>
+        <!--view
+        </page>
+
+            description="%productSubTitle"/>
+        <!-- Navigation menu -->
+        </page>
+        <menuContribution allPopups="false" locationURI="menu:file?after=additions">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+            <command commandId="org.eclipse.ui.edit.findReplace">
+        <page category="org.jkiss.dbeaver.preferences.main" id="org.jkiss.dbeaver.preferences.main.misc" class="org.jkiss.dbeaver.ui.preferences.PrefPageMiscellaneous" name="%pref.page.name.miscellaneous">
+        <page id="org.jkiss.dbeaver.preferences.main.connections" class="org.jkiss.dbeaver.ui.preferences.PrefPageConnectionsGeneral" name="%pref.page.name.connections">
+        <image commandId="org.eclipse.ui.file.revert" icon="icons/eclipse/revert.png" disabledIcon="icons/eclipse/revert_d.png"/>
+
+    </extension>
+        <activity id="dbeaver.app.StandaloneActivity" name="DBeaver standalone application activity"/>
+                <with variable="activePartId">
+        <handler commandId="org.jkiss.dbeaver.core.util.clearHistory" class="org.jkiss.dbeaver.ui.app.standalone.actions.ClearHistoryHandler"/>
+                <visibleWhen>
+        <!-- Window menu -->
+            <property name="versionInfoSize" value="8"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                <command commandId="org.eclipse.ui.navigate.previousSubTab"/>
+        </page>
+
+            id="org.eclipse.ui.views.ContentOutline">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+<?xml version="1.0" encoding="utf-8"?>
+            allowMultiple="true"
+
+            <property name="applicationXMI" value="org.jkiss.dbeaver.ui.app.standalone/dbeaver.e4xmi"/>
+        <scheme description="%productName" id="org.jkiss.dbeaver.defaultKeyScheme" name="%productName" parentId="org.eclipse.ui.defaultAcceleratorConfiguration"/>
+
+        </application>
+        </page>
+            <property name="earlyAccessURL" value="https://dbeaver.io/files/ea"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.entity"/>
+    <extension point="org.eclipse.core.runtime.products" id="product">
+    <extension point="org.eclipse.ui.handlers">
+            family="DB"
+                <visibleWhen checkEnabled="true"/>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.word.wrap">
+        <image commandId="org.eclipse.ui.navigate.collapseAll" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/collapse_all.svg"/>
+            <property name="versionUpdateURL" value="https://dbeaver.io/product/version.xml"/>
+        <!--<key commandId="org.eclipse.ui.edit.text.delete.line" contextId="org.eclipse.ui.contexts.window" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+Y"/>-->
+        <parameter
+                    <reference definitionId="LocalWorkspace"/>
+        <initializer class="org.jkiss.dbeaver.ui.app.standalone.DBeaverApplicationPreferenceInitializer"/>
+                name="%command.org.jkiss.dbeaver.ext.ui.tipoftheday.showPopup.name"
+            handler="org.jkiss.dbeaver.ui.app.standalone.cli.DataBaseInfoHandler"/>
+        <image commandId="org.eclipse.ui.edit.redo" icon="icons/eclipse/redo.svg"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        <image commandId="org.eclipse.ui.navigate.expandAll" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/expand_all.svg"/>
+    <extension point="org.eclipse.ui.commands">
+    </extension>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        </product>
+        <image commandId="org.eclipse.ui.edit.cut" icon="icons/eclipse/cut.svg"/>
+                    <reference definitionId="LocalWorkspace"/>
+            <command commandId="org.eclipse.ui.file.properties"/>
+            description="%command.org.jkiss.dbeaver.core.util.collectDiagnosticInfo.description"/>
+    </extension>
+        <scheme id="org.jkiss.dbeaver.keyboardOnlyKeyScheme" parentId="org.jkiss.dbeaver.defaultKeyScheme" name="%keyboardOnlyKeyScheme.name" description="%keyboardOnlyKeyScheme.description"/>
+                <command commandId="org.eclipse.ui.window.previousEditor"/>
+        <!-- Minimize window on macOS -->
+        <image commandId="org.eclipse.ui.file.properties" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/configuration.svg"/>
+    </extension>
+            <command commandId="org.jkiss.dbeaver.core.util.collectDiagnosticInfo" style="push"/>
+
+                <command commandId="org.eclipse.ui.navigate.nextTab"/>
+        <activityPatternBinding activityId="dbeaver.app.StandaloneActivity" pattern="org.eclipse.ui.ide/org.eclipse.ui.propertypages.project.linkedResourcesPage"/>
+        <image commandId="org.eclipse.ui.edit.rename" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/rename.svg"/>
+    <extension point="org.eclipse.ui.perspectiveExtensions">
+
+            <command commandId="org.eclipse.ui.file.exit"/>
+
+        </product>
+    <extension point="org.eclipse.ui.splashHandlers">
+            <property name="startupMessageRect" value="60,270,270,21"/>
+        <menuContribution allPopups="false" locationURI="menu:window?before=perspective">
+            name="%view.templates.title"
+        </page>
+                    <command commandId="org.eclipse.ui.edit.text.lowerCase">
+        </page>
+        <!-- Help menu -->
+    <extension point="org.eclipse.core.runtime.preferences">
+            id="org.jkiss.dbeaver.core.util.collectDiagnosticInfo"
+        <activityPatternBinding activityId="dbeaver.app.StandaloneActivity" pattern="org.eclipse.ui.ide/org.eclipse.ui.propertypages.resource.filters"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+            </command>
+        <key commandId="org.eclipse.text.quicksearch.commands.quicksearchCommand" contextId="org.eclipse.ui.contexts.window" sequence="CTRL+ALT+SHIFT+F" schemeId="org.jkiss.dbeaver.defaultKeyScheme"/>
+        <page category="org.jkiss.dbeaver.preferences.main.connections" id="org.jkiss.dbeaver.preferences.main.errorHandle" class="org.jkiss.dbeaver.ui.preferences.PrefPageErrorHandle" name="%pref.page.name.errorHandle">
+    <!-- Keybindings. A bit different than standard -->
+            <separator name="transforms" visible="true"/>
+            <property name="applicationCSSResources" value="platform:/plugin/org.eclipse.ui.themes/images/"/>
+        <activity id="hideE4Activity" name="%activity.hideE4Activity.name">
+                    </command>
+
+    </extension>
+            <command commandId="org.eclipse.ui.edit.redo"/>
+    <extension point="org.eclipse.ui.keywords">
+    </extension>
+            <property name="website" value="%productWebsite"/>
+            icon="icons/properties_view.svg"
+
+        <activityPatternBinding activityId="hideE4Activity" pattern=".*/org.eclipse.ui.internal.introview"/>
+            <property name="appEdition" value="ce"/>
+            <separator name="tabs" visible="true"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+        <image commandId="org.eclipse.ui.edit.undo" icon="icons/eclipse/undo.svg"/>
+                        <visibleWhen checkEnabled="true"/>
+        <activityPatternBinding activityId="hideE4Activity" pattern=".*/org.eclipse.gef.ui.palette_view"/>
+                </visibleWhen>
+        <page category="org.jkiss.dbeaver.preferences.main.connections" id="org.jkiss.dbeaver.preferences.main.transactions" class="org.jkiss.dbeaver.ui.preferences.PrefPageTransactions" name="%pref.page.name.transactions">
+                    <command commandId="org.eclipse.ui.edit.text.upperCase">
+                name="%command.org.jkiss.dbeaver.ui.try.pro.name"
+                name="Minimize Window"
+        <!-- Text editors -->
+            categoryId="org.jkiss.dbeaver.core.util"
+                categoryId="org.jkiss.dbeaver.core.navigator"/>
+
+            class="org.eclipse.ui.internal.views.log.LogView"
+
+            <editorOnboardingCommand id="org.eclipse.ui.edit.text.openLocalFile"/>
+        <page category="org.jkiss.dbeaver.preferences.main.connections" id="org.jkiss.dbeaver.preferences.connectionTypes" class="org.jkiss.dbeaver.ui.preferences.PrefPageConnectionTypes" name="%pref.page.name.connectionTypes">
+
+                        <visibleWhen checkEnabled="true"/>
+        <key commandId="org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+1"/>
+
+                <visibleWhen>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.trim.spaces">
+                namespace="org.jkiss.dbeaver.ui.app.standalone.menu.configuration"
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        <menuContribution allPopups="false" locationURI="menu:help">
+        <image commandId="org.eclipse.ui.file.export" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/export.svg"/>
+            <property name="copyright" value="© 2026 DBeaver Corp"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+    <extension point="org.eclipse.ui.views">
+            description="Reset settings and restart"/>
+        <handler commandId="org.jkiss.dbeaver.ext.ui.tipoftheday.showPopup" class="org.jkiss.dbeaver.ui.app.standalone.tipoftheday.ShowTipOfTheDayHandler"/>
+        <page category="org.jkiss.dbeaver.preferences.main.connections" id="org.jkiss.dbeaver.preferences.drivers" class="org.jkiss.dbeaver.ui.preferences.PrefPageDrivers" name="%pref.page.name.drivers">
+        <workbenchWindowInitializer class="org.jkiss.dbeaver.ui.app.standalone.update.WorkbenchInitializerUpdateCheck" order="5"/>
+        <page category="org.jkiss.dbeaver.preferences.main" id="org.jkiss.dbeaver.preferences.navigator" class="org.jkiss.dbeaver.ui.preferences.PrefPageDatabaseNavigator" name="%pref.page.name.navigator">
+            <command commandId="org.eclipse.ui.edit.cut"/>
+        <activityPatternBinding activityId="dbeaver.app.StandaloneActivity" pattern="org.eclipse.debug.ui/org.eclipse.debug.ui.properties.defaultLaunchConfigurations"/>
+        <view
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.comment.single">
+            <property name="windowImages" value="/icons/dbeaver16.png,/icons/dbeaver32.png,/icons/dbeaver48.png,/icons/dbeaver64.png,/icons/dbeaver256.png"/>
+            class="org.eclipse.ui.texteditor.templates.TemplatesView"/>
+    <extension point="org.eclipse.ui.activities">
+        </menuContribution>
+            name="%view.search.title"
+            category="org.eclipse.ui"
+            <property name="applicationCSSResources" value="platform:/plugin/org.eclipse.ui.themes/images/"/>
+                type="java.lang.Object"/>
+            <property name="tipsFile" value="platform:/plugin/org.jkiss.dbeaver.ui.app.standalone/tips.xml"/>
+        
+                id="org.jkiss.dbeaver.ui.window.minimize"
+
+        <!-- Edit menu -->
+            id="org.eclipse.pde.runtime.LogView">
+        <keyword id="org.jkiss.dbeaver.core.keyword.network.expert" label="ip ipv4 ipv6 protocol ssl tls net debug"/>
+        </menuContribution>
+
+            </command>
+        <!-- put the activity in the category -->
+            category="org.eclipse.ui"
+            <property name="aboutText" value="%aboutText"/>
+                    </command>
+        <key commandId="org.eclipse.ui.edit.text.contentAssist.contextInformation" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+ALT+SPACE"/>
+            <separator name="find.ext" visible="true"/>
+        </page>
+        </application>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+
+<?eclipse version="3.2"?>
+                        <visibleWhen checkEnabled="true"/>
+                category="org.jkiss.dbeaver.core.category"
+            <command commandId="org.jkiss.dbeaver.ext.ui.tipoftheday.showPopup" label="%command.org.jkiss.dbeaver.ext.ui.tipoftheday.showPopup.name"/>
+        </page>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.ui.notifications.label"/>
+        </page>
+        <image commandId="org.eclipse.ui.edit.text.gotoLastEditPosition" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/back.svg"/>
+            <separator name="misc_end" visible="true"/>
+        <parameter exitAfterExecute="true"
+        <key commandId="org.eclipse.ui.edit.text.moveLineDown" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SHIFT+ARROW_DOWN"/>
+        <!--<key commandId="org.eclipse.ui.edit.text.gotoLastEditPosition" contextId="org.eclipse.ui.contexts.window" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SHIFT+BS"/>-->
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.ui.general"/>
+        <image commandId="org.eclipse.ui.edit.text.zoomIn" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/zoom_in.svg"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.user.interface"/>
+        <handler commandId="org.eclipse.ui.help.aboutAction" class="org.jkiss.dbeaver.ui.app.standalone.about.AboutBoxHandler">
+            <editorOnboardingCommand id="org.jkiss.dbeaver.core.sql.editor.recent"/>
+                allowMultiple="false"
+    </extension>
+
+            <separator name="exit" visible="true"/>
+            name="%productName"
+        <propertyTester
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+        </menuContribution>
+            name="Reset Settings..."
+            <command commandId="org.jkiss.dbeaver.core.try.pro">
+            </enabledWhen>
+            icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/toggle_outline.svg"
+            exitAfterExecute="true"
+        <image commandId="org.eclipse.ui.edit.copy" icon="icons/eclipse/copy.svg"/>
+        </menuContribution>
+        <key commandId="org.eclipse.ui.edit.text.contentAssist.proposals" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SPACE"/>
+    </extension>
+
+            <property name="appName" value="DBeaver"/>
+
+
+            </command>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.main.meta"/>
+            id="org.jkiss.dbeaver.core.util.resetSettings"
+            categoryId="org.jkiss.dbeaver.core.util"
+    </extension>
+        <!-- Edit menu -->
+
+                id="org.jkiss.dbeaver.core.try.pro"
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+
+            category="org.eclipse.ui"
+
+</plugin>
+
+
+    <extension point="org.eclipse.ui.helpSupport">
+                        <visibleWhen checkEnabled="true"/>
+            <separator name="additions" visible="true"/>
+                name="Help"/-->
+        </menuContribution>
+                        <visibleWhen checkEnabled="true"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.db.qm"/>
+            <property name="windowImages" value="/icons/dbeaver16.png,/icons/dbeaver32.png,/icons/dbeaver48.png,/icons/dbeaver64.png,/icons/dbeaver256.png"/>
+            name="%view.outline.title"
+
+            <separator name="undoredo" visible="true"/>
+    </extension>
+        <splashHandler class="org.jkiss.dbeaver.ui.app.standalone.DBeaverSplashHandler" id="org.jkiss.dbeaver.ui.splash.interactive"/>
+                </menu>
+            <separator name="commercial" visible="true"/>
+        </page>
+        </perspectiveExtension>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+            </menu>
+        <activityPatternBinding activityId="dbeaver.app.StandaloneActivity" pattern="org.eclipse.ltk.ui.refactoring/.*"/>
+            class="org.eclipse.ui.views.contentoutline.ContentOutline"
+            name="%view.properties.title">
+        <view
+        <page category="org.eclipse.ui.net.NetPreferences" id="org.jkiss.dbeaver.preferences.network.expert" class="org.jkiss.dbeaver.ui.preferences.PrefPageNetworkExpert" name="%pref.page.name.network.expert">
+        </handler>
+        <keyword id="org.jkiss.dbeaver.keyword.pref.ui.misc" label="checkbox bool boolean holiday decoration christmas snow"/>
+        <view id="org.eclipse.ui.texteditor.TemplatesView"
+                <separator name="editors" visible="true"/>
+            <run class="org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+
+        <product application="org.jkiss.dbeaver.ui.app.standalone.standalone" description="%productSubTitle" name="DBeaver">
+            <separator name="nav" visible="true"/>
+                        <visibleWhen checkEnabled="true"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.db.general"/>
+        <key commandId="org.eclipse.ui.edit.text.moveLineUp" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SHIFT+ARROW_UP"/>
+        <menuContribution allPopups="false" locationURI="menu:edit">
+            class="org.eclipse.ui.views.properties.PropertySheet"
+            <property name="subTitle" value="%productSubTitle"/>
+            <command commandId="org.eclipse.ui.navigate.backwardHistory"/>
+
+        <view id="org.eclipse.ui.views.ProgressView"
+            <command commandId="org.eclipse.ui.newWizard"/>
+        <!-- Main toolbar -->
+            icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/search.svg"
+                <command commandId="org.eclipse.ui.window.switchToEditor"/>
+            <editorOnboardingCommand id="org.jkiss.dbeaver.core.new.connection"/>
+        <menuContribution allPopups="false" locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+        <handler commandId="org.jkiss.dbeaver.core.try.pro" class="org.jkiss.dbeaver.ui.app.standalone.actions.TryPROHandler"/>
+        <image commandId="org.eclipse.ui.file.saveAs" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/save_as.svg"/>
+        <image commandId="org.eclipse.ui.file.saveAll" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/saveall.svg"/>
+        <image commandId="org.eclipse.text.quicksearch.commands.quicksearchCommand" icon="icons/eclipse/quick_search.svg" disabledIcon="icons/eclipse/quick_search_d.png"/>
+            <separator name="perspective" visible="true"/>
+                properties="isCommunity"
+        <application id="dbeaver-ce"
+    <extension point="org.jkiss.dbeaver.application">
+            <command commandId="org.jkiss.dbeaver.core.util.resetSettings" style="push"/>
+    </extension>
+
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+    </extension>
+            <property name="preferenceCustomization" value="plugin_customization.ini"/>
+        <menuContribution allPopups="false" locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+
+            <separator name="data" visible="true"/>
+                <visibleWhen checkEnabled="true"/>
+        </menuContribution>
+            <command commandId="org.eclipse.ui.file.saveAll"/>
+                <command commandId="org.eclipse.ui.window.nextEditor"/>
+        <image commandId="org.eclipse.ui.newWizard" icon="icons/eclipse/new_object.png" disabledIcon="icons/eclipse/new_object_d.png"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.connection"/>
+                </with>
+
+            <command commandId="org.jkiss.dbeaver.core.util.clearHistory" style="push"/>
+            <command commandId="org.eclipse.ui.file.refresh"/>
+        <page category="org.eclipse.ui.preferencePages.Workbench" id="org.jkiss.dbeaver.preferences.main.errorLogs" class="org.jkiss.dbeaver.ui.preferences.PrefPageErrorLogs" name="%pref.page.name.errorLogs">
+            icon="icons/templates_view.svg"
+            <property name="email" value="%productEmail"/>
+    <extension point="org.jkiss.dbeaver.commandLine">
+            <property name="aboutText" value="%aboutText"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+    </extension>
+                    </command>
+            <separator name="format" visible="true"/>
+        </page>
+            id="org.jkiss.dbeaver.core.util.clearHistory"
+            <property name="startupProgressRect" value="3,291,594,6"/>
+        <view
+
+            category="org.eclipse.ui"
+        <command
+            <command commandId="org.eclipse.ui.window.resetPerspective"/>
+            <run class="org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication"/>
+            <property name="subTitle" value="%productSubTitle"/>
+    <extension point="org.eclipse.core.runtime.applications" id="appstore" name="AppStore">
+                    </command>
+        <key commandId="org.eclipse.ui.edit.text.openLocalFile" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+O"/>
+        <handler commandId="org.jkiss.dbeaver.core.util.resetSettings" class="org.jkiss.dbeaver.ui.app.standalone.actions.ResetSettingsHandler"/>
+                    <test property="org.jkiss.dbeaver.core.global.standalone"/>
+            name="%view.progress.title"/>
+        <menuContribution allPopups="false" locationURI="menu:file?before=additions">
+                    </command>
+        <activityPatternBinding activityId="hideE4Activity" pattern=".*/org.eclipse.graphiti.ui.internal.editor.thumbnailview"/>
+        <page id="org.jkiss.dbeaver.preferences.main" class="org.jkiss.dbeaver.ui.preferences.PrefPageDatabaseUserInterface" name="%pref.page.name.db.configuration">
+        </menuContribution>
+            <property name="versionInfoCoord" value="154,53"/>
+                <with variable="selection">
+        </page>
+        <key commandId="org.eclipse.ui.edit.text.hippieCompletion" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SHIFT+SPACE"/>
+        <image commandId="org.eclipse.ui.file.save" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/save.svg"/>
+            <menu label="%command.org.jkiss.dbeaver.core.window.navigation.name">
+            <property name="cssTheme" value="org.eclipse.e4.ui.css.theme.e4_default"/>
+                id="org.eclipse.help.ui.HelpView"
+            <separator name="misc" visible="true"/>
+
+        <handler commandId="org.eclipse.ui.edit.text.openLocalFile" class="org.jkiss.dbeaver.ui.app.standalone.actions.OpenLocalFileActionExt"/>
+            <property name="versionInfoCoord" value="154,53"/>
+        <splashHandlerProductBinding productId="org.jkiss.dbeaver.ui.app.standalone.appstore" splashId="org.jkiss.dbeaver.ui.splash.interactive"/>
+            </activeWhen>
+            class="org.eclipse.ui.ExtensionFactory:progressView"
+        <config class="org.jkiss.dbeaver.ui.help.GitHubWikiHelpUI"/>
+    </extension>
+        <application visible="true">
+            name="Clear History..."
+            name="%command.org.jkiss.dbeaver.core.util.collectDiagnosticInfo.name"
+            <property name="cssTheme" value="org.eclipse.e4.ui.css.theme.e4_default"/>
+    <!-- Disable Eclipse debug and refactoring in standalone applications -->
+        <splashHandlerProductBinding productId="org.jkiss.dbeaver.ui.app.standalone.product" splashId="org.jkiss.dbeaver.ui.splash.interactive"/>
+
+            category="org.eclipse.ui"
+    <extension point="org.eclipse.core.expressions.propertyTesters">
+        <activityPatternBinding activityId="hideE4Activity" pattern="org.eclipse.userstorage.*"/>
+            <activeWhen>
+    <extension point="org.eclipse.ui.bindings">
+        </menuContribution>
+            class="org.eclipse.search2.internal.ui.SearchView"
+    <extension point="org.eclipse.ui.preferencePages">
+        <command
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+            name="%view.errorLog.name"
+        </page>
+            <property name="startupForegroundColor" value="231,231,231"/>
+        <key commandId="org.eclipse.ui.edit.text.join.lines" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.jkiss.dbeaver.defaultKeyScheme" sequence="CTRL+SHIFT+J"/>
+        <view
+        </activity>
+                <visibleWhen checkEnabled="true">
+
+        <image commandId="org.eclipse.ui.edit.text.openLocalFile" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/open.png"/>
+            <keywordReference id="org.jkiss.dbeaver.keyword.pref.ui.misc"/>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.comment.multi">

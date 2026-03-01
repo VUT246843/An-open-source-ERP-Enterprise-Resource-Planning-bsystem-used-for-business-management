@@ -1,0 +1,110 @@
+</plugin>
+            <supports typeName="GIS.Transformed"/> <!-- Fake type name for GIS transformer -->
+            id: 'carto.topo'}"/>
+        <initializer class="org.jkiss.dbeaver.ui.gis.internal.GISViewerPreferencesInitializer"/>
+        <tiles id="osm" label="OpenStreetMap" layersDefinition="'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        <tiles id="Esri_WorldStreetMap" label="ESRI StreetMap" layersDefinition="'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+
+<?xml version="1.0" encoding="UTF-8"?>
+                id="browser"
+
+                order="500">
+                class="org.jkiss.dbeaver.ui.gis.panel.GISBrowserViewer"/>
+                label="%extension-point.org.jkiss.dbeaver.ui.gis.panel.GISBrowserViewer.label"
+<?eclipse version="3.2"?>
+        <manager class="org.jkiss.dbeaver.ui.gis.GeometryValueManager" id="org.jkiss.dbeaver.ui.gis.GeometryValueManager">
+    <extension point="org.jkiss.dbeaver.dataManager">
+            id: 'arcgis.sat'}"/>
+    </extension>
+
+			maxNativeZoom: 19,
+                ' &lt;a href=&quot;http://viewfinderpanoramas.org&quot;>SRTM&lt;/a> | Map style: &amp;copy; &lt;a href=&quot;https://opentopomap.org&quot;>OpenTopoMap&lt;/a> (&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/3.0/&quot;>CC-BY-SA&lt;/a>)',
+        <page category="org.jkiss.dbeaver.preferences.main.resultset" class="org.jkiss.dbeaver.ui.gis.preferences.PrefPageGIS" id="org.jkiss.dbeaver.preferences.gis" name="%pref.page.name.gis">
+            id: 'stamen.mono'}"/>
+                supportsEdit="false"
+        </page>
+        </presentation>
+			attribution: 'Tiles &amp;copy; Esri &amp;mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+
+        <tiles id="Esri_WorldTopoMap" label="ESRI TopoMap" layersDefinition="'https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+    </extension>
+            maxNativeZoom: 19,
+            attribution: 'Map data &amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/&quot; target=&quot;_new&quot;>OpenStreetMap&lt;/a> contributors ' +
+                id="text"
+            id: 'osm.streets'}"/>
+    <extension point="org.jkiss.dbeaver.data.gis.geometryViewer">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                id="results.geometry"
+			attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors &amp; USGS',
+        <presentation
+    <extension point="org.eclipse.ui.keywords">
+                description="%presentation.geometry.description"
+                supportsPanels="false"
+    </extension>
+            id: 'esri.streets'}"/>
+            attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;>OpenStreetMap&lt;/a> contributors',
+            id: 'opentopomap.main'}"/>
+    <extension point="org.jkiss.dbeaver.data.gis.leaflet.tiles">
+
+        <tiles id="CartoDB_Voyager" label="CartoDB TopoMap" layersDefinition="'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                supportsRecordMode="false"
+			attribution: 'Tiles &amp;copy; Esri &amp;mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012',
+                label="%extension-point.org.jkiss.dbeaver.ui.gis.panel.GISTextViewer.label"
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/types/text.svg"
+            'Imagery &lt;a href=&quot;https://www.mapbox.com/&quot; target=&quot;_new&quot;>Mapbox&lt;/a>',
+
+        <geometryViewer
+                icon="icons/map.svg"
+			attribution: 'Map tiles by &lt;a href=&quot;http://stamen.com&quot;&gt;Stamen Design&lt;/a&gt;, &lt;a href=&quot;http://creativecommons.org/licenses/by/3.0&quot;&gt;CC BY 3.0&lt;/a&gt; &amp;mdash; Map data &amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors',
+            <objectType name="org.jkiss.dbeaver.model.exec.DBCResultSet" if="context.hasAttributeOfType('org.jkiss.dbeaver.model.gis.DBGeometry')"/>
+                type="transformer"
+    <extension-point id="org.jkiss.dbeaver.data.gis.geometryViewer" name="Geometry viewer" schema="schema/org.jkiss.dbeaver.data.gis.geometryViewer.exsd"/>
+<plugin>
+        <keyword id="org.jkiss.dbeaver.core.keyword.gis" label="%keyword.org.jkiss.dbeaver.preferences.gis"/>
+    </extension>
+    <extension-point id="org.jkiss.dbeaver.data.gis.leaflet.tiles" name="Leaflet tiles" schema="schema/org.jkiss.dbeaver.data.gis.leafletTiles.exsd"/>
+            maxNativeZoom: 18,
+			maxNativeZoom: 20,
+            id: 'esri.topo'}"/>
+                description="%extension-point.org.jkiss.dbeaver.ui.gis.panel.GISBrowserViewer.description"
+                supportsInline="true"/>
+            <supports type="org.jkiss.dbeaver.model.gis.DBGeometry"/>
+			minZoom: 0,
+            maxZoom: 24,
+        <tiles id="arcgis.sat" label="ArcGis cosmo" layersDefinition="'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            '&lt;a href=&quot;https://creativecommons.org/licenses/by-sa/2.0/&quot; target=&quot;_new&quot;>CC-BY-SA&lt;/a>, ' +
+			attribution: '&amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors &amp;copy; &lt;a href=&quot;https://carto.com/attributions&quot;&gt;CARTO&lt;/a&gt;',
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.gis"/>
+                        maxZoom: 24,
+			subdomains: 'abcd',
+            maxNativeZoom: 17,
+            id: 'mtb.main'}"/>
+    </extension>
+			attribution: 'Tiles &amp;copy; Esri &amp;mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community',
+			ext: 'png',
+        </manager>
+
+        <tiles id="Stamen_Toner" label="Stamen mono" layersDefinition="'https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext}', {
+
+            id: 'mapbox/streets-v11'}"/>
+        <tiles id="mapbox" label="MapBox" layersDefinition="'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+            maxZoom: 24,
+
+                supportsNavigation="false"
+                label="%presentation.geometry.name"
+        <tiles id="MtbMap" label="Mtb TopoMap" layersDefinition="'http://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png', {
+        <tiles id="otm" label="OpenTopoMap" layersDefinition="'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    <extension point="org.eclipse.ui.preferencePages">
+                description="%extension-point.org.jkiss.dbeaver.ui.gis.panel.GISTextViewer.description"
+            attribution: 'Map data: &amp;copy; &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;>OpenStreetMap&lt;/a> contributors,' +
+    </extension>
+                icon="icons/map.svg"
+                class="org.jkiss.dbeaver.ui.gis.panel.GISTextViewer"
+                class="org.jkiss.dbeaver.ui.gis.presentation.GeometryPresentation"
+    <extension point="org.jkiss.dbeaver.resultset.presentation">
+    </extension>
+                        maxZoom: 24,
+    <extension point="org.eclipse.core.runtime.preferences">
+			subdomains: 'abcd',
+        <geometryViewer
+            maxZoom: 24,

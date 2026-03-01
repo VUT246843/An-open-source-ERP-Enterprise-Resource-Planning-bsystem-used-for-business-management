@@ -1,0 +1,21 @@
+        <view
+                dataSource="tidb"
+                class="org.jkiss.dbeaver.ext.tidb.ui.views.TiDBConnectionPage"
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog"
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.tidb/icons/tidb_icon.png"/>
+                label="%dialog.connection.header"
+<plugin>
+                id="org.jkiss.dbeaver.ext.tidb.dataSourceWizardView"
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.tidb/icons/tidb_icon.png"/>
+
+                id="org.jkiss.dbeaver.ext.tidb.dataSourceEditorView"
+<?xml version="1.0" encoding="UTF-8"?>
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+</plugin>
+                class="org.jkiss.dbeaver.ext.tidb.ui.views.TiDBConnectionPage"
+<?eclipse version="3.2"?>
+        <view
+    </extension>
+                label="%dialog.connection.header"
+                dataSource="tidb"

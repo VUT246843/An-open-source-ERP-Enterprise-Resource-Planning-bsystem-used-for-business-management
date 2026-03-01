@@ -1,0 +1,134 @@
+                         <items label="%tree.table.node.name" path="table" property="physicalTables" icon="#table">
+                               </items>
+                               <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                      </folder>
+         </treeInjection>
+                <file type="jar" path="maven:/org.apache.iotdb:iotdb-jdbc:2.0.5"/>
+                    defaultUser="root"
+                    label="Apache IoTDB"
+                <parameter name="supports-indexes" value="false"/>
+                             <items label="%tree.table.node.name" path="table" property="physicalTables" icon="#table">
+
+   </extension>
+             <folder label="Storage Groups" icon="#folder_schema" description="IoTDB databases" visibleIf="object.dataSource.isTree()">
+                    icon="icons/iotdb_icon.png"
+</plugin>
+                  <folder type="org.jkiss.dbeaver.ext.iotdb.model.IoTDBGrant" label="Global Privileges" description="IoTDB user global privileges">
+            <folder type="org.jkiss.dbeaver.ext.iotdb.model.IoTDBUser" label="Users" icon="#folder_user" description="IoTDB users" visibleIf="object.dataSource.isTree()">
+                    logoImage="icons/iotdb_logo.png"
+               <items label="User" path="users" property="users" icon="#user">
+                    sampleURL="jdbc:iotdb://{host}:{port}/?sql_dialect={sqlDialect}"
+                  description="Generic IoTDB JDBC connector"
+                  <folder type="org.jkiss.dbeaver.ext.iotdb.model.IoTDBGrant" label="Schema Privileges" description="IoTDB user schema privileges">
+                             <items label="%tree.dataType.node.name" path="dataType" property="dataTypes" icon="#data_type"/>
+         <treeInjection path="generic">
+                <parameter name="omit-single-catalog" value="false"/>
+         <treeInjection path="generic/catalog" remove="true"/>
+                 </items>
+<?xml version="1.0" encoding="UTF-8"?>
+                <parameter name="supports-truncate" value="false"/>
+                   <items label="#schema" path="schema" property="schemaList" icon="#database">
+            </folder>
+                <parameter name="supports-table-constraints" value="true"/>
+                     <items label="Schema Privilege" path="schemaPrivileges" property="schemaPrivileges"/>
+         </treeInjection>
+                   </items>
+                            <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableColumn" label="%tree.columns.node.name" icon="#columns" description="%tree.columns.node.tip">
+                    description="Apache IoTDB JDBC Driver"
+                      <folder type="org.jkiss.dbeaver.model.struct.DBSDataType" label="%tree.dataTypes.node.name" icon="#data_types" description="%tree.dataTypes.node.tip">
+               </items>
+                         <folder type="org.jkiss.dbeaver.ext.generic.model.GenericProcedure" label="Functions" icon="#procedures" description="Procedures" visibleIf="object.dataSource.info.supportsStoredCode()">
+                         <items label="Functions" itemLabel="%tree.procedure.node.name" path="procedure" property="proceduresOnly" icon="#procedure"/>
+                             </items>
+                      <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTable" label="%tree.tables.node.name" icon="#folder_table" description="%tree.tables.node.tip">
+                             <items label="Functions" itemLabel="%tree.procedure.node.name" path="procedure" property="proceduresOnly" icon="#procedure"/>
+         </drivers>
+            </driver>
+                  parent="generic"
+                         <folder type="org.jkiss.dbeaver.model.struct.DBSDataType" label="%tree.dataTypes.node.name" icon="#data_types" description="%tree.dataTypes.node.tip">
+                    defaultPort="6667"
+                  label="IoTDB">
+                  <folder type="org.jkiss.dbeaver.ext.iotdb.model.IoTDBGrant" label="Global Privileges" description="IoTDB user global privileges">
+                    defaultPort="6667"
+                         </folder>
+                    defaultServer="tree"
+                  id="iotdb"
+                      </folder>
+                <items label="#catalog" path="catalog" property="catalogList" icon="#database" optional="true">
+                    defaultUser="root"
+                  </folder>
+                            </folder>
+                     <items label="Schema Privilege" path="schemaPrivileges" property="schemaPrivileges"/>
+                  </folder>
+               <items label="User" path="users" property="users" icon="#user">
+            <driver id="timechoDB"
+                                     </items>
+                      </folder>
+                  </folder>
+                                 </folder>
+                <parameter name="supports-views" value="false"/>
+               </items>
+                    categories="timeseries">
+<?eclipse version="3.2"?>
+                            <folder type="org.jkiss.dbeaver.ext.generic.model.GenericUniqueKey" label="%tree.uni_keys.node.name" icon="#constraints" description="%tree.uni_keys.node.tip" visibleIf="!object.view &amp;&amp; object.dataSource.info.supportsReferentialIntegrity()">
+                     <items label="#schema" path="schema" property="schemaList" icon="#database">
+                      <folder type="org.jkiss.dbeaver.ext.generic.model.GenericProcedure" label="Functions" icon="#procedures" description="Procedures" visibleIf="object.dataSource.info.supportsStoredCode()">
+<plugin>
+                                     <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                    description="TimechoDB JDBC Driver"
+                                  </items>
+                  <folder type="org.jkiss.dbeaver.ext.iotdb.model.IoTDBGrant" label="Schema Privileges" description="IoTDB user schema privileges">
+                    logoImage="icons/timechoDB_logo.png"
+                <parameter name="read-only-data" value="true"/>
+                            </folder>
+             <folder label="Databases" icon="#folder_schema" description="IoTDB databases" visibleIf="object.dataSource.isTable()">
+                               </items>
+                <parameter name="read-only-meta-data" value="true"/>
+                    webURL="https://www.timecho.com/docs/zh/UserGuide/latest/QuickStart/QuickStart_timecho.html"
+                    sampleURL="jdbc:iotdb://{host}:{port}/?sql_dialect={sqlDialect}"
+            </folder>
+                         <items label="%tree.dataType.node.name" path="dataType" property="dataTypes" icon="#data_type"/>
+                    defaultServer="tree"
+      </datasource>
+            <folder type="org.jkiss.dbeaver.ext.iotdb.model.IoTDBRelationalUser" label="Users" icon="#folder_user" description="IoTDB users" visibleIf="object.dataSource.isTable()">
+                    iconBig="icons/iotdb_icon_big.png"
+                    class="org.apache.iotdb.jdbc.IoTDBDriver"
+                <parameter name="supports-table-constraints" value="true"/>
+   <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                    webURL="https://iotdb.apache.org/UserGuide/latest/QuickStart/QuickStart_apache.html"
+                               <items label="%tree.uni_key.node.name" path="uniqueKey" property="constraints" icon="#unique-key">
+                    supportedPageFields="host,port,sqlDialect"
+                                 <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableColumn" label="%tree.columns.node.name" icon="#columns" description="%tree.columns.node.tip">
+                     <items label="Global Privilege" path="globalPrivileges" property="globalPrivileges"/>
+                  icon="#database_icon_default"
+                <parameter name="supports-indexes" value="false"/>
+                <file type="jar" path="maven:/org.apache.iotdb:iotdb-jdbc:2.0.5"/>
+                    iconBig="icons/timechoDB_icon_big.png"
+                <parameter name="supports-views" value="false"/>
+                         </folder>
+            <driver id="iotdb"
+                    icon="icons/timechoDB_icon.png"
+                         </items>
+      <datasource class="org.jkiss.dbeaver.ext.iotdb.IoTDBDataSourceProvider"
+                    class="org.apache.iotdb.jdbc.IoTDBDriver"
+                         <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTable" label="%tree.tables.node.name" icon="#folder_table" description="%tree.tables.node.tip">
+             </folder>
+                     </items>
+                    supportedPageFields="host,port,sqlDialect"
+         <treeInjection path="generic">
+                  dialect="generic"
+                </items>
+             </folder>
+                <parameter name="omit-single-catalog" value="false"/>
+                                  <items label="%tree.uni_key.columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+                     <items label="Global Privilege" path="globalPrivileges" property="globalPrivileges"/>
+                <parameter name="read-only-meta-data" value="true"/>
+            </driver>
+         <drivers managable="true">
+                <parameter name="supports-truncate" value="false"/>
+                 <items label="#catalog" path="catalog" property="catalogList" icon="#database" optional="true">
+                    categories="timeseries">
+                  </folder>
+                <parameter name="read-only-data" value="true"/>
+                    label="TimechoDB"
+                         </folder>

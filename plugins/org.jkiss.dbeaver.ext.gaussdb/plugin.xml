@@ -1,0 +1,108 @@
+            </drivers>
+                </folder>
+                        <folder type="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBFunction"
+                        icon="#procedures" description="%tree.procedures.node.tip">
+                <folder type="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBProcedure" label="%tree.procedures.node.name"
+                        <folder label="%tree.function_columns.node.name" icon="#columns"
+            <execKeywords value=""/>
+                    <property name="loginTimeout" value="20"/>
+                        defaultPort="8000"
+            <treeInjection path="postgresql/database/schema" after="aggregate">
+                </driver>
+                    <items label="%tree.procedure.node.name" itemLabel="%tree.procedure.node.name" path="procedure"
+                           property="gaussDBProcedures" icon="#procedure">
+                        icon="#procedures" description="%tree.procedures.node.tip">
+
+        <manager class="org.jkiss.dbeaver.ext.gaussdb.edit.GaussDBSchemaManager"
+                 objectType="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBPackage"/>
+                        label="GaussDB"
+                                label="%tree.procedures.node.name" icon="#procedures"
+                           property="gaussDBFunctions" icon="#function">
+                 objectType="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBFunction"/>
+
+                    <parameter name="serverType" value="gaussdb"/>
+                    icon="icons/gaussdb_icon.png" dialect="gaussdb" inheritClients="false">
+                                label="%tree.functions.node.name" icon="#procedures"
+
+                    </items>
+                        visibleIf="connected &amp;&amp; object.database.isPackageSupported()">
+                        class="org.postgresql.Driver"
+                                   path="packageProcedures" property="packageProcedures" icon="#procedure"/>
+            <property name="" value=""/>
+                                description="%tree.procedure_columns.node.name">
+                        </folder>
+        <manager class="org.jkiss.dbeaver.ext.gaussdb.edit.GaussDBDatabaseManager"
+        <datasource class="org.jkiss.dbeaver.ext.gaussdb.GaussDBDataSourceProvider"
+
+                                   path="column" property="parameters" navigable="false"/>
+        <serverType id="gaussdb" name="GaussDB" class="org.jkiss.dbeaver.ext.gaussdb.model.PostgreServerGaussDB" logo="icons/gaussdb_logo.png" customURL="true" turnOffPreparedStatements="true"/>
+                 objectType="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBProcedure"/>
+            </treeInjection>
+                                description="%tree.procedures.node.tip">
+        <manager class="org.jkiss.dbeaver.ext.gaussdb.edit.GaussDBProcedureManager"
+<?xml version="1.0" encoding="UTF-8"?>
+    <extension point="org.jkiss.dbeaver.objectManager">
+            <treeInjection path="postgresql/database/schema" after="index">
+    </extension>
+                <folder type="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBFunction" label="%tree.functions.node.name"
+                                description="%tree.procedures.node.tip">
+                        iconBig="icons/gaussdb_icon_big.png"
+                        sampleURL="jdbc:postgresql://{host}[:{port}]/[{database}]"
+            <types value=""/>
+            <dmlKeywords value=""/>
+                    <file type="jar" path="drivers/gaussdb" bundle="drivers.gaussdb"/>
+                        categories="sql">
+                        icon="#packages" description="%tree.package.node.tip"
+
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                    <file type="jar" path="https://repo.huaweicloud.com/repository/maven/huaweicloudsdk/gsjdbc4/gsjdbc4/1.1/gsjdbc4-1.1.jar" bundle="!drivers.gaussdb"/>
+            </treeInjection>
+                                description="%tree.function_columns.node.name">
+                    description="%datasource.gaussdb.description" id="gaussdb" parent="postgresql" label="GaussDB"
+<plugin>
+                            <items label="%tree.procedure_columns.node.name" itemLabel="%tree.column.node.name"
+            <ddlKeywords value=""/>
+                <folder type="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBPackage" label="%tree.package.node.name"
+                            <items label="%tree.function_columns.node.name" itemLabel="%tree.column.node.name"
+                                   path="packageFunctions" property="packageFunctions" icon="#function"/>
+                    <items label="%tree.package.node.name" path="package" property="packages" icon="#package">
+                                   path="column" property="parameters" navigable="false"/>
+                    <property name="prepareThreshold" value="0"/>
+    </extension>
+                        </folder>
+    <extension point="org.jkiss.dbeaver.postgresql.serverType">
+                 objectType="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBDatabase"/>
+            <property name="insertMethods" value="pgInsertIgnore,pgReplaceIgnore"/>
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+            <treeInjection path="postgresql/database/schema" after="procedure">
+                        <folder type="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBProcedure"
+                        id="gaussdb-jdbc"
+                    <items label="%tree.function.node.name" itemLabel="%tree.functions.node.name" path="function"
+        </datasource>
+                            <items label="%tree.procedure.node.name" itemLabel="%tree.procedure.node.name"
+<?eclipse version="3.2"?>
+            <keywords value=""/>
+                        description="%driver.gaussdb.description"
+            <drivers managable="true">
+    </extension>
+        <manager class="org.jkiss.dbeaver.ext.gaussdb.edit.GaussDBPackageManager"
+                    </items>
+                </folder>
+            </treeInjection>
+                 objectType="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBSchema"/>
+                        </folder>
+                        <folder label="%tree.procedure_columns.node.name" icon="#columns"
+</plugin>
+                <driver
+            <treeInjection path="postgresql/database/schema/procedure" remove="true"/>
+        <manager class="org.jkiss.dbeaver.ext.gaussdb.edit.GaussDBFunctionManager"
+                        icon="icons/gaussdb_icon.png"
+        </dialect>
+                    </items>
+                    <property name="connectTimeout" value="20"/>
+            <functions value=""/>
+        <dialect id="gaussdb" parent="basic" class="org.jkiss.dbeaver.ext.gaussdb.model.GaussDBDialect" label="GaussDB" description="GaussDB dialect." icon="icons/gaussdb_icon.png">
+                </folder>
+                            <items label="%tree.function.node.name" itemLabel="%tree.procedure.node.name"
+    </extension>
+                        </folder>

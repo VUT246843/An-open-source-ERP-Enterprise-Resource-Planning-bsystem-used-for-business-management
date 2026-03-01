@@ -1,0 +1,138 @@
+                uiClass="org.jkiss.dbeaver.tools.transfer.ui.processor.config.ShowInExplorerEventProcessorConfigurator"/>
+                <reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/>
+        </configPages>
+        </configPages>
+            </command>
+    </extension>
+
+
+                uiClass="org.jkiss.dbeaver.tools.transfer.ui.processor.config.FailedExportFileCleanerProcessorConfigurator"/>
+        <configurator type="scriptExecute" class="org.jkiss.dbeaver.tasks.ui.sql.script.SQLScriptTaskConfigurator" supportsPanel="false"/>
+    </extension>
+                <visibleWhen checkEnabled="true"/>
+                        <adapt type="org.jkiss.dbeaver.model.struct.DBSDataContainer"/>
+        <propertyConfigurator
+
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+                <with variable="selection">
+            <page id="database_consumer_mappings" class="org.jkiss.dbeaver.tools.transfer.ui.pages.database.DatabaseConsumerPageMapping"/>
+                        <or>
+    </extension>
+        <dataSourceConfigurator>
+        <image commandId="org.jkiss.dbeaver.core.import.data" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/table_import.svg"/>
+                    after="org.jkiss.dbeaver.preferences.main.meta"
+            <enabledWhen>
+        <propertyConfigurator
+    <extension point="org.eclipse.ui.propertyPages">
+        </handler>
+            </enabledWhen>
+                    label="%command.org.jkiss.dbeaver.core.export.data.name">
+    <extension point="org.eclipse.ui.preferencePages">
+            <page id="database_producer_extract_settings" class="org.jkiss.dbeaver.tools.transfer.ui.pages.database.DatabaseProducerPageExtractSettings" type="settings"/>
+                    <iterate operator="and">
+
+            <command
+    </extension>
+        <command id="org.jkiss.dbeaver.core.export.data" name="%command.org.jkiss.dbeaver.core.export.data.name" description="%command.org.jkiss.dbeaver.core.export.data.description" categoryId="org.jkiss.dbeaver.core.util"/>
+                        </or>
+                    </iterate>
+    <extension point="org.jkiss.dbeaver.task.ui">
+                    </iterate>
+                    label="%command.org.jkiss.dbeaver.core.import.data.name">
+
+                            <adapt type="org.jkiss.dbeaver.model.struct.DBSObject">
+                class="org.jkiss.dbeaver.tools.transfer.processor.ShowInExplorerEventProcessor"
+            <page id="stream_consumer_output" class="org.jkiss.dbeaver.tools.transfer.ui.pages.stream.StreamConsumerPageOutput" type="preview"/>
+
+        <handler commandId="org.jkiss.dbeaver.core.import.data" class="org.jkiss.dbeaver.tools.transfer.ui.handlers.DataImportHandler">
+              id="org.jkiss.dbeaver.preferences.datatransfer" name="%pref.page.name.datatransfer">
+    <extension point="org.jkiss.dbeaver.dataTransferConfigurator">
+    <extension point="org.jkiss.dbeaver.sqlCommand">
+                    title="%pref.page.name.datatransfer"
+        </menuContribution>
+
+        </page>
+    </extension>
+                <with variable="selection">
+<?eclipse version="3.4"?>
+                    commandId="org.jkiss.dbeaver.core.export.data"
+            <page id="stream_producer_settings" class="org.jkiss.dbeaver.tools.transfer.ui.pages.stream.StreamProducerPageSettings"/>
+            <page id="database_consumer_settings" class="org.jkiss.dbeaver.tools.transfer.ui.pages.database.DatabaseConsumerPageLoadSettings" type="settings"/>
+        <page category="org.jkiss.dbeaver.preferences.main.connections" class="org.jkiss.dbeaver.tools.transfer.ui.prefs.PrefPageDataTransfer" id="org.jkiss.dbeaver.preferences.datatransfer" name="%pref.page.name.datatransfer">
+    </extension>
+                uiClass="org.jkiss.dbeaver.tools.transfer.ui.processor.config.ExecuteCommandEventProcessorConfigurator"/>
+        <propertyConfigurator
+
+
+                class="org.jkiss.dbeaver.tools.transfer.processor.ExecuteCommandEventProcessor"
+            <enabledWhen>
+    <extension-point id="org.jkiss.dbeaver.dataTransferConfigurator" name="%extension-point.org.jkiss.dbeaver.dataTransferConfigurator.name" schema="schema/org.jkiss.dbeaver.dataTransferConfigurator.exsd"/>
+    </extension>
+                            <adapt type="org.jkiss.dbeaver.model.struct.DBSDataManipulator"/>
+        <configPages node="database_consumer">
+        <page category="org.jkiss.dbeaver.preferences.main.connections" class="org.jkiss.dbeaver.tools.transfer.ui.prefs.PrefPageDataTransfer"
+            </command>
+        <configPages node="stream_consumer">
+<?xml version="1.0" encoding="UTF-8"?>
+
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.datatransfer"/>
+    <extension point="org.eclipse.ui.handlers">
+        <handler commandId="org.jkiss.dbeaver.core.export.data" class="org.jkiss.dbeaver.tools.transfer.ui.handlers.DataExportHandler">
+    </extension>
+                    <count value="+"/>
+        <configPages node="database_producer">
+
+    <extension point="org.eclipse.ui.menus">
+            </enabledWhen>
+        <configPages node="stream_producer">
+            <page id="stream_consumer_settings" class="org.jkiss.dbeaver.tools.transfer.ui.pages.stream.StreamConsumerPageSettings" type="settings"/>
+        </configPages>
+                    description="%pref.page.name.datatransfer"/>
+        <configurator type="dataExport" class="org.jkiss.dbeaver.tools.transfer.ui.wizard.DataTransferTaskConfigurator"/>
+    <extension point="org.eclipse.ui.commandImages">
+    <extension point="org.eclipse.ui.commands">
+                                <test property="org.jkiss.dbeaver.model.isTableContainer"/>
+    <extension point="org.eclipse.ui.keywords">
+
+
+        <pragma id="export" class="org.jkiss.dbeaver.tools.transfer.ui.SQLPragmaExport"/>
+                class="org.jkiss.dbeaver.tools.transfer.processor.FailedExportFileCleanerProcessor"
+            <dataSourcePage
+
+    </extension>
+            <command
+            </enabledWhen>
+                    <iterate operator="and">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                    class="org.jkiss.dbeaver.tools.transfer.ui.prefs.PrefPageDataTransfer"
+                    <count value="+"/>
+        <image commandId="org.jkiss.dbeaver.core.export.data" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/table_export.svg"/>
+        <command id="org.jkiss.dbeaver.core.import.data" name="%command.org.jkiss.dbeaver.core.import.data.name" description="%command.org.jkiss.dbeaver.core.import.data.description" categoryId="org.jkiss.dbeaver.core.util"/>
+            <enabledWhen>
+
+
+                            </adapt>
+                </with>
+    </extension>
+        </configPages>
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=export_import">
+                </with>
+            <page id="database_producer_input_objects" class="org.jkiss.dbeaver.tools.transfer.ui.pages.database.DatabaseProducerPageInputObjects" producerSelector="true"/>
+        </dataSourceConfigurator>
+
+
+    <extension point="org.jkiss.dbeaver.ui.dataSourceConfigurator">
+    </extension>
+<plugin>
+                    id="org.jkiss.dbeaver.preferences.datatransfer"
+
+
+</plugin>
+                    commandId="org.jkiss.dbeaver.core.import.data"
+        </handler>
+        <configurator type="dataImport" class="org.jkiss.dbeaver.tools.transfer.ui.wizard.DataTransferTaskConfigurator"/>
+        <keyword id="org.jkiss.dbeaver.core.keyword.datatransfer" label="%keyword.org.jkiss.dbeaver.preferences.datatransfer"/>
+    </extension>
+
+        </page>
+                <visibleWhen checkEnabled="true"/>

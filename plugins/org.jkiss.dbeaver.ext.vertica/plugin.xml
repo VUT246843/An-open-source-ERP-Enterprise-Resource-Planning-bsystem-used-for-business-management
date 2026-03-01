@@ -1,0 +1,194 @@
+        <manager class="org.jkiss.dbeaver.ext.vertica.edit.VerticaProjectionColumnManager" objectType="org.jkiss.dbeaver.ext.vertica.model.VerticaProjectionColumn"/>
+
+                </folder>
+            id="vertica"
+
+            <type name="UUID"/>
+    </extension>
+                        </folder>
+
+                                    </items>
+
+                    <replace provider="generic" driver="vertica"/>
+        <manager class="org.jkiss.dbeaver.ext.vertica.edit.VerticaConstraintManager" objectType="org.jkiss.dbeaver.ext.vertica.model.VerticaConstraint"/>
+                        </folder>
+            </tree>
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableColumn" label="%tree.columns.node.name" icon="#columns" description="View columns">
+<plugin>
+            dialect="vertica">
+            description="Vertica JDBC connector"
+        </dialect>
+    </extension>
+                            </items>
+                                </folder>
+        </provider>
+                                <items label="%tree.function_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="parameters" navigable="false"/>
+        <meta id="vertica" class="org.jkiss.dbeaver.ext.vertica.model.VerticaMetaModel" driverClass="com.vertica.jdbc.Driver"/>
+-->
+          class="org.jkiss.dbeaver.ext.vertica.model.data.VerticaValueHandlerProvider"
+
+    <extension point="org.jkiss.dbeaver.mavenRepository">
+                    <parameter name="query-set-active-db" value="SET search_path = ?,&quot;$user&quot;,public,v_catalog,v_monitor,v_internal"/>
+        <manager class="org.jkiss.dbeaver.ext.vertica.edit.VerticaFlexTableManager" objectType="org.jkiss.dbeaver.ext.vertica.model.VerticaFlexTable"/>
+                        <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaProjection" label="%tree.projections.node.name" icon="#folder_projection" description="Projections">
+                                <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaConstraint" label="%tree.uni_keys.node.name" icon="#constraints" description="Table unique keys" visibleIf="!object.view">
+
+                        <property id="dollar-quotes-as-string@" label="Show $$ quotes as String" type="boolean" supportedConfigurationTypes="MANUAL,URL"/>
+                        <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaFlexTable" label="%tree.flexTables.node.name" icon="#folder_table" description="Flex tables">
+                        </folder>
+                        <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaView" label="%tree.tviews.node.name" icon="#folder_view" description="Views">
+                                <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaTableColumn" label="%tree.columns.node.name" icon="#columns" description="Table columns">
+        </datasource>
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableIndex" label="%tree.indexes.node.name" icon="#indexes" description="Table indexes" visibleIf="object.dataSource.info.supportsIndexes()">
+                </folder>
+                    <parameter name="active-entity-type" value="schema"/>
+<!--
+
+                    </folder>
+                    iconBig="icons/vertica_icon_big.png"
+                    <!-- Limits affect INSERT INTO and other DML queries-->
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableForeignKey" label="%tree.foreign_keys.node.name" icon="#foreign-keys" description="Table foreign keys" visibleIf="!object.view &amp;&amp; object.dataSource.info.supportsReferentialIntegrity()">
+                                        </items>
+    <extension point="org.jkiss.dbeaver.objectManager">
+                    <items label="#schema" path="schema" property="schemaList" icon="#schema" optional="true">
+                                    </items>
+                <driver
+                                </folder>
+                                    <items label="%tree.index.node.name" path="index" property="indexes" icon="#index">
+                        <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaSequence" label="%tree.sequences.node.name" icon="#sequences" description="Sequences" >
+                <!-- Legacy drivers -->
+                            <items label="%tree.sequence.node.name" path="sequence" property="sequences" icon="#sequence"/>
+                </driver>
+                        </items>
+                    sampleURL="jdbc:vertica://{host}:{port}/[{database}]"
+        <manager class="org.jkiss.dbeaver.ext.vertica.edit.VerticaSequenceManager" objectType="org.jkiss.dbeaver.ext.vertica.model.VerticaSequence"/>
+                    description="JDBC driver for Vertica database"
+                            </items>
+            <datasource id="vertica"/>
+                    <propertyGroup label="Settings">
+                                    <items label="%tree.uni_key.node.name" path="uniqueKey" property="constraints" icon="#unique-key">
+                    <file type="jar" path="drivers/vertica" bundle="drivers.vertica"/>
+                        <items label="%tree.node.node.name" path="clusterNodes" property="clusterNodes" icon="#server">
+        <provider
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                    defaultPort="5433"
+                                    </items>
+                                <folder label="%tree.references.node.name" icon="#references" description="Table references" visibleIf="!object.view &amp;&amp; object.dataSource.info.supportsReferentialIntegrity()" virtual="true">
+                                <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaProjectionColumn" label="%tree.columns.node.name" icon="#columns" description="Projection columns">
+                <driver id="vertica-jdbc"/>
+                    </items>
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+
+                                </folder>
+    </extension>
+                <driver id="vertica-jdbc-6"/>
+                    <parameter name="supports-scroll" value="false"/>
+                            <items label="%tree.functions.node.name" itemLabel="%tree.function.node.name" path="function" property="functionsOnly" icon="#function">
+                        <folder label="%tree.functions.node.name" icon="#functions" description="Functions/UDFs">
+
+    FIXME: it is not official and it doesn't support https
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableColumn" label="%tree.columns.node.name" icon="#columns" description="Flex table columns">
+                                        <items label="%tree.index_columns.node.name" path="column" property="attributeReferences" icon="#column" navigable="false" inline="true">
+                                </folder>
+                </provider-properties>
+                        </folder>
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                    <parameter name="ddl-drop-column-short" value="true"/>
+                    id="vertica-jdbc-8"
+                        </folder>
+        </repository>
+                <folder label="%tree.admin.node.name" icon="#folder_admin" id="folderAdmin" description="%tree.admin.node.description">
+                            <items label="%tree.procedures.node.name" itemLabel="%tree.procedure.node.name" path="procedure" property="proceduresOnly" icon="#procedure">
+            label="Vertica"
+            <tree path="vertica" label="Vertica data source">
+    </extension>
+                                    <items label="%tree.foreign_key.node.name" path="association" property="associations" icon="#foreign-key">
+          description="Vertica data types provider">
+        <datasource
+                    <folder type="org.jkiss.dbeaver.model.struct.DBSDataType" label="%tree.dataTypes.node.name" icon="#data_types" description="Global data types">
+                            </items>
+            parent="generic"
+
+        <dialect id="vertica" parent="generic" class="org.jkiss.dbeaver.ext.vertica.model.VerticaSQLDialect" label="Vertica" description="Vertica SQL dialect." icon="icons/vertica_icon.png">
+
+                    </propertyGroup>
+                            <items label="%tree.tview.node.name" path="view" property="views" icon="#view">
+
+                    <parameter name="query-get-active-db" value="select current_schema()"/>
+            <drivers manageable="true">
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+          parent="GenericValueHandlerProvider"
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                        <property id="disable-comments-reading@" label="Disable objects comments reading" type="boolean" description="Disable objects (tables/sequences/projections, etc.) comments reading. Reading this type of information can dramatically reduce data loading speed." supportedConfigurationTypes="MANUAL,URL"/>
+                                </folder>
+                <provider-properties drivers="*">
+                                </folder>
+    </extension>
+                                        <items label="%tree.foreign_key_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+                    <replace provider="vertica" driver="vertica-jdbc-6"/>
+                <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaSchema" label="%tree.schemas.node.name" icon="#folder_schema" description="Schemas">
+                                        <items label="%tree.reference_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true" virtual="true">
+                    supportedConfigurationTypes="MANUAL,URL"
+                                    <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger"/>
+                            </items>
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                        </folder>
+                <!-- Real driver -->
+                                    </items>
+                                <items label="%tree.procedure_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="parameters" navigable="false"/>
+-->
+</plugin>
+                            </items>
+                    webURL="https://www.vertica.com/download/vertica/client-drivers/"
+<!--
+                            <items label="%tree.projection.node.name" path="projection" property="projections" icon="#table_index">
+                    categories="sql,analytic,columns">
+            </drivers>
+                                        <items label="%tree.uni_key.columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+                    <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaNode" label="%tree.nodes.node.name" icon="#folder_server" description="Nodes">
+                                        </items>
+                            <items label="%tree.flexTable.node.name" path="flexTable" property="flexTables" icon="#table_link">
+<?eclipse version="3.2"?>
+
+                                </folder>
+                        <folder type="org.jkiss.dbeaver.ext.vertica.model.VerticaTable" label="%tree.tables.node.name" icon="#folder_table" description="Tables">
+                        <items label="%tree.dataType.node.name" path="dataType" property="dataTypes" icon="#data_type"/>
+                            </items>
+        <manager class="org.jkiss.dbeaver.ext.vertica.edit.VerticaTableColumnManager" objectType="org.jkiss.dbeaver.ext.vertica.model.VerticaTableColumn"/>
+
+                                    </items>
+<?xml version="1.0" encoding="UTF-8"?>
+                    icon="icons/vertica_icon.png"
+                    <parameter name="supports-limits" value="false"/>
+                                        </items>
+          id="VerticaValueHandlerProvider"
+                                    </items>
+                                        </items>
+                    <file type="license" path="drivers/vertica/LICENSE.txt" bundle="drivers.vertica"/>
+                        </folder>
+          label="Vertica data types provider"
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+                                    </items>
+            icon="icons/vertica_icon.png"
+                        <folder type="org.jkiss.dbeaver.ext.generic.model.GenericProcedure" label="%tree.procedures.node.name" icon="#procedures" description="Procedures" visibleIf="object.dataSource.splitProceduresAndFunctions()">
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                    <replace provider="vertica" driver="vertica-jdbc"/>
+
+            <scope group="com.vertica"/>
+                                    <items label="%tree.reference.node.name" path="reference" property="references" icon="#reference" virtual="true">
+                    </folder>
+    </extension>
+                                </folder>
+                    class="com.vertica.jdbc.Driver"
+                                    </items>
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTrigger" label="%tree.triggers.node.name" icon="#triggers" description="Table triggers" visibleIf="object.dataSource.metaModel.supportsTriggers(object.dataSource)">
+
+    <extension point="org.jkiss.dbeaver.generic.meta">
+        <repository id="vertica-maven-repo" name="Vertica Repository" url="https://maven.icm.edu.pl/artifactory/repo/" order="10">
+                            <items label="%tree.table.node.name" path="table" property="physicalTables" icon="#table">
+                    label="Vertica"
+
+                        <icon if="object.system" icon="#schema_system"/>
+            class="org.jkiss.dbeaver.ext.vertica.VerticaDataSourceProvider"
+                    <file type="jar" path="maven:/com.vertica.jdbc:vertica-jdbc:RELEASE" bundle="!drivers.vertica"/>
+                                </folder>

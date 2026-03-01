@@ -1,0 +1,31 @@
+    <parent>
+  ~ Copyright (C) 2010-2024 DBeaver Corp and others
+    <packaging>eclipse-test-plugin</packaging>
+    </parent>
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+        <artifactId>tests</artifactId>
+<?xml version="1.0" encoding="UTF-8"?>
+    <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../</relativePath>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        <groupId>org.jkiss.dbeaver</groupId>
+  ~ Unless required by applicable law or agreed to in writing, software
+<!--
+
+  ~ You may obtain a copy of the License at
+  ~ DBeaver - Universal Database Manager
+  ~ you may not use this file except in compliance with the License.
+  ~
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  -->
+        <version>1.0.0-SNAPSHOT</version>
+</project>  ~ limitations under the License.
+         xmlns="http://maven.apache.org/POM/4.0.0">
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    <artifactId>org.jkiss.dbeaver.data.transfer.test</artifactId>
+  ~ See the License for the specific language governing permissions and
+  ~
+  ~
+    <modelVersion>4.0.0</modelVersion>

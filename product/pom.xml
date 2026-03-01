@@ -1,0 +1,36 @@
+    <packaging>pom</packaging>
+            <modules>
+        <profile>
+        <profile>
+    <profiles>
+            </modules>
+            <id>product-dbeaver-eclipse-ce</id>
+            <id>product-dbeaver-ce</id>
+        </profile>
+        </profile>
+<?xml version="1.0" encoding="UTF-8"?>
+        </profile>
+    </profiles>
+            </modules>
+
+    </parent>
+            <modules>
+            </modules>
+        <relativePath>../</relativePath>
+    <artifactId>product</artifactId>
+                <module>community</module>
+        <version>1.0.0-SNAPSHOT</version>
+</project>
+        <groupId>org.jkiss.dbeaver</groupId>
+        <artifactId>dbeaver</artifactId>
+    <parent>
+        <profile>
+    <modelVersion>4.0.0</modelVersion>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+
+            <modules>
+                <module>appstore</module>
+                <module>repositories</module>
+            <id>appstore</id>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

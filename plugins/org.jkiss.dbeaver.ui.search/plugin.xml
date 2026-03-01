@@ -1,0 +1,85 @@
+            label="%search.result.view.page.metadata.result.name"
+                id="org.eclipse.search.menu">
+            searchResultClass="org.jkiss.dbeaver.ui.search.data.SearchDataResult">
+
+<!--
+                <separator name="extraSearchGroup"/> <!-- to be used by clients -->
+        point="org.eclipse.search.searchPages">
+                class="org.jkiss.dbeaver.ui.search.data.OpenDataSearchPageAction"/>
+                menubarPath="org.eclipse.search.menu/dialogGroup"
+            class="org.jkiss.dbeaver.ui.search.data.SearchDataResultsPage"
+                menubarPath="org.eclipse.search.menu/dialogGroup"
+                label="%menu.search"
+                <separator name="contextMenuActionsGroup"/> <!-- to be used by clients -->
+            class="org.jkiss.dbeaver.ui.search.metadata.SearchMetadataResultsPage"
+            enabled="true"
+            label="%search.page.label.db.metadata">
+            id="org.jkiss.dbeaver.ui.search.data.SearchDataResultsPage"
+            class="org.jkiss.dbeaver.ui.search.metadata.SearchMetadataPage"
+
+            <action id="org.jkiss.dbeaver.search.OpenDataSearchPage"
+</plugin>
+                icon="icons/search/data.png"
+
+            label="DBeaver Search"
+-->
+            icon="icons/search/data.png"
+            <!-- Some ancient Eclipse bug makes us to do this crazy things.
+                definitionId="org.jkiss.dbeaver.search.OpenDataSearchPage"
+    </extension>
+        <page
+            icon="icons/search/metadata.png"
+    </extension>
+                class="org.jkiss.dbeaver.ui.search.OpenQuickSearchAction"/>
+    <extension
+            <!-- This doesn't work anyway -->
+            class="org.jkiss.dbeaver.ui.search.data.SearchDataPage"
+            <menu
+            label="%search.page.label.db.fulltext">
+    <extension point="org.eclipse.ui.actionSets">
+            icon="icons/search/data.png"
+                icon="icons/search/quick.png"
+                definitionId="org.jkiss.dbeaver.search.OpenMetadataSearchPage"
+            id="org.jkiss.dbeaver.ui.search.metadata.SearchMetadataPage"
+        </viewPage>
+            </menu>
+                <groupMarker name="internalDialogGroup"/>   <!-- not to be used by clients  -->
+                path="navigate"
+            icon="icons/search/metadata.png"
+                label="%search.page.label.db.metadata"
+            enabled="true"
+    <extension
+            <action id="org.jkiss.dbeaver.search.OpenMetadataSearchPage"
+        <actionSet
+            <action id="org.jkiss.dbeaver.search.OpenQuickSearch"
+                class="org.jkiss.dbeaver.ui.search.metadata.OpenMetadataSearchPageAction"/>
+    </extension>
+            visible="true">
+                label="%search.page.label.db.fulltext"
+            id="org.jkiss.dbeaver.ui.search.data.SearchDataPage"
+                <separator name="fileSearchContextMenuActionsGroup"/> <!-- to be used by clients      -->
+<?eclipse version="3.4"?>
+                label="Quick Search"
+<plugin>
+        <page
+            searchResultClass="org.jkiss.dbeaver.ui.search.metadata.SearchMetadataResult">
+            label="%search.result.view.page.data.result.name"
+                <separator name="occurencesActionsGroup"/> <!-- to be used by clients -->
+            id="org.jkiss.dbeaver.ui.search.metadata.SearchMetadataResultsPage"
+                menubarPath="org.eclipse.search.menu/dialogGroup"
+        point="org.eclipse.search.searchResultViewPages">
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+        </page>
+        </page>
+        <viewPage
+            id="org.jkiss.dbeaver.search.searchActionSet"
+                definitionId="org.jkiss.dbeaver.search.OpenQuickSearch"
+        </viewPage>
+        <viewPage
+                <groupMarker name="dialogGroup"/>           <!-- to be used by clients      -->
+                icon="icons/search/metadata.png"
+    <!-- Legacy action sets. We have to use them to manage Eclipse search framework. -->
+        </actionSet>
+            Redefine search menu placeholders. Otherwise it doesn't work. -->

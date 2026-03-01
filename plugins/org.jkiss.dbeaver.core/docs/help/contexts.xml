@@ -1,0 +1,45 @@
+        <topic href="Query-Manager" label="Query Manager"/>
+        <topic href="Data-Editor" label="Result Set Viewer"/>
+    <context id="sql-editor">
+        <topic href="SQL-Editor" label="SQL Editor"/>
+    <context id="data-filter">
+        <topic href="Database-Navigator" label="Database Navigator"/>
+<contexts>
+        <topic href="Driver-Editor" label="Driver Editor"/>
+
+    <context id="view-project-explorer">
+    </context>
+    </context>
+    </context>
+
+        <topic href="Project-Navigator" label="Project Navigator"/>
+        <topic href="Entity-Editor" label="Entity Editor"/>
+        <topic href="Connect-to-database" label="Choose driver for connection"/>
+    </context>
+    <context id="result-set-viewer">
+    <context id="view-database-navigator">
+    </context>
+    <context id="view-project-navigator">
+    </context>
+    <context id="con-wizard-final">
+
+        <topic href="Driver-Manager" label="Driver Manager"/>
+    <context id="con-wizard-settings">
+
+    </context>
+        <topic href="Connect-to-database" label="Connection settings"/>
+    <context id="view-query-manager">
+    </context>
+    <context id="entity-editor">
+    </context>
+    </context>
+    <context id="driver-editor">
+    <context id="driver-manager">
+    </context>
+    </context>
+    <context id="con-wizard-driver">
+    </context>
+        <topic href="Connect-to-database" label="Additional connection settings"/>
+</contexts>
+        <topic href="Project-Explorer" label="Project Explorer"/>
+        <topic href="Data-Filter" label="Data Order/Filter Dialog"/>

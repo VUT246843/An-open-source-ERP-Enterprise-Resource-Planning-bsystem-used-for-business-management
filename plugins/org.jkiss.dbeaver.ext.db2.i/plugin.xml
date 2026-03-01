@@ -1,0 +1,73 @@
+                <driver
+                id="db2_i"
+                dialect="db2_i">
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                parent="generic"
+                        description="IBM Db2 driver for IBM i (replacement for iSeries and AS/400)"
+
+    </extension>
+                        id="db2_iseries"
+
+                    <parameter name="schema-filters-enabled" value="false"/>
+
+
+
+
+        <datasource
+                    <!-- Enable table/column descriptions -->
+
+            <drivers managable="true">
+    <extension point="org.jkiss.dbeaver.generic.meta">
+
+
+<?eclipse version="3.2"?>
+                description="%datasource.db2_i.description"
+
+                        supportedConfigurationTypes="MANUAL,URL"
+                    <replace provider="generic" driver="db2_iseries"/>
+                    <file type="jar" path="maven:/net.sf.jt400:jt400:RELEASE" bundle="!drivers.jt400"/>
+            </drivers>
+
+                        iconBig="icons/db2_i_icon_big.png"
+                    <parameter name="omit-catalog" value="true"/>
+</plugin>
+
+                        databaseDocumentationSuffixURL="Database-driver-IBM-Db2"
+        </datasource>
+<!--                    <property name="metadata source" value="0"/>-->
+                    <parameter name="query-get-active-db" value="SELECT CURRENT_SCHEMA FROM SYSIBM.SYSDUMMY1"/>
+                        categories="sql">
+                    <file type="license" path="drivers/db2-jt400/LICENSE.txt" bundle="drivers.jt400"/>
+                        label="Db2 for IBM i"
+        <manager class="org.jkiss.dbeaver.ext.db2.i.edit.DB2ITableManager" objectType="org.jkiss.dbeaver.ext.db2.i.model.DB2ITable"/>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+                        sampleURL="jdbc:as400://{host};[libraries={database};]"
+                    <file type="jar" path="drivers/db2-jt400" bundle="drivers.jt400"/>
+                    <parameter name="query-set-active-db" value="SET SCHEMA ?"/>
+        <manager class="org.jkiss.dbeaver.ext.db2.i.edit.DB2IConstraintManager" objectType="org.jkiss.dbeaver.ext.db2.i.model.DB2IConstraint"/>
+        </dialect>
+                    <property name="translate binary" value="true"/>
+    <extension point="org.jkiss.dbeaver.objectManager">
+        <meta id="db2iseries" class="org.jkiss.dbeaver.ext.db2.i.model.DB2IMetaModel" driverClass="com.ibm.as400.access.AS400JDBCDriver"/>
+                        class="com.ibm.as400.access.AS400JDBCDriver"
+                label="Db2 for IBM i data source"
+                icon="icons/db2_i_icon.png"
+                           changeFolderType="org.jkiss.dbeaver.ext.db2.i.model.DB2IConstraint"/>
+<plugin>
+        <!-- DB2 for IBM i -->
+    </extension>
+        <dialect id="db2_i" parent="generic" class="org.jkiss.dbeaver.ext.db2.i.model.DB2ISQLDialect" label="Db2 i" description="IBM Db2 for i SQL dialect." icon="icons/db2_i_icon.png">
+                    <!-- Metasource=0 enables metadata comments read but may break long catalog/schema names (#10302) -->
+                        category="Db2"
+                        defaultPort="446"
+    </extension>
+                           changeFolderType="org.jkiss.dbeaver.ext.db2.i.model.DB2ITable"/>
+                </driver>
+    </extension>
+            <treeInjection path="generic/catalog/schema/table"
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+            <treeInjection path="generic/catalog/schema/table/uniqueKey"
+                        icon="icons/db2_i_icon.png"
+                class="org.jkiss.dbeaver.ext.db2.i.DB2IDataSourceProvider"

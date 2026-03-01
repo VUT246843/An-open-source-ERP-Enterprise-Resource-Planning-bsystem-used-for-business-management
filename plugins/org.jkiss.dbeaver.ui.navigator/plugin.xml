@@ -1,0 +1,1119 @@
+        <command id="org.jkiss.dbeaver.core.sql.script.run.scriptNative" name="%command.org.jkiss.dbeaver.core.sql.script.run.scriptNative.name" description="%command.org.jkiss.dbeaver.core.sql.script.run.scriptNative.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+
+
+            </enabledWhen>
+                        <test property="org.jkiss.dbeaver.ui.editors.folder.canNavigate" value="1"/>
+
+        </handler>
+                                <test property="org.jkiss.dbeaver.core.object.projectResourceEditable"/>
+    <extension point="org.eclipse.core.runtime.preferences">
+
+            type="org.eclipse.ui.IWorkbenchPart"/>
+                id="org.jkiss.dbeaver.ui.navigator.node.modified.background"
+            </enabledWhen>
+                %wizard.org.jkiss.dbeaver.core.wizard.new.project.description
+                <with variable="activeEditor">
+                    <with variable="selection">
+        </definition>
+                    id="org.jkiss.dbeaver.core.resource.link.file.contenttype"
+                    </with>
+                            </adapt>
+                    name="%commandParameter.org.jkiss.dbeaver.core.resource.link.file.contenttype.name"
+        <image commandId="org.jkiss.dbeaver.core.resource.link.file" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/link.png"/>
+        </view>
+    <extension-point id="org.jkiss.dbeaver.navigator.nodeAction" name="%extension-point.org.jkiss.dbeaver.navigator.nodeAction.name" schema="schema/org.jkiss.dbeaver.navigator.nodeAction.exsd"/>
+        </handler>
+    <extension point="org.eclipse.ui.editors">
+                    <with variable="selection">
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+                    </adapt>
+
+            <separator name="filters" visible="true"/>
+                <with variable="selection">
+            <commandParameter id="singleProject" name="Refresh just active project" optional="true"/>
+            <activeWhen>
+                        <instanceof value="org.jkiss.dbeaver.model.DBPDataSourceContainerProvider"/>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/></activeWhen>
+                            <test property="org.jkiss.dbeaver.core.object.canPaste"/>
+    <extension point="org.eclipse.ui.themes">
+        </handler>
+            <enabledWhen>
+
+        <key commandId="org.jkiss.dbeaver.core.object.open" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="F4"/>
+                        <instanceof value="org.jkiss.dbeaver.model.navigator.fs.DBNPathBase"/>
+                    </iterate>
+                value="255, 228, 181">
+            </enabledWhen>
+                            <test property="org.jkiss.dbeaver.core.object.canFilterObject"/>
+                    </iterate>
+            <separator name="generate" visible="true"/>
+                contributorClass="org.jkiss.dbeaver.ui.editors.EditorSearchActionsContributor"
+
+            <enabledWhen>
+                class="org.jkiss.dbeaver.ui.editors.entity.FolderEditor"
+                <with variable="selection">
+            type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor"/>
+
+                type="org.jkiss.dbeaver.model.struct.DBSObject"/>
+        <image commandId="org.jkiss.dbeaver.core.resource.create.folder" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/folder_add.svg"/>
+        </handler>
+        <image commandId="org.jkiss.dbeaver.core.project.select" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/project.svg"/>
+            </enabledWhen>
+
+                                <test property="org.jkiss.dbeaver.core.object.projectResourceEditable"/>
+
+        </handler>
+            <enabledWhen>
+        <confirmation
+                </with>
+        </menuContribution>
+            <enabledWhen>
+    </extension>
+            </enabledWhen>
+        </handler>
+
+                value="38, 100, 36">
+                    </iterate>
+                <visibleWhen>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/></activeWhen>
+        <command id="org.jkiss.dbeaver.core.navigator.set.default" name="%command.org.jkiss.dbeaver.core.navigator.set.default.name" description="%command.org.jkiss.dbeaver.core.navigator.set.default.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+            class="org.jkiss.dbeaver.ui.editors.entity.FolderEditorPropertyTester"
+                name="%context.org.jkiss.dbeaver.ui.context.navigator.view.name"
+                        <adapt type="org.jkiss.dbeaver.ui.navigator.INavigatorModelView"/>
+        <initializer class="org.jkiss.dbeaver.ui.internal.UINavigatorPreferencesInitializer"/>
+                    <not><test property="org.jkiss.dbeaver.core.global.distributed"/></not>
+                <instanceof value="org.jkiss.dbeaver.model.DBPContextProvider"/>
+            <adapter type="org.jkiss.dbeaver.model.DBPQualifiedObject"/>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+        <command id="org.jkiss.dbeaver.core.resource.create.folder" name="%command.org.jkiss.dbeaver.core.resource.create.folder.name" description="%command.org.jkiss.dbeaver.core.resource.create.folder.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.folder.editor"/></activeWhen>
+    </extension>
+        <command id="org.jkiss.dbeaver.core.navigator.preferences" name="%command.org.jkiss.dbeaver.core.navigator.preferences.name" description="%command.org.jkiss.dbeaver.core.navigator.preferences.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        <command id="org.jkiss.dbeaver.core.project.create" name="%command.org.jkiss.dbeaver.core.project.create.name" description="%command.org.jkiss.dbeaver.core.project.create.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+                </and>
+                        </iterate>
+            <enabledWhen>
+
+                    <not><test property="org.jkiss.dbeaver.core.global.distributed"/></not>
+                        <test property="org.jkiss.dbeaver.ui.editors.folder.canNavigate" value="-1"/>
+        <command id="org.jkiss.dbeaver.core.navigator.linkeditor" name="%command.org.jkiss.dbeaver.core.navigator.linkeditor.name" description="%command.org.jkiss.dbeaver.core.navigator.linkeditor.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        <nodeAction class="org.jkiss.dbeaver.ui.navigator.actions.node.NNAHDataSourceReadOnly" order="100">
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part.active"/></activeWhen>
+                <with variable="selection">
+        </handler>
+                <with variable="activeEditor">
+                    </adapt>
+    </extension>
+
+                        <count value="1"/>
+        </handler>
+                </with>
+
+                        <iterate operator="and">
+        </handler>
+            <separator name="export_import" visible="false"/>
+            <enabledWhen>
+        </menuContribution>
+
+                            <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+            <description>%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.statistics.background.description</description>
+        </handler>
+                    </iterate>
+                <with variable="selection">
+                    </adapt>
+                        </adapt>
+                    <with variable="selection">
+                toggleMessage="%confirm.entity.toggleMessage"
+    <extension point="org.jkiss.dbeaver.confirmations">
+
+                    values="org.jkiss.dbeaver.ui.actions.ContentTypeParameterValues">
+                message="%confirm.entity_reject.message"
+        </handler>
+                <with variable="activePart">
+            <enabledWhen>
+                <with variable="activeEditor">
+    <extension point="org.eclipse.ui.handlers">
+        </definition>
+        <handler commandId="org.eclipse.ui.navigate.backwardHistory" class="org.jkiss.dbeaver.ui.editors.entity.handlers.FolderNavigateHandler">
+        </page>
+            </enabledWhen>
+                                <adapt type="org.eclipse.core.resources.IResource">
+        <image commandId="org.jkiss.dbeaver.core.object.move.up" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/arrow_up.svg"/>
+                        </adapt>
+                        <iterate operator="and">
+                </with>
+        </handler>
+        <!-- Folder editor -->
+                <with variable="selection">
+        <handler commandId="org.eclipse.ui.file.refresh" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerRefresh">
+            <commandParameter id="noCustomLabel" name="Show original command name" optional="true"/>
+                        <count value="1"/>
+                name="%editor.folder.name"
+            </enabledWhen>
+                <with variable="selection">
+                </with>
+            </enabledWhen>
+                <with variable="selection">
+    <extension point="org.eclipse.ui.commandImages">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor" />
+        </page>
+        <context
+                            <and>
+        <command id="org.jkiss.dbeaver.core.project.refresh" name="%command.org.jkiss.dbeaver.core.project.refresh.name" description="%command.org.jkiss.dbeaver.core.project.refresh.description" categoryId="org.jkiss.dbeaver.core.navigator">
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+        <command id="org.jkiss.dbeaver.core.object.move.bottom" name="%command.org.jkiss.dbeaver.core.object.move.bottom.name" description="%command.org.jkiss.dbeaver.core.object.move.bottom.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                    </with>
+                <handler commandId="org.eclipse.ui.edit.text.contentAssist.proposals" class="org.jkiss.dbeaver.ui.editors.entity.handlers.PreviewChangesHandler">
+        </menuContribution>
+                    <count value="+"/>
+                <visibleWhen checkEnabled="true"/>
+                label="%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.statistics.background.label"
+                category="org.jkiss.dbeaver.core.new.general"
+                        </iterate>
+            <commandParameter id="noCustomLabel" name="Show original command name" optional="true"/>
+                        </adapt>
+                            <test property="org.jkiss.dbeaver.core.object.canMoveUp"/>
+                    </iterate>
+                        </adapt>
+                    <test property="org.jkiss.dbeaver.core.global.ui.canCreateProject"/>
+                message="%confirm.entity_revert.message"
+                    <test property="org.jkiss.dbeaver.core.global.ui.hasMultipleProjects"/>
+            <enabledWhen>
+            id="org.jkiss.dbeaver.ui.navigator.NavigatorPropertyTester"
+                        </adapt>
+        <handler commandId="org.jkiss.dbeaver.core.object.filter.clear" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerFilterClear">
+    <extension point="org.eclipse.ui.menus">
+                    <adapt type="org.jkiss.dbeaver.model.DBPContextProvider">
+                    </adapt>
+        <wizard
+        <editor
+            <description>%view.project.explorer.description</description>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNDatabaseNode"/>
+            </enabledWhen>
+                    </with>
+                    <iterate operator="and">
+                <with variable="activeEditor">
+        <propertyTester
+            </with>
+        <handler commandId="org.jkiss.dbeaver.core.resource.link.folder" class="org.jkiss.dbeaver.ui.navigator.actions.links.LinkFolderHandler">
+            <adapter type="org.eclipse.core.resources.IResource"/>
+            </enabledWhen>
+            </enabledWhen>
+        </handler>
+    <extension point="org.eclipse.ui.newWizards">
+                <and>
+                    <iterate operator="and">
+        </handler>
+            namespace="org.jkiss.dbeaver.core.resource"
+        <command id="org.jkiss.dbeaver.core.edit.save.resource" name="%command.org.jkiss.dbeaver.core.edit.save.resource.name" description="%command.org.jkiss.dbeaver.core.edit.save.resource.description" categoryId="org.jkiss.dbeaver.core.util"/>
+            <commandParameter id="activeFolder" name="Active folder" optional="true"/>
+                            </and>
+            <enabledWhen>
+        <command id="org.jkiss.dbeaver.core.edit.copy.special" name="%command.org.jkiss.dbeaver.core.edit.copy.special.name" description="%command.org.jkiss.dbeaver.core.edit.copy.special.description" categoryId="org.jkiss.dbeaver.core.util"/>
+                <and>
+                name="%wizard.org.jkiss.dbeaver.core.wizard.new.project.name">
+        </handler>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+        <command id="org.jkiss.dbeaver.core.object.create" name="%command.org.jkiss.dbeaver.core.object.create.name" description="%command.org.jkiss.dbeaver.core.object.create.description" categoryId="org.jkiss.dbeaver.core.database">
+            properties="canNavigate"
+                </with>
+            <adapter type="org.eclipse.core.resources.IFile"/>
+                                </adapt>
+                <test property="org.jkiss.dbeaver.core.navigator.active" forcePluginActivation="true"/>
+    </extension>
+                    <iterate operator="and">
+        </nodeAction>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+        <definition id="org.jkiss.dbeaver.core.ui.navigator.part.active">
+        <menuContribution allPopups="false" locationURI="toolbar:org.jkiss.dbeaver.navigator.filter.toolbar.connected?after=additions">
+        <command id="org.jkiss.dbeaver.core.object.filter.config" name="%command.org.jkiss.dbeaver.core.object.filter.config.name" description="%command.org.jkiss.dbeaver.core.object.filter.config.description" categoryId="org.jkiss.dbeaver.core.database"/>
+            </enabledWhen>
+    </extension>
+                <and>
+        </view>
+                <with variable="selection">
+                title="%confirm.entity_reject.title"
+            class="org.jkiss.dbeaver.ui.navigator.NavigatorPropertyTester"
+            icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/databases.svg"
+                            </and>
+                            <test property="org.jkiss.dbeaver.core.object.canRename"/>
+                    </iterate>
+<?xml version="1.0" encoding="UTF-8"?>
+                    <reference definitionId="LocalWorkspace"/>
+                message="%confirm.close_editor_edit.message"
+            <menu id="dbeaver-menu-create" label="%menu.create.label">
+        <handler commandId="org.eclipse.ui.edit.paste" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateCopy">
+        <key commandId="org.jkiss.dbeaver.ui.tools.select.schema" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+0"/>
+                    </iterate>
+                    <count value="+"/>
+                                <test property="org.jkiss.dbeaver.core.object.projectResourceEditable"/>
+        <handler commandId="org.jkiss.dbeaver.core.sql.script.associate" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerAssociateScript">
+                        <count value="1"/>
+                    <iterate operator="and">
+        <command id="org.jkiss.dbeaver.core.project.active" name="%command.org.jkiss.dbeaver.core.project.active.name" description="%command.org.jkiss.dbeaver.core.project.active.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        <handler commandId="org.eclipse.ui.edit.delete" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectDelete">
+                            <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+                                </adapt>
+        <propertyTester
+                </and>
+            id="org.jkiss.dbeaver.core.projectNavigator"
+                name="%editor.entity.name"
+        <category id="org.jkiss.dbeaver.entity.propsTab" name="%category.org.jkiss.dbeaver.entity.propsTab.name" description="%category.org.jkiss.dbeaver.entity.propsTab.description"/>
+            class="org.jkiss.dbeaver.ui.actions.GlobalUIPropertyTester"
+                            <instanceof value="org.jkiss.dbeaver.model.navigator.DBNLocalFolder"/>
+                </with>
+        </handler>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part.active"/></activeWhen>
+                        </iterate>
+                    </adapt>
+                        <adapt type="org.jkiss.dbeaver.model.DBPNamedObject"/>
+        <command id="org.jkiss.dbeaver.core.object.filter.toggle" name="%command.org.jkiss.dbeaver.core.object.filter.toggle.name" description="%command.org.jkiss.dbeaver.core.object.filter.toggle.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                </or>
+        <command id="org.jkiss.dbeaver.ui.tools.select.connection" name="%command.org.jkiss.dbeaver.ui.tools.select.connection.name" description="%command.org.jkiss.dbeaver.ui.tools.select.connection.description" categoryId="org.jkiss.dbeaver.core.database">
+        <command id="org.jkiss.dbeaver.core.object.filter.add.exclude" name="%command.org.jkiss.dbeaver.core.object.filter.add.exclude.name" description="%command.org.jkiss.dbeaver.core.object.filter.add.exclude.description" categoryId="org.jkiss.dbeaver.core.database"/>
+            icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/database_navigator.svg"
+                    </iterate>
+            </enabledWhen>
+
+                            <test property="org.jkiss.dbeaver.core.object.canFilter"/>
+        <definition id="org.jkiss.dbeaver.core.ui.navigator.part">
+            <with variable="activePart">
+        </handler>
+                <instanceof value="org.jkiss.dbeaver.ui.editors.entity.FolderEditor"/>
+        <handler commandId="org.eclipse.ui.navigate.expandAll" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerExpandAll"/>
+            category="org.jkiss.dbeaver.core.category"
+                <with variable="selection">
+        <context
+                </with>
+            allowMultiple="true"
+        </handler>
+                group="%confirm.object.editor.group.name"/>
+    <extension point="org.eclipse.ui.commands">
+                <with variable="activeEditor">
+
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/></activeWhen>
+                <with variable="selection">
+            allowMultiple="false"
+                    <activeWhen>
+                        <or>
+
+    </extension>
+
+                        <count value="1"/>
+                        </or>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.FolderEditor">
+                </with>
+                    </with>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+        <image commandId="org.jkiss.dbeaver.core.object.delete" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/delete.svg"/>
+                id="close_editor_edit"
+            <description>%themeElementCategory.org.jkiss.dbeaver.ui.navigator.description</description>
+        <themeElementCategory label="%themeElementCategory.org.jkiss.dbeaver.ui.navigator.label" id="org.jkiss.dbeaver.ui.navigator">
+                    <with variable="selection">
+                    <count value="1"/>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part.active"/></activeWhen>
+                        <iterate operator="and">
+            <description>%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.modified.foreground.description</description>
+                    <with variable="selection">
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/></activeWhen>
+        </handler>
+                        </with>
+            </activeWhen>
+            </enabledWhen>
+                id="org.jkiss.dbeaver.core.wizard.new.project"
+            <toolbar id="dbeaver-tools" label="Database Tools Toolbar">
+            properties="canOpen,canDelete,canCreateFile,canCreateFolder,canCreateLink,canSetActive,isLocalFS,isFolder,type"
+
+            </enabledWhen>
+                            <test property="org.jkiss.dbeaver.core.object.canMoveUp"/>
+
+                    <with variable="selection">
+                id="org.jkiss.dbeaver.ui.navigator.node.statistics.background"
+        <!-- Navigator handlers -->
+            </toolbar>
+            class="org.jkiss.dbeaver.ui.navigator.database.DatabaseBrowserView"
+                            <test property="org.jkiss.dbeaver.core.object.projectResourceEditable"/>
+        <handler commandId="org.jkiss.dbeaver.entity.propsTab.nextPage" class="org.jkiss.dbeaver.ui.editors.entity.properties.ObjectPropertiesTabFolderSwitchCommandHandler">
+
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor">
+
+                    <iterate operator="and">
+        <command id="org.jkiss.dbeaver.ui.object.property.source.activate" name="%command.org.jkiss.dbeaver.ui.context.object.property.source.switch.name" description="%command.org.jkiss.dbeaver.ui.context.object.property.source.switch.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                                <not>
+                    <count value="1"/>
+            <enabledWhen>
+            type="org.jkiss.dbeaver.model.DBPNamedObject"/>
+                            <instanceof value="org.jkiss.dbeaver.model.navigator.DBNContainer"/>
+        </definition>
+                </handler>
+            </enabledWhen>
+        <command id="org.jkiss.dbeaver.core.object.goto" name="%command.org.jkiss.dbeaver.core.object.goto.name" description="%command.org.jkiss.dbeaver.core.object.goto.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                                </adapt>
+            </with>
+                icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/properties.svg"
+        <nodeAction class="org.jkiss.dbeaver.ui.navigator.actions.node.NNAHDataSourceTunnel" order="200">
+                    <adapt type="org.eclipse.ui.IEditorPart"/>
+            namespace="org.jkiss.dbeaver.ui.editors.entity"
+        </view>
+                    <count value="+"/>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+                                    <test property="org.jkiss.dbeaver.core.resource.canCreateFile"/>
+        <key commandId="org.jkiss.dbeaver.core.object.create" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="win32" sequence="ALT+INSERT"/>
+        <image commandId="org.jkiss.dbeaver.core.edit.load.resource" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/load.png"/>
+                    <iterate operator="and">
+                    <iterate operator="and">
+        <image commandId="org.jkiss.dbeaver.core.project.refresh" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/refresh.svg"/>
+        <handler commandId="org.jkiss.dbeaver.core.resource.link.file" class="org.jkiss.dbeaver.ui.navigator.actions.links.LinkFileHandler">
+                        </iterate>
+            <enabledWhen>
+            <objectType name="org.jkiss.dbeaver.model.navigator.DBNDataSource"/>
+                categoryId="org.jkiss.dbeaver.ui.navigator"
+                            </and>
+                        <with variable="activeEditor">
+        <definition id="org.jkiss.dbeaver.core.ui.datasource.part">
+        <handler commandId="org.jkiss.dbeaver.core.object.move.down" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectMove">
+        <propertyTester
+            <adapter type="org.eclipse.core.resources.IFolder"/>
+            <adapter type="org.eclipse.core.resources.IProject"/>
+                class="org.jkiss.dbeaver.tools.project.ProjectCreateWizard"
+                <adapt type="org.eclipse.core.resources.IProject">
+                <separator name="additions" visible="false"/>
+                label="%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.transient.foreground.label"
+                id="org.jkiss.dbeaver.ui.navigator.node.new.background"
+                </and>
+                                <test property="org.jkiss.dbeaver.core.object.canDelete"/>
+                        </or>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+                class="org.jkiss.dbeaver.ui.editors.entity.EntityEditor"
+        <command id="org.jkiss.dbeaver.core.project.select" name="%command.org.jkiss.dbeaver.core.project.select.name" description="%command.org.jkiss.dbeaver.core.project.select.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+            </commandParameter>
+        <image commandId="org.jkiss.dbeaver.core.object.move.down" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/arrow_down.svg"/>
+        <image commandId="org.jkiss.dbeaver.core.resource.link.folder" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/link.png"/>
+        </handler>
+        </factory>
+        </factory>
+            <command commandId="org.jkiss.dbeaver.navigator.filter.object.type" id="org.jkiss.dbeaver.navigator.filter.object.type.menu" style="pulldown"/>
+        </handler>
+        <image commandId="org.jkiss.dbeaver.core.navigator.preferences" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/configuration.svg"/>
+            <enabledWhen>
+    <extension point="org.eclipse.ui.handlers">
+        </colorDefinition>
+                    <count value="+"/>
+        </handler>
+        </command>
+                <!--<instanceof value="org.jkiss.dbeaver.ui.navigator.INavigatorModelView"/>-->
+                description="%context.org.jkiss.dbeaver.ui.context.navigator.description"/>
+                        <or>
+        </handler>
+                id="org.jkiss.dbeaver.ui.navigator.node.foreground"
+                        </adapt>
+            </enabledWhen>
+                </adapt>
+                <with variable="selection">
+                    <iterate operator="and">
+                id="entity_revert"
+                            <test property="org.jkiss.dbeaver.core.object.supportsConstraintCreate" />
+
+        <command id="org.jkiss.dbeaver.core.sql.script.associate" name="%command.org.jkiss.dbeaver.core.sql.script.associate.name" description="%command.org.jkiss.dbeaver.core.sql.script.associate.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        <command id="org.jkiss.dbeaver.core.resource.create.file" name="%command.org.jkiss.dbeaver.core.resource.create.file.name" description="%command.org.jkiss.dbeaver.core.resource.create.file.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        </handler>
+            <enabledWhen>
+            <enabledWhen>
+                    </adapt>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+            id="org.jkiss.dbeaver.ui.actions.ObjectPropertyTester"
+
+        <confirmation
+        <page class="org.jkiss.dbeaver.ui.preferences.PrefPageDatabaseNavigator" id="org.jkiss.dbeaver.preferences.navigator" name="%page.org.jkiss.dbeaver.preferences.databaseNavigator.name">
+    </extension>
+                <with variable="activeEditor">
+                categoryId="org.jkiss.dbeaver.ui.navigator"
+                <dynamic id="org.jkiss.dbeaver.core.menu.create" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew$MenuCreateContributor"/>
+        </command>
+
+        <nodeAction class="org.jkiss.dbeaver.ui.navigator.actions.node.NNAHDataSourceConfiguration" order="999">
+    <extension point="org.eclipse.ui.bindings">
+        <image commandId="org.jkiss.dbeaver.core.show.in.explorer" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/link.svg"/>
+                label="%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.modified.background.label"
+                </and>
+                    <iterate operator="and">
+            </activeWhen>
+                            </adapt>
+            <adapter type="org.jkiss.dbeaver.model.struct.rdb.DBSProcedure"/>
+                        </iterate>
+            </enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.navigator.filter.connected" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerConnectionFilter"/>
+                        <iterate operator="and">
+            <with variable="activePart">
+            <activeWhen>
+
+        <command id="org.jkiss.dbeaver.core.object.move.top" name="%command.org.jkiss.dbeaver.core.object.move.top.name" description="%command.org.jkiss.dbeaver.core.object.move.top.description" categoryId="org.jkiss.dbeaver.core.database"/>
+            <enabledWhen>
+            class="org.jkiss.dbeaver.ui.navigator.database.DatabaseNavigatorView"
+
+        <command id="org.jkiss.dbeaver.core.object.move.up" name="%command.org.jkiss.dbeaver.core.object.move.up.name" description="%command.org.jkiss.dbeaver.core.object.move.up.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                                </adapt>
+                            </and>
+                        <count value="1"/>
+        </handler>
+                value="240, 240, 240">
+    </extension>
+                    </iterate>
+                </with>
+        <factory adaptableType="org.jkiss.dbeaver.model.DBPObject" class="org.jkiss.dbeaver.ui.navigator.NavigatorConfiguratorFactory">
+                    </iterate>
+                <with variable="selection">
+        <command id="org.jkiss.dbeaver.core.navigator.open.browser" name="%command.org.jkiss.dbeaver.core.navigator.open.browser.name" description="%command.org.jkiss.dbeaver.core.navigator.open.browser.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        </handler>
+
+            <commandParameter id="org.jkiss.dbeaver.core.object.folder" name="Object is folder" optional="true"/>
+                            <test property="org.jkiss.dbeaver.core.object.hasFilter" value="defined"/>
+        <handler commandId="org.jkiss.dbeaver.core.resource.create.file" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerCreateFile">
+        <image commandId="org.jkiss.dbeaver.core.object.move.top" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/arrow_top.svg"/>
+                        </adapt>
+        </handler>
+                </with>
+        </colorDefinition>
+            <adapter type="org.jkiss.dbeaver.model.struct.rdb.DBSSchema"/>
+        <handler commandId="org.jkiss.dbeaver.navigator.filter.object.type" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerFilterObjectType"/>
+
+                        </iterate>
+                    <count value="+"/>
+
+                <instanceof value="org.jkiss.dbeaver.ui.navigator.database.NavigatorViewBase"/>
+            </enabledWhen>
+                    <with variable="selection">
+        <menuContribution allPopups="false" locationURI="toolbar:org.eclipse.ui.main.toolbar?after=additions">
+            class="org.jkiss.dbeaver.ui.navigator.project.ProjectNavigatorView"
+                    </iterate>
+        <key commandId="org.jkiss.dbeaver.core.object.create" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="gtk" sequence="ALT+INSERT"/>
+                <with variable="selection">
+            <objectType name="org.jkiss.dbeaver.model.navigator.DBNDataSource"/>
+    <extension point="org.eclipse.core.runtime.adapters">
+                <visibleWhen>
+                        </iterate>
+                    <iterate operator="and">
+                    <iterate operator="and">
+                                <adapt type="org.eclipse.core.resources.IResource">
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part.active"/></activeWhen>
+                </with>
+                <with variable="selection">
+                    <count value="1"/>
+                    </with>
+                                <test property="org.jkiss.dbeaver.core.object.projectResourceEditable"/>
+            </enabledWhen>
+        <image commandId="org.jkiss.dbeaver.core.object.filter.add.include" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/filter_add.svg"/>
+        <propertyTester
+                    <count value="1"/>
+                        <test property="org.jkiss.dbeaver.ui.editors.entity.hasSource"/>
+                            <adapt type="org.eclipse.core.resources.IResource">
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part.active"/></activeWhen>
+            </enabledWhen>
+                description="%confirm.entity_revert.tip"
+                name="%context.org.jkiss.dbeaver.ui.context.navigator.name"
+
+            <command commandId="org.jkiss.dbeaver.ui.editors.data.forSelection">
+            </enabledWhen>
+        </colorDefinition>
+                        <iterate operator="and">
+                properties="childOfType,isTableContainer"
+        <handler commandId="org.jkiss.dbeaver.navigator.create.column.constraint" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerCreateColumnConstraint">
+            </command>
+        </handler>
+                categoryId="org.jkiss.dbeaver.ui.navigator"
+            </enabledWhen>
+
+                contributorClass="org.jkiss.dbeaver.ui.editors.entity.FolderEditorContributor"
+        <image commandId="org.jkiss.dbeaver.core.object.move.bottom" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/arrow_bottom.svg"/>
+                <with variable="activeEditor">
+        </handler>
+            </activeWhen>
+    <extension point="org.eclipse.ui.propertyPages">
+                </with>
+    </extension>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/></activeWhen>
+                                </adapt>
+                <test property="org.jkiss.dbeaver.core.navigator.focused" forcePluginActivation="true"/>
+    <extension point="org.jkiss.dbeaver.navigator.nodeAction">
+            <description>%view.database.navigator.description</description>
+        <handler commandId="org.jkiss.dbeaver.core.object.filter.add.exclude" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerFilterExclude">
+            </enabledWhen>
+
+
+                            <test property="org.jkiss.dbeaver.core.object.canCreateMulti"/>
+        <image commandId="org.jkiss.dbeaver.navigator.create.column.constraint" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/constraint.svg"/>
+            <description>%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.new.background.description</description>
+            </enabledWhen>
+        </handler>
+                </with>
+                </with>
+                </and>
+            name="%view.project.explorer.title">
+        </menuContribution>
+
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor">
+                            </adapt>
+            allowMultiple="false"
+
+        <image commandId="org.jkiss.dbeaver.ui.tools.select.connection" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/database.svg"/>
+            <commandParameter id="org.jkiss.dbeaver.core.object.typeIcon" name="Object type icon" optional="true"/>
+
+            <enabledWhen>
+            class="org.jkiss.dbeaver.ui.editors.entity.EntityEditorPropertyTester"
+            <adapter type="org.jkiss.dbeaver.model.DBPDataSourceContainer"/>
+        <handler commandId="org.eclipse.ui.navigate.collapseAll" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerCollapseAll"/>
+
+                title="%confirm.entity_revert.title"
+                        <iterate operator="and">
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+                </with>
+        <propertyTester
+                namespace="org.jkiss.dbeaver.model"
+        <definition id="org.jkiss.dbeaver.core.ui.folder.editor">
+            <adapter type="org.eclipse.ui.model.IWorkbenchAdapter"/>
+                        <count value="1"/>
+                            <and>
+                    </with>
+
+        </handler>
+                </with>
+                <with variable="selection">
+            <enabledWhen>
+        <colorDefinition
+                    <iterate operator="and">
+                id="org.jkiss.dbeaver.ui.editors.entity.EntityEditor">
+            <enabledWhen>
+        <key commandId="org.jkiss.dbeaver.core.object.goto" contextId="org.eclipse.ui.contexts.window" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+D"/>
+        </command>
+                                <instanceof value="org.jkiss.dbeaver.model.navigator.DBNResource"/>
+                parentId="org.jkiss.dbeaver.ui.context.navigator"
+                <with variable="activeEditor">
+                    <or>
+                title="%confirm.close_editor_edit.title"
+            id="org.jkiss.dbeaver.ui.editors.entity.FolderEditorPropertyTester"
+        <colorDefinition
+        </handler>
+                                    <test property="org.jkiss.dbeaver.core.resource.canCreateFolder"/>
+                <visibleWhen checkEnabled="true"/>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSStructContainer"/>
+        <category id="org.jkiss.dbeaver.core.navigator" name="%category.dbnavigator.name" description="%category.dbnavigator.description"/>
+        <menuContribution allPopups="false" locationURI="menu:org.jkiss.dbeaver.navigator.filter.object.type.menu">
+</plugin>
+        </handler>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSObject"/>
+            </with>
+            <enabledWhen>
+        <propertyTester
+                label="%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.foreground.label"
+                toggleMessage="%confirm.entity.toggleMessage"
+        <command id="org.jkiss.dbeaver.core.edit.paste.special" name="%command.org.jkiss.dbeaver.core.edit.paste.special.name" description="%command.org.jkiss.dbeaver.core.edit.paste.special.description" categoryId="org.jkiss.dbeaver.core.util"/>
+                </with>
+                    <test property="org.eclipse.core.resources.projectNature" value="org.jkiss.dbeaver.DBeaverNature"/>
+            </with>
+
+            <enabledWhen>
+                </with>
+        <page class="org.jkiss.dbeaver.ui.project.PrefPageProjectResourceDetails" id="org.jkiss.dbeaver.preferences.resourceDetails"  name="%page.org.jkiss.dbeaver.preferences.resourceDetails.name">
+                            <instanceof value="org.jkiss.dbeaver.model.navigator.DBNLocalFolder"/>
+        </colorDefinition>
+                    <iterate operator="and">
+                </with>
+        <image commandId="org.jkiss.dbeaver.navigator.filter.connected" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/filter_all.svg"/>
+                </with>
+        <confirmation
+            <with variable="activeFocusControlId">
+                    </iterate>
+                </with>
+                id="org.jkiss.dbeaver.ui.context.navigator"
+                <with variable="selection">
+
+        -->
+                            </adapt>
+                <with variable="activeEditor">
+    </extension>
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=tools">
+                        </or>
+        </command>
+        <handler commandId="org.jkiss.dbeaver.core.object.filter.toggle" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerFilterToggle">
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.datasource.editor"/>
+                <adapt type="org.jkiss.dbeaver.model.navigator.fs.DBNPath"/>
+        <key commandId="org.jkiss.dbeaver.core.navigator.linkeditor" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+,"/>
+                <visibleWhen checkEnabled="true"/>
+        <handler commandId="org.jkiss.dbeaver.core.object.create" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectCreateNew"/>
+        </colorDefinition>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor">
+                        </iterate>
+        <image commandId="org.jkiss.dbeaver.core.object.create" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/create.svg"/>
+                            <test property="org.jkiss.dbeaver.core.object.supportsIndexCreate" />
+            </enabledWhen>
+        <factory adaptableType="org.jkiss.dbeaver.model.DBPObject" class="org.jkiss.dbeaver.ui.navigator.NavigatorAdapterFactory">
+                </visibleWhen>
+                <equals value="org.jkiss.dbeaver.ui.navigator"/>
+                        <adapt type="org.jkiss.dbeaver.ui.IRefreshablePart"/>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+            </enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.core.navigator.open.browser" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerOpenBrowser">
+                        <count value="1"/>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+            namespace="org.jkiss.dbeaver.ui.editors.folder"
+            </enabledWhen>
+                                </adapt>
+                description="%confirm.entity_reject.tip"
+    </extension>
+        <image commandId="org.jkiss.dbeaver.navigator.create.column.index" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/index.svg"/>
+        <handler commandId="org.jkiss.dbeaver.core.object.open" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectOpen">
+                            </and>
+                        </and>
+            properties="canOpen,canCreateSingle,canCreateMulti,canPaste,canDelete,canRename,canMoveUp,canMoveDown,canFilter,canFilterObject,hasFilter,supportsIndexCreate,supportsConstraintCreate,supportsNativeExecution,projectResourceEditable,projectResourceViewable"
+            <command commandId="org.jkiss.dbeaver.navigator.create.column.constraint">
+                                    <test property="org.jkiss.dbeaver.core.resource.canCreateLink"/>
+        <editor
+        <colorDefinition
+                <with variable="selection">
+            class="org.jkiss.dbeaver.ui.navigator.project.ProjectExplorerView"
+        <image commandId="org.jkiss.dbeaver.navigator.filter.object.type" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/filter_connections.svg"/>
+                            </adapt>
+        <handler commandId="org.jkiss.dbeaver.core.project.refresh" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerProjectRefresh"/>
+            category="org.jkiss.dbeaver.core.category"
+        <command id="org.jkiss.dbeaver.entity.propsTab.prevPage" name="%command.org.jkiss.dbeaver.entity.propsTab.prevPage.name" description="%command.org.jkiss.dbeaver.entity.propsTab.prevPage.description" categoryId="org.jkiss.dbeaver.entity.propsTab" />
+                        <test property="org.jkiss.dbeaver.ui.editors.entity.canUndo"/>
+            <enabledWhen>
+            <enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.core.object.goto" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectGoto">
+                    </iterate>
+        <page class="org.jkiss.dbeaver.ui.project.PrefPageProjectResourceSettings" id="org.jkiss.dbeaver.preferences.projectSettings" name="%page.org.jkiss.dbeaver.preferences.projectSettings.name" >
+                            <and>
+            </description>
+            </activeWhen>
+                </with>
+                                <test property="org.jkiss.dbeaver.core.object.supportsNativeExecution"/>
+        <handler commandId="org.eclipse.ui.file.revert" class="org.jkiss.dbeaver.ui.editors.entity.handlers.RevertChangesHandler">
+            type="org.jkiss.dbeaver.ui.editors.entity.FolderEditor"/>
+
+        <!-- Tools toolbar -->
+            <enabledWhen>
+
+        </themeElementCategory>
+                                <test property="org.jkiss.dbeaver.core.object.projectResourceViewable"/>
+        <handler commandId="org.jkiss.dbeaver.core.navigator.linkeditor" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerLinkEditor">
+            <commandParameter
+                    </iterate>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+                            </adapt>
+                </visibleWhen>
+
+                    </with>
+                <and>
+        <command id="org.jkiss.dbeaver.core.edit.load.resource" name="%command.org.jkiss.dbeaver.core.edit.load.resource.name" description="%command.org.jkiss.dbeaver.core.edit.load.resource.description" categoryId="org.jkiss.dbeaver.core.util"/>
+                <with variable="selection">
+        </handler>
+            </commandParameter>
+        <handler commandId="org.jkiss.dbeaver.core.sql.script.run.scriptNative" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerExec">
+                    </iterate>
+                        <iterate operator="and">
+            </enabledWhen>
+        <command id="org.jkiss.dbeaver.core.object.open" name="%command.org.jkiss.dbeaver.core.object.open.name" description="%command.org.jkiss.dbeaver.core.object.open.description" categoryId="org.jkiss.dbeaver.core.database">
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/></activeWhen>
+            category="org.jkiss.dbeaver.core.category"
+    </extension>
+                        <and>
+        <handler commandId="org.jkiss.dbeaver.entity.propsTab.prevPage" class="org.jkiss.dbeaver.ui.editors.entity.properties.ObjectPropertiesTabFolderSwitchCommandHandler">
+                                <adapt type="org.eclipse.core.resources.IResource">
+            </command>
+
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor">
+        <handler commandId="org.jkiss.dbeaver.core.object.delete" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectDelete">
+        </definition>
+            <enabledWhen>
+        <key commandId="org.jkiss.dbeaver.entity.propsTab.prevPage" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+SHIFT+ARROW_UP"/>
+        <category id="org.jkiss.dbeaver.core.category" name="%category.org.jkiss.dbeaver.core.category.name"/>
+        <image commandId="org.jkiss.dbeaver.core.sql.script.run.scriptNative" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_exec_native.svg"/>
+    </extension>
+            <with variable="activePart">
+            type="org.eclipse.core.resources.IResource"/>
+                <and>
+        </wizard>
+                    </iterate>
+                                    <test property="org.jkiss.dbeaver.core.resource.type" value="script"/>
+                </with>
+    </extension>
+    	</handler>
+        <command id="org.jkiss.dbeaver.core.resource.link.folder" name="%command.org.jkiss.dbeaver.core.resource.link.folder.name" description="%command.org.jkiss.dbeaver.core.resource.link.folder.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+                    <with variable="selection">
+        <handler commandId="org.jkiss.dbeaver.core.show.in.explorer" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerShowInExplorer">
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+                </and>
+                <and>
+                        <test property="org.jkiss.dbeaver.ui.editors.entity.canRedo"/>
+        <handler commandId="org.jkiss.dbeaver.core.project.select" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerProjectSelect">
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.folder.editor"/></activeWhen>
+                id="entity_reject"
+                            <adapt type="org.eclipse.core.resources.IResource">
+        <command id="org.jkiss.dbeaver.core.object.filter.add.include" name="%command.org.jkiss.dbeaver.core.object.filter.add.include.name" description="%command.org.jkiss.dbeaver.core.object.filter.add.include.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                </with>
+            <enabledWhen>
+        <image commandId="org.jkiss.dbeaver.core.new.folder" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/folder_add.svg"/>
+                    <count value="1"/>
+        <handler commandId="org.jkiss.dbeaver.core.project.active"
+
+        <image commandId="org.jkiss.dbeaver.core.object.filter.add.exclude" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/filter_add.svg"/>
+            <adapter type="org.eclipse.ui.views.properties.IPropertySource"/>
+<plugin>
+                <with variable="activeEditor">
+            <enabledWhen>
+                    </activeWhen>
+            <adapter type="org.jkiss.dbeaver.model.edit.DBEObjectConfigurator"/>
+                    </with>
+                                    <test property="org.jkiss.dbeaver.core.resource.type" value="script"/>
+        <command id="org.jkiss.dbeaver.core.show.in.explorer" name="%command.org.jkiss.dbeaver.core.show.in.explorer.name" description="%command.org.jkiss.dbeaver.core.show.in.explorer.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+            <enabledWhen>
+                    <iterate operator="and">
+            properties="hasPermission,canCreateConnection,canCreateProject,hasActiveProject,hasMultipleProjects,canEditResource,currentProjectResourceEditable,currentProjectResourceViewable"
+        </page>
+        </handler>
+                            <and>
+                        <iterate operator="and">
+        </handler>
+                <with variable="activeEditor">
+                        <adapt type="org.jkiss.dbeaver.model.DBPNamedObject"/>
+        <!-- Entity editor handlers -->
+                </with>
+    <extension point="org.eclipse.core.expressions.definitions">
+        <image commandId="org.jkiss.dbeaver.core.navigator.linkeditor" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/link_to_editor.svg"/>
+            </menu>
+            namespace="org.jkiss.dbeaver.core.navigator"
+                        </iterate>
+                        </adapt>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSDataContainer"/>
+                </with>
+    <extension point="org.eclipse.ui.views">
+        <view
+        <handler commandId="org.jkiss.dbeaver.core.edit.copy.special" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerCopySpecial">
+            </enabledWhen>
+    </extension>
+            <enabledWhen>
+                </and>
+        <image commandId="org.jkiss.dbeaver.core.edit.save.resource" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/save_as.svg"/>
+                                <test property="org.jkiss.dbeaver.core.resource.canSetActive"/>
+        <handler commandId="org.jkiss.dbeaver.core.object.move.bottom" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectMove">
+                            <test property="org.jkiss.dbeaver.core.object.canCreateSingle"/>
+                            <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+            </enabledWhen>
+                            <adapt type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor">
+        </command>
+        </nodeAction>
+        <key commandId="org.jkiss.dbeaver.core.navigator.set.default" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+A"/>
+                            <test property="org.jkiss.dbeaver.core.object.canMoveDown"/>
+    </extension>
+                        <test property="org.jkiss.dbeaver.ui.editors.entity.dirty"/>
+        <command id="org.jkiss.dbeaver.navigator.create.column.constraint" name="%command.org.jkiss.dbeaver.navigator.create.column.constraint.name" description="%command.org.jkiss.dbeaver.navigator.create.column.constraint.description" categoryId="org.jkiss.dbeaver.core.database" />
+                                <adapt type="org.eclipse.core.resources.IResource">
+                id="close_entity_edit"
+            <enabledWhen>
+                            <and>
+            <enabledWhen>
+
+        </command>
+            <commandParameter id="org.jkiss.dbeaver.core.object.type" name="Object type" optional="true"/>
+            id="org.jkiss.dbeaver.core.databaseNavigator"
+                    </iterate>
+            id="org.jkiss.dbeaver.ui.editors.entity.EntityEditorPropertyTester"
+    </extension>
+            <description>%view.database.browser.description</description>
+        <handler commandId="org.jkiss.dbeaver.navigator.create.column.index" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerCreateColumnIndex">
+                 class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerProjectSetActive">
+                id="org.jkiss.dbeaver.ui.navigator.node.transient.foreground"
+                <with variable="selection">
+            <activeWhen>
+                id="org.jkiss.dbeaver.ui.editors.entity.FolderEditor">
+        <command id="org.jkiss.dbeaver.navigator.filter.connected" name="%command.org.jkiss.dbeaver.navigator.filter.connected.name" description="%command.org.jkiss.dbeaver.navigator.filter.connected.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                            <instanceof value="org.jkiss.dbeaver.model.navigator.DBNDataSource"/>
+            <enabledWhen>
+        </nodeAction>
+                        <iterate operator="and">
+                        <instanceof value="org.jkiss.dbeaver.model.navigator.fs.DBNPathBase"/>
+        <view
+        <handler commandId="org.jkiss.dbeaver.core.project.create" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerProjectCreate">
+            class="org.jkiss.dbeaver.ui.navigator.ResourcePropertyTester"
+            <enabledWhen>
+
+
+                </with>
+                    <with variable="selection">
+                    <iterate operator="and">
+                    <count value="1"/>
+        </menuContribution>
+                value="105, 105, 105">
+        <command id="org.jkiss.dbeaver.core.resource.link.file" name="%command.org.jkiss.dbeaver.core.resource.link.file.name" categoryId="org.jkiss.dbeaver.core.navigator" description="%command.org.jkiss.dbeaver.core.resource.link.file.description">
+            <command commandId="org.jkiss.dbeaver.core.object.create">
+        <image commandId="org.jkiss.dbeaver.core.project.create" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/project_add.svg"/>
+            </enabledWhen>
+        <handler commandId="org.eclipse.ui.edit.copy" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerCopyObject">
+        <handler commandId="org.eclipse.ui.edit.undo" class="org.jkiss.dbeaver.ui.editors.entity.handlers.UndoChangesHandler">
+                <with variable="selection">
+            </enabledWhen>
+        <command id="org.jkiss.dbeaver.navigator.filter.object.type" name="%command.org.jkiss.dbeaver.navigator.filter.object.type.name" description="%command.org.jkiss.dbeaver.navigator.filter.object.type.description" categoryId="org.jkiss.dbeaver.core.database">
+                parentId="org.eclipse.ui.contexts.window"
+                        <count value="1"/>
+            <enabledWhen>
+                </with>
+        <key commandId="org.jkiss.dbeaver.ui.tools.select.connection" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+9"/>
+                id="org.jkiss.dbeaver.ui.context.navigator.view"
+                    <count value="+"/>
+            <separator name="object" visible="true"/>
+            </enabledWhen>
+                                <adapt type="org.eclipse.core.resources.IResource">
+                        <or>
+
+            id="org.jkiss.dbeaver.core.databaseBrowser"
+        <handler commandId="org.jkiss.dbeaver.core.resource.create.folder" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerCreateFolder">
+                        </iterate>
+                <with variable="selection">
+            icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/projects.svg"
+        </editor>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+        <definition id="org.jkiss.dbeaver.core.ui.navigator.control">
+                        </adapt>
+                <and>
+        </definition>
+        <handler commandId="org.jkiss.dbeaver.ui.tools.select.schema" class="org.jkiss.dbeaver.ui.actions.datasource.SelectActiveSchemaHandler">
+        <view
+                        <count value="1"/>
+        </command>
+        <!--
+                </with>
+            <adapter type="org.jkiss.dbeaver.model.DBPObject"/>
+                id="org.jkiss.dbeaver.ui.actions.ModelPropertyTester"
+            </command>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part.active"/></activeWhen>
+            </enabledWhen>
+        <command id="org.jkiss.dbeaver.ui.tools.select.schema" name="%command.org.jkiss.dbeaver.ui.tools.select.schema.name" description="%command.org.jkiss.dbeaver.ui.tools.select.schema.description" categoryId="org.jkiss.dbeaver.core.database">
+            name="%view.database.browser.title">
+        <command id="org.jkiss.dbeaver.core.object.move.down" name="%command.org.jkiss.dbeaver.core.object.move.down.name" description="%command.org.jkiss.dbeaver.core.object.move.down.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                    </with>
+
+                <and>
+        </handler>
+        <menuContribution allPopups="false" locationURI="toolbar:org.jkiss.dbeaver.navigator.filter.toolbar.type?after=additions">
+                    </iterate>
+            <description>%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.transient.foreground.description</description>
+            </enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.core.object.filter.add.include" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerFilterInclude">
+        </handler>
+
+        <handler commandId="org.eclipse.ui.navigate.forwardHistory" class="org.jkiss.dbeaver.ui.editors.entity.handlers.FolderNavigateHandler">
+            icon="platform:/plugin/org.jkiss.dbeaver.model/icons/project.svg"
+                        <iterate operator="and">
+            allowMultiple="false"
+    <extension-point id="org.jkiss.dbeaver.databaseEditor" name="%extension-point.org.jkiss.dbeaver.databaseEditor.name" schema="schema/org.jkiss.dbeaver.databaseEditor.exsd"/>
+        <handler commandId="org.jkiss.dbeaver.core.edit.load.resource" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerLoadResource">
+        <handler commandId="org.jkiss.dbeaver.ui.tools.select.connection" class="org.jkiss.dbeaver.ui.actions.datasource.SelectActiveDataSourceHandler">
+    <extension point="org.eclipse.ui.contexts">
+                label="%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.new.background.label"
+            <commandParameter id="activePage" name="Active page" optional="true"/>
+        <command id="org.jkiss.dbeaver.core.new.folder" name="%command.org.jkiss.dbeaver.core.new.folder.name" description="%command.org.jkiss.dbeaver.core.new.folder.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+
+                    <iterate operator="and">
+            class="org.jkiss.dbeaver.ui.actions.ObjectPropertyTester"
+        <command id="org.jkiss.dbeaver.navigator.create.column.index" name="%command.org.jkiss.dbeaver.navigator.create.column.index.name" description="%command.org.jkiss.dbeaver.navigator.create.column.index.description" categoryId="org.jkiss.dbeaver.core.database" />
+            <with variable="activeEditor">
+                    <iterate operator="and">
+            category="org.jkiss.dbeaver.core.category"
+
+        <colorDefinition
+            </enabledWhen>
+            <enabledWhen>
+            properties="active,focused"
+            <enabledWhen>
+            <activeWhen>
+        <image commandId="org.jkiss.dbeaver.core.object.open" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/edit.svg"/>
+
+                title="%confirm.close_entity_edit.title"
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+                            <instanceof value="org.jkiss.dbeaver.model.navigator.DBNProjectDatabases"/>
+        <key commandId="org.jkiss.dbeaver.core.object.create" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="cocoa" sequence="M1+N"/>
+            <description>
+        <command id="org.jkiss.dbeaver.entity.propsTab.nextPage" name="%command.org.jkiss.dbeaver.entity.propsTab.nextPage.name" description="%command.org.jkiss.dbeaver.entity.propsTab.nextPage.description" categoryId="org.jkiss.dbeaver.entity.propsTab" />
+                                    <test property="org.jkiss.dbeaver.core.resource.canCreateLink"/>
+                    <count value="+"/>
+            namespace="org.jkiss.dbeaver.core.global.ui"
+                </with>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.EntityEditor" />
+                    </or>
+                </with>
+
+            <enabledWhen>
+            <separator name="compare" visible="true"/>
+            <enabledWhen>
+                categoryId="org.jkiss.dbeaver.ui.navigator"
+
+        <handler commandId="org.jkiss.dbeaver.core.edit.save.resource" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerSaveResource">
+                <with variable="selection">
+            </enabledWhen>
+                            <and>
+                    <iterate operator="and">
+                        </adapt>
+                icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/properties.svg"
+        </definition>
+                </with>
+                            </and>
+        </command>
+                        </adapt>
+        <image commandId="org.jkiss.dbeaver.ui.tools.select.schema" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/schema.svg"/>
+                </with>
+        <command id="org.jkiss.dbeaver.core.object.delete" name="%command.org.jkiss.dbeaver.core.object.delete.name" description="%command.org.jkiss.dbeaver.core.object.delete.description" categoryId="org.jkiss.dbeaver.core.database"/>
+            name="%view.database.navigator.title">
+                            <adapt type="org.eclipse.core.resources.IResource">
+        <command id="org.jkiss.dbeaver.core.view.toggle" name="Show/Hide view" categoryId="org.jkiss.dbeaver.core.navigator" description="Toggle view">
+
+                    </iterate>
+            <commandParameter id="type" name="Object type" optional="false"/>
+
+            <enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.core.new.folder" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerLocalFolderCreate">
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+                    <iterate operator="and">
+        <colorDefinition
+                </with>
+            namespace="org.jkiss.dbeaver.core.object"
+                message="%confirm.close_entity_edit.message"
+            <description>%view.project.navigator.description</description>
+                        </adapt>
+                            <test property="org.jkiss.dbeaver.core.object.canDelete"/>
+                    </with>
+
+
+
+        </handler>
+                    <count value="+"/>
+                description="%context.org.jkiss.dbeaver.ui.context.navigator.view.description"/>
+        <command id="org.jkiss.dbeaver.core.edit.copy.special.with.last.settings" name="%org.jkiss.dbeaver.core.edit.copy.special.with.last.settings.name" description="%org.jkiss.dbeaver.core.edit.copy.special.with.last.settings.description" categoryId="org.jkiss.dbeaver.core.util"/>
+            </with>
+        <handler commandId="org.jkiss.dbeaver.core.navigator.set.default" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerSetDefaultObject">
+            <enabledWhen>
+        <handler commandId="org.eclipse.ui.edit.redo" class="org.jkiss.dbeaver.ui.editors.entity.handlers.RedoChangesHandler">
+            <description>%colorDefinition.org.jkiss.dbeaver.ui.navigator.node.foreground.description</description>
+            </enabledWhen>
+            <commandParameter id="viewId" name="View ID" optional="false" values="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerToggleView$ViewValues">
+                                <test property="org.jkiss.dbeaver.ui.editors.entity.dirty"/>
+        <command id="org.jkiss.dbeaver.core.object.filter.clear" name="%command.org.jkiss.dbeaver.core.object.filter.clear.name" description="%command.org.jkiss.dbeaver.core.object.filter.clear.description" categoryId="org.jkiss.dbeaver.core.database"/>
+
+            id="org.jkiss.dbeaver.ui.navigator.ResourcePropertyTester"
+               value="228, 255, 181">
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/project.svg"
+                                <adapt type="org.eclipse.core.resources.IResource">
+
+    </extension>
+                    </adapt>
+            </enabledWhen>
+            </enabledWhen>
+            name="%view.project.navigator.title">
+            <enabledWhen>
+                group="%confirm.object.editor.group.name"/>
+    <extension point="org.eclipse.ui.bindings">
+        </handler>
+        </handler>
+        </view>
+                            <test property="org.jkiss.dbeaver.core.object.canFilterObject"/>
+            </command>
+                    <count value="+"/>
+                    <iterate operator="and">
+                            </adapt>
+                    <iterate operator="and">
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+                        <count value="+"/>
+    <extension point="org.eclipse.ui.commands">
+<?eclipse version="3.2"?>
+            id="org.jkiss.dbeaver.core.projectExplorer"
+                            <test property="org.jkiss.dbeaver.core.object.canMoveDown"/>
+            <dynamic id="org.jkiss.dbeaver.navigator.filter.object.type.dynamic" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerFilterObjectType$MenuContributor"/>
+        </menuContribution>
+            id="org.jkiss.dbeaver.ui.actions.GlobalUIPropertyTester"
+                </with>
+            <enabledWhen>
+
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+    </extension>
+
+                    <iterate operator="and">
+                    </iterate>
+                group="%confirm.object.editor.group.name"/>
+                        </adapt>
+                class="org.jkiss.dbeaver.ui.actions.ModelPropertyTester"
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+        <key commandId="org.jkiss.dbeaver.entity.propsTab.nextPage" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+SHIFT+ARROW_DOWN"/>
+        <handler commandId="org.eclipse.ui.edit.rename" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectRename">
+                group="%confirm.object.editor.group.name"/>
+        <view
+                    <adapt type="org.jkiss.dbeaver.ui.editors.entity.FolderEditor">
+        <handler commandId="org.jkiss.dbeaver.core.view.toggle" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerToggleView"/>
+                                    <adapt type="org.eclipse.core.resources.IResource"/>
+            <command commandId="org.jkiss.dbeaver.navigator.create.column.index">
+    <extension point="org.eclipse.core.expressions.propertyTesters">
+            <adapter type="org.jkiss.dbeaver.model.DBPNamedObject"/>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part.active"/></activeWhen>
+            </enabledWhen>
+                </with>
+        </handler>
+        </handler>
+                categoryId="org.jkiss.dbeaver.ui.navigator"
+        <propertyTester
+            <enabledWhen>
+                    </iterate>
+        </handler>
+        </handler>
+            <enabledWhen>
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+                    </iterate>
+                <instanceof value="org.jkiss.dbeaver.model.DBPContextProvider"/>
+        <image commandId="org.jkiss.dbeaver.core.navigator.open.browser" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/database_navigator.svg"/>
+        <handler commandId="org.jkiss.dbeaver.core.object.filter.config" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerFilterConfig">
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=create">
+        <image commandId="org.jkiss.dbeaver.core.object.filter.config" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/filter.svg"/>
+            </enabledWhen>
+                <or>
+                </with>
+        <definition id="org.jkiss.dbeaver.core.ui.datasource.editor">
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSEntity"/>
+
+                    <iterate operator="and">
+            type="java.lang.Object"/>
+                    </iterate>
+            <commandParameter id="org.jkiss.dbeaver.core.object.typeName" name="Object type name" optional="true"/>
+                <with variable="selection">
+                    <count value="1"/>
+                </and>
+            <objectType name="org.jkiss.dbeaver.model.navigator.DBNDataSource"/>
+            </enabledWhen>
+            </with>
+
+        <confirmation
+        <handler commandId="org.jkiss.dbeaver.core.object.move.top" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectMove">
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNNode">
+        <handler commandId="org.jkiss.dbeaver.core.navigator.preferences" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerPreferences"/>
+                    <with variable="selection">
+
+            <enabledWhen>
+                    <instanceof value="org.jkiss.dbeaver.model.DBPDataSourceContainerProvider"/>
+            </enabledWhen>
+            properties="dirty,canUndo,canRedo,hasSource"
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSDataManipulator"/>
+                <with variable="selection">
+    </extension>
+                                </not>
+                    <count value="+"/>
+            <with variable="activeEditor">
+    	<handler commandId="org.jkiss.dbeaver.ui.object.property.source.activate" class="org.jkiss.dbeaver.ui.editors.entity.handlers.ObjectPropertySwitchToSourceHandler">
+                        </adapt>
+                    optional="true"
+
+                                <test property="org.jkiss.dbeaver.core.resource.isFolder"/>
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSObjectContainer"/>
+                                <test property="org.jkiss.dbeaver.core.resource.isLocalFS"/>
+                            <test property="org.jkiss.dbeaver.core.object.hasFilter"/>
+            <command commandId="org.jkiss.dbeaver.navigator.filter.connected"/>
+            <enabledWhen>
+        </editor>
+                <with variable="selection">
+        <handler commandId="org.jkiss.dbeaver.core.object.move.up" class="org.jkiss.dbeaver.ui.navigator.actions.NavigatorHandlerObjectMove">

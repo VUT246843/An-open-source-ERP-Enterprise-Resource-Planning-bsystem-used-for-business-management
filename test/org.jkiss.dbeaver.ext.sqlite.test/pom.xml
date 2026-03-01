@@ -1,0 +1,32 @@
+  ~ limitations under the License.
+
+    <artifactId>org.jkiss.dbeaver.ext.sqlite.test</artifactId>
+  ~
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  ~ See the License for the specific language governing permissions and
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+    <modelVersion>4.0.0</modelVersion>
+</project>
+    </parent>
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        <relativePath>../</relativePath>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    <parent>
+        <version>1.0.0-SNAPSHOT</version>
+  ~ Copyright (C) 2010-2024 DBeaver Corp and others
+<!--
+    <packaging>eclipse-test-plugin</packaging>
+  ~ Unless required by applicable law or agreed to in writing, software
+<?xml version="1.0" encoding="UTF-8"?>
+  -->
+         xmlns="http://maven.apache.org/POM/4.0.0"
+  ~ you may not use this file except in compliance with the License.
+        <groupId>org.jkiss.dbeaver</groupId>
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~
+  ~ You may obtain a copy of the License at
+  ~
+        <artifactId>tests</artifactId>
+    <version>1.0.58-SNAPSHOT</version>
+  ~ DBeaver - Universal Database Manager

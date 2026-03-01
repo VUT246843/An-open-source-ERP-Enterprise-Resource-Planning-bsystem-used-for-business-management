@@ -1,0 +1,50 @@
+                        </configuration>
+        <artifactId>dbeaver</artifactId>
+                            <resources>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+                </executions>
+                                    <directory>root</directory>
+                                <resource>
+            <plugin>
+                    </execution>
+    <artifactId>org.jkiss.dbeaver.appstore.feature</artifactId>
+                        <id>process-product-info</id>
+    </parent>
+                            <goal>copy-resources</goal>
+        <version>1.0.0-SNAPSHOT</version>
+                            <overwrite>true</overwrite>
+</project>
+            <!-- Generate and copy .eclipseproduct -->
+                <executions>
+<?xml version="1.0" encoding="UTF-8"?>
+        <groupId>org.jkiss.dbeaver</groupId>
+        </plugins>
+                        <goals>
+                <artifactId>maven-resources-plugin</artifactId>
+                            <outputDirectory>${project.build.directory}/generated</outputDirectory>
+                <groupId>org.apache.maven.plugins</groupId>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <parent>
+    <modelVersion>4.0.0</modelVersion>
+                                        <include>readme.txt</include>
+                                    </includes>
+                                    <includes>
+                            </resources>
+                        <configuration>
+                                    <filtering>true</filtering>
+                    <execution>
+        <relativePath>../../</relativePath>
+            </plugin>
+    <version>26.0.1-SNAPSHOT</version>
+                        </goals>
+                        <phase>generate-resources</phase>
+
+
+    </build>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+    <packaging>eclipse-feature</packaging>
+        <plugins>
+    <build>
+                                        <include>.eclipseproduct</include>
+                                </resource>

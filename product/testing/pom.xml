@@ -1,0 +1,86 @@
+    <build>
+        </plugins>
+                            <rootFolders>
+    <artifactId>standalone</artifactId>
+                            <goal>materialize-products</goal>
+                <groupId>org.eclipse.tycho</groupId>
+                    <formats>
+                            <id>org.apache.ant</id>
+            </plugin>
+                <executions>
+                        <goals>
+                        </product>
+            </plugin>
+                <configuration>
+    <parent>
+
+                        <filter>
+                            <restrictTo>
+                <artifactId>tycho-p2-director-plugin</artifactId>
+                    <execution>
+                </configuration>
+                                <version>1.10.0</version>
+                </configuration>
+    <version>24.3.1-SNAPSHOT</version>
+            </plugin>
+        <plugins>
+                                <solaris>dbeaver</solaris>
+                </configuration>
+                    </filters>
+                            </rootFolders>
+                <configuration>
+                        <id>archive-products</id>
+                        <id>materialize-products</id>
+                                <win32>dbeaver</win32>
+    <modelVersion>4.0.0</modelVersion>
+                        <solaris>tar.gz</solaris>
+                        <macosx>tar.gz</macosx>
+                    <filters>
+            <plugin>
+                                <!-- for MacOSX, make sure you use a folder ending with .app , see bug 463670 -->
+    <name>DBeaver CE Standalone</name>
+        <version>1.0.0-SNAPSHOT</version>
+            <!-- Disable P2 repository generation -->
+                    <createArtifactRepository>false</createArtifactRepository>
+                    <products>
+                <artifactId>target-platform-configuration</artifactId>
+                <configuration>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+                    </execution>
+            <plugin>
+                            <!--<goal>archive-products</goal>-->
+                        <linux>tar.gz</linux>
+                    <execution>
+                    </formats>
+        <relativePath>../../</relativePath>
+    </build>
+                        </filter>
+    <packaging>eclipse-repository</packaging>
+</project>
+                        <win32>zip</win32>
+                <artifactId>tycho-p2-repository-plugin</artifactId>
+                        </goals>
+                    </products>
+                        <goals>
+                            </restrictTo>
+                <version>${tycho-version}</version>
+                </executions>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <groupId>org.eclipse.tycho</groupId>
+                        </goals>
+    </parent>
+                    </execution>
+                            <archiveFileName>dbeaver-ce-${dbeaver-version}</archiveFileName>
+                        <product>
+                <version>${tycho-version}</version>
+                <groupId>org.eclipse.tycho</groupId>
+            <plugin>
+                <version>${tycho-version}</version>
+                            <type>eclipse-plugin</type>
+<?xml version="1.0" encoding="UTF-8"?>
+                            <id>org.jkiss.dbeaver.core.product</id>
+                                <linux>dbeaver</linux>
+        <artifactId>dbeaver</artifactId>
+        <groupId>org.jkiss.dbeaver</groupId>
+                                <macosx>DBeaver.app</macosx>

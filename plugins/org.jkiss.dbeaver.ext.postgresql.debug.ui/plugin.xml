@@ -1,0 +1,48 @@
+        <!--
+               class="org.jkiss.dbeaver.ext.postgresql.debug.ui.internal.PostgreDebugPanelFunction">
+<?xml version="1.0" encoding="UTF-8"?>
+                    id="org.jkiss.dbeaver.debug.ui.actions.ManageBreakpointRulerAction"
+    </extension>
+                    class="org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate"
+        </factory>
+
+    <extension point="org.jkiss.dbeaver.debug.ui.configurationPanels">
+        </panel>
+        <panel id="org.jkiss.dbeaver.ext.postgresql.debug.trigger"
+    </extension>
+
+        <factory adaptableType="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreSourceViewEditor" class="org.jkiss.dbeaver.debug.ui.actions.DebugActionAdapterFactory">
+               description="PL/pgSQL function"
+<plugin>
+        </factory>
+    <extension point="org.eclipse.core.runtime.adapters">
+            TODO: move to core debug. Dunno how because we need specific targetID
+            <datasource id="postgresql"/>
+        <panel id="org.jkiss.dbeaver.ext.postgresql.debug.function"
+                    actionID="RulerDoubleClick"
+    <extension point="org.eclipse.ui.editorActions">
+        </editorContribution>
+            <adapter type="org.jkiss.dbeaver.debug.ui.DBGEditorAdvisor"/>
+        </panel>
+            Breakpoin toggle contribution.
+
+
+               name="Function"
+<?eclipse version="3.4"?>
+            <adapter type="org.jkiss.dbeaver.debug.DBGDebugObject"/>
+            <adapter type="org.eclipse.debug.ui.actions.IToggleBreakpointsTarget"/>
+                    icon="platform:/plugin/org.eclipse.debug.ui/$nl$/icons/full/obj16/brkp_obj.png"
+            <action
+            </action>
+                    style="push">
+        <factory adaptableType="org.jkiss.dbeaver.model.DBPDataSourceContainer" class="org.jkiss.dbeaver.ext.postgresql.debug.ui.internal.PostgreDebugUIAdapterFactory">
+               description="PL/pgSQL table trigger">
+    </extension>
+        -->
+</plugin>
+            <datasource id="postgresql"/>
+        <factory adaptableType="org.jkiss.dbeaver.ui.editors.entity.EntityEditor" class="org.jkiss.dbeaver.ext.postgresql.debug.ui.internal.PostgreDebugObjectAdapterFactory">
+                    label="%actions.ManageBreakpointRulerAction.label"
+        <editorContribution id="org.jkiss.dbeaver.debug.ui.editorContribution" targetID="postgresql.source.view">
+               name="Trigger"
+        </factory>

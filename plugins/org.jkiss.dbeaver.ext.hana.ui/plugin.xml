@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                class="org.jkiss.dbeaver.ext.hana.ui.views.HANAConnectionPage"
+                label="%hana.dialog.connection.header"
+</plugin>
+
+        <view
+                id="org.jkiss.dbeaver.ext.hana.dataSourceEditorView"
+        </view>
+                class="org.jkiss.dbeaver.ext.hana.ui.views.HANAConnectionPage"
+        <view
+            <objectType name="org.jkiss.dbeaver.ext.hana.model.HANASchema"/>
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog">
+
+    </extension>
+                icon="icons/sap_hana_icon.png"
+                dataSource="hana"
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+                id="org.jkiss.dbeaver.ext.hana.dataSourceWizardView"
+        <configurator class="org.jkiss.dbeaver.ext.hana.ui.config.HANASchemaConfigurator">
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+
+                label="%hana.dialog.connection.header"
+        </configurator>
+                icon="icons/sap_hana_icon.png">
+        </view>
+    </extension>
+                dataSource="hana"
+<?eclipse version="3.2"?>
+<plugin>
+
+    <extension point="org.jkiss.dbeaver.databaseEditor">

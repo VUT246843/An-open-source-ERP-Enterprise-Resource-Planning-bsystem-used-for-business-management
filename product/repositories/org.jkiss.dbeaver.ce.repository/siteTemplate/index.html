@@ -1,0 +1,60 @@
+		}
+</head>
+<body onload="init();">
+			doc = processor.transformToDocument(xmlFile);
+	// separate transformation function for IE 6.0+
+<script type="text/javascript">
+			} else {
+	var stylesheet, xmlFile, cache, doc;
+	}
+			document.getElementById("data").innerHTML = doc.documentElement.innerHTML;
+		// NSCP 7.1+ / Mozilla 1.4.1+ / Safari
+<head>
+			stylesheet.load("web/site.xsl");
+			xmlFile = document.implementation.createDocument("", "", null);
+		processor.input = xmlFile;
+			var processor = new XSLTProcessor();
+				stylesheet.load("web/site.xsl");
+			cache.stylesheet = stylesheet;
+<!--[insert static HTML here]-->
+	}
+				alert("Document could not be loaded by browser.");
+		}
+</body>
+		// Use the standard DOM Level 2 technique, if it is supported
+	var returnval = 0;
+			transformData();
+			xmlFile.load("category.xml");
+		if (returnval==2){
+	// separate transformation function for NSCP 7.1+ and Mozilla 1.4.1+ 
+	function init(){
+<div id="data"><!-- this is where the transformed data goes --></div>
+			xmlFile.addEventListener("load", transform, false);
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		if (document.implementation && document.implementation.createDocument) {
+			stylesheet = document.implementation.createDocument("", "", null);
+</html>
+		returnval+=1;
+</script>
+			stylesheet.async = false;
+		//IE 6.0+ solution
+				xmlFile.load("category.xml");
+		else if (window.ActiveXObject) {
+			if (xmlFile.load){
+	}
+		processor.transform();
+			xmlFile = new ActiveXObject("msxml2.DOMDocument.3.0");
+		data.innerHTML = processor.output;
+		}
+			processor.importStylesheet(stylesheet); 
+			xmlFile.async = false;
+			stylesheet = new ActiveXObject("msxml2.FreeThreadedDOMDocument.3.0");
+			stylesheet.addEventListener("load", transform, false);
+		var processor = cache.createProcessor();
+<html>
+<title>org.jkiss.dbeaver-update</title>
+	function transformData(){
+<style>@import url("web/site.css");</style>
+	function transform(){
+			cache = new ActiveXObject("msxml2.XSLTemplate.3.0");
+			}

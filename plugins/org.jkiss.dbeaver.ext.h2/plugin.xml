@@ -1,0 +1,199 @@
+                description="H2"
+                        sampleURL="jdbc:h2:{file}"
+                        webURL="https://www.h2database.com/"
+                    <parameter name="query-shutdown" value="shutdown"/>
+
+        <!-- H2GIS driver -->
+
+        </provider>
+                    <parameter name="query-get-active-db" value="SELECT SCHEMA()"/>
+    </extension>
+                    <file type="license" path="drivers/h2_v2/LICENSE.txt" bundle="drivers.h2_v2"/>
+                        categories="sql"
+
+            <treeInjection path="generic/catalog/schema/table/uniqueKey"
+                        class="org.h2.Driver"
+                    <parameter name="omit-catalog" value="true"/>
+                label="H2GIS data types provider">
+                        embedded="true"
+    <extension point="org.jkiss.dbeaver.sqlBackup">
+                        id="h2_embedded"
+<?xml version="1.0" encoding="UTF-8"?>
+        <backup id="backupH2" class="org.jkiss.dbeaver.ext.h2.backup.JDBCDatabaseH2BackupHandler" dialect="h2"
+                        description="H2 Server"
+                    <parameter name="query-set-active-db" value="SET SCHEMA = ?"/>
+
+                           changeFolderType="org.jkiss.dbeaver.ext.h2.model.H2Table"/>
+                    <parameter name="query-get-active-db" value="SELECT SCHEMA()"/>
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon.png"
+                        description="H2 Embedded V.2"
+
+
+                        sampleURL="jdbc:h2:{file}"
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon_big.png"
+                icon="icons/h2gis_icon.png"
+            <drivers managable="true">
+                        categories="spatial,sql,server">
+                        categories="spatial,sql,embedded">
+                <driver
+    </extension>
+                    <file type="jar" path="maven:/org.orbisgis:h2gis:[2.2.1]"/>
+            <datasource id="h2gis"/>
+    </extension>
+                    <parameter name="query-set-active-db" value="SET SCHEMA = ?"/>
+                        iconBig="icons/h2gis_icon_big.png"
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                        webURL="https://www.h2database.com/"
+                        category="H2"
+                    <file type="jar" path="maven:/com.h2database:h2:RELEASE[2.1.210]" bundle="!drivers.h2_v2"/>
+                        icon="icons/h2gis_icon.png"
+                    <file type="jar" path="maven:/org.orbisgis:h2gis:RELEASE"/>
+        <manager class="org.jkiss.dbeaver.ext.h2.edit.H2TableManager" objectType="org.jkiss.dbeaver.ext.h2.model.H2Table"/>
+
+                id="H2GISValueHandlerProvider"
+                </driver>
+                        dialect="h2">
+
+                        label="H2GIS Server"
+
+                    <parameter name="query-set-active-db" value="SET SCHEMA = ?"/>
+                        category="H2"
+    </extension>
+                        id="h2_embedded_v2"
+
+            </drivers>
+                class="org.jkiss.dbeaver.ext.h2gis.data.H2GISValueHandlerProvider"
+                    <parameter name="omit-catalog" value="true"/>
+<plugin>
+                        id="h2gis_server"
+                        id="h2_server"
+
+                description="H2GIS datasource"
+                id="h2"
+                    <parameter name="omit-catalog" value="true"/>
+                </driver>
+                    <parameter name="query-get-active-db" value="SELECT SCHEMA()"/>
+        <datasource
+                    <file type="jar" path="maven:/com.h2database:h2:RELEASE[2.1.210]" bundle="!drivers.h2_v2"/>
+                    <parameter name="omit-catalog" value="true"/>
+                        webURL="https://www.h2database.com/"
+
+                parent="generic"
+                    <file type="license" path="https://raw.githubusercontent.com/h2database/h2database/master/LICENSE.txt" bundle="!drivers.h2"/>
+                    <parameter name="query-get-active-db" value="SELECT SCHEMA()"/>
+                    <parameter name="query-get-active-db" value="SELECT SCHEMA()"/>
+                    <file type="license" path="licenses/external/lgpl-3.0.txt"/>
+                        label="H2GIS Embedded"
+
+                label="H2"
+
+                        class="org.h2.Driver"
+                        dialect="h2">
+
+                           changeFolderType="org.jkiss.dbeaver.ext.h2.model.H2Constraint"/>
+                </driver>
+                </driver>
+                        categories="sql,embedded"
+                    <replace provider="generic" driver="h2_embedded"/>
+
+
+                        webURL="http://www.h2gis.org/"
+                    <parameter name="query-shutdown" value="shutdown"/>
+                        description="H2 Embedded"
+                        class="org.h2.Driver"
+
+                        category="H2"
+                label="H2GIS"
+                        sampleURL="jdbc:h2:tcp://{host}[:{port}]/{database}"
+                        embedded="true"
+                        sampleURL="jdbc:h2:{file}"
+                    <file type="license" path="https://raw.githubusercontent.com/h2database/h2database/master/LICENSE.txt" bundle="!drivers.h2_v2"/>
+
+                <driver
+                class="org.jkiss.dbeaver.ext.h2.H2DataSourceProvider"
+                           changeFolderType="org.jkiss.dbeaver.ext.h2.model.H2Sequence"/>
+                    <file type="license" path="licenses/external/lgpl-3.0.txt"/>
+        <meta id="h2" class="org.jkiss.dbeaver.ext.h2.model.H2MetaModel" driverClass="org.h2.Driver" dialect="h2"/>
+            </drivers>
+
+                        category="H2"
+        <manager class="org.jkiss.dbeaver.ext.h2.edit.H2ConstraintManager" objectType="org.jkiss.dbeaver.ext.h2.model.H2Constraint"/>
+                    <parameter name="query-shutdown" value="shutdown"/>
+            <treeInjection path="generic/catalog/schema/sequence"
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon_big.png"
+    <extension point="org.jkiss.dbeaver.generic.meta">
+        <dialect id="h2" parent="generic" class="org.jkiss.dbeaver.ext.h2.model.H2SQLDialect" label="H2" description="H2 SQL dialect." icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon.png">
+                    <parameter name="query-set-active-db" value="SET SCHEMA = ?"/>
+                dialect="h2">
+
+                icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon.png"
+                id="h2gis"
+                    <file type="jar" path="drivers/h2_v2" bundle="drivers.h2_v2"/>
+                        label="H2 Embedded"
+
+                        categories="sql,embedded"
+                        defaultPort="9092"
+                        iconBig="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon_big.png"
+        </datasource>
+                        label="H2 Embedded V.2"
+                dialect="h2">
+                parent="GenericValueHandlerProvider"
+                description="H2GIS data types provider"
+                    <file type="license" path="drivers/h2/LICENSE.txt" bundle="drivers.h2"/>
+</plugin>
+        <manager class="org.jkiss.dbeaver.ext.h2.edit.H2RoutineAliasManager" objectType="org.jkiss.dbeaver.ext.h2.model.H2RoutineAlias"/>
+    <extension point="org.jkiss.dbeaver.objectManager">
+                        description="H2GIS Server"
+            <treeInjection path="generic/catalog/schema/table"
+                </driver>
+
+                        class="org.h2.Driver"
+
+
+                parent="generic"
+                        label="H2 Server"
+                        icon="icons/h2gis_icon.png"
+                <driver
+
+                <driver
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon.png"
+
+                        class="org.h2.Driver"
+            <type name="*"/>
+
+                label="backup" description="Backup database">
+                    <file type="license" path="https://raw.githubusercontent.com/h2database/h2database/master/LICENSE.txt" bundle="!drivers.h2_v2"/>
+                    <parameter name="query-set-active-db" value="SET SCHEMA = ?"/>
+    </extension>
+                        webURL="http://www.h2gis.org/"
+
+        </dialect>
+                        icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/h2_icon.png"
+<?eclipse version="3.2"?>
+                    <file type="license" path="drivers/h2_v2/LICENSE.txt" bundle="drivers.h2_v2"/>
+                        iconBig="icons/h2gis_icon_big.png"
+                        description="H2GIS Embedded"
+                    <parameter name="query-shutdown" value="shutdown"/>
+                class="org.jkiss.dbeaver.ext.h2gis.H2GISDataSourceProvider"
+                        dialect="h2">
+            <drivers managable="true">
+        </datasource>
+
+                    <file type="jar" path="drivers/h2" bundle="drivers.h2"/>
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+    </extension>
+        <provider
+                    <replace provider="generic" driver="h2_server"/>
+                <driver
+        </backup>
+                        defaultPort="9092"
+                    <file type="jar" path="drivers/h2_v2" bundle="drivers.h2_v2"/>
+
+                        sampleURL="jdbc:h2:tcp://{host}[:{port}]/{database}"
+                        id="h2gis_embedded"
+                        embedded="true"
+                    <file type="jar" path="maven:/com.h2database:h2:RELEASE[1.4.199]" bundle="!drivers.h2"/>
+        <datasource
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                        category="H2"
+                    <parameter name="omit-catalog" value="true"/>

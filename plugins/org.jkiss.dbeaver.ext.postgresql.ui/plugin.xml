@@ -1,0 +1,334 @@
+        </editor>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreExtension"/>
+    
+        <executor class="org.jkiss.dbeaver.ext.postgresql.tools.PostgreScriptExecutor" datasource="postgresql"/>
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreConstraintConfigurator">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreExtension"/>
+                <task id="pgDatabaseRestore"/>
+        </view>
+        </editorContribution>
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreRoleConfigurator">
+        -->
+            <tool
+                    description="Disable trigger(s)"
+                icon="#server"
+                    description="%tools.backup.db.description"
+            </tool>
+                position="additions_middle"
+                    description="%tools.vacuum.description"
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+            <supports dataSource="gaussdb"/>
+        </generator>
+                class="org.jkiss.dbeaver.ext.postgresql.ui.PostgreConnectionPage"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreProcedure" if="object.dataSource.supportsRoles()"/>
+        <generator id="procedureCheck" class="org.jkiss.dbeaver.ext.postgresql.model.sql.generator.SQLGeneratorProcedureCheck" label="CHECK (via plpgsql_check)" description="Check (via plpgsql_check)" order="2000">
+                <command id="org.jkiss.dbeaver.ext.postgresql.ui.fdw">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreEventTrigger"/>
+        <tools>
+                    icon="#export"
+                    <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreObject"/>
+                <task id="pgToolDatabaseVacuum"/>
+    </extension>
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreIndexConfigurator">
+                objectType="org.jkiss.dbeaver.ext.postgresql.model.PostgreJobSchedule"
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolTruncate"
+            <supports dataSource="postgresql"/>
+            </tool>
+        </editor>
+        <initializer class="org.jkiss.dbeaver.ext.postgresql.ui.PostgrePreferencesInitializer"/>
+            <toolGroup
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.PostgreToolBackup"
+            <supports dataSource="enterprisedb"/>
+                description="Schedule editor"
+
+                    <supports dataSource="postgresql" typeName="money"/>
+                    description="Uninstall extension"
+        </configurator>
+            class="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreSessionEditor"
+
+                class="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreScheduleEditor"
+<?xml version="1.0" encoding="UTF-8"?>
+    </extension>
+                    group="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+    </extension>
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog">
+            <toolGroup
+
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema"/>
+        <editor
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreSequenceConfigurator">
+    <extension point="org.jkiss.dbeaver.tools">
+                <task id="pgToolDatabaseAnalyze"/>
+                    singleton="true">
+        <propertyConfigurator class="org.jkiss.dbeaver.ext.postgresql.model.AuthModelPgPass" uiClass="org.jkiss.dbeaver.ext.postgresql.ui.PostgreAuthPgPassConfigurator"/>
+        </tools>
+                    singleton="false">
+                <task id="pgScriptExecute"/>
+            </tool>-->
+        </configurator>
+                    group="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+            </tool>
+        <propertyConfigurator class="org.jkiss.dbeaver.ext.postgresql.model.net.PostgreSSLHandlerImpl" uiClass="org.jkiss.dbeaver.ext.postgresql.ui.PostgreSSLConfigurator"/>
+                label="%db.editor.ddl.name" description="%db.editor.ddl.description" icon="#sql_text" position="additions_middle"
+                <task id="pgToolTriggerEnable"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreSequence"/>
+    <extension point="org.eclipse.ui.preferencePages">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreScriptObjectExt"/>
+                    singleton="false">
+    <extension point="org.eclipse.ui.editors">
+    
+        </editor>
+        <manager class="org.jkiss.dbeaver.ui.data.managers.BitStringValueManager" id="org.jkiss.dbeaver.ui.data.managers.BitStringValueManager">
+
+        <editorContribution editorId="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreSessionEditor" category="connectionEditor" label="%editor.session_manager.name" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/sessions.svg">
+                    description="%tools.restore.db.description"
+
+            <supports dataSource="postgresql" extension="E"/>
+                class="org.jkiss.dbeaver.ext.postgresql.ui.PostgreConnectionPage"
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolRefreshMView"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTrigger"/>
+                </manager>
+        <page category="org.jkiss.dbeaver.preferences.drivers" id="org.jkiss.dbeaver.preferences.postgresql.general" class="org.jkiss.dbeaver.ext.postgresql.ui.PrefPagePostgreSQL" name="PostgreSQL">
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolAnalyze"
+            </tool>
+            <supports dataSource="postgresql" typeName="JSONB"/>
+    </extension>
+        </editorContribution>
+        <!--
+                    label="%tools.refesh.mview.name"
+            <tool
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreExplainPlanConfigurator">
+                type="folder">
+                    description="%tools.refesh.mview.description"
+                    icon="#tools"/>
+  
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreView"/>
+                label="%dialog.connection.header"
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+        </editor>
+        <editorContribution editorId="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreLockEditor" category="connectionEditor" label="%editor.lock_manager.name" icon="#locked" visibleIf="connected &amp;&amp; dataSource.serverType.supportsLocks()">
+            </tool>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDataType"/>
+                    label="%tools.vacuum.name"
+        </page>
+                <task id="pgToolTableTruncate"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreJobSchedule"/>
+    <extension point="org.jkiss.dbeaver.sql.executors">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema"/>
+                <task id="pgToolTableVacuum"/>
+        <editor id="postgresql.table.permissions" class="org.jkiss.dbeaver.ext.postgresql.ui.editors.privileges.ObjectPermissionsEditor"
+        </configurator>
+            <tool
+    </extension>
+        </configurator>
+    </extension>
+        </configurator>
+        </configurator>
+        <configurator type="pgDatabaseBackup" class="org.jkiss.dbeaver.ext.postgresql.tools.PostgreTaskConfigurator"/>
+        <configurator class="org.jkiss.dbeaver.ui.editors.object.config.PropertyObjectConfigurator">
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+        <editor id="postgresql.role.permissions" class="org.jkiss.dbeaver.ext.postgresql.ui.editors.privileges.RolePermissionsEditor"
+                description="Foreign Data Wrappers configurator"
+                    description="%tools.backup.all.db.description"
+        </configurator>
+    <extension point="org.eclipse.ui.commands">
+        <editor id="postgresql.source.ddl" class="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreSourceViewEditor"
+                    group="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+            </tool>
+
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTable"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreJobStep"/>
+                    singleton="false">
+                dataSource="postgresql"
+                    label="Maintenance"
+    </extension>
+                    group="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+                    description="Enable trigger"
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreEventTriggerConfigurator">
+    <extension point="org.eclipse.ui.handlers">
+        </configurator>
+    </extension>
+                    group="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+        </editor>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableBase" if="object.dataSource.supportsRoles()"/>
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreRole"/>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.plan.PostgreQueryPlaner"/>
+
+        <editor id="postgresql.source.view" class="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreSourceViewEditor"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreForeignServer"/>
+                <task id="pgToolTableAnalyze"/>
+        <handler commandId="org.jkiss.dbeaver.ext.postgresql.ui.fdw" class="org.jkiss.dbeaver.ext.postgresql.tools.fdw.PostgreFDWConfigToolCommandHandler"/>
+                <task id="pgDatabaseBackupAll"/>
+            name="%editor.lock_manager.name"
+<?eclipse version="3.2"?>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreRule"/>
+                    singleton="false">
+                    label="%tools.backup.all.db.name"
+            name="%editor.session_manager.name"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableConstraint"/>
+            <tool
+            <tool
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreSchema" if="object.dataSource.supportsRoles()"/>
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreTablespaceConfigurator">
+                label="Configuration"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableConstraintBase"/>
+                <task id="pgToolRefreshMView"/>
+                    label="%tools.backup.db.name"
+
+            <supports dataSource="redshift"/>
+                <manager class="org.jkiss.dbeaver.ui.data.managers.StructValueManager" id="org.jkiss.dbeaver.ext.postgresql.edit.PostgreHStoreValueManager">
+                    class="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolExtensionUninstall"
+        <configurator type="pgScriptExecute" class="org.jkiss.dbeaver.ext.postgresql.tools.PostgreTaskConfigurator"/>
+            icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/sessions.svg"
+                label="Foreign data wrappers configurator"
+        -->
+                icon="#job_schedule"
+            <tool
+                    singleton="false">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTrigger"/>
+
+                    singleton="false">
+            </tool>
+                    singleton="false">
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+                    group="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+                </manager>
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolTriggerEnable"
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.PostgreToolRestore"
+        <configurator type="pgDatabaseRestore" class="org.jkiss.dbeaver.ext.postgresql.tools.PostgreTaskConfigurator"/>
+                    <supports dataSource="postgresql" typeName="hstore"/>
+            </tool>
+
+                <task id="pgDatabaseBackup"/>
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreForeignKeyConfigurator">
+                icon="icons/database.png">
+                    label="Uninstall"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreForeignDataWrapper"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreDatabase"/>
+            <supports dataSource="postgresql" typeName="BIT"/>
+
+                dataSource="postgresql"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablePolicy"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreUserMapping"/>
+                    group="org.jkiss.dbeaver.ext.postgresql.tools.maintenance"
+
+                    label="Disable trigger(s)"
+                    description="%tools.truncate.description"
+            <supports dataSource="enterprisedb"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreProcedure"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreProcedure"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableColumn"/>
+                label="%db.editor.source.name" description="%db.editor.source.description" icon="#sql_text" position="additions_middle"
+            <supports dataSource="postgresql" typeName="JSON"/>
+                    singleton="true">
+                label="%dialog.connection.header"
+        </configurator>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreEventTrigger"/>
+    </extension>
+                    singleton="false">
+        </manager>
+                    label="%tools.truncate.name"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreProcedure"/>
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolExtensionUninstall"
+        <view
+                    icon="#import"
+                singleton="false">
+    <extension point="org.eclipse.core.runtime.preferences">
+                id="org.jkiss.dbeaver.ext.postgresql.tools.fdw.PostgreFDWConfigTool"
+                    icon="#export"
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.PostgreToolScript"
+        <editor
+                    description="%tools.execute.script.description"
+            id="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreSessionEditor"
+            <supports dataSource="greenplum"/>
+        <!--
+        </editor>
+                    singleton="false">
+                    <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreAvailableExtension" if="object.isInstalled()"/>
+
+            </tool>
+
+                <manager class="org.jkiss.dbeaver.ui.data.managers.StringValueManager" id="org.jkiss.dbeaver.ext.postgresql.edit.PostgreMoneyValueManager">
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolTriggerDisable"
+            </tool>
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder" embeddable="false">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreSequence"/>
+        <editor id="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreScheduleEditor"
+        <view
+    
+            <tool
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.PostgreToolBackupAll"
+
+                    description="%tools.analyze.description"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablespace"/>
+            contributorClass="org.jkiss.dbeaver.ui.editors.EditorSearchActionsContributor">
+            <tool
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreTriggerConfigurator">
+        </editor>
+                    label="%tools.execute.script.name"
+                    label="Enable trigger"
+            <!--<tool
+        <manager class="org.jkiss.dbeaver.ui.data.managers.ContentValueManager" id="org.jkiss.dbeaver.ui.data.managers.ContentValueManager">
+        </configurator>
+    </extension>
+            </tool>            
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreSchemaConfigurator">
+                label="%db.editor.role.permission.name" description="%db.editor.role.permission.description" icon="#permissions" position="additions_middle" type="folder">
+                id="org.jkiss.dbeaver.ext.postgresql.dataSourceEditorView"
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreProcedureConfigurator">
+    	<command id="org.jkiss.dbeaver.ext.postgresql.ui.fdw" name="Foreign data wrappers configurator"/>
+            icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/locked.svg"
+                id="org.jkiss.dbeaver.ext.postgresql.tools.config"
+
+              <tool
+            <tool
+            <supports dataSource="postgresql"/>
+            <supports dataSource="gaussdb"/>
+        </configurator>
+                <task id="pgToolTriggerDisable"/>
+</plugin>
+            <supports dataSource="greenplum"/>
+                label="Scheduler"
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableColumn" if="object.dataSource.supportsRoles()"/>
+                label="%db.editor.table.permission.name" description="%db.editor.table.permission.description" icon="#permissions" position="additions_middle" type="folder">
+        </manager>
+    <!-- SQL Generators -->
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreRole"/>
+                    label="%tools.analyze.name"
+            <tool
+        </configurator>
+<plugin>
+            id="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreLockEditor">
+            class="org.jkiss.dbeaver.ext.postgresql.ui.editors.PostgreLockEditor"
+                icon="icons/database.png"
+    <extension point="org.jkiss.dbeaver.sqlGenerator">
+        </manager>
+                </command>
+
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreMaterializedView"/>
+    </extension>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTablespace"/>
+        <configurator type="pgDatabaseBackupAll" class="org.jkiss.dbeaver.ext.postgresql.tools.PostgreTaskConfigurator"/>
+        </configurator>
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder">
+    </extension>
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreExtensionConfigurator">
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreIndex"/>
+    </extension>
+                id="org.jkiss.dbeaver.ext.postgresql.dataSourceWizardView"
+        <configurator class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreDatabaseConfigurator">
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreTableForeignKey"/>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreRole"/>
+                    id="org.jkiss.dbeaver.ext.postgresql.tools.maintenance.PostgreToolVacuum"
+    </extension>
+            <objectType name="org.jkiss.dbeaver.ext.postgresql.model.PostgreIndex"/>
+        </view>
+                icon="#tools"/>
+                    label="%tools.restore.db.name"
+        </configurator>
+    <extension point="org.jkiss.dbeaver.dataManager">
+        <manager class="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreEnumValueManager" id="org.jkiss.dbeaver.ext.postgresql.ui.config.PostgreEnumValueManager">
+    <extension point="org.jkiss.dbeaver.task.ui">

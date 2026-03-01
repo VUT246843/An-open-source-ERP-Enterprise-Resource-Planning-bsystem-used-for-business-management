@@ -1,0 +1,18 @@
+    <parent>
+        <version>1.0.0-SNAPSHOT</version>
+    <artifactId>org.jkiss.dbeaver.ce.office.updateSite</artifactId>
+    <name>DBeaver - Office support</name>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+    <version>1.0.0-SNAPSHOT</version>
+        <artifactId>repositories</artifactId>
+        <groupId>org.jkiss.dbeaver</groupId>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+    </parent>
+<?xml version="1.0" encoding="UTF-8"?>
+        <relativePath>..</relativePath>
+
+    <packaging>eclipse-repository</packaging>
+
+</project>
+    <modelVersion>4.0.0</modelVersion>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">

@@ -1,0 +1,78 @@
+
+
+        <event topicId="cb_workspace_configuration" id="cb_workspace_config_changed" class="org.jkiss.dbeaver.model.websocket.event.WSWorkspaceConfigurationChangedEvent"/>
+        <event topicId="cb_session" id="cb_session_state" class="org.jkiss.dbeaver.model.websocket.event.session.WSSessionStateEvent"/>
+
+        <event topicId="cb_object_settings" id="cb_object_settings_updated" class="org.jkiss.dbeaver.model.websocket.event.WSObjectSettingsEvent"/>
+
+        <event topicId="cb_scripts" id="cb_rm_resource_created"
+<plugin>
+               class="org.jkiss.dbeaver.model.websocket.event.permissions.WSSubjectPermissionEvent"/>
+    <extension-point id="org.jkiss.dbeaver.ws.event" name="WebSocket event"
+<?eclipse version="3.2"?>
+        <event topicId="cb_scripts" id="cb_rm_resource_updated"
+               class="org.jkiss.dbeaver.model.websocket.event.resource.WSResourceUpdatedEvent"/>
+        <event topicId="cb_datasource_folder" id="cb_datasource_folder_created"
+        <event topicId="cb_user_secret" id="cb_user_secret_updated" class="org.jkiss.dbeaver.model.websocket.event.WSUserSecretEvent"/>
+        <event topicId="cb_delete_temp_folder" id="cb_temp_folder_deleted" class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDataSourceEvent"/>
+
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDatasourceFolderEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDatasourceFolderEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.WSSessionLogUpdatedEvent"/>
+        <event topicId="cb_task" id="cb_task_finished" class="org.jkiss.dbeaver.model.websocket.event.WSTaskFinishedEvent"/>
+
+
+    <extension point="org.jkiss.dbeaver.ws.event">
+        <event topicId="cb_object_permissions" id="cb_object_permissions_updated"
+        <event topicId="cb_session_auth" id="cb_session_auth"
+
+        <event topicId="cb_datasource" id="cb_datasource_deleted"
+               class="org.jkiss.dbeaver.model.websocket.event.session.WSAccessTokenExpiredEvent"/>
+        <event topicId="cb_object_permissions" id="cb_object_permissions_deleted"
+        <event topicId="cb_database_output_log" id="cb_database_output_log_updated" class="org.jkiss.dbeaver.model.websocket.event.session.WSOutputDBLogEvent"/>
+    <extension-point id="org.jkiss.dbeaver.ws.event.handler" name="WebSocket event handler"
+        <event topicId="cb_session_log" id="cb_session_log_updated"
+               class="org.jkiss.dbeaver.model.websocket.event.resource.WSResourceUpdatedEvent"/>
+        <event topicId="cb_subject_permissions" id="cb_subject_permissions_updated"
+        <event topicId="cb_projects" id="cb_rm_project_added" class="org.jkiss.dbeaver.model.websocket.event.WSProjectUpdateEvent"/>
+
+               class="org.jkiss.dbeaver.model.websocket.event.WSServerConfigurationChangedEvent"/>
+        <event topicId="cb_datasource_connection" id="cb_datasource_disconnected"
+
+        <event topicId="cb_user" id="cb_user_disabled" class="org.jkiss.dbeaver.model.websocket.event.WSUserDisabledEvent"/>
+        <event topicId="cb_session" id="cb_session_websocket_connected"
+        <event topicId="cb_datasource" id="cb_datasource_updated"
+
+        <event topicId="cb_server_state" id="cb_server_state_updated" class="org.jkiss.dbeaver.model.websocket.event.WSServerStateEvent"/>
+</plugin>
+        <event topicId="cb_config" id="cb_config_changed"
+        <event topicId="cb_object_settings" id="cb_object_settings_deleted" class="org.jkiss.dbeaver.model.websocket.event.WSObjectSettingsEvent"/>
+                     schema="schema/org.jkiss.dbeaver.ws.event.handler.exsd"/>
+
+        <event topicId="cb_session" id="cb_access_token_expired"
+        <event topicId="cb_scripts" id="cb_rm_resource_deleted"
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDataSourceEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.permissions.WSObjectPermissionEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.resource.WSResourceUpdatedEvent"/>
+        <event topicId="cb_user" id="cb_close_user_sessions" class="org.jkiss.dbeaver.model.websocket.event.WSUserCloseSessionsEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.session.WSAuthEvent"/>
+
+
+        <event topicId="cb_datasource" id="cb_datasource_created"
+        <event topicId="cb_datasource_folder" id="cb_datasource_folder_updated"
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDatasourceFolderEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDataSourceEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.permissions.WSObjectPermissionEvent"/>
+    </extension>
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDataSourceDisconnectEvent"/>
+        <event topicId="cb_datasource_connection" id="cb_datasource_connected"
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDataSourceEvent"/>
+        <event topicId="cb_datasource_folder" id="cb_datasource_folder_deleted"
+        <event topicId="cb_user" id="cb_user_deleted" class="org.jkiss.dbeaver.model.websocket.event.WSUserDeletedEvent"/>
+        <event topicId="cb_projects" id="cb_rm_project_removed" class="org.jkiss.dbeaver.model.websocket.event.WSProjectUpdateEvent"/>
+               class="org.jkiss.dbeaver.model.websocket.event.datasource.WSDataSourceConnectEvent"/>
+<?xml version="1.0" encoding="UTF-8"?>
+               class="org.jkiss.dbeaver.model.websocket.event.session.WSSocketConnectedEvent"/>
+        <event topicId="cb_projects" id="cb_rm_project_updated" class="org.jkiss.dbeaver.model.websocket.event.WSProjectUpdateEvent"/>
+                     schema="schema/org.jkiss.dbeaver.ws.event.exsd"/>
+        <event topicId="cb_session" id="cb_session_expired" class="org.jkiss.dbeaver.model.websocket.event.session.WSSessionExpiredEvent"/>

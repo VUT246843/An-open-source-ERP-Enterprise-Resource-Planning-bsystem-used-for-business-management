@@ -1,0 +1,22 @@
+    <configurator class="org.jkiss.dbeaver.ext.kingbase.ui.config.KingbaseProcedureConfigurator">
+  <extension point="org.jkiss.dbeaver.databaseEditor">
+    <view id="org.jkiss.dbeaver.ext.postgresql.dataSourceWizardView" dataSource="kingbase" targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard" label="%dialog.connection.header" class="org.jkiss.dbeaver.ext.kingbase.ui.views.KingbaseConnectionPage" icon="platform:/plugin/org.jkiss.dbeaver.ext.kingbase/icons/kingbase_icon.png"/>
+</plugin>
+    
+<?xml version="1.0" encoding="UTF-8"?>
+    </configurator>
+  </extension>
+      <objectType name="org.jkiss.dbeaver.ext.kingbase.model.KingbaseFunction"/>
+    </configurator>
+    </configurator>
+  </extension>
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+    <configurator class="org.jkiss.dbeaver.ext.kingbase.ui.config.KingbaseFunctionConfigurator">
+<plugin>
+   
+    <view id="org.jkiss.dbeaver.ext.postgresql.dataSourceEditorView" dataSource="kingbase" targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog" label="%dialog.connection.header" class="org.jkiss.dbeaver.ext.kingbase.ui.views.KingbaseConnectionPage" icon="platform:/plugin/org.jkiss.dbeaver.ext.kingbase/icons/kingbase_icon.png"/>
+      <objectType name="org.jkiss.dbeaver.ext.kingbase.model.KingbaseProcedure"/>
+      <objectType name="org.jkiss.dbeaver.ext.kingbase.model.KingbaseDatabase"/>
+
+<?eclipse version="3.4"?>
+    <configurator class="org.jkiss.dbeaver.ext.kingbase.ui.config.KingbaseDatabaseConfigurator">

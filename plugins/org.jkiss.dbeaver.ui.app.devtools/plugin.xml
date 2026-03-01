@@ -1,0 +1,76 @@
+            </activeWhen>
+            <command commandId="org.jkiss.dbeaver.test.object.validate">
+                </with>
+            </menu>
+            </command>
+                <command commandId="org.jkiss.dbeaver.test.showAuthCodeDialog"/>
+        <command id="org.jkiss.dbeaver.test.object.validate" name="Node - Validate" categoryId="org.jkiss.dbeaver.test"/>
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=navigator_additions">
+        <command id="org.jkiss.dbeaver.test.connection.validate" name="Connection - Validate" categoryId="org.jkiss.dbeaver.test"/>
+        <command id="org.jkiss.dbeaver.test.showIcons" name="Show icons" categoryId="org.jkiss.dbeaver.test"/>
+<?xml version="1.0" encoding="UTF-8"?>
+    </extension>
+        <command id="org.jkiss.dbeaver.test.dialog" name="Show dialog" categoryId="org.jkiss.dbeaver.test"/>
+
+                <with variable="selection">
+                <command commandId="org.jkiss.dbeaver.test.showIcons"/>
+</plugin>
+        <handler commandId="org.jkiss.dbeaver.test.redshift.runConcurrent" class="org.jkiss.dbeaver.ui.app.devtools.handlers.HandlerRedshiftTest"/>
+                   </with>
+
+        <command id="org.jkiss.dbeaver.test.connection.stressTest" name="Connection - Stress Test" categoryId="org.jkiss.dbeaver.test"/>
+<?eclipse version="3.2"?>
+                   <with variable="selection">
+            <menu id="org.jkiss.dbeaver.ui.test.menu" label="&amp;Test">
+        <command id="org.jkiss.dbeaver.test.showAuthCodeDialog" name="Show auth code dialog" categoryId="org.jkiss.dbeaver.test"/>
+<plugin>
+   <extension point="org.eclipse.ui.menus">
+       <menuContribution allPopups="false" locationURI="menu:org.eclipse.ui.main.menu?after=help">
+    <extension point="org.eclipse.ui.handlers">
+                       <count value="1"/>
+        <category id="org.jkiss.dbeaver.test" name="Test" description="Tools for testing"/>
+        </handler>
+        <handler commandId="org.jkiss.dbeaver.test.showAuthCodeDialog" class="org.jkiss.dbeaver.ui.app.devtools.handlers.ShowAuthCodeHandler"/>
+               <visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.test.showNotification" class="org.jkiss.dbeaver.ui.app.devtools.handlers.ShowNotificationHandler"/>
+        <command id="org.jkiss.dbeaver.test.showNotification" name="Show notification" categoryId="org.jkiss.dbeaver.test"/>
+                 class="org.jkiss.dbeaver.ui.app.devtools.handlers.HandlerConnectionStressTest">
+        <handler commandId="org.jkiss.dbeaver.test.connection.stressTest"
+
+                    <count value="+"/>
+        <handler commandId="org.jkiss.dbeaver.test.showForms" class="org.jkiss.dbeaver.ui.app.devtools.handlers.ShowFormsHandler"/>
+            </activeWhen>
+            <command commandId="org.jkiss.dbeaver.test.connection.stressTest"/>
+        <handler commandId="org.jkiss.dbeaver.test.object.validate" class="org.jkiss.dbeaver.ui.app.devtools.handlers.HandlerObjectValidate">
+
+   </extension>
+                </with>
+            <activeWhen>
+                <command commandId="org.jkiss.dbeaver.test.dialog"/>
+        <command id="org.jkiss.dbeaver.test.showForms" name="Show forms" categoryId="org.jkiss.dbeaver.test"/>
+
+        </menuContribution>
+                    <count value="+"/>
+               </visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.test.connection.validate" class="org.jkiss.dbeaver.ui.app.devtools.handlers.HandlerConnectionValidate">
+        <command id="org.jkiss.dbeaver.test.redshift.runConcurrent" name="Redshift - Test" categoryId="org.jkiss.dbeaver.test"/>
+            <activeWhen>
+        </handler>
+            <command commandId="org.jkiss.dbeaver.test.redshift.runConcurrent"/>
+        <handler commandId="org.jkiss.dbeaver.test.showIcons" class="org.jkiss.dbeaver.ui.app.devtools.handlers.ShowIconsHandler"/>
+                <command commandId="org.jkiss.dbeaver.test.showNotification"/>
+                <command commandId="org.jkiss.dbeaver.test.showForms"/>
+        </handler>
+    <extension point="org.eclipse.ui.commands">
+            <activeWhen>
+                <with variable="selection">
+                <with variable="selection">
+
+
+            </activeWhen>
+        <handler commandId="org.jkiss.dbeaver.test.dialog" class="org.jkiss.dbeaver.ui.app.devtools.handlers.HandlerDialog"/>
+       </menuContribution>
+   </extension>
+                </with>
+                    <count value="+"/>
+            <command commandId="org.jkiss.dbeaver.test.connection.validate"/>

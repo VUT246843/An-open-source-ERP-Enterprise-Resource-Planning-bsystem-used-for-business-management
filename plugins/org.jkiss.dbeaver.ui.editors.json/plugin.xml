@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    </extension>
+              name="JSON">
+              extensions="json"
+        </editor>
+        <editor
+              id="org.jkiss.dbeaver.ui.editors.json.JSONTextEditor"
+              default="true"
+    <extension point="org.eclipse.core.contenttype.contentTypes">
+
+
+            base-type="org.eclipse.core.runtime.text"
+            <contentTypeBinding contentTypeId="org.jkiss.dbeaver.json"/>
+            id="org.jkiss.dbeaver.json"
+        <content-type
+
+            name="JSON"
+            priority="high"/>
+    <extension point="org.jkiss.dbeaver.dataManager">
+                       description="JSON" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/types/json.svg"/>
+    <extension point="org.eclipse.ui.editors">
+              icon="platform:/plugin/org.jkiss.dbeaver.model/icons/types/json.svg"
+        <streamManager class="org.jkiss.dbeaver.ui.data.managers.stream.JSONStreamValueManager" id="json" label="JSON" primaryMime="text/json"
+              class="org.jkiss.dbeaver.ui.editors.json.JSONTextEditor"
+
+            file-extensions="json"
+</plugin>
+<plugin>
+
+    </extension>
+<?eclipse version="3.2"?>
+    </extension>

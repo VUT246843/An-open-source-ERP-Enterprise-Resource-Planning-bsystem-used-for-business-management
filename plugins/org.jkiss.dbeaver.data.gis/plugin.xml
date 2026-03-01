@@ -1,0 +1,35 @@
+
+            <propertyGroup label="%property-group.org.jkiss.dbeaver.dataTypeProvider.label">
+    </extension>
+
+    <extension point="org.jkiss.dbeaver.expressions">
+        <namespace id="geo" class="org.jkiss.dbeaver.model.gis.GisExpressionFunctions" description="GIS functions"/>
+        <!-- Spatial transformer -->
+<plugin>
+
+
+            applyByDefault="false"
+            <type kind="BINARY"/>
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+        </hintProvider>
+<?xml version="1.0" encoding="UTF-8"?>
+        <transformer
+        <hintProvider id="gis-srid" for="cell" class="org.jkiss.dbeaver.model.gis.hints.GisCellHintProvider" label="%hints.gis-srid.label" description="%hints.gis-srid.description" visibleByDefault="false">
+            description="%transformer.org.jkiss.dbeaver.data.gis.handlers.GeometryAttributeTransformer.description"
+        </transformer>
+            class="org.jkiss.dbeaver.data.gis.handlers.GeometryAttributeTransformer"
+    </extension>
+                <property id="leadingSrid" label="%property-group.org.jkiss.dbeaver.dataTypeProvider.leadingSrid.label" type="boolean" description="%property-group.org.jkiss.dbeaver.dataTypeProvider.leadingSrid.description" defaultValue="false" required="false"/>
+                <property id="srid" label="SRID" type="string" description="%property-group.org.jkiss.dbeaver.dataTypeProvider.srid.description" defaultValue="4326" required="false" validValues=""/>
+            custom="true">
+            id="GeometryAttributeTransformer"
+            <supports type="org.jkiss.dbeaver.model.gis.DBGeometry"/>
+    </extension>
+                <property id="invertCoordinates" label="%property-group.org.jkiss.dbeaver.dataTypeProvider.invertCoordinates.label" type="boolean" description="%property-group.org.jkiss.dbeaver.dataTypeProvider.invertCoordinates.description" defaultValue="false" required="false"/>
+            name="%transformer.org.jkiss.dbeaver.data.gis.handlers.GeometryAttributeTransformer.name"
+            </propertyGroup>
+    <extension point="org.jkiss.dbeaver.dataHintProvider">
+            <type kind="STRING"/>
+<?eclipse version="3.4"?>
+
+</plugin>

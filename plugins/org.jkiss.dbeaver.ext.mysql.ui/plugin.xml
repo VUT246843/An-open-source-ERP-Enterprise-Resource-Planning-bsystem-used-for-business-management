@@ -1,0 +1,203 @@
+            id="org.jkiss.dbeaver.ext.mysql.dataSourceEditorView"
+                label="%tools.exportDatabase.label"
+            icon="icons/mysql_icon.png">
+            description="General user settings"
+            objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLUser"
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder" embeddable="false">
+            <tool
+        </editor>
+</plugin>
+                label="DDL" description="DDL" icon="#sql_text" position="additions_middle"
+    </extension>
+        <executor class="org.jkiss.dbeaver.ext.mysql.tools.MySQLScriptExecutor" datasource="mysql"/>
+            </tool>
+            </tool>
+            label="%editor.general.name"
+        <tools>
+        </editor>
+                label="%tools.repairTable.label"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLTrigger"/>
+    </extension>
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+                icon="#export"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLEvent"/>
+                <task id="mysqlScriptExecute"/>
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLTableIndex"/>
+        <editor id="mysql.source.view" class="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLSourceViewEditor"
+            class="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLSessionEditor"
+        </editorContribution>
+                id="org.jkiss.dbeaver.ext.mysql.tools.maintenance.MySQLToolOptimize"
+<?xml version="1.0" encoding="UTF-8"?>
+        </view>
+            <tool
+                description="%tools.optimizeTable.description"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLPackage"/>
+        </editor>
+            id="org.jkiss.dbeaver.ext.mysql.dataSourceWizardView"
+                group="org.jkiss.dbeaver.ext.mysql.tools.maintenance"
+
+                label="%tools.analyzeTable.label"
+        </tools>
+                description="%tools.analyzeTable.description"
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLProcedure"/>
+            class="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLUserEditorPrivileges"
+                description="%tools.repairTable.description"
+                singleton="true">
+                <task id="mysqlDatabaseBackup"/>
+                singleton="false">
+                id="org.jkiss.dbeaver.ext.mysql.tools.maintenance.MySQLToolAnalyse"
+    <extension point="org.jkiss.dbeaver.objectManager">
+            icon="#user">
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLEventConfigurator">
+        <!-- User manager is declared in UI module because it has custom UI -->
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLConstraintConfigurator">
+            description="%editor.schema_privileges.description"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLSequence"/>
+            name="%editor.session_manager.name"
+
+            <supports dataSource="mysql"/>
+
+
+                description="%tools.executeScript.description"
+            <tool
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLEvent"/>
+    <extension point="org.jkiss.dbeaver.sql.executors">
+            </tool>
+                id="org.jkiss.dbeaver.ext.mysql.tools.MySQLToolImport"
+
+            </tool>
+            targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog"
+    </extension>
+                singleton="false">
+        </configurator>
+            targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+        </configurator>
+                <task id="mysqlToolRepairTable"/>
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder">
+    </extension>
+                id="org.jkiss.dbeaver.ext.mysql.tools.maintenance"
+            class="org.jkiss.dbeaver.ext.mysql.ui.views.MySQLConnectionPage">
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog"/>
+    </extension>
+        <propertyConfigurator class="org.jkiss.dbeaver.ext.mysql.model.net.MySQLSSLHandlerImpl" uiClass="org.jkiss.dbeaver.ext.mysql.ui.views.MySQLSSLConfigurator"/>
+                label="%tools.optimizeTable.label"
+                description="%tools.truncateTable.description"
+                label="Table Maintenance"
+            main="false"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLTableForeignKey"/>
+<plugin>
+
+            <toolGroup
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                id="org.jkiss.dbeaver.ext.mysql.tools.MySQLToolExport"
+                icon="#import"
+                <task id="mysqlDatabaseRestore"/>
+            dataSource="mysql"
+        </configurator>
+
+            objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLUser"
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLIndexConfigurator">
+        <manager class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLUserManager" objectType="org.jkiss.dbeaver.ext.mysql.model.MySQLUser"/>
+        <editorContribution editorId="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLSessionEditor" category="connectionEditor" label="%editor.session_manager.name" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/sessions.svg">
+            <tool
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+                id="org.jkiss.dbeaver.ext.mysql.tools.maintenance.MySQLToolRepair"
+            label="%dialog.connection.header"
+<?eclipse version="3.2"?>
+                label="%editor.package.body.name" description="%editor.package.body.description" icon="#sql_text" position="additions_middle"
+                singleton="false">
+        <configurator type="mysqlScriptExecute" class="org.jkiss.dbeaver.ext.mysql.tools.MySQLTaskConfigurator"/>
+            id="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLSessionEditor"
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLCatalogConfigurator">
+        </configurator>
+
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLTrigger"/>
+    <extension point="org.jkiss.dbeaver.tools">
+            dataSource="mysql"
+            </tool>
+        <editor id="mysql.package.body.view" class="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLPackageBodyEditor"
+                label="%tools.checkTable.label"
+                label="%editor.source.name" description="%editor.source.name" icon="#sql_text" position="additions_middle"
+        <manager class="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLEnumValueManager" id="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLEnumValueManager">
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLTriggerConfigurator">
+                singleton="false">
+                icon="#tools"/>
+                group="org.jkiss.dbeaver.ext.mysql.tools.maintenance"
+            <tool
+                description="%tools.importDatabase.description"
+        </editor>
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLView"/>
+        </manager>
+                <task id="mysqlToolTruncateTable"/>
+        <view
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder" embeddable="false">
+                label="%tools.importDatabase.label"
+                singleton="false">
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLPackage"/>
+                id="org.jkiss.dbeaver.ext.mysql.tools.maintenance.MySQLToolCheck"
+                group="org.jkiss.dbeaver.ext.mysql.tools.maintenance"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLProcedure"/>
+            <tool
+                group="org.jkiss.dbeaver.ext.mysql.tools.maintenance"
+        </configurator>
+                label="%tools.executeScript.label"
+            <tool
+    <extension point="org.jkiss.dbeaver.dataManager">
+            icon="#user">
+        </configurator>
+    <extension point="org.eclipse.ui.editors">
+            </tool>
+    </extension>
+        <configurator type="mysqlDatabaseRestore" class="org.jkiss.dbeaver.ext.mysql.tools.MySQLTaskConfigurator"/>
+            position="additions_start"
+        </view>
+                description="%tools.exportDatabase.description"
+        </configurator>
+        </editor>
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLTable"/>
+            label="%editor.schema_privileges.name"
+            id="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLUserEditorGeneral"
+            class="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLUserEditorGeneral"
+                id="org.jkiss.dbeaver.ext.mysql.tools.maintenance.MySQLToolTruncate"
+                <task id="mysqlToolAnalyzeTable"/>
+    </extension>
+        <configurator type="mysqlDatabaseBackup" class="org.jkiss.dbeaver.ext.mysql.tools.MySQLTaskConfigurator"/>
+    <extension point="org.jkiss.dbeaver.task.ui">
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLSequenceConfigurator">
+                group="org.jkiss.dbeaver.ext.mysql.tools.maintenance"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLSequence"/>
+
+    </extension>
+        <editor
+            main="true"
+        <editor
+            class="org.jkiss.dbeaver.ext.mysql.ui.views.MySQLConnectionPage"
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLCatalog"/>
+        <editor
+            id="org.jkiss.dbeaver.ext.mysql.ui.editors.MySQLUserEditorPrivileges"
+        <view
+            </tool>
+        <editor id="mysql.source.ddl" class="org.jkiss.dbeaver.ui.editors.sql.SQLSourceViewer"
+            label="%dialog.connection.header"
+                description="%tools.checkTable.description"
+    </extension>
+                <task id="mysqlToolOptimizeTable"/>
+                label="%tools.truncateTable.label"
+                <task id="mysqlToolCheckTable"/>
+            <supports dataSource="mysql" typeName="ENUM"/>
+    </extension>
+        </editor>
+                id="org.jkiss.dbeaver.ext.mysql.tools.MySQLToolScript"
+            contributorClass="org.jkiss.dbeaver.ui.editors.EditorSearchActionsContributor">
+        </configurator>
+            <tool
+
+            <objectType name="org.jkiss.dbeaver.ext.mysql.model.MySQLTableConstraint"/>
+            <supports dataSource="mysql" typeName="SET"/>
+                singleton="true">
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLProcedureConfigurator">
+            icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/sessions.svg"
+        <configurator class="org.jkiss.dbeaver.ext.mysql.ui.config.MySQLForeignKeyConfigurator">
+                singleton="false">
+            </tool>

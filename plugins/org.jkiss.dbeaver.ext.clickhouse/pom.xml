@@ -1,0 +1,41 @@
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <phase>generate-sources</phase>
+        <configuration>
+  <modelVersion>4.0.0</modelVersion>
+</project>
+        <executions>
+      <plugin>
+            <visitor>false</visitor>
+            </execution>
+  <packaging>eclipse-plugin</packaging>
+                </goals>
+  </build>
+      </plugin>
+        </executions>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+            <execution>
+    <version>1.0.0-SNAPSHOT</version>
+  
+  <version>1.0.180-SNAPSHOT</version>
+<?xml version="1.0" encoding="UTF-8"?>
+        <artifactId>antlr4-maven-plugin</artifactId>
+                </configuration>
+                <goals>
+  <artifactId>org.jkiss.dbeaver.ext.clickhouse</artifactId>
+                <configuration>
+    <plugins>
+                    <sourceDirectory>grammar</sourceDirectory>
+    </plugins>
+        <version>4.12.0</version>
+    <artifactId>plugins</artifactId>
+                    <goal>antlr4</goal>
+  </parent>
+  
+    <groupId>org.jkiss.dbeaver</groupId>
+     <relativePath>../</relativePath>
+            <listener>false</listener>
+        <groupId>org.antlr</groupId>
+                    <outputDirectory>target/generated-sources/antlr4/org/jkiss/dbeaver/ext/clickhouse</outputDirectory>
+        </configuration>
+  <build>
+  <parent>

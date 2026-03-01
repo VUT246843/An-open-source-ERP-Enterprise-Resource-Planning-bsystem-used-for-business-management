@@ -1,0 +1,28 @@
+<site>
+    <category-def name="org.jkiss.dbeaver.additions" label="DBeaver Extensions">
+        <category name="org.jkiss.dbeaver"/>
+        <category name="org.jkiss.dbeaver.additions"/>
+    </category-def>
+    </feature>
+    <feature id="org.jkiss.dbeaver.ide.feature">
+</site>
+    </category-def>
+    <category-def name="org.jkiss.dbeaver" label="DBeaver">
+
+    </feature>
+    <description name="DBeaver Update Site" url="https://dbeaver.io/update/latest">DBeaver Update Site</description>
+        <description>DBeaver advanced extensions</description>
+        <category name="org.jkiss.dbeaver.additions"/>
+<?xml version="1.0" encoding="UTF-8"?>
+    </feature>
+    <feature id="org.jkiss.dbeaver.git.feature">
+        <description>Universal Database Manager</description>
+    <feature id="org.jkiss.dbeaver.ext.office.feature">
+
+        <description>3rd party JDBC drivers for DBeaver</description>
+    </feature>
+
+    <category-def name="org.jkiss.dbeaver.drivers" label="External database drivers">
+    <feature id="org.jkiss.dbeaver.debug.feature">
+    </category-def>
+        <category name="org.jkiss.dbeaver.additions"/>

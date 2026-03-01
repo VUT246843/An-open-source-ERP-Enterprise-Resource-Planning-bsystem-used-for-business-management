@@ -1,0 +1,47 @@
+    <parent>
+            <modules>
+    <modules>
+        <version>1.0.0-SNAPSHOT</version>
+        <groupId>org.jkiss.dbeaver</groupId>
+                <module>org.jkiss.dbeaver.debug.feature</module>
+        <profile>
+
+        <module>org.jkiss.dbeaver.runtime.feature</module>
+    </modules>
+                <module>org.jkiss.dbeaver.ide.feature</module>
+    <artifactId>features</artifactId>
+
+                <module>org.jkiss.dbeaver.appstore.feature</module>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+                <module>org.jkiss.dbeaver.rcp.feature</module>
+
+                <module>org.jkiss.dbeaver.standalone.feature</module>
+        <artifactId>dbeaver</artifactId>
+<?xml version="1.0" encoding="UTF-8"?>
+                <module>org.jkiss.dbeaver.ui.extra.feature</module>
+    <packaging>pom</packaging>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <activation><property><name>!headless-platform</name></property></activation>
+                <module>org.jkiss.dbeaver.git.feature</module>
+</project>
+    <profiles>
+
+    <modelVersion>4.0.0</modelVersion>
+                <module>org.jkiss.dbeaver.ext.office.feature</module>
+            </modules>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+            <!-- Desktop (swt/jface) components -->
+    </parent>
+        </profile>
+        <module>org.jkiss.dbeaver.db.feature</module>
+                <module>org.jkiss.dbeaver.app.local.feature</module>
+        <relativePath>../</relativePath>
+    </profiles>
+                <module>org.jkiss.dbeaver.test.base.feature</module>
+            <id>desktop</id>
+                <module>org.jkiss.dbeaver.ce.feature</module>
+                <module>org.jkiss.dbeaver.db.ui.feature</module>
+                <module>org.jkiss.dbeaver.test.feature</module>
+
+                <module>org.jkiss.dbeaver.ui.feature</module>
+                <module>org.jkiss.dbeaver.app.base.feature</module>

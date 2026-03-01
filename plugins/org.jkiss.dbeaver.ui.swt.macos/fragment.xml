@@ -1,0 +1,13 @@
+    </extension>
+<?eclipse version="3.4"?>
+    <extension point="org.jkiss.dbeaver.pluginService">
+        <propertyConfigurator class="org.jkiss.dbeaver.ui.preferences.PrefPageMiscellaneousAbstract" uiClass="org.jkiss.dbeaver.ui.macos.config.PrefPageMouseConfigurator"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<fragment>
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+
+
+</fragment>
+    </extension>
+
+        <service class="org.jkiss.dbeaver.ui.macos.CocoaUIService"/>

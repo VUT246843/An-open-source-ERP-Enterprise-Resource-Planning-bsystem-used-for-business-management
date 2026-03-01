@@ -1,0 +1,109 @@
+            <enabledWhen>
+        <feature parent="database" id="administration"/>
+        </handler>
+    </extension>
+
+            <dataSourcePage class="org.jkiss.dbeaver.ui.dialogs.connection.ConnectionPageGeneral"/>
+                namespace="org.jkiss.dbeaver.ui.connection"
+        <confirmation
+                toggleMessage="default"
+    <extension point="org.jkiss.dbeaver.productFeature">
+<plugin>
+    </extension>
+    <extension point="org.eclipse.ui.commandImages">
+                    <visibleWhen checkEnabled="true"/>
+        <command id="org.jkiss.dbeaver.core.driver.manager" name="%command.org.jkiss.dbeaver.core.driver.manager.name" description="%command.org.jkiss.dbeaver.core.driver.manager.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+                </command>
+
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=tools">
+                </with>
+        <page class="org.jkiss.dbeaver.ui.preferences.PrefPageProjectNetworkProfiles"
+            </menu>
+
+    <extension point="org.eclipse.ui.propertyPages">
+                properties="canChangePassword"
+
+
+        </menuContribution>
+    </extension>
+        </propertyTester>
+                <test property="org.jkiss.dbeaver.core.global.ui.hasPermission" value="driver-manager"/>
+    <extension point="org.jkiss.dbeaver.confirmations">
+    </extension>
+</plugin>
+
+                </adapt>
+        </handler>
+            </enabledWhen>
+                toggleMessage="default"
+        <image commandId="org.jkiss.dbeaver.core.driver.manager" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/driver_manager.svg"/>
+            <enabledWhen>
+                        </adapt>
+<?eclipse version="3.2"?>
+
+        </dataSourceConfigurator>
+<!--
+                <adapt type="org.eclipse.core.resources.IProject">
+    </extension>
+    </extension>
+                group="Connections"/>
+                message="%confirm.disconnect_txn.message"
+            <dataSourcePage class="org.jkiss.dbeaver.ui.preferences.PrefPageMetaData"/>
+        <dataSourceConfigurator>
+    <extension point="org.jkiss.dbeaver.ui.dataSourceConfigurator">
+        <handler commandId="org.jkiss.dbeaver.core.driver.manager" class="org.jkiss.dbeaver.ui.actions.driver.DriverManagerDialogHandler">
+            </enabledWhen>
+
+    </extension>
+              id="org.jkiss.dbeaver.project.settings.networkProfiles"
+
+                <with variable="selection">
+    <extension point="org.eclipse.ui.commands">
+        <command id="org.jkiss.dbeaver.connection.changeCurrentPassword" name="%command.org.jkiss.dbeaver.connection.changeCurrentPassword.name" description="%command.org.jkiss.dbeaver.connection.changeCurrentPassword.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        <handler commandId="org.jkiss.dbeaver.connection.changeCurrentPassword" class="org.jkiss.dbeaver.ui.actions.ChangePasswordDialogHandler">
+        <propertyConfigurator class="org.jkiss.dbeaver.model.impl.auth.AuthModelDatabaseNative" uiClass="org.jkiss.dbeaver.ui.dialogs.connection.DatabaseNativeAuthModelConfigurator"/>
+                id="disconnect_txn"
+                message="%confirm.reconnect_txn.message"
+        <feature id="database"/>
+            <dataSourcePage class="org.jkiss.dbeaver.ui.preferences.PrefPageErrorHandle"/>
+                    </iterate>
+        <feature parent="database/administration" id="advanced"/>
+                id="org.jkiss.dbeaver.ui.actions.ChangeUserPasswordPropertyTester"
+    <extension-point id="org.jkiss.dbeaver.ui.dataSourceConfigurator" name="%extension-point.org.jkiss.dbeaver.ui.dataSourceConfigurator.name" schema="schema/org.jkiss.dbeaver.ui.dataSourceConfigurator.exsd"/>
+              name="%page.org.jkiss.dbeaver.project.settings.networkProfiles.name" >
+            </enabledWhen>
+                <command commandId="org.jkiss.dbeaver.connection.changeCurrentPassword">
+                id="reconnect_txn"
+
+
+
+                group="Connections"/>
+                    <count value="1"/>
+                title="%confirm.reconnect_txn.title"
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+    </extension>
+        <confirmation
+    </extension>
+    <extension point="org.eclipse.ui.handlers">
+
+                type="org.jkiss.dbeaver.model.navigator.DBNDataSource">
+            <menu label="%command.org.jkiss.dbeaver.connection.security.name">
+                        <adapt type="org.jkiss.dbeaver.model.navigator.DBNDataSource">
+                    <test property="org.eclipse.core.resources.projectNature" value="org.jkiss.dbeaver.DBeaverNature"/>
+
+    <extension point="org.eclipse.core.expressions.propertyTesters">
+                    <iterate operator="and">
+                description="%confirm.reconnect_txn.tip"
+    <extension-point id="org.jkiss.dbeaver.dataSourceView" name="%extension-point.org.jkiss.dbeaver.dataSourceView.name" schema="schema/org.jkiss.dbeaver.dataSourceView.exsd"/>
+                title="%confirm.disconnect_txn.title"
+                            <test property="org.jkiss.dbeaver.ui.connection.canChangePassword" forcePluginActivation="true"/>
+        </page>
+
+                description="%confirm.disconnect_txn.tip"
+                class="org.jkiss.dbeaver.ui.actions.ChangeUserPasswordPropertyTester"
+    </extension>
+        <propertyTester
+    <extension point="org.eclipse.ui.menus">
+            <enabledWhen>

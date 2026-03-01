@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+</plugin>
+
+
+<plugin>
+        <implementation id="jsch" label="JSch" class="org.jkiss.dbeaver.model.net.ssh.JSCHSessionController"/>
+    <extension point="org.jkiss.dbeaver.net.ssh">
+<?eclipse version="3.2"?>
+    </extension>

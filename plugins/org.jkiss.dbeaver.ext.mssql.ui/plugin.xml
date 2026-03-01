@@ -1,0 +1,157 @@
+        </configurator>
+        </editorContribution>
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerView"/>
+    <extension point="org.eclipse.ui.editors">
+<?xml version="1.0" encoding="UTF-8"?>
+                name="%editor.session_manager.name"
+                main="false"
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerExternalTable"/>
+        </editor>
+        </configurator>
+</plugin>
+                label="%sqlserver.dialog.connection.header"
+<?eclipse version="3.2"?>
+        <datasourcePatch id="sqlserver">
+    </extension>
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerSchema"/>
+                id="mssql.view.source.view"
+        <propertyConfigurator class="org.jkiss.dbeaver.ext.mssql.auth.SQLServerAuthModelAbstract" uiClass="org.jkiss.dbeaver.ext.mssql.ui.views.SQLServerAuthConfigurator"/>
+    <extension point="org.jkiss.dbeaver.tools">
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerProcedure"/>
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/sessions.svg"
+                    label="Enable trigger"
+                type="folder">
+                <task id="mssqlToolTableRebuild"/>
+                <!--</folder>
+                description="DDL"
+            </tool>
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.generic.SQLServerGenericProcedure"/>
+                    description="Enable trigger"
+
+                    singleton="false">
+                type="folder"
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.generic.SQLServerGenericProcedureConfigurator">
+
+
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTable"/>
+                label="%sqlserver.dialog.connection.header"
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerDatabaseTrigger"/>
+    <extension point="org.jkiss.dbeaver.dataSourceView">
+            </tool>
+                icon="#sql_text"
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerUniqueKeyConfigurator">
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+    <extension point="org.jkiss.dbeaver.ui.propertyConfigurator">
+                position="additions_end"
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTableTrigger"/>
+                    <treeContribution category="connectionEditor"/>
+            </tool>
+    </extension>
+        <editor id="mssql.source.view" class="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSourceViewEditor"
+                contributor="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributorNested" type="folder" embeddable="false">
+                    group="org.jkiss.dbeaver.ext.mssql.ui.tools.maintenance"
+                class="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSessionEditor"
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTableColumn"/>
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerLogin"/>
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerDatabaseConfigurator">
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerColumnConfigurator">
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerDatabaseTrigger"/>
+
+                    id="org.jkiss.dbeaver.ext.mssql.ui.tools.maintenance.SQLServerToolRebuild"
+        </configurator>
+                targetID="org.jkiss.dbeaver.ext.ui.newConnectionWizard"
+
+            <tool
+            <tool
+
+                id="org.jkiss.dbeaver.ext.mssql.dataSourceWizardView"
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerDataType"/>
+                    <object type="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSessionEditor" label="%tree.sessions.node.name" icon="#sessions" description="Server session manager" editor="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSessionEditor"/>-->
+
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerForeignKeyConfigurator">
+<plugin>
+        <editorContribution editorId="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSessionEditor" category="connectionEditor" label="%editor.session_manager.name" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/sessions.svg">
+        </configurator>
+    </extension>
+    </extension>
+            </treeInjection>
+        </editor>
+        </configurator>
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTableIndex"/>
+                    icon="#tools"/>
+
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerIndexConfigurator">
+                    label="Rebuild indexes"
+        <view
+                    singleton="false">
+                class="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSourceViewEditor"
+                <task id="mssqlToolTriggerEnable"/>
+                class="org.jkiss.dbeaver.ext.mssql.ui.SQLServerConnectionPage"
+                description="View definition"
+            <tool
+
+        <view
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTableCheckConstraint"/>
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerCheckConstraintConfigurator">
+                icon="icons/database.png"
+                main="false"
+        </view>
+                class="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSourceViewEditor"
+        </datasourcePatch>
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerProcedureConfigurator">
+                embeddable="false">
+                    label="Table Maintenance"
+        </tools>
+            <treeInjection path="sqlserver/database" after="trigger">
+                    group="org.jkiss.dbeaver.ext.mssql.ui.tools.maintenance"
+                label="%editor.source.name" description="%editor.source.description" icon="#sql_text" position="additions_middle"
+                label="DDL"
+        </configurator>
+                id="mssql.table.ddl.view"
+        </editor>
+                    description="Rebuild table indexes"
+        </configurator>
+                    singleton="false">
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTableUniqueKey"/>
+    </extension>-->
+                id="org.jkiss.dbeaver.ext.mssql.dataSourceEditorView"
+        <editor
+                position="additions_end"
+                <folder label="%tree.databaseInfo.node.name" icon="#folder_info" description="Database system information">
+            <toolGroup
+        </configurator>
+        <tools>
+                    description="Disable trigger(s)"
+
+                    label="Disable trigger(s)"
+        <editor
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerProcedure"/>
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTableIndex"/>
+    <!--<extension point="org.jkiss.dbeaver.dataSourceProvider">
+                    id="org.jkiss.dbeaver.ext.mssql.ui.tools.maintenance.SQLServerToolTriggerDisable"
+        </editor>
+                label="Definition"
+                id="org.jkiss.dbeaver.ext.mssql.ui.editors.SQLServerSessionEditor"
+
+                icon="icons/database.png">
+                icon="#sql_text"
+                targetID="org.jkiss.dbeaver.ext.ui.editConnectionDialog">
+                    group="org.jkiss.dbeaver.ext.mssql.tools.maintenance"
+                dataSource="sqlserver,mssql,sybase"
+            <supports dataSource="sqlserver"/>
+    </extension>
+        <editor
+        <configurator class="org.jkiss.dbeaver.ext.mssql.ui.config.SQLServerLoginConfigurator">
+    </extension>
+                    id="org.jkiss.dbeaver.ext.mssql.ui.tools.maintenance"
+        <propertyConfigurator class="org.jkiss.dbeaver.ext.mssql.model.SQLServerSSLHandlerImpl" uiClass="org.jkiss.dbeaver.ext.mssql.ui.views.SQLServerSSLConfigurator"/>
+                contributorClass="org.jkiss.dbeaver.ui.editors.EditorSearchActionsContributor">
+                    id="org.jkiss.dbeaver.ext.mssql.ui.tools.maintenance.SQLServerToolTriggerEnable"
+        </configurator>
+                dataSource="sqlserver,mssql,sybase"
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerTableForeignKey"/>
+        </view>
+                <task id="mssqlToolTriggerDisable"/>
+            <objectType name="org.jkiss.dbeaver.ext.mssql.model.SQLServerDatabase"/>
+                class="org.jkiss.dbeaver.ext.mssql.ui.SQLServerConnectionPage"

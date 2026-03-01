@@ -1,0 +1,25 @@
+            id="headless-test-app"
+<plugin>
+    </extension>
+
+            class="org.jkiss.dbeaver.headless.DBeaverHeadlessApplication"/>
+        <application visible="true">
+        <product application="org.jkiss.dbeaver.headless.application" description="Headless product for unit tests" name="DBeaver Test Product">
+        </product>
+    </extension>
+<?eclipse version="3.2"?>
+    <extension point="org.eclipse.core.runtime.applications" id="application" name="Test Application">
+        </application>
+            description="DBeaver Console Test Application"
+    <extension point="org.eclipse.core.runtime.products" id="product">
+            name="DBeaver Console Test Application"
+    <extension point="org.jkiss.dbeaver.application">
+            family="DB"
+
+</plugin>
+<?xml version="1.0" encoding="utf-8"?>
+
+            <run class="org.jkiss.dbeaver.headless.DBeaverHeadlessApplication"/>
+
+    </extension>
+        <application

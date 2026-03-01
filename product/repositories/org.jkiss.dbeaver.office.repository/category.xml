@@ -1,0 +1,9 @@
+    <category-def name="org.jkiss.dbeaver.office.category" label="DBeaver Office Support"/>
+    </feature>
+    <description name="DBeaver - office integration" url="https://dbeaver.io/update/office/latest">DBeaver - office integration</description>
+    <feature id="org.jkiss.dbeaver.ext.office.feature">
+
+<?xml version="1.0" encoding="UTF-8"?>
+</site>
+        <category name="org.jkiss.dbeaver.office.category"/>
+<site>

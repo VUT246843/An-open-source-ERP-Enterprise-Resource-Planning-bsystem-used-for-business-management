@@ -1,0 +1,87 @@
+                <provider-properties drivers="*">
+                    <file type="jar" path="drivers/snowflake" bundle="drivers.snowflake"/>
+                    <propertyGroup label="Settings">
+                <driver
+
+                        singleConnection="true">
+                    <propertyGroup label="SQL">
+            <replace model="native"/>
+            <drivers managable="true">
+<plugin>
+        <authModel
+    <extension point="org.eclipse.core.runtime.preferences">
+                        label="Snowflake"
+            <datasource id="snowflake_ee"/>
+            <datasource id="snowflake"/>
+        <meta id="snowflake" class="org.jkiss.dbeaver.ext.snowflake.model.SnowflakeMetaModel" driverClass="net.snowflake.client.jdbc.SnowflakeDriver"/>
+
+            label="Snowflake username/password"
+
+
+                    <parameter name="supports-indexes" value="false"/>
+            id="snowflake_snowflake"
+                        icon="icons/snowflake_icon.png"
+        </datasource>
+                    </propertyGroup>
+                        defaultPort="443"
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                class="org.jkiss.dbeaver.ext.snowflake.SnowflakeDataSourceProvider"
+                    <parameter name="query-set-active-db" value="USE DATABASE &quot;?&quot;"/>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+                    <file type="jar" path="maven:/net.snowflake:snowflake-jdbc:RELEASE[3.27.0]" bundle="!drivers.snowflake"/>
+<?eclipse version="3.2"?>
+
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                    </propertyGroup>
+                        <property id="schema" label="Schema" type="string" description="Default schema name"/>
+                        id="snowflake_jdbc"
+
+        </authModel>
+
+        <datasource
+                        iconBig="icons/snowflake_icon_big.png"
+                label="Snowflake"
+                </provider-properties>
+
+                        description="Snowflake JDBC driver"
+    </extension>
+
+                        categories="sql,analytic"
+    </extension>
+            description="Snowflake internal authentication (name/password)"
+                        databaseDocumentationSuffixURL="Snowflake"
+</plugin>
+                    <replace provider="generic" driver="snowflake_generic"/>
+                dialect="snowflake">
+                </driver>
+        <!-- Snowflake -->
+
+                        <property id="ddString" label="Show $$ quotes as String" type="boolean" supportedConfigurationTypes="MANUAL,URL"/>
+        <dialect id="snowflake" parent="generic" class="org.jkiss.dbeaver.ext.snowflake.model.SnowflakeSQLDialect" label="Snowflake" description="Snowflake SQL dialect." icon="icons/snowflake_icon.png">
+                    <parameter name="active-entity-type" value="catalog"/>
+                    <parameter name="query-get-active-db" value="SELECT CURRENT_DATABASE()"/>
+            class="org.jkiss.dbeaver.ext.snowflake.model.auth.SnowflakeAuthModelSnowflake"
+                description="%datasource.snowflake.description"
+            default="true">
+    </extension>
+
+
+                id="snowflake"
+                parent="generic"
+    </extension>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+                        webURL="https://docs.snowflake.net/manuals/user-guide/jdbc-configure.html"
+            </drivers>
+                        class="net.snowflake.client.jdbc.SnowflakeDriver"
+                icon="icons/snowflake_icon.png"
+        </dialect>
+                        <property id="warehouse" label="Warehouse" type="string" description="Snowflake warehouse name"/>
+    <extension point="org.jkiss.dbeaver.dataSourceAuth">
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+
+        <initializer class="org.jkiss.dbeaver.ext.snowflake.internal.SnowflakePreferencesInitializer"/>
+    </extension>
+                        sampleURL="jdbc:snowflake://{host}[:port]/?[db={database}]"

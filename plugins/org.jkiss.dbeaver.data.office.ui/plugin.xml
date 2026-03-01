@@ -1,0 +1,25 @@
+<plugin>
+</plugin>
+            </enabledWhen>
+<?xml version="1.0" encoding="UTF-8"?>
+    <extension point="org.eclipse.ui.commandImages">
+    <extension point="org.eclipse.ui.handlers">
+                <with variable="activePart">
+                    <test property="org.jkiss.dbeaver.core.resultset.hasData"/>
+                </with>
+    <extension point="org.eclipse.ui.commands">
+        </handler>
+        <category id="org.jkiss.dbeaver.ext.data.office" name="%category.org.jkiss.dbeaver.ext.data.office.name" description="%category.org.jkiss.dbeaver.ext.data.office.description"/>
+
+    </extension>
+        <image commandId="org.jkiss.dbeaver.ext.data.office.results.openSpreadsheet" icon="platform:/plugin/org.jkiss.dbeaver.data.office/icons/excel.svg"/>
+
+        <handler commandId="org.jkiss.dbeaver.ext.data.office.results.openSpreadsheet" class="org.jkiss.dbeaver.data.office.handlers.OpenSpreadsheetHandler">
+    </extension>
+
+            <enabledWhen>
+
+<?eclipse version="3.2"?>
+
+        <command id="org.jkiss.dbeaver.ext.data.office.results.openSpreadsheet" name="%command.org.jkiss.dbeaver.ext.data.office.results.openSpreadsheet.name" description="%command.org.jkiss.dbeaver.ext.data.office.results.openSpreadsheet.description" categoryId="org.jkiss.dbeaver.ext.data.office"/>
+    </extension>

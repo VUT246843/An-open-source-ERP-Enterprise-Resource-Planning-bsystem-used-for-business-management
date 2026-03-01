@@ -1,0 +1,43 @@
+                icon="icons/ocient_icon.png"
+                        webURL=""
+                id="ocient"
+        </dialect>
+                        icon="icons/ocient_icon.png"
+</plugin>
+<?eclipse version="3.2"?>
+    </extension>
+
+        <datasource
+                label="Ocient DB"
+        </datasource>
+                        class="com.ocient.jdbc.JDBCDriver"
+            <drivers managable="true">
+                    <file type="jar" path="maven:/com.ocient:ocient-jdbc4:RELEASE"/>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+
+                        id="ocient_jdbc"
+
+    </extension>
+    
+                parent="generic"
+    </extension>
+                        iconBig="icons/ocient_icon_big.png"
+                        description="Ocient JDBC driver"
+                        categories="sql,analytic">
+<?xml version="1.0" encoding="UTF-8"?>
+             </drivers>
+        <meta id="ocient" class="org.jkiss.dbeaver.ext.ocient.model.OcientMetaModel" driverClass="com.ocient.jdbc.Driver"/>
+                        defaultPort="4050"
+                </driver>
+<plugin>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                description="%datasource.bq.description"
+                class="org.jkiss.dbeaver.ext.ocient.OcientDataSourceProvider"
+                        label="Ocient"
+                    <file type="license" path="licenses/external/asl-2.0.txt"/>
+                <driver
+                dialect="ocient">
+
+                        sampleURL="jdbc:ocient://{host}:{port}/{database}"
+        <dialect id="ocient" parent="generic" class="org.jkiss.dbeaver.ext.ocient.model.OcientSQLDialect" label="Ocient" description="Ocient dialect." icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/ocient_icon.png">

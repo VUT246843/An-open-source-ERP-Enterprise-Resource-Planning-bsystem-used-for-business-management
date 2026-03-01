@@ -1,0 +1,28 @@
+ * you may not use this file except in compliance with the License.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * You may obtain a copy of the License at
+ * limitations under the License.
+ * Unless required by applicable law or agreed to in writing, software
+public interface ISmartTransactionManager {
+ * Copyright (C) 2010-2024 DBeaver Corp and others
+/**
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ */
+    void setSmartAutoCommit(boolean smartAutoCommit);
+ */
+ *
+ * DBeaver - Universal Database Manager
+ *
+    boolean isSmartAutoCommit();
+
+/*
+package org.jkiss.dbeaver.ui;
+
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+
+}
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * See the License for the specific language governing permissions and
+ * Smart transaction manager
+ *

@@ -1,0 +1,22 @@
+                description="%handler.taskRunHistory.description"
+</plugin>
+        <notification id="task.execute.failure" name="Task execution failure" soundEnabled="true"/>
+<?xml version="1.0" encoding="UTF-8"?>
+    <extension-point id="org.jkiss.dbeaver.tools" name="%extension-point.org.jkiss.dbeaver.tools.name" schema="schema/org.jkiss.dbeaver.tools.exsd"/>
+
+                handler="org.jkiss.dbeaver.tasks.ui.handlers.TaskClearHistoryHandler"/>
+    <extension point="org.jkiss.dbeaver.clearHistoryHandler">
+
+    </extension>
+                name="%handler.taskRunHistory.name"
+    <extension-point id="org.jkiss.dbeaver.task.ui" name="%extension-point.org.jkiss.dbeaver.task.ui.name" schema="schema/org.jkiss.dbeaver.task.ui.exsd"/>
+
+        <notification id="task.execute.success" name="Task execution success" soundEnabled="true"/>
+    <!-- Deprecated extension point, must be replaced with tasks UI configurators -->
+
+<plugin>
+    <extension point="org.jkiss.dbeaver.notifications">
+<?eclipse version="3.4"?>
+        <handler
+    </extension>
+                id="taskRunHistory"

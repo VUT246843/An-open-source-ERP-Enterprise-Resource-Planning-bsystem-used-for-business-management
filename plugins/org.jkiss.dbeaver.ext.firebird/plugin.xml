@@ -1,0 +1,76 @@
+                    <file type="license" path="licenses/external/lgpl-3.0.txt"/>
+                        sampleURL="jdbc:firebirdsql://{host}:{port}/{file}"
+
+</plugin>
+
+                    <replace provider="generic" driver="firebird_jaybird3"/>
+                        label="Firebird"
+        <manager class="org.jkiss.dbeaver.ext.firebird.edit.FireBirdTableColumnManager" objectType="org.jkiss.dbeaver.ext.firebird.model.FireBirdTableColumn"/>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+            </drivers>
+                dialect="firebird">
+    </extension>
+    <extension point="org.jkiss.dbeaver.objectManager">
+
+
+                <driver
+
+                    <property name="encoding" value="UTF8"/>
+                    <file type="jar" path="drivers/jaybird" bundle="drivers.firebird"/>
+                        class="org.firebirdsql.jdbc.FBDriver"
+<?eclipse version="3.2"?>
+    </extension>
+                    <parameter name="supports-scroll" value="true"/>
+            <property name="insertMethods" value="firebirdReplaceIgnore"/>
+        <meta id="firebird" class="org.jkiss.dbeaver.ext.firebird.model.FireBirdMetaModel" driverClass="org.firebirdsql.jdbc.FBDriver"/>
+
+        <manager class="org.jkiss.dbeaver.ext.firebird.edit.FireBirdTableManager" objectType="org.jkiss.dbeaver.ext.firebird.model.FireBirdTable"/>
+                        description="Firebird Jaybird driver"
+        </datasource>
+    </extension>
+
+
+                    <parameter name="ddl-drop-column-short" value="true"/>
+                </driver>
+    </extension>
+        <dialect id="firebird" parent="generic" class="org.jkiss.dbeaver.ext.firebird.model.FireBirdSQLDialect" label="Firebird" description="Firebird SQL dialect." icon="icons/firebird_icon.png">
+    <extension point="org.jkiss.dbeaver.generic.meta">
+                parent="generic"
+        <method id="firebirdReplaceIgnore" class="org.jkiss.dbeaver.ext.firebird.model.FireBirdInsertReplaceMethod" label="UPDATE OR INSERT INTO" description="Insert replace duplicate key value"/>
+                        defaultUser="SYSDBA"
+                    <replace provider="generic" driver="firebird_jaybird"/>
+    </extension>
+                    <file type="license" path="drivers/jaybird/LICENSE.txt" bundle="drivers.firebird"/>
+                        propertiesURL="https://github.com/FirebirdSQL/jaybird/wiki/Connection-properties"
+                    <parameter name="supports-truncate" value="false"/>
+        </dialect>
+        <manager class="org.jkiss.dbeaver.ext.firebird.edit.FireBirdProcedureManager" objectType="org.jkiss.dbeaver.ext.firebird.model.FireBirdProcedure"/>
+                    <parameter name="supports-embedded-database-creation" value="false"/>
+            <drivers managable="true">
+                    <parameter name="script-delimiter-redefiner" value="SET TERM"/>
+                        id="jaybird"
+
+                id="jaybird"
+                        supportedConfigurationTypes="MANUAL,URL"
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+                label="Firebird"
+        <!-- SQL Server -->
+        <datasource
+                class="org.jkiss.dbeaver.ext.firebird.FireBirdDataSourceProvider"
+
+
+    <extension point="org.jkiss.dbeaver.sqlInsertMethod">
+
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                description="Firebird Jaybird driver"
+                    <file type="jar" path="maven:/org.firebirdsql.jdbc:jaybird:RELEASE[5.0.4.java11]" bundle="!drivers.firebird"/>
+                icon="icons/firebird_icon.png"
+                        iconBig="icons/firebird_icon_big.png"
+                        defaultPort="3050"
+
+                        icon="icons/firebird_icon.png"
+                        webURL="https://firebirdsql.org/en/jdbc-driver/"
+<plugin>
+                        categories="sql,embedded">

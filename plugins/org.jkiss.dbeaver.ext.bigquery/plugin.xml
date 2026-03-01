@@ -1,0 +1,79 @@
+                description="BigQuery internal authentication"
+                        databaseDocumentationSuffixURL="Database-driver-BigQuery"
+                    <file type="jar" path="https://storage.googleapis.com/simba-bq-release/jdbc/SimbaJDBCDriverforGoogleBigQuery42_1.6.3.1004.zip" bundle="!drivers.bigquery"/>
+        <datasource
+
+                id="google_bigquery"
+                    <parameter name="supports-ddl-transactions" value="false"/>
+        <!-- BigQuery -->
+                class="org.jkiss.dbeaver.ext.bigquery.auth.BigQueryAuthModel"
+                        propertiesURL="https://cdn.simba.com/products/BigQuery/doc/JDBC_InstallGuide/"
+<plugin>
+                class="org.jkiss.dbeaver.ext.bigquery.BigQueryDataSourceProvider"
+    </extension>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+                label="Google Cloud Auth"
+
+
+                        sampleURL="jdbc:bigquery://{host}:{port}"
+            <drivers managable="true">
+
+
+                </driver>
+            <datasource id="bigquery"/>
+                        id="google_bigquery_jdbc_simba"
+                    <file type="license" path="drivers/bigquery/EULA.txt" bundle="drivers.bigquery"/>
+                label="Google BigQuery"
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+                    <file type="license" path="licenses/external/lgpl-3.0.txt"/>
+<?eclipse version="3.2"?>
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                dialect="google_bigquery">
+                        description="Google BigQuery driver"
+                        icon="icons/bigquery_icon.png"
+    </extension>
+
+        <dialect id="google_bigquery" parent="generic" class="org.jkiss.dbeaver.ext.bigquery.model.BigQuerySQLDialect" label="BigQuery" description="Google BigQuery." icon="icons/bigquery_icon.png">
+                        defaultPort="443"
+
+                </provider-properties>
+                icon="icons/bigquery_icon.png"
+                    <parameter name="supports-catalog-selection" value="false"/>
+                        categories="sql,gcp"
+                        webURL="https://cloud.google.com/bigquery/partners/simba-drivers/"
+
+
+                        <property id="AdditionalProjects" label="Additional project(s)" type="string" description="Comma-separated list of projects (optional)"/>
+                        singleConnection="true">
+                        defaultHost="https://www.googleapis.com/bigquery/v2"
+                    <parameter name="supports-schema-selection" value="false"/>
+    <extension point="org.jkiss.dbeaver.dataSourceAuth">
+                default="true">
+        <meta id="bigquery" class="org.jkiss.dbeaver.ext.bigquery.model.BigQueryMetaModel" driverClass="com.simba.googlebigquery.jdbc42.Driver"/>
+        </dialect>
+    </extension>
+            </drivers>
+            <replace model="native"/>
+        </authModel>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                        label="Google BigQuery"
+                        iconBig="icons/bigquery_icon_big.png"
+        </datasource>
+<?xml version="1.0" encoding="UTF-8"?>
+                    <file type="jar" path="drivers/bigquery" bundle="drivers.bigquery"/>
+                id="bigquery"
+    </extension>
+                <driver
+                    </propertyGroup>
+                parent="generic"
+
+
+                    <propertyGroup label="Settings">
+                    <file type="jar" path="bundle:/org.jkiss.bundle.google-cloud" bundle="drivers.bigquery"/>
+
+                <provider-properties drivers="*">
+</plugin>
+        <authModel
+                        class="com.simba.googlebigquery.jdbc42.Driver"
+                <!-- Simba JDBC driver -->
+                description="%datasource.bq.description"

@@ -1,0 +1,35 @@
+    <plugin id="org.eclipse.ui.net" version="0.0.0"/>
+        label="DBeaver RCP"
+    <plugin id="org.eclipse.equinox.security.macosx" os="macosx" version="0.0.0"/>
+    <plugin id="org.eclipse.equinox.security.win32" os="win32" version="0.0.0"/>
+    <copyright>DBeaver Corp and others</copyright>
+    <includes id="org.eclipse.rcp" version="0.0.0"/>
+    <!-- OS specific UI -->
+    <plugin id="com.ibm.icu.base" version="0.0.0"/>
+
+
+        provider-name="DBeaver Corp">
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <plugin id="org.eclipse.core.filesystem.linux.aarch64" os="linux" arch="aarch64" version="0.0.0"/>
+    <plugin id="org.eclipse.core.filesystem.linux.x86_64" os="linux" arch="x86_64" version="0.0.0"/>
+    <plugin id="org.eclipse.ui.themes" version="0.0.0"/>
+<feature
+
+    <!-- Filesystem -->
+    <!-- Network -->
+
+    <plugin id="org.eclipse.core.filesystem.macosx" os="macosx" version="0.0.0"/>
+        id="org.jkiss.dbeaver.rcp.feature"
+    <plugin id="org.eclipse.core.net" version="0.0.0"/>
+
+</feature>
+    <description>Universal Database Manager RCP</description>
+    <plugin id="org.eclipse.ui.win32" ws="win32" version="0.0.0"/>
+    <plugin id="org.eclipse.equinox.security.linux" os="linux" version="0.0.0"/>
+
+
+    <plugin id="org.eclipse.compare.win32" ws="win32" version="0.0.0"/>
+    <license url="https://dbeaver.io/product/dbeaver_license.txt"/>
+        version="3.0.54.qualifier"
+

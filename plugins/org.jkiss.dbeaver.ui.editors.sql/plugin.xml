@@ -1,0 +1,1636 @@
+                <visibleWhen>
+        <colorDefinition
+        </colorDefinition>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.run.scriptNew"/>
+            </enabledWhen>
+            <enabledWhen>
+        <colorDefinition
+    </extension>
+                description="%page.org.jkiss.dbeaver.preferences.main.sqleditor.description"/>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.text.foreground.description</description>
+            <keywordReference id="org.jkiss.dbeaver.pref.keyword.sql.sqleditor"/>
+        </specification>
+                showInNextPrevDropdownToolbarActionKey="SQLEditor.showOccurrenceInNextPrevDropdownToolbarAction"
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_multiple_results_per_tab_false.svg"/>
+        <image commandId="org.jkiss.dbeaver.core.sql.editor.recent" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script_recent.svg"/>
+                title="%page.org.jkiss.dbeaver.preferences.main.sql.completion.name"
+                textStylePreferenceValue="NONE">
+        </definition>
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script_exec_new.svg"/>
+                parent="sql-editor.main"
+        </handler>
+                        </with>
+                <separator name="plan" visible="true"/>
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.toggleLayout" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/rotate.svg"/>
+            value="COLOR_DARK_BLUE">
+                </visibleWhen>
+
+        <factory id="org.jkiss.dbeaver.ui.editors.sql.SQLEditorInputFactory" class="org.jkiss.dbeaver.ui.editors.sql.SQLEditorInputFactory"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.statementNew.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.statementNew.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.console">
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=generate">
+        </handler>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.foldingSupported"/>
+    <extension point="org.eclipse.ui.bindings">
+                class="org.jkiss.dbeaver.ui.editors.sql.SQLEditorPropertyTester"
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptFromPosition" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+P"/>
+                isGoToPreviousNavigationTarget="false"
+
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.run.explain" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_plan.svg"/>
+
+            <keywordReference id="org.jkiss.dbeaver.pref.keyword.sql.sqlexecute"/>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.run.explain"/>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.navigator.part"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+    </extension>
+
+                </with>
+                isGoToNextNavigationTargetKey="SQLEditor.isOccurrenceGoToNextNavigationTarget"
+            value="108,81,81">
+        <colorDefinition
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.show.outline" name="%command.org.jkiss.dbeaver.ui.editors.sql.show.outline.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.show.outline.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                description="%sql.convert.html.description"
+                value="COLOR_DARK_BLUE">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptFromPosition">
+            <enabledWhen>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.show.log" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSwitchPanel">
+                colorPreferenceValue="240,216,168"
+
+            </command>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                <and>
+        </menuContribution>
+            <enabledWhen>
+        <target id="unformatted"
+        </handler>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+                <or>
+    </extension>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.foldingEnabled"/>
+                        </with>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.canExport"/>
+                id="org.jkiss.dbeaver.ui.editors.sql.script.focused"
+                </command>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.function.foreground.description</description>
+            <enabledWhen>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+    <!--
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.show.outline" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/toggle_outline.svg"/>
+                    <visibleWhen>
+				<menu label="%menu.org.jkiss.dbeaver.ui.editors.sql.connection.separate.label">
+            value="COLOR_DARK_BLUE">
+            <property id="use-string-builder" label="%sql.convert.label.use.string.builder.name" type="boolean" description="%sql.convert.label.use.string.builder.description" required="false" defaultValue="false"/>
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" defaultVisibility="true"/>
+        </definition>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+            <state class="org.eclipse.ui.handlers.RegistryToggleState:true" id="org.eclipse.ui.commands.toggleState"/>
+                </with>
+                        </adapt>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+                    <command commandId="org.jkiss.dbeaver.ui.tools.select.connection">
+                </with>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.explain">
+                textPreferenceValue="false"
+    </extension>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.count" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.count.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.count.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+
+                    </with>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="gtk" sequence="CTRL+Enter"/>
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.forSelection" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerOpenObjectConsole">
+        </command>
+                <separator name="additions_plan" visible="true"/>
+        <colorDefinition
+        </menuContribution>
+            </command>
+                <with variable="activePart">
+            <with variable="activeEditor">
+                </command>
+    <extension point="org.jkiss.dbeaver.toolBarConfiguration">
+        </page>
+        <target id="java" label="Java" description="%sql.convert.java.description" class="org.jkiss.dbeaver.ui.editors.sql.convert.impl.JavaSQLConverter">
+                name="%context.org.jkiss.dbeaver.ui.editors.sql.name"
+                overviewRulerPreferenceKey="occurrenceIndicationInOverviewRuler"
+            value="0,100,100">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+
+            <enabledWhen>
+<!--
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.hasSelection"/>
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.open.default" style="radio"><parameter name="command" value="org.jkiss.dbeaver.core.sql.editor.open"/></command>
+            <enabledWhen>
+                    <test property="org.jkiss.dbeaver.core.global.ui.hasActiveProject"/>
+            </command>
+                    </command>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.comment.multi" class="org.jkiss.dbeaver.ui.editors.text.handlers.ToggleMultiLineCommentHandler">
+            </enabledWhen>
+    </extension>
+                </with>
+            <keywordReference id="org.jkiss.dbeaver.pref.keyword.sql.format"/>
+        </handler>
+                    <dynamic id="org.jkiss.dbeaver.ui.editors.sql.connection.separate.switch" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSeparateConnectionSwitch"/>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.console"/>
+                    <separator name="context_toggles" visible="true"/>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.open.file" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+ALT+SHIFT+O"/>
+                        <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+                </command>
+                    </adapt>
+                </menu>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew">
+        </handler>
+                    <with variable="activeEditor">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew"/>
+                </with>
+                <with variable="activeEditor">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+                    </visibleWhen>
+                        </or>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.sync.auto" name="%command.org.jkiss.dbeaver.ui.editors.sql.sync.auto.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.sync.auto.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+    <extension point="org.eclipse.ui.propertyPages">
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.load.plan" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/load.png"/>
+    <extension point="org.eclipse.ui.menus">
+
+
+        </handler>
+                <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase"/>
+                <separator name="additions_active_object" visible="true"/>
+            </enabledWhen>
+            <enabledWhen>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+                </command>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+                        <test property="org.jkiss.dbeaver.core.datasource.projectResourceEditable"/>
+                        </adapt>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.show.outline" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerToggleOutlineView">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase">
+                                <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+            id="org.jkiss.dbeaver.sql.editor.color.semanticError.foreground"
+                    </visibleWhen>
+            <separator name="console" visible="true"/>
+                        </adapt>
+                type="org.eclipse.ui.IWorkbenchPart"/>
+                <hiddenToolBarItem id="org.jkiss.dbeaver.core.sql.editor.console"/>
+        <menuContribution allPopups="false" locationURI="popup:org.jkiss.dbeaver.ui.editors.sql.SQLEditor.EditorContext?after=sql.extras">
+            </enabledWhen>
+                colorPreferenceValue="212,212,212"
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        </extension>
+            </menu>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="cocoa" sequence="CTRL+\"/>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.load.plan"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.open" contextId="org.jkiss.dbeaver.ui.perspective" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="F3"/>
+                <visibleWhen>
+                    </iterate>
+                        <visibleWhen>
+            <property id="keep-formatting" label="%sql.convert.label.keep.formatting.name" type="boolean" description="%sql.convert.label.keep.formatting.discription" required="false" defaultValue="false"/>
+                </with>
+                    <visibleWhen checkEnabled="true">
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.export.data">
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+        <themeElementCategory label="%themeElementCategory.org.jkiss.dbeaver.ui.presentation.sql.label" id="org.jkiss.dbeaver.ui.presentation.sql">
+        </page>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.open.file">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.search.web" class="org.jkiss.dbeaver.ui.editors.sql.commands.OpenLinkInWindowHandler">
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.cancel.query" defaultVisibility="false"/>
+                <and>
+            <enabledWhen>
+            id="org.jkiss.dbeaver.sql.editor.color.datatype.foreground"
+                </command>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+            value="COLOR_RED">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab" style="toggle" name="%command.org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab.description" categoryId="org.jkiss.dbeaver.core.sql">
+
+    </extension>
+                    <visibleWhen><reference definitionId="org.jkiss.dbeaver.sql.canOpenEditor"/></visibleWhen>
+                icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/grid.svg"
+        </handler>
+                        </not>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.explain"/>
+            <property id="use-string-builder" label="%sql.convert.label.use.string.builder.name" type="boolean" description="%sql.convert.label.use.string.builder.description" required="false" defaultValue="false"/>
+        </page>
+
+                    <visibleWhen checkEnabled="true"/>
+
+                    <test property="org.jkiss.dbeaver.core.global.ui.currentProjectResourceViewable"/>
+                <with variable="activeEditor">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.copy.query" class="org.jkiss.dbeaver.ui.editors.sql.commands.CopyActiveQueryHandler">
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.open" contextId="org.jkiss.dbeaver.ui.perspective" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+["/>
+                    </visibleWhen>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.sync.connection" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+."/>
+                    <test property="org.jkiss.dbeaver.core.global.ui.hasActiveProject"/>
+        <context
+                 icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.svg"
+                    <iterate operator="and">
+                        </with>
+            <enabledWhen>
+                    </with>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="win32" sequence="CTRL+\"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.load.plan">
+                </command>
+            value="COLOR_WHITE">
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.close.tab" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+\"/>
+        <target id="html"
+
+            <separator name="settings" visible="true"/>
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.open.default" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerOpenDefaultSwitch"/>
+
+        <command id="org.jkiss.dbeaver.ui.editors.sql.show.variables" name="%command.org.jkiss.dbeaver.ui.editors.sql.show.variables.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.show.variables.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sqlexecute" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLExecute" name="%pref.page.name.sql.execute">
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.delimiter.foreground.description</description>
+            </command>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.aiSuggestion.background.description</description>
+    <extension point="org.eclipse.ui.commands">
+
+        </definition>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.table.foreground.label"
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.run.script"/>
+                </visibleWhen>
+                </visibleWhen>
+            </enabledWhen>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.query.prev" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+ARROW_UP"/>
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="script"/>
+        <colorDefinition
+            <menu id="SQLEditorOpenDefaultMenu" label="%menu.sqleditor.open.default">
+                </visibleWhen>
+            <commandParameter id="command" name="SQL editor open command" optional="false"/>
+                        <with variable="activeEditor">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+                <command commandId="org.jkiss.dbeaver.core.sql.script.run.scriptNative">
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.script">
+            </enabledWhen>
+                </visibleWhen>
+                </with>
+                    <test property="org.jkiss.dbeaver.core.global.ui.hasActiveProject"/>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.create">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.FoldingsEnabled" name="%command.org.jkiss.dbeaver.ui.editors.sql.FoldingsEnabled.name" categoryId="org.jkiss.dbeaver.core.sql"/>
+                        <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.log"/>
+            </command>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.scriptNew.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.scriptNew.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                </command>
+                <menu label="%menu.org.jkiss.dbeaver.ui.editors.sql.SQLEditor.context.label">
+        <formatter
+
+        <command id="org.jkiss.dbeaver.ui.editors.sql.refresh.all.schemas" name="%command.org.jkiss.dbeaver.ui.editors.sql.refresh.all.schemas.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.refresh.all.schemas.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.open">
+                    <separator name="panels_config" visible="true"/>
+
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.query.next" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerNavigateQuery">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptFromPosition"/>
+            <keywordReference id="org.jkiss.dbeaver.pref.keyword.sql.completion"/>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.open"/>
+            value="COLOR_DARK_RED">
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.show.log" defaultVisibility="true"/>
+        <factory contentTypeId="org.jkiss.dbeaver.sql" class="org.jkiss.dbeaver.ui.editors.sql.semantics.SQLEditorSemanticAnnotationModelFactory">
+                 style="pulldown"
+                    </with>
+                    <with variable="activeEditor">
+                                <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        </handler>
+        </toolBar>
+                        <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.variables"/>
+                </with>
+        </page>
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.svg"
+            </command>
+<!--
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.format" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLFormat" name="%pref.page.name.sql.format">
+            <description>%themeElementCategory.org.jkiss.dbeaver.ui.presentation.sql.description</description>
+                <separator name="context" visible="true"/>
+        </menuContribution>
+            id="org.jkiss.dbeaver.sql.editor.color.column.foreground"
+            <with variable="selection">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+        <menuContribution allPopups="false" locationURI="popup:org.jkiss.dbeaver.ui.editors.sql.SQLEditor.EditorContext?after=group.copy">
+                        <not>
+                        <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.output"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.disabled.background.description</description>
+
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+-->
+                        </with>
+        <command id="org.jkiss.dbeaver.core.sql.editor.console" name="%command.org.jkiss.dbeaver.core.sql.editor.console.name" description="%command.org.jkiss.dbeaver.core.sql.editor.console.description" categoryId="org.jkiss.dbeaver.core.database"/>
+            <perspectiveExtension targetID="org.jkiss.dbeaver.core.perspective">
+            <enabledWhen>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+ALT+SHIFT+X"/>
+        <page category="org.jkiss.dbeaver.preferences.editors" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLEditor" id="org.jkiss.dbeaver.preferences.main.sqleditor" name="%page.org.jkiss.dbeaver.preferences.main.sqleditor.name">
+                    </with>
+        </menuContribution>
+                        <with variable="activeEditor">
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_exec_new.svg"/>
+        </handler>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.forSelection">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.morph.delimited.list" class="org.jkiss.dbeaver.ui.editors.text.handlers.MorphDelimitedListHandler">
+                            </adapt>
+            </menu>
+                <hiddenToolBarItem id="org.jkiss.dbeaver.core.sql.editor.open"/>
+                    <visibleWhen checkEnabled="true">
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.codeeditor" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLCodeEditing" name="%page.org.jkiss.dbeaver.preferences.main.sql.codeeditor.name">
+            </command>
+            </menu>
+                 label="SQL"
+
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.log"/>
+        </handler>
+        <colorDefinition
+                </command>
+                <visibleWhen>
+                        </with>
+
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.console"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.export.data" name="%command.org.jkiss.dbeaver.ui.editors.sql.export.data.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.export.data.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+            <enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.core.sql.script.run.scriptNative" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+                        </with>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.FoldingsEnabled" label="%command.org.jkiss.dbeaver.ui.editors.sql.FoldingsEnabled.name" style="toggle">
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.canExecuteNative" value="script"/>
+                    <parameter name="noCustomLabel" value="true"/>
+        <colorDefinition
+                properties="canGenerate"
+            <adapter type="org.jkiss.dbeaver.ui.editors.sql.preferences.format.SQLFormatterConfigurator"/>
+                <handler commandId="org.eclipse.ui.edit.text.showInformation" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerRenameFilelerRenameFile">
+                    <test property="org.jkiss.dbeaver.ui.editors.text.canComment" value="single"/>
+            <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></activeWhen>
+        </editor>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.load.plan"/>
+                        <test property="org.jkiss.dbeaver.core.global.ui.canEditResource"/>
+        </page>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+        <super type="org.eclipse.core.resources.textmarker"/>
+    <extension point="org.jkiss.dbeaver.sqlFormatter">
+
+                id="org.jkiss.dbeaver.ui.editors.sql.SQLResultsEditor">
+
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.save.file" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/save_as.svg"/>
+
+        </handler>
+                </command>
+                <visibleWhen checkEnabled="true"/>
+        <!-- SQL editor handlers -->
+            <enabledWhen>
+                </command>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+                   <parameter name="noCustomLabel" value="true"/>
+            <extension id="sql" extensions="sql" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/sql.svg"/>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.word.wrap" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+ALT+SHIFT+W"/>
+        <keyword id="org.jkiss.dbeaver.pref.keyword.sql.completion" label="%keyword.org.jkiss.dbeaver.pref.keyword.sql.completion.label"/>
+                    </adapt>
+                                    <test property="org.jkiss.dbeaver.ui.editors.sql.canExecuteNative" value="script"/>
+                <with variable="activeEditor">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.open.file" name="%command.org.jkiss.dbeaver.ui.editors.sql.open.file.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.open.file.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                </or>
+                </visibleWhen>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.text.background.label"
+                    </visibleWhen>
+                <with variable="activeEditor">
+            id="org.jkiss.dbeaver.sql.editor.color.string.foreground"
+            <enabledWhen>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+            </activeWhen>
+                </command>
+        </handler>
+
+
+            </command>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.open.file">
+
+        <colorDefinition
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.comment.single" class="org.jkiss.dbeaver.ui.editors.text.handlers.ToggleSingleLineCommentHandler">
+            id="org.jkiss.dbeaver.sql.editor.color.comment.foreground"
+                </handler>
+    </extension>
+        </dataSourceConfigurator>
+        <!--
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.open.default" style="radio"><parameter name="command" value="org.jkiss.dbeaver.core.sql.editor.create"/></command>
+                    </with>
+            </enabledWhen>
+            id="org.jkiss.dbeaver.sql.editor.color.table.foreground"
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.sync.connection" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sync_connection.svg"/>
+            </enabledWhen>
+        </colorDefinition>
+                    <enabledWhen>
+                </visibleWhen>
+    <extension point="org.eclipse.ui.keywords">
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.load.plan" defaultVisibility="false"/>
+                        <with variable="activeEditor">
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+        </handler>
+                showInNextPrevDropdownToolbarAction="true"
+                    <visibleWhen checkEnabled="true"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.ExpandAllFoldings" name="%command.org.jkiss.dbeaver.ui.editors.sql.ExpandAllFoldings.name" categoryId="org.jkiss.dbeaver.core.sql"/>
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.hasActiveQuery"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.result.panel"/>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+                <count value="1"/>
+                <with variable="activeEditor">
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.text.background.description</description>
+    </extension>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.CollapseAllFoldings" label="%command.org.jkiss.dbeaver.ui.editors.sql.CollapseAllFoldings.name" style="push">
+
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.maximize.result.panel"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.extraPanels" style="toggle"/>
+                    </visibleWhen>
+                <visibleWhen>
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="statement"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+                id="sql-editor.completion"
+                contributorClass="org.jkiss.dbeaver.ui.editors.sql.SQLEditorContributor"
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.cancel.query"/>
+            <enabledWhen>
+
+            <contentTypeBinding contentTypeId="org.jkiss.dbeaver.sql"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.query.prev" name="%command.org.jkiss.dbeaver.ui.editors.sql.query.prev.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.query.prev.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                parent="sql-editor.main"
+    <extension-point id="org.jkiss.dbeaver.sql.quickFixProcessors" name="%extension-point.org.jkiss.dbeaver.sql.quickFixProcessors.name" />
+        <command id="org.jkiss.dbeaver.core.sql.editor.recent" name="%command.org.jkiss.dbeaver.core.sql.editor.recent.name" description="%command.org.jkiss.dbeaver.core.sql.editor.recent.description" categoryId="org.jkiss.dbeaver.core.database"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+            <activeWhen>
+
+            </with>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+                </with>
+                </with>
+                        </adapt>
+                </visibleWhen>
+        </factory>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.expression" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+ALT+'"/>
+                    </with>
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=sql_tools">
+
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+        </handler>
+            id="org.jkiss.dbeaver.sql.editor.color.aiSuggestion.foreground"
+        </colorDefinition>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.script" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+X"/>
+            value="128,128,128">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.toggle.result.panel" name="%command.org.jkiss.dbeaver.ui.editors.sql.toggle.result.panel.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.toggle.result.panel.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+
+                <visibleWhen checkEnabled="true"/>
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.recent" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="win32" sequence="CTRL+Enter"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.extraPanels" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerToggleExtraPanels">
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.result.panel" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+T"/>
+                <and>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.count">
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+        <menuContribution allPopups="false" locationURI="toolbar:dbeaver-general?after=sql_tools">
+
+            <enabledWhen>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.run.statement"/>
+        </handler>
+                    </visibleWhen>
+                </with>
+        <colorDefinition
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement">
+        </colorDefinition>
+                parent="sql-editor.main"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.gotoMatchingBracket" name="%command.org.jkiss.dbeaver.ui.editors.sql.gotoMatchingBracket.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.gotoMatchingBracket.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+
+
+                </with>
+                <separator name="execute" visible="true"/>
+                <command commandId="org.jkiss.dbeaver.ui.tools.select.schema">
+                </command>
+        </handler>
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.show.variables" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/variable.svg"/>
+                    name="Presentation"
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.maximize.result.panel" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+T"/>
+                overviewRulerPreferenceKey="writeOccurrenceIndicationInOverviewRuler"
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.outline"/>
+                        <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.expression" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.expression.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.expression.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        </target>
+            </command>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.foldingSupported"/>
+        <propertyTester
+        <factory adaptableType="org.jkiss.dbeaver.ui.editors.sql.format.sqlworkbenchj.SQLWorkbenchJFormatter" class="org.jkiss.dbeaver.ui.editors.sql.format.sqlworkbenchj.SQLWorkbenchJAdapterFactory">
+            <enabledWhen>
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.svg"
+                <separator name="layout_toggles" visible="true"/>
+                        <with variable="activeEditor">
+                        </with>
+
+                title="%page.org.jkiss.dbeaver.preferences.main.sql.format.name"
+        <menuContribution allPopups="false" locationURI="popup:#SQLRulerContext?before=additions">
+                    </adapt>
+                <with variable="activeEditor">
+                    <separator name="mode_toggles" visible="true"/>
+            <commandParameter
+
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.parameter.foreground.label"
+                        <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase">
+
+        <keyword id="org.jkiss.dbeaver.pref.keyword.sql.sqlexecute" label="%keyword.org.jkiss.dbeaver.pref.keyword.sql.sqlexecute.label"/>
+                <with variable="activeEditor">
+            <themeid refid="org.eclipse.e4.ui.css.theme.e4_dark"/>
+        </menuContribution>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.column.foreground.label"
+            <enabledWhen>
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.isActiveQueryRunning"/>
+                label="SQL - word (under cursor) occurrences"
+                    <visibleWhen>
+                        </with>
+
+        </handler>
+                <with variable="activePart">
+                <with variable="activeEditor">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.open.file" class="org.jkiss.dbeaver.ui.editors.text.handlers.LoadTextFileHandler">
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.disabled.background.label"
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+                id="sql-editor.main"
+
+        </handler>
+
+    </extension>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.rename" name="%command.org.jkiss.dbeaver.ui.editors.sql.rename.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.rename.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                </menu>
+            </enabledWhen>
+    <extension point="org.eclipse.ui.elementFactories">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.explain" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.explain.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.explain.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                </and>
+    <extension point="org.eclipse.core.expressions.propertyTesters">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew">
+    </extension>
+                            </with>
+                        <reference definitionId="org.jkiss.dbeaver.sql.canOpenEditor"/>
+                    <test property="org.jkiss.dbeaver.ui.editors.text.canComment" value="single"/>
+        <key commandId="org.jkiss.dbeaver.ui.editors.text.content.format" contextId="org.eclipse.ui.contexts.window" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+F"/>
+        </page>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.command.foreground.description</description>
+    <extension point="org.jkiss.dbeaver.sql.plan.view">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                </command>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.comment.single" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+/"/>
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.cancel.query" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_cancel.svg"/>
+        </handler>
+                        </adapt>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.cancel.query"/>
+                <menu label="%menu.org.jkiss.dbeaver.ui.editors.sql.SQLEditor.layout.label">
+        </handler>
+                <visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.explain" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+                        <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.defaultCommand" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerOpenEditor">
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.refresh.all.schemas"/>
+                    </adapt>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.navigate.object" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerNavigateObject">
+                        </and>
+                parentId="org.jkiss.dbeaver.ui.editors.sql">
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.export.data" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/table_export.svg"/>
+                        <parameter name="noCustomLabel" value="true"/>
+                            <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+            value="COLOR_BLACK">
+        </column>
+                </and>
+                </with>
+        </page>
+        <keyword id="org.jkiss.dbeaver.pref.keyword.sql.codeeditor" label="%keyword.org.jkiss.dbeaver.pref.keyword.sql.codeeditor.label"/>
+    <extension-point id="org.jkiss.dbeaver.sql.covert" name="%extension-point.org.jkiss.dbeaver.sql.covertname" schema="schema/org.jkiss.dbeaver.sql.convert.exsd"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.count"/>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.log"/>
+            </command>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.toggleLayout" name="%command.org.jkiss.dbeaver.ui.editors.sql.toggleLayout.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.toggleLayout.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            id="org.jkiss.dbeaver.sql.editor.color.delimiter.foreground"
+                parent="sql-editor.main"
+                        </and>
+                namespace="org.jkiss.dbeaver.ui.editors.sql.util"
+                </visibleWhen>
+        <image commandId="org.jkiss.dbeaver.core.sql.editor.showScripts" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script_folder.svg"/>
+
+                isGoToPreviousNavigationTargetKey="SQLEditor.isOccurrenceGoToPreviousNavigationTarget"
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.dialects" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLDialects" name="%page.org.jkiss.dbeaver.preferences.main.sql.dialects.name">
+        </handler>
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.open">
+
+        <command id="org.jkiss.dbeaver.ui.editors.text.content.format" name="%command.org.jkiss.dbeaver.ui.editors.text.content.format.name" description="%command.org.jkiss.dbeaver.ui.editors.text.content.format.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.comment.single" name="%command.org.jkiss.dbeaver.ui.editors.sql.comment.single.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.comment.single.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                </command>
+                    <test property="org.jkiss.dbeaver.core.global.ui.currentProjectResourceEditable"/>
+                </command>
+
+                    </visibleWhen>
+            <property id="keep-formatting" label="%sql.convert.label.keep.formatting.name" type="boolean" description="%sql.convert.label.keep.formatting.discription" required="false" defaultValue="false"/>
+                    </adapt>
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.show.output" defaultVisibility="true"/>
+        </handler>
+                <separator name="options" visible="true"/>
+                    <visibleWhen>
+                showInNextPrevDropdownToolbarActionKey="showOccurrenceInNextPrevDropdownToolbarAction"
+        </page>
+                    </command>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+                    <visibleWhen checkEnabled="true">
+            id="org.jkiss.dbeaver.sql.editor.color.text.background"
+                id="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.pinned.tab" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+P"/>
+                    <test property="org.jkiss.dbeaver.core.global.bundleInstalled" args="org.eclipse.text.quicksearch"/>
+        <view id="simple" priority="100" label="%sql.plan.view.simple.name" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/page_explain_plan.svg" description="%sql.plan.view.simple.tip" class="org.jkiss.dbeaver.ui.editors.sql.plan.simple.SQLPlanViewProviderSimple" />
+                <menu label="%menu.org.jkiss.dbeaver.ui.editors.sql.SQLEditor.extraPanels.label">
+            id="org.jkiss.dbeaver.sql.editor.color.sqlVariable.foreground"
+                </command>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.all.rows"/>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="gtk" sequence="CTRL+\"/>
+            </command>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+                                <test property="org.jkiss.dbeaver.core.datasource.projectResourceEditable"/>
+        </toolBar>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.switch.panel" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSwitchPanel">
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.keyword.foreground.description</description>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="script"/>
+                verticalRulerPreferenceValue="false"
+                <visibleWhen>
+            <command commandId="org.jkiss.dbeaver.core.procedure.execute">
+            <enabledWhen>
+            value="0,100,100">
+        </handler>
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.recent" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="gtk" sequence="CTRL+Enter"/>
+                    </adapt>
+                textStylePreferenceKey="SQLEditor.occurrenceTextStyle"
+        <colorDefinition
+                </visibleWhen>
+                        <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.outline"/>
+        </handler>
+                    <test property="org.jkiss.dbeaver.ui.editors.text.available"/>
+        <extension point="org.eclipse.ui.perspectiveExtensions">
+                overviewRulerPreferenceValue="true"
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+                type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerToggleMultipleResultsPerTab">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.search.web" name="%command.org.jkiss.dbeaver.ui.editors.sql.web.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.web.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.composite.field.foreground.label"
+        <colorDefinition
+            </enabledWhen>
+        </stylesheet>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab" style="toggle"/>
+                <visibleWhen checkEnabled="true"/>
+
+        </handler>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.search.web"/>
+
+        </menuContribution>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.export.data" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExportData">
+                after="data-editor-main"
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.show.output" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+O"/>
+        <propertyTester
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+                <with variable="activePart">
+                </command>
+                contributesToHeader="false"
+        <colorDefinition
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.open">
+        <context
+                class="org.jkiss.dbeaver.ui.editors.sql.format.sqlworkbenchj.SQLWorkbenchJFormatter"
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+        </colorDefinition>
+            <enabledWhen>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.variables"/>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+                    </adapt>
+                <with variable="activeEditor">
+        </colorDefinition>
+                label="HTML"
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+            value="149,96,55">
+        </colorDefinition>
+                <visibleWhen>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.CollapseAllFoldings" name="%command.org.jkiss.dbeaver.ui.editors.sql.CollapseAllFoldings.name" categoryId="org.jkiss.dbeaver.core.sql"/>
+<plugin>
+                    <instanceof value="org.jkiss.dbeaver.ui.IDataSourceContainerUpdate"/>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.console"/>
+                    <visibleWhen checkEnabled="true"/>
+                    </adapt>
+            </enabledWhen>
+            <enabledWhen>
+            <menu id="org.jkiss.dbeaver.ui.editors.sql.SQLEditor.layout" label="%menu.org.jkiss.dbeaver.ui.editors.sql.SQLEditor.layout.label">
+                <visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.refresh.current.schema" class="org.jkiss.dbeaver.ui.editors.sql.commands.RefreshActiveSchemaHandler">
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="script"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.toggle.extraPanels" name="%command.org.jkiss.dbeaver.ui.editors.sql.toggle.extraPanel.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.toggle.extraPanel.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        </colorDefinition>
+                label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.function.foreground.label"
+                id="org.jkiss.dbeaver.ui.editors.columns.script.position"
+    <extension point="org.eclipse.core.runtime.preferences">
+
+                icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.svg"
+                <with variable="activeEditor">
+                        </and>
+            </menu>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.log"/>
+                </command>
+                <command commandId="org.jkiss.dbeaver.ui.tools.select.connection">
+                    optional="false"
+                                </adapt>
+        <menuContribution locationURI="menu:org.jkiss.dbeaver.menu.sql.open">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.rename" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerRenameFile">
+                <visibleWhen checkEnabled="true"/>
+        <colorDefinition
+                <with variable="activeEditor">
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.export.data"/>
+            value="COLOR_DARK_BLUE">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptFromPosition" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.foldingEnabled"/>
+                </with>
+                    </visibleWhen>
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab" defaultVisibility="false"/>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.result.panel"/>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.refresh.current.schema"/>
+        </handler>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.cancel.query" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerCancelActiveQuery">
+            id="org.jkiss.dbeaver.sql.editor.color.aiSuggestion.background"
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.save.file">
+            <keywordReference id="org.jkiss.dbeaver.pref.keyword.sql.codeeditor"/>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.copy.query" name="%command.org.jkiss.dbeaver.ui.editors.sql.copy.query.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.copy.query.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        <image commandId="org.jkiss.dbeaver.core.sql.editor.create" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script_create.svg"/>
+        </context>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.cancel.query">
+            <enabledWhen>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.delimiter.foreground.label"
+            </enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.selectToMatchingBracket" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerGoToMatchingBracket">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.statement" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.statement.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.statement.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                    <test property="org.jkiss.dbeaver.ui.editors.text.canSave"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.scriptFromPosition" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.scriptFromPosition.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.scriptFromPosition.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        </page>
+            <separator name="search" visible="true"/>
+                label="SQL - selected word occurrences"
+                <with variable="activeEditor">
+                class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLCompletion"
+        </colorDefinition>
+    <extension point="org.jkiss.dbeaver.sqlGenerator">
+            <placement gravity="0.9"/>
+                        </with>
+                </visibleWhen>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.datasource.editor"/>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="script"/>
+                highlightPreferenceValue="true"
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.schema.foreground.label"
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.show.outline" defaultVisibility="true"/>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement">
+
+                    <visibleWhen>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                        </with>
+                        <with variable="activePart">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.expression" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+            <enabledWhen>
+    <extension point="org.eclipse.ui.workbench.texteditor.rulerColumns">
+                categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+            value="232,242,254">
+                isGoToPreviousNavigationTarget="false"
+                description="%page.org.jkiss.dbeaver.preferences.main.sql.completion.description"/>
+                <visibleWhen>
+        </colorDefinition>
+        </editor>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew">
+        <!-- Navigator context menu -->
+        </colorDefinition>
+            id="org.jkiss.dbeaver.sql.editor.color.text.foreground"
+                <visibleWhen checkEnabled="true"/>
+                verticalRulerPreferenceValue="false"
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.open.file" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/file/load.png"/>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+        </handler>
+                </with>
+        <command id="org.jkiss.dbeaver.core.sql.editor.open.default" name="%command.org.jkiss.dbeaver.core.sql.editor.open.default.name" description="%command.org.jkiss.dbeaver.core.sql.editor.open.default.description" categoryId="org.jkiss.dbeaver.core.database">
+                    <visibleWhen>
+        <command id="org.jkiss.dbeaver.core.sql.editor.showScripts" name="%command.org.jkiss.dbeaver.core.sql.editor.showScripts.name" description="%command.org.jkiss.dbeaver.core.sql.editor.showScripts.description" categoryId="org.jkiss.dbeaver.core.database"/>
+        </handler>
+            value="142,0,198">
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.run.script" defaultVisibility="true"/>
+
+
+        <dataSourceConfigurator>
+            value="COLOR_DARK_MAGENTA">
+            </enabledWhen>
+                        <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase">
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.comment.foreground.label"
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.show.variables" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSwitchPanel">
+
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+    </extension>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        </handler>
+        </target>
+        </handler>
+        <page category="org.jkiss.dbeaver.preferences.editors" id="org.jkiss.dbeaver.preferences.main.sqleditor" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLEditor" name="%pref.page.name.sql.editor">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew">
+                        <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase">
+                </with>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.rename" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+F2"/>
+        </factory>
+        <command id="org.jkiss.dbeaver.core.sql.editor.forSelection" name="%command.org.jkiss.dbeaver.core.sql.editor.forSelection.name" description="%command.org.jkiss.dbeaver.core.sql.editor.forSelection.description" categoryId="org.jkiss.dbeaver.core.database"/>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.table.alias.foreground.description</description>
+            <property id="keep-formatting" label="%sql.convert.label.keep.formatting.name" type="boolean" description="%sql.convert.label.keep.formatting.discription" required="false" defaultValue="false"/>
+                </with>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+                    <visibleWhen checkEnabled="true">
+                parentId="org.eclipse.ui.textEditorScope">
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.recent">
+    </extension>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.column.derived.foreground.description</description>
+                </command>
+    </extension>
+                <command commandId="org.jkiss.dbeaver.core.sql.script.run.scriptNative"/>
+            </enabledWhen>
+                name="%context.org.jkiss.dbeaver.ui.editors.sql.script.name"
+                </menu>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+                <visibleWhen checkEnabled="false">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.all.rows">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.show.output" name="%command.org.jkiss.dbeaver.ui.editors.sql.show.output.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.show.output.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        <!--<key commandId="org.jkiss.dbeaver.core.sql.editor.open" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+L"/>-->
+            </menu>
+        </handler>
+        </handler>
+            </enabledWhen>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.show.log" name="%command.org.jkiss.dbeaver.ui.editors.sql.show.log.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.show.log.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                    <with variable="activeEditor">
+                </with>
+        <image commandId="org.jkiss.dbeaver.core.sql.editor.console" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_console.svg"/>
+    </extension>
+
+            <separator name="foldings" visible="true"/>
+                <visibleWhen><reference definitionId="org.jkiss.dbeaver.sql.canOpenEditor"/></visibleWhen>
+            <menu id="org.jkiss.dbeaver.ui.editors.sql.SQLEditor.extraPanels" label="%menu.org.jkiss.dbeaver.ui.editors.sql.SQLEditor.extraPanels.label">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="script"/>
+                    <visibleWhen>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.generate.ddl.by.resultSet" name="%command.org.jkiss.dbeaver.ui.editors.sql.generate.ddl.by.resultSet.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.generate.ddl.by.resultSet.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                </command>
+
+            </enabledWhen>
+                contributesToHeader="false"
+        </colorDefinition>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.showScripts">
+                </visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.FoldingsEnabled" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerEnableDisableFolding">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.deleteThisScript" name="%command.org.jkiss.dbeaver.ui.editors.sql.deleteThisScript.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.deleteThisScript.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            <enabledWhen>
+                isGoToNextNavigationTarget="false"
+            </enabledWhen>
+
+                    <separator name="layout_toggles" visible="true"/>
+        </target>
+        </handler>
+                    <visibleWhen>
+
+            <targetClass class="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase"/>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.composite.field.foreground.description</description>
+        </page>
+                id="sql-editor.execute"
+            id="org.jkiss.dbeaver.sql.editor.color.command.foreground"
+                    </visibleWhen>
+
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.load.plan">
+                    </visibleWhen>
+            </dynamic>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+        </handler>
+    <extension-point id="org.jkiss.dbeaver.sqlPresentation" name="%extension-point.org.jkiss.dbeaver.sqlPresentation.name" schema="schema/org.jkiss.dbeaver.sqlPresentation.exsd"/>
+                </with>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.cancel.query" name="%command.org.jkiss.dbeaver.ui.editors.sql.cancel.query.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.cancel.query.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                    <or>
+                    </adapt>
+            </command>
+
+            <enabledWhen>
+    -->
+                <dynamic class="org.jkiss.dbeaver.ui.editors.sql.commands.MultipleResultsPerTabMenuContribution" id="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab.mmcontributor">
+    <extension-point id="org.jkiss.dbeaver.sql.executors" name="%org.jkiss.dbeaver.sql.executors.name" schema="schema/org.jkiss.dbeaver.sql.executors.exsd"/>
+
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="win32" sequence="CTRL+Enter"/>
+        <colorDefinition
+                 id="org.jkiss.dbeaver.menu.sql.open">
+            <description>%themeElementCategory.org.jkiss.dbeaver.sql.plan.view.description</description>
+    <extension-point id="org.jkiss.dbeaver.sql.plan.view" name="%extension-point.org.jkiss.dbeaver.sqlPlanView.name" schema="schema/org.jkiss.dbeaver.sqlPlanView.exsd"/>
+                <visibleWhen checkEnabled="true">
+            <dataSourcePage
+    </extension>
+        </menuContribution>
+            </enabledWhen>
+            value="COLOR_BLUE">
+
+                        </adapt>
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.create" contextId="org.jkiss.dbeaver.ui.perspective" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+F3"/>
+                properties="active,canExecute,canExecuteNative,canExplain,canNavigate,canValidate,canExport,hasSelection,hasActiveQuery,isActiveQueryRunning,foldingEnabled,foldingSupported"
+        <!-- Text editor handlers -->
+                <visibleWhen>
+                parentId="org.eclipse.ui.textEditorScope">
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.open" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerOpenEditor">
+    </extension>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.copy.query"/>
+    <extension point="org.jkiss.dbeaver.ui.dataSourceConfigurator">
+                <visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.result.panel" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerToggleResultsPanel">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.refresh.current.schema" name="%command.org.jkiss.dbeaver.ui.editors.sql.refresh.current.schema.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.refresh.current.schema.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            </command>
+                    <reference definitionId="org.jkiss.dbeaver.core.ui.toolbar.general.visible"/>
+                </command>
+        <target id="delphi" label="Delphi" description="%sql.convert.delphi.description" class="org.jkiss.dbeaver.ui.editors.sql.convert.impl.DelphiSQLConverter">
+            <objectType name="org.jkiss.dbeaver.ui.controls.resultset.IResultSetController"/>
+        <image commandId="org.jkiss.dbeaver.core.sql.editor.open" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/tree/script.svg"/>
+                </visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.save.file" class="org.jkiss.dbeaver.ui.editors.text.handlers.SaveTextFileHandler">
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+    </extension>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.export.data"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.assist.templates" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerAssistTemplates">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.toggleLayout" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerToggleEditorLayout">
+        </handler>
+                id="sql-editor.codeeditor"
+                    </visibleWhen>
+            </command>
+                        </adapt>
+            <menu label="%menu.database.sql.generate" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/misc/sql.svg">
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+    <extension point="org.jkiss.dbeaver.fileTypeHandler">
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+            <menu id="org.jkiss.dbeaver.ui.editors.sql.SQLEditor.file" label="%menu.org.jkiss.dbeaver.ui.editors.sql.SQLEditor.file.label">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.sync.auto" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSyncConnectionAuto"/>
+        </handler>
+
+            <dataSourcePage
+
+                highlightPreferenceKey="occurrenceHighlighting"
+                id="org.jkiss.dbeaver.ui.editors.sql.script"
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.switch.panel"/>
+            </enabledWhen>
+            </enabledWhen>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.table.foreground.description</description>
+                <separator name="panels_config" visible="true"/>
+                    </visibleWhen>
+                    </visibleWhen>
+        <!-- Colors for Query Plan -->
+        <command id="org.jkiss.dbeaver.ui.editors.sql.query.next" name="%command.org.jkiss.dbeaver.ui.editors.sql.query.next.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.query.next.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        <handler type="sql-script" class="org.jkiss.dbeaver.ui.editors.sql.scripts.ScriptsHandlerImpl"/>
+        </handler>
+    <extension point="org.jkiss.dbeaver.sql.covert">
+                showInNextPrevDropdownToolbarAction="true"
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canNavigate"/>
+    <extension id="semanticProblemMarker" name="%semanticProblem.name" point="org.eclipse.core.resources.markers">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.expression"/>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.comment.multi" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+/"/>
+                    <test property="org.jkiss.dbeaver.core.global.ui.currentProjectResourceViewable"/>
+                        <and>
+        <definition id="org.jkiss.dbeaver.sql.canOpenEditor">
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+                        <reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.switch.presentation" name="Switch presentation to" description="Switch SQL editor presentation" categoryId="org.jkiss.dbeaver.core.sql">
+                        </visibleWhen>
+            value="COLOR_WIDGET_BACKGROUND">
+                isGoToPreviousNavigationTargetKey="isOccurrenceGoToPreviousNavigationTarget"
+                    <with variable="activePart">
+                overviewRulerPreferenceValue="true"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.save.file" name="%command.org.jkiss.dbeaver.ui.editors.sql.save.file.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.save.file.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            <enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.maximize.result.panel" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerMaximizeResultsPanel">
+                    </adapt>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.console" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerOpenConsole">
+        <editor name="%editor.sql.name"
+            </menu>
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="statement"/>
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew" defaultVisibility="false"/>
+            id="org.jkiss.dbeaver.sql.editor.color.number.foreground"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.navigate.object" name="%command.org.jkiss.dbeaver.ui.editors.sql.navigate.object.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.navigate.object.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        <colorDefinition
+                            <instanceof value="org.jkiss.dbeaver.model.navigator.DBNDataSource"/>
+                </with>
+        </colorDefinition>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.disableSQLSyntaxParser" class="org.jkiss.dbeaver.ui.editors.sql.commands.DisableSQLSyntaxParserHandler">
+                </command>
+                <and>
+                    <iterate operator="and">
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.codeeditor" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLCodeEditing" name="%pref.page.name.sql.codeeditor">
+                    </adapt>
+                <separator name="editor_file" visible="true"/>
+        <!-- <key commandId="org.jkiss.dbeaver.ui.editors.sql.show.log" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"/> -->
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.gotoMatchingBracket" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerGoToMatchingBracket">
+                        <with variable="activeEditor">
+                    </adapt>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.explain" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+E"/>
+                </with>
+                            <and>
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.create" contextId="org.jkiss.dbeaver.ui.perspective" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+]"/>
+            id="org.jkiss.dbeaver.sql.editor.color.parameter.foreground"
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.create"/>
+            </enabledWhen>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.statementNew" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="cocoa" sequence="COMMAND+\"/>
+            <separator name="tools" visible="false"/>
+            id="org.jkiss.dbeaver.sql.editor.color.schema.foreground"
+        <keyword id="org.jkiss.dbeaver.pref.keyword.sql.format" label="%keyword.org.jkiss.dbeaver.pref.keyword.sql.format.label"/>
+    </extension>
+                <separator name="additions_extra" visible="true"/>
+                <separator name="layout" visible="true"/>
+                label="SQL Workbench/J formatter"
+        </handler>
+                    <visibleWhen>
+                    <test property="org.jkiss.dbeaver.ui.editors.text.canLoad"/>
+                <visibleWhen>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+                </dynamic>
+
+        <command id="org.jkiss.dbeaver.ui.editors.sql.selectToMatchingBracket" name="%command.org.jkiss.dbeaver.ui.editors.sql.selectToMatchingBracket.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.selectToMatchingBracket.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        </menuContribution>
+                    <visibleWhen checkEnabled="true"/>
+                <with variable="activePart">
+                <with variable="activePart">
+                <separator name="files" visible="true"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.load.plan" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab" style="toggle"/>
+                name="%column.org.jkiss.dbeaver.ui.editors.columns.script.position.name">
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+
+
+                </with>
+    <extension point="org.eclipse.ui.editors.markerAnnotationSpecification">
+                id="org.jkiss.dbeaver.sql.editor.color.function.foreground"
+        <!--<key commandId="org.jkiss.dbeaver.ui.editors.sql.assist.templates" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+ALT+SPACE"/>-->
+                        </with>
+                                </adapt>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.maximize.result.panel"/>
+            </command>
+                        <with variable="activeEditor">
+                    </with>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.semanticError.foreground.label"
+        <specification
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+                <visibleWhen>
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.create" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerOpenEditor">
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.switch.panel" contextId="org.jkiss.dbeaver.ui.editors.sql.script" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+T"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.close.tab" name="%command.org.jkiss.dbeaver.ui.editors.sql.close.tab.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.close.tab.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        <context
+
+            </enabledWhen>
+        <specification
+                    <visibleWhen>
+    <extension point="org.eclipse.ui.commandImages">
+                textStylePreferenceKey="occurrenceTextStyle"
+        </page>
+                        <with variable="activeEditor">
+                <with variable="activeEditor">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.assist.templates" name="%command.org.jkiss.dbeaver.ui.editors.sql.assist.templates.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.assist.templates.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.sync.auto" style="toggle"/>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        <generator id="ddlByResultSet" class="org.jkiss.dbeaver.ui.editors.sql.generator.SQLGeneratorDDLFromResultSet" label="CREATE" description="CREATE table" order="6">
+    </extension>
+            <enabledWhen>
+                colorPreferenceKey="writeOccurrenceIndicationColor"
+    </extension>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.CollapseAllFoldings" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExpandCollapseAllFoldings">
+                    </visibleWhen>
+
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+                <with variable="activeEditor">
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="statement"/>
+                <visibleWhen checkEnabled="true"/>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.navigate.object" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="F4"/>
+        </themeElementCategory>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.aiSuggestion.foreground.description</description>
+                            <adapt type="org.jkiss.dbeaver.model.struct.DBSStructContainer"/>
+            </enabledWhen>
+                description="%page.org.jkiss.dbeaver.preferences.main.sqlexecute.description"/>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.aiSuggestion.foreground.label"
+            value="COLOR_DARK_GRAY">
+                <visibleWhen><reference definitionId="DBeaverPerspectiveActive"/></visibleWhen>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.toggle.pinned.tab" name="%command.org.jkiss.dbeaver.ui.editors.sql.toggle.pinned.tab.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.toggle.pinned.tab.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                        </with>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.script" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.script.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.script.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+    </extension>
+            </enabledWhen>
+            <dynamic class="org.jkiss.dbeaver.ui.controls.ToolbarSeparatorContribution$Horizontal" id="sqlEditor.side.bottom.separator">
+        </menuContribution>
+                id="org.jkiss.dbeaver.ui.editors.sql.SQLEditorPropertyTester"
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.outline" style="toggle"/>
+                <with variable="selection">
+            <with variable="activeEditor">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.disableSQLSyntaxParser" name="%command.org.jkiss.dbeaver.ui.editors.sql.disableSQLSyntaxParser.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.disableSQLSyntaxParser.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                    id="presentationId"
+    <extension point="org.eclipse.ui.themes">
+                <with variable="activeEditor">
+                class="org.jkiss.dbeaver.ui.editors.sql.generator.SQLGeneratorPropertyTester"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.word.wrap" name="%command.org.jkiss.dbeaver.ui.editors.sql.word.wrap.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.word.wrap.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        </page>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        </handler>
+                        </with>
+                    </enabledWhen>
+    </extension>
+                presentationLayer="4"
+
+        </handler>
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.show.log" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/page_error.svg"/>
+        <image commandId="org.jkiss.dbeaver.core.sql.editor.forSelection" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_console.svg"/>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.ExpandAllFoldings" label="%command.org.jkiss.dbeaver.ui.editors.sql.ExpandAllFoldings.name" style="push">
+    </extension>
+                class="org.jkiss.dbeaver.ui.editors.sql.SQLResultsEditor"
+            </enabledWhen>
+    <extension point="org.eclipse.core.runtime.adapters">
+                </visibleWhen>
+                <separator name="mode_toggles" visible="true"/>
+                <with variable="activeEditor">
+                class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLFormat"
+        <command id="org.jkiss.dbeaver.ui.editors.sql.sync.connection" name="%command.org.jkiss.dbeaver.ui.editors.sql.sync.connection.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.sync.connection.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.disableSQLSyntaxParser" style="toggle" tooltip="%command.org.jkiss.dbeaver.ui.editors.sql.disableSQLSyntaxParser.description">
+                </with>
+        <colorDefinition
+        <colorDefinition
+                presentationLayer="4"
+
+        <command id="org.jkiss.dbeaver.core.sql.editor.open" name="%command.org.jkiss.dbeaver.core.sql.editor.open.name" description="%command.org.jkiss.dbeaver.core.sql.editor.open.description" categoryId="org.jkiss.dbeaver.core.database"/>
+            <property id="line-delimiter" label="%sql.convert.label.line.delimiter.name" type="string" description="%sql.convert.label.line.delimiter.discription" required="false" defaultValue=" "/>
+            id="org.jkiss.dbeaver.sql.editor.color.keyword.foreground"
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        </colorDefinition>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.count" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+        <super type="org.eclipse.core.resources.problemmarker"/>
+        </handler>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.ExpandAllFoldings" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExpandCollapseAllFoldings">
+
+        <command id="org.jkiss.dbeaver.ui.editors.sql.comment.multi" name="%command.org.jkiss.dbeaver.ui.editors.sql.comment.multi.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.comment.multi.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        </handler>
+        </handler>
+        </colorDefinition>
+                namespace="org.jkiss.dbeaver.ui.editors.sql"
+                        <with variable="activeEditor">
+    <extension point="org.jkiss.dbeaver.resourceHandler">
+        <!-- SQL Editor -->
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.selectToMatchingBracket" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+]"/>
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.recent" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerOpenEditor">
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.datatype.foreground.description</description>
+                textPreferenceKey="writeOccurrenceIndication"
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.output"/>
+                </with>
+                    values="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSwitchPresentation$ParameterValues"/>
+
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab" style="toggle">
+            <enabledWhen>
+        </handler>
+        </colorDefinition>
+                        <reference definitionId="org.jkiss.dbeaver.sql.canOpenEditor"/>
+
+            value="COLOR_DARK_GREEN">
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.sync.connection"/>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+                </with>
+                    <activeWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></activeWhen>
+        </handler>
+        <!-- SQL editor open shortcuts. On MacOS we can't use functional key as defaults. On Linux they also have some special OS-wide meaning. -->
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.console" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+ALT+Enter"/>
+                description="Formatter from SQL Workbench/J"/>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.rename">
+        </handler>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+            <property id="line-delimiter" label="%sql.convert.label.line.delimiter.name" type="string" description="%sql.convert.label.line.delimiter.discription" required="false" defaultValue=" "/>
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=generate">
+        </handler>
+                </with>
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLTemplates" id="org.jkiss.dbeaver.preferences.main.sql.templates" name="%page.org.jkiss.dbeaver.preferences.main.sql.templates.name">
+            </command>
+                global="false"
+                <with variable="activePart">
+                        <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditorBase">
+            </with>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.recent">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        <toolBar key="sqlEditor.side.top" name="%org.jkiss.dbeaver.toolBarConfiguration.sqlEditor.side.top">
+                textStylePreferenceValue="NONE">
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.datatype.foreground.label"
+                class="org.jkiss.dbeaver.ui.editors.sql.convert.impl.HTMLSQLConverter"/>
+
+                highlightPreferenceValue="true"
+                            <!-- Ensures the command only available in the default SQL presentation - the only one that supports "script" -->
+        <keyword id="org.jkiss.dbeaver.pref.keyword.sql.sqleditor" label="%keyword.org.jkiss.dbeaver.pref.keyword.sql.sqleditor.label"/>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.outline" style="toggle"/>
+                textPreferenceValue="false"
+                        <with variable="activeEditor">
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.log" style="toggle">
+                    <visibleWhen>
+                        <reference definitionId="org.jkiss.dbeaver.sql.canOpenEditor"/>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.aiSuggestion.background.label"
+                </with>
+        <themeElementCategory label="%themeElementCategory.org.jkiss.dbeaver.sql.plan.view.label" id="org.jkiss.dbeaver.sql.plan.view.colors">
+        <command id="org.jkiss.dbeaver.ui.editors.sql.load.plan" name="%command.org.jkiss.dbeaver.ui.editors.sql.load.plan.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.load.plan.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+    </extension>
+        </page>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+                class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLCodeEditing"
+        <definition id="org.jkiss.dbeaver.core.ui.sql.editor">
+        <colorDefinition
+            </command>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+            </enabledWhen>
+            id="org.jkiss.dbeaver.sql.editor.color.composite.field.foreground"
+                        <with variable="activeEditor">
+            </enabledWhen>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.trim.spaces" class="org.jkiss.dbeaver.ui.editors.text.handlers.TrimTextSpacesHandler">
+                                    <test property="org.jkiss.dbeaver.core.datasource.projectResourceEditable"/>
+                    </visibleWhen>
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.create">
+        </page>
+
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.switch.presentation" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSwitchPresentation">
+                        <or>
+            id="org.jkiss.dbeaver.sql.editor.color.disabled.background"
+                    <command commandId="org.jkiss.dbeaver.ui.tools.select.schema">
+        <!-- Colors for SQL editor -->
+                class="org.jkiss.dbeaver.ui.editors.sql.convert.impl.UnformattedSQLConverter"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.morph.delimited.list" name="%command.org.jkiss.dbeaver.ui.editors.sql.morph.delimited.list.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.morph.delimited.list.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+                    <dynamic id="org.jkiss.dbeaver.ui.editors.sql.SQLEditor.layout.resultSet.orientation" class="org.jkiss.dbeaver.ui.editors.sql.SQLEditor$ResultSetOrientationMenuContributor"/>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+        <command id="org.jkiss.dbeaver.core.sql.editor.defaultCommand" name="%command.org.jkiss.dbeaver.core.sql.editor.open.name" description="%command.org.jkiss.dbeaver.core.sql.editor.open.description" categoryId="org.jkiss.dbeaver.core.database"/>
+                            <with variable="activeEditor">
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.run.explain" defaultVisibility="true"/>
+                <dynamic id="org.jkiss.dbeaver.core.menu.sql.generate" class="org.jkiss.dbeaver.ui.editors.sql.generator.SQLGeneratorContributor"/>
+        -->
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.number.foreground.description</description>
+            </command>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.script"/>
+            <menu label="%menu.org.jkiss.dbeaver.core.connection.sqleditor">
+                        <with variable="activeEditor">
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.query.next" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+ARROW_DOWN"/>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.gotoMatchingBracket" contextId="org.jkiss.dbeaver.ui.editors.sql" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+["/>
+-->
+            <enabledWhen>
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.completion" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLCompletion" name="%pref.page.name.sql.completion">
+            <property id="line-delimiter" label="%sql.convert.label.line.delimiter.name" type="string" description="%sql.convert.label.line.delimiter.delphi.discription" required="false" defaultValue="#13#10"/>
+                    </visibleWhen>
+                <visibleWhen>
+
+        <key commandId="org.jkiss.dbeaver.core.sql.editor.recent" contextId="org.jkiss.dbeaver.ui.context.navigator" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="cocoa" sequence="COMMAND+Enter"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+            </perspectiveExtension>
+                </with>
+                </with>
+        <command id="include" class="org.jkiss.dbeaver.ui.editors.sql.commands.SQLCommandInclude" label="Include" description="Include another SQL script file" interactive="true"/>
+
+                </visibleWhen>
+                        <with variable="activeEditor">
+        </menuContribution>
+                verticalRulerPreferenceKey="occurrenceIndicationInVerticalRuler"
+
+            </enabledWhen>
+                    <with variable="activeEditor">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.sync.connection" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSyncConnection">
+                <with variable="activePart">
+                </command>
+        </colorDefinition>
+        <colorDefinition
+                <with variable="activeEditor">
+-->
+                        <parameter name="noCustomLabel" value="true"/>
+        <colorDefinition
+            <enabledWhen>
+    <extension id="databaseScriptProblemMarker" name="%databaseScriptProblem.name" point="org.eclipse.core.resources.markers">
+                 mode="FORCE_TEXT"
+            </with>
+
+            <enabledWhen>
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.format" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLFormat" name="%page.org.jkiss.dbeaver.preferences.main.sql.format.name">
+                    <test property="org.jkiss.dbeaver.ui.editors.text.canComment" value="single"/>
+        <menuContribution allPopups="false" locationURI="popup:org.jkiss.dbeaver.ui.editors.sql.SQLEditor.EditorContext?after=sql.extras">
+                id="sql-editor.format"
+        </handler>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.canExplain"/>
+                isGoToNextNavigationTarget="false"
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.keyword.foreground.label"
+            <enabledWhen>
+        <target id="cpp" label="C/C++" description="%sql.convert.c.description" class="org.jkiss.dbeaver.ui.editors.sql.convert.impl.CPPSQLConverter">
+            id="org.jkiss.dbeaver.sql.editor.color.column.derived.foreground"
+        <command id="org.jkiss.dbeaver.core.procedure.execute" name="%command.org.jkiss.dbeaver.core.procedure.execute.name" description="%command.org.jkiss.dbeaver.core.procedure.execute.description" categoryId="org.jkiss.dbeaver.core.database"/>
+        <super type="org.eclipse.core.resources.textmarker"/>
+<!--
+                title="%page.org.jkiss.dbeaver.preferences.main.sqleditor.name"
+        </context>
+                <with variable="activeEditor">
+                <dynamic id="org.jkiss.dbeaver.ui.editors.sql.SQLEditor.layout.resultSet.orientation" class="org.jkiss.dbeaver.ui.editors.sql.SQLEditor$ResultSetOrientationMenuContributor"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.switch.panel" name="%command.org.jkiss.dbeaver.ui.editors.sql.switch.panel.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.switch.panel.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            <enabledWhen>
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+            </enabledWhen>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.multipleResultsPerTab"/>
+                </command>
+            value="100,0,100">
+    <extension point="org.eclipse.ui.editors.annotationTypes">
+            </enabledWhen>
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sqlexecute" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLExecute" name="%page.org.jkiss.dbeaver.preferences.main.sqlexecute.name">
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.foldingSupported"/>
+    <extension point="org.eclipse.core.expressions.definitions">
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="script"/>
+                        <and>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.trim.spaces" name="%org.jkiss.dbeaver.ui.editors.sql.trim.spaces.name" description="%org.jkiss.dbeaver.ui.editors.sql.trim.spaces.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+        </handler>
+            </enabledWhen>
+                            <test property="org.jkiss.dbeaver.ui.editors.sql.canExplain"/>
+        </page>
+
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.text.foreground.label"
+            <enabledWhen>
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_exec.svg"/>
+        </handler>
+        <category id="org.jkiss.dbeaver.core.sql" name="%category.sqleditor.name" description="%category.sqleditor.description"/>
+                </with>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement"/>
+            </command>
+            </enabledWhen>
+                colorPreferenceKey="occurrenceIndicationColor"
+                annotationType="org.jkisss.dbeaver.ui.occurrences.underCursor"
+        </handler>
+        </context>
+        </colorDefinition>
+
+            </command>
+                    </or>
+                verticalRulerPreferenceKey="writeOccurrenceIndicationInVerticalRuler"
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.preferences.datasource"/></enabledWhen>
+                        <with variable="activeEditor">
+<?eclipse version="3.2"?>
+                    <with variable="activeEditor">
+                matchingStrategy="org.jkiss.dbeaver.ui.editors.sql.SQLEditorMatchingStrategy"
+
+        <command id="org.jkiss.dbeaver.core.sql.editor.create" name="%command.org.jkiss.dbeaver.core.sql.editor.create.name" description="%command.org.jkiss.dbeaver.core.sql.editor.create.description" categoryId="org.jkiss.dbeaver.core.database"/>
+        </handler>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.outline" style="toggle">
+                    <and>
+                isGoToNextNavigationTargetKey="isOccurrenceGoToNextNavigationTarget"
+        <!-- SQL editor menu -->
+                    <with variable="activePart">
+                extensions="sql"
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.show.output" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/page_output.svg"/>
+        <super type="org.eclipse.core.resources.problemmarker"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.generate.ddl.by.resultSet" class="org.jkiss.dbeaver.ui.editors.sql.generator.SQLGeneratorHandlerResultSetDDL"/>
+        <toolBar key="sqlEditor.side.bottom" name="%org.jkiss.dbeaver.toolBarConfiguration.sqlEditor.side.bottom">
+                enabled="false"
+                </and>
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor.base"/></enabledWhen>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.output"/>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.command.foreground.label"
+                description="%sql.convert.unformatted.text.description"
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.save.file">
+                </command>
+            </menu>
+    <extension point="org.eclipse.ui.editors">
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.export.data" defaultVisibility="false"/>
+                <visibleWhen>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.explain">
+                
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.close.tab" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerCloseTab">
+                <visibleWhen checkEnabled="true"/>
+        </handler>
+            </enabledWhen>
+        </handler>
+                <command commandId="org.eclipse.ui.file.revert"/>
+                description="%page.org.jkiss.dbeaver.preferences.main.sql.format.description"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.word.wrap" class="org.jkiss.dbeaver.ui.editors.text.handlers.ToggleWordWrapHandler">
+                </and>
+    </extension>
+            <dataSourcePage
+        </colorDefinition>
+            </menu>
+        </colorDefinition>
+        </handler>
+    <extension point="org.eclipse.core.filebuffers.annotationModelCreation">
+        </command>
+            <command commandId="org.jkiss.dbeaver.core.edit.copy.special"/>
+                    </visibleWhen>
+        </handler>
+
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.schema.foreground.description</description>
+        <colorDefinition
+                    </iterate>
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.top,org.jkiss.dbeaver.ui.editors.sql.run.statementNew"/>
+    </extension>
+        <handler commandId="org.jkiss.dbeaver.core.edit.copy.special" class="org.jkiss.dbeaver.ui.editors.sql.convert.CopySourceCodeHandler">
+                </with>
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.create">
+                <with variable="activeEditor">
+                    </with>
+                        </with>
+                        <and>
+                label="%sql.convert.unformatted.text.name"
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.column.foreground.description</description>
+        </generator>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.run.all.rows" name="%command.org.jkiss.dbeaver.ui.editors.sql.run.all.rows.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.run.all.rows.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+        <command id="org.jkiss.dbeaver.ui.editors.sql.maximize.result.panel" name="%command.org.jkiss.dbeaver.ui.editors.sql.maximize.result.panel.name" description="%command.org.jkiss.dbeaver.ui.editors.sql.maximize.result.panel.description" categoryId="org.jkiss.dbeaver.core.sql"/>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.column.derived.foreground.label"
+                annotationType="org.jkisss.dbeaver.ui.occurrences.forSelection"
+                <with variable="activeEditor">
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        <colorDefinition
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.scriptNew"/>
+    </extension>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+    <extension point="org.eclipse.ui.preferencePages">
+            </enabledWhen>
+                class="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"
+                class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLExecute"
+
+            <dataSourcePage
+
+                                <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+                includeInMenu="true"
+                            </and>
+    <extension point="org.eclipse.ui.contexts">
+                    <visibleWhen>
+                </with>
+</plugin>
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.canExecute" value="statement"/>
+            <command commandId="org.jkiss.dbeaver.core.sql.editor.defaultCommand"
+                </visibleWhen>
+    </extension>
+                        <with variable="activeEditor">
+                 tooltip="%command.org.jkiss.dbeaver.core.sql.editor.open.description"
+            </command>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.output" style="toggle">
+                    </adapt>
+                class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLEditor"
+                    <with variable="activeEditor">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.query.prev" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerNavigateQuery">
+                    <test property="org.jkiss.dbeaver.ui.toolbar.configuration.visible" args="sqlEditor.side.bottom,org.jkiss.dbeaver.ui.editors.sql.show.variables"/>
+                <with variable="selection">
+            id="org.jkiss.dbeaver.sql.editor.color.table.alias.foreground"
+                    <with variable="activeEditor">
+        <handler commandId="org.jkiss.dbeaver.core.sql.editor.showScripts" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerShowScripts">
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.number.foreground.label"
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.all.rows" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+                            <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.variables"/>
+        <target id="python" label="Python" description="%sql.convert.python.description" class="org.jkiss.dbeaver.ui.editors.sql.convert.impl.PythonCodeConverter">
+                    <visibleWhen>
+        </colorDefinition>
+            </command>
+                    </visibleWhen>
+        <handler id="sql" class="org.jkiss.dbeaver.ui.editors.sql.scripts.SQLFileHandler" remote="true" databaseHandler="false" order="5">
+        <initializer class="org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorPreferencesInitializer"/>
+            <enabledWhen>
+        </menuContribution>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.sqlVariable.foreground.description</description>
+            <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.variables" style="toggle">
+                </visibleWhen>
+            <command commandId="org.eclipse.text.quicksearch.commands.quicksearchCommand">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+        </handler>
+        </page>
+            <menu id="SQLEditorMenu" label="%menu.sqleditor">
+                <with variable="activeEditor">
+        </handler>
+    </extension>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.string.foreground.label"
+                </visibleWhen>
+        </command>
+                    </adapt>
+                    </adapt>
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.all.rows" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+ALT+SHIFT+A"/>
+<?xml version="1.0" encoding="UTF-8"?>
+                title="%page.org.jkiss.dbeaver.preferences.main.sqlexecute.name"
+                    <visibleWhen>
+        <type name="org.eclipse.jdt.ui.occurrences"/>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.semanticError.foreground.description</description>
+        <editor name="%editor.sql.results.name"
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.open.default" style="radio"><parameter name="command" value="org.jkiss.dbeaver.core.sql.editor.recent"/></command>
+        <handler commandId="org.jkiss.dbeaver.core.procedure.execute" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerRunProcedureConsole">
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+                </iterate>
+    <extension point="org.eclipse.ui.handlers">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.refresh.all.schemas" class="org.jkiss.dbeaver.ui.editors.sql.commands.RefreshAllSchemasHandler">
+                        </with>
+    </extension>
+        </handler>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.script">
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+    </extension>
+            <property id="keep-formatting" label="%sql.convert.label.keep.formatting.name" type="boolean" description="%sql.convert.label.keep.formatting.discription" required="false" defaultValue="false"/>
+        </menuContribution>
+                            <!-- Ensures the command only available in the default SQL presentation - the only one that supports "script" -->
+        <column class="org.jkiss.dbeaver.ui.editors.text.ScriptPositionColumn"
+                        <test property="org.jkiss.dbeaver.ui.editors.sql.util.canGenerate"/>
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement" defaultVisibility="true"/>
+            <menu id="org.jkiss.dbeaver.ui.editors.sql.SQLEditor.execute" label="%menu.org.jkiss.dbeaver.ui.editors.sql.SQLEditor.execute.label" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_exec.svg">
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.resources" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLResources" name="%page.org.jkiss.dbeaver.preferences.main.sql.resources.name">
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.deleteThisScript" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerDeleteCurrentFile">
+                <separator name="plan" visible="true"/>
+        </target>
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.extraPanels" style="toggle"/>
+                        <with variable="activeEditor">
+
+                highlightPreferenceKey="writeOccurrenceHighlighting"
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.open.default" style="radio"><parameter name="command" value="org.jkiss.dbeaver.core.sql.editor.console"/></command>
+        </specification>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.sql.SQLEditor">
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.run.expression">
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.templates" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLTemplates" name="%pref.page.name.sql.templates">
+        </handler>
+        <image commandId="org.jkiss.dbeaver.ui.editors.sql.run.script" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/sql/sql_script_exec.svg"/>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.string.foreground.description</description>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.sqlVariable.foreground.label"
+            </enabledWhen>
+                description="%page.org.jkiss.dbeaver.preferences.main.sql.codeeditor.description"/>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.show.output" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerSwitchPanel">
+        <menuContribution allPopups="false" locationURI="toolbar:org.jkiss.dbeaver.ui.editors.sql.toolbar.side.top" >
+    <extension point="org.eclipse.e4.ui.css.swt.theme">
+                    </and>
+                    <count value="+"/>
+
+                    <command commandId="org.jkiss.dbeaver.ui.editors.sql.show.output"/>
+                    <visibleWhen checkEnabled="true"/>
+                    <visibleWhen>
+            <dataSourcePage
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.dialects" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLDialects" name="%pref.page.name.sql.dialects">
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.sql"/>
+    <extension-point id="org.jkiss.dbeaver.sql.editorAddIns" name="%extension-point.org.jkiss.dbeaver.sql.editorAddIns.name" schema="schema/org.jkiss.dbeaver.sql.editorAddIns.exsd"/>
+                    <visibleWhen checkEnabled="true"/>
+                    </visibleWhen>
+
+                name="%context.org.jkiss.dbeaver.ui.editors.sql.script.name"
+                title="%page.org.jkiss.dbeaver.preferences.main.sql.codeeditor.name"
+            </enabledWhen>
+                <with variable="activeEditor">
+                    <test property="org.jkiss.dbeaver.ui.editors.text.available"/>
+            categoryId="org.jkiss.dbeaver.ui.presentation.sql"
+        </menuContribution>
+                    </visibleWhen>
+                <visibleWhen>
+                id="org.jkiss.dbeaver.ui.editors.sql"
+                <command commandId="org.jkiss.dbeaver.core.sql.editor.recent">
+
+                <visibleWhen checkEnabled="true"/>
+            </command>
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.switch.panel"/>
+                <with variable="activeEditor">
+            <enabledWhen><reference definitionId="org.jkiss.dbeaver.core.ui.sql.editor"/></enabledWhen>
+                </menu>
+            </command>
+            value="142,0,198">
+        <menuContribution allPopups="false" locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+                        <with variable="activeEditor">
+            <enabledWhen>
+        <key commandId="org.jkiss.dbeaver.core.sql.script.run.scriptNative" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="ALT+N"/>
+    </extension>
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.toggle.pinned.tab" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerToggleTabPinned">
+                </command>
+            label="%colorDefinition.org.jkiss.dbeaver.sql.editor.color.table.alias.foreground.label"
+                id="org.jkiss.dbeaver.ui.editors.sql.generator.SQLGeneratorPropertyTester"
+                    	<test property="org.jkiss.dbeaver.core.datasource.projectResourceEditable"/>
+                <instanceof value="org.jkiss.dbeaver.ui.editors.sql.SQLEditor"/>
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.resources" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLResources" name="%pref.page.name.sql.resources">
+                    <visibleWhen>
+                    <visibleWhen checkEnabled="true">
+        <stylesheet uri="css/e4-dark-sql-editor.css">
+
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.parameter.foreground.description</description>
+            <enabledWhen>
+                            <instanceof value="org.jkiss.dbeaver.model.navigator.DBNDatabaseFolder"/>
+        </colorDefinition>
+                    <count value="+"/>
+            <description>%colorDefinition.org.jkiss.dbeaver.sql.editor.color.comment.foreground.description</description>
+                <hiddenToolBarItem id="org.jkiss.dbeaver.core.sql.editor.create"/>
+                id="sqlworkbenchj"
+        <!-- SQL editor handlers -->
+        <definition id="org.jkiss.dbeaver.core.ui.sql.editor.base">
+                        <adapt type="org.jkiss.dbeaver.model.struct.DBSDataContainer"/>
+    <extension point="org.jkiss.dbeaver.sqlCommand">
+
+        <handler commandId="org.jkiss.dbeaver.ui.editors.sql.run.script" class="org.jkiss.dbeaver.ui.editors.sql.handlers.SQLEditorHandlerExecute">
+            <item commandId="org.jkiss.dbeaver.ui.editors.sql.show.variables" defaultVisibility="true"/>
+                <separator name="query" visible="true"/>
+                        </with>
+                    </with>
+
+                textPreferenceKey="occurrenceIndication"
+                        <adapt type="org.jkiss.dbeaver.model.struct.rdb.DBSProcedure"/>
+                <iterate operator="and">
+
+        </themeElementCategory>
+            </enabledWhen>
+
+        <key commandId="org.jkiss.dbeaver.ui.editors.sql.run.statement" contextId="org.jkiss.dbeaver.ui.editors.sql.script.focused" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" platform="cocoa" sequence="COMMAND+Enter"/>
+                        </with>
+            <enabledWhen>
+        <menuContribution allPopups="false" locationURI="popup:org.jkiss.dbeaver.ui.editors.sql.SQLEditor.EditorContext?after=sql.additions">
+        <menuContribution allPopups="false" locationURI="toolbar:org.jkiss.dbeaver.ui.editors.sql.toolbar.side.bottom" >
+                <command commandId="org.jkiss.dbeaver.ui.editors.sql.cancel.query">
+        <page category="org.jkiss.dbeaver.preferences.main.sqleditor" id="org.jkiss.dbeaver.preferences.main.sql.completion" class="org.jkiss.dbeaver.ui.editors.sql.preferences.PrefPageSQLCompletion" name="%page.org.jkiss.dbeaver.preferences.main.sql.completion.name">
+                </command>

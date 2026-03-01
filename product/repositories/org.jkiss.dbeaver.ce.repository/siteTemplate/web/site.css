@@ -1,0 +1,11 @@
+.header {background:#99AADD}
+.log-text {font-family: sans-serif; font-style: normal; font-weight: lighter; font-size: 8pt; color:black;}
+.sub-header { font-family: sans-serif; font-style: normal; font-weight: bold; font-size: 9pt; color: white;}
+.big-header { font-family: sans-serif; font-style: normal; font-weight: bold; font-size: 9pt; color: white; border-top:10px solid white;}
+#indent {word-wrap : break-word;width :300px;text-indent:10px;}
+
+.bodyText { font-family: sans-serif; font-size: 9pt; color:#000000;  }
+.light-row {background:#FFFFFF}
+td.spacer {padding-bottom: 10px; padding-top: 10px;}
+.dark-row {background:#EEEEFF}
+.title { font-family: sans-serif; color: #99AACC;}

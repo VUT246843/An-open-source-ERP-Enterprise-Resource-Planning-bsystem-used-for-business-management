@@ -1,0 +1,32 @@
+
+ *     http://www.apache.org/licenses/LICENSE-2.0
+import org.jkiss.dbeaver.model.DBPScriptObject;
+
+ * distributed under the License is distributed on an "AS IS" BASIS,
+public interface PostgreScriptObject extends DBPScriptObject, DBSObject {
+ * Unless required by applicable law or agreed to in writing, software
+ * Copyright (C) 2010-2024 DBeaver Corp and others
+ * DBeaver - Universal Database Manager
+ *
+    void setObjectDefinitionText(String sourceText)
+
+ * You may obtain a copy of the License at
+ * See the License for the specific language governing permissions and
+package org.jkiss.dbeaver.ext.postgresql.model;
+ */
+ * limitations under the License.
+}
+ * Licensed under the Apache License, Version 2.0 (the "License");
+
+ *
+import org.jkiss.dbeaver.model.struct.DBSObject;
+
+ *
+ */
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+/*
+/**
+ * you may not use this file except in compliance with the License.
+import org.jkiss.dbeaver.DBException;
+        throws DBException;
+ * PostgreScriptObject

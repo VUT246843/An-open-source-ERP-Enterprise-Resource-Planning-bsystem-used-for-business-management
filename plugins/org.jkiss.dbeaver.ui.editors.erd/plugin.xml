@@ -1,0 +1,612 @@
+            <objectType name="org.jkiss.dbeaver.model.struct.DBSObjectContainer" forceCheck="true" if="context.isEntityContainer(object)"/>
+        <handler commandId="org.eclipse.ui.edit.paste" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerPaste">
+    <extension point="org.eclipse.ui.newWizards">
+        </colorDefinition>
+                value="255, 255, 255">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+            <activeWhen>
+        <factory adaptableType="org.eclipse.swt.widgets.Control" class="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorAdapter">
+            <enabledWhen>
+                    <count value="1"/>
+                </with>
+        <perspectiveExtension targetID="org.jkiss.dbeaver.core.perspective">
+    <extension point="org.eclipse.ui.editors">
+    <extension point="org.eclipse.ui.themes">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+        </handler>
+                value="COLOR_INFO_BACKGROUND">
+                value="173, 140, 127">
+                value="COLOR_LIST_BACKGROUND">
+            <activeWhen>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+        <command id="org.jkiss.dbeaver.erd.focus.diagram" name="%command.org.jkiss.dbeaver.erd.focus.diagram.name" description="%command.org.jkiss.dbeaver.erd.focus.diagram.description" categoryId="org.eclipse.gef.category.view"/>
+                            </or>
+            </activeWhen>
+        </handler>
+    </extension>
+                id="org.jkiss.dbeaver.erd.diagram.attributes.background"
+    </extension>
+            </activeWhen>
+                        </iterate>
+    </extension>
+        <menuContribution allPopups="false" locationURI="menu:dataSourceMenu?after=tools">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+                id="org.jkiss.dbeaver.ui.presentation.erd.headers.color.3"
+                label="%fontDefinition.org.jkiss.dbeaver.erd.diagram.font.notation.label"
+                            <and>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.regular.background.label"
+            icon="platform:/plugin/org.jkiss.dbeaver.model.erd/icons/erd.svg">
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.headers.color.1.label"
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.name.foreground.label"
+                value="COLOR_LIST_FOREGROUND">
+                                <and>
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.notes.foreground.description</description>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+    <extension point="org.eclipse.core.runtime.preferences">
+            </description>
+    </extension>
+            <adapter type="org.jkiss.dbeaver.model.preferences.DBPPropertySource"/>
+                            <adapt type="org.jkiss.dbeaver.model.struct.DBSEntity"/>
+        </themeElementCategory>
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart">
+            position="additions_end"
+    </extension>
+                value="COLOR_INFO_BACKGROUND">
+        <image commandId="org.jkiss.dbeaver.erd.toggleHand" icon="platform:/plugin/org.jkiss.dbeaver.ui.editors.erd/icons/move.svg"/>
+            </command>
+       <propertyTester
+        </handler>
+        </factory>
+            <activeWhen>
+            </command>
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.search.highlighting.description</description>
+        <command id="org.jkiss.dbeaver.erd.toggleHand" name="%command.org.jkiss.dbeaver.erd.toggleHand.name" description="%command.org.jkiss.dbeaver.erd.toggleHand.description" categoryId="org.eclipse.gef.category.view"/>
+             id="org.jkiss.dbeaver.ui.editors.erd.navigator.DiagramCreateWizard"
+        </handler>
+                    <equals value="org.jkiss.dbeaver.erd.ERDEditor"/>
+                value="119, 206, 130">
+                <visibleWhen checkEnabled="true">
+                    <iterate operator="and">
+        <image commandId="org.jkiss.dbeaver.erd.diagram.saveAs" icon="platform:/plugin/org.jkiss.dbeaver.ui/icons/picture_save.svg"/>
+<?eclipse version="3.2"?>
+    </extension>
+                <with variable="activeFocusControlId">
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.borders.color.2.label"
+       <erdNotation
+        <colorDefinition
+        <colorDefinition
+                        </adapt>
+        </themeElementCategory>
+        </page>
+           <adapter type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+        <colorDefinition
+             name="IDEF1X"
+    </extension>
+                value="COLOR_LIST_BACKGROUND">
+        <handler commandId="org.eclipse.ui.file.print" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerPrint">
+
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.fk.highlighting.label"
+                id="org.jkiss.dbeaver.erd.diagram.lines.foreground"
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=create">
+                <with variable="activeFocusControlId">
+                </adapt>
+    </extension>
+                <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart">
+        </handler>
+                        <test property="org.jkiss.dbeaver.ui.editors.erd.editor.editable"/>
+                    </adapt>
+    <extension point="org.jkiss.dbeaver.ui.editors.erd.export.format">
+        </menuContribution>
+        </colorDefinition>
+            <enabledWhen>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+             id="org.jkiss.dbeaver.ui.editors.erd.action.ERDEditorPropertyTester"
+
+            <description>%themeElementCategory.org.jkiss.dbeaver.ui.presentation.erd.headers.description</description>
+            <objectType name="org.jkiss.dbeaver.model.struct.rdb.DBSTable" forceCheck="true"/>
+        </menuContribution>
+            </activeWhen>
+            <activeWhen>
+                id="org.jkiss.dbeaver.ui.presentation.erd.borders.color.1"
+        <colorDefinition
+                </with>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.headers.color.7.label"
+        </colorDefinition>
+                <with variable="activeEditor">
+    <extension-point id="org.jkiss.dbeaver.ui.editors.erd.export.format" name="ERD Export Formats" schema="schema/org.jkiss.dbeaver.ext.erd.export.format.exsd"/>
+            <enabledWhen>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+                id="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorStandalone">
+    </extension>
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.dbeaver"/>
+                <with variable="activeFocusControlId">
+        </themeElementCategory>
+        <wizard
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+                value="219, 229, 241">
+        <handler type="er-diagram" class="org.jkiss.dbeaver.ui.editors.erd.navigator.ERDResourceHandler"/>
+            <newWizardShortcut id="org.jkiss.dbeaver.ui.editors.erd.navigator.DiagramCreateWizard"/>
+        </handler>
+                id="org.jkiss.dbeaver.erd.diagram.font"
+        <key commandId="org.jkiss.dbeaver.erd.focus.outline" contextId="org.eclipse.ui.contexts.window" schemeId="org.jkiss.dbeaver.keyboardOnlyKeyScheme" sequence="ALT+3"/>
+
+            </command>
+        </menuContribution>
+    <extension point="org.jkiss.dbeaver.resourceHandler">
+            </activeWhen>
+
+        </colorDefinition>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+                label="%themeElementCategory.org.jkiss.dbeaver.ui.presentation.erd.label"
+
+        <page id="org.jkiss.dbeaver.preferences.erd.editor" category="org.jkiss.dbeaver.preferences.editors" class="org.jkiss.dbeaver.ui.editors.erd.editor.ERDPreferencePage" name="%pref.page.name.erd.editor">
+            </enabledWhen>
+    <extension point="org.eclipse.core.runtime.adapters">
+
+        </stylesheet>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.attributes.foreground.label"
+        </colorDefinition>
+                                </and>
+    </extension>
+
+       </erdNotation>
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.association.background.description</description>
+                            </adapt>
+            <activeWhen>
+                id="org.jkiss.dbeaver.ui.presentation.erd.borders.color.4"
+            <contentTypeBinding contentTypeId="org.jkiss.dbeaver.erd"/>
+            <activeWhen>
+                </with>
+    <extension
+            <enabledWhen>
+        <colorDefinition
+        <exportFormat ext="erd" label="ERD format" class="org.jkiss.dbeaver.ui.editors.erd.export.ERDExportERD"/>
+                id="org.jkiss.dbeaver.erd.diagram.entity.primary.background"
+                <with variable="activeEditor">
+            </enabledWhen>
+            <activeWhen>
+                <and>
+        </colorDefinition>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.primary.background.label"
+                    </and>
+                    </with>
+        <key commandId="org.jkiss.dbeaver.erd.toggleHand" contextId="org.eclipse.ui.contexts.window" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="TAB"/>
+        </colorDefinition>
+               %wizard.erd.description
+            <enabledWhen>
+<?xml version="1.0" encoding="UTF-8"?>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.borders.color.6.label"
+                        <test property="org.jkiss.dbeaver.core.global.ui.currentProjectResourceEditable"/>
+        <menuContribution allPopups="false" locationURI="popup:org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart.EditorContext?after=additions">
+                    <with variable="selection">
+            description="%editor.erd.description"
+                extensions="erd"
+
+            <command commandId="org.jkiss.dbeaver.erd.diagram.view" label="%command.org.jkiss.dbeaver.erd.diagram.view.name">
+            </enabledWhen>
+                                    <test property="org.jkiss.dbeaver.core.resource.type" value="diagram folder"/>
+                id="org.jkiss.dbeaver.ui.presentation.erd.borders.color.6"
+                class="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorStandalone"
+        <colorDefinition
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSObject"/>
+                </with>
+                <with variable="selection">
+        <handler commandId="org.jkiss.dbeaver.erd.focus.diagram" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerFocus">
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.headers.color.6.label"
+                    <with variable="selection">
+    <extension-point id="org.jkiss.dbeaver.ui.editors.erd.routing" name="ER Diagram Connection Routing Specification" schema="schema/org.jkiss.dbeaver.ui.editors.erd.routing.exsd"/>
+            </command>
+                </with>
+                value="COLOR_LIST_BACKGROUND">
+        <key commandId="org.jkiss.dbeaver.erd.focus.parameter" contextId="org.eclipse.ui.contexts.window" schemeId="org.jkiss.dbeaver.keyboardOnlyKeyScheme" sequence="ALT+4"/>
+                <visibleWhen checkEnabled="true">
+        <key commandId="org.jkiss.dbeaver.erd.focus.diagram" contextId="org.eclipse.ui.contexts.window" schemeId="org.jkiss.dbeaver.keyboardOnlyKeyScheme" sequence="ALT+1"/>
+                value="204, 192, 184">
+    <extension point="org.eclipse.e4.ui.css.swt.theme">
+            <fontValue os="macosx" value="Sans-regular-12"/>
+                            <or>
+        </colorDefinition>
+
+                </with>
+
+                <with variable="activeEditor">
+                label="%fontDefinition.org.jkiss.dbeaver.erd.diagram.font.label"
+                value="206, 63, 34">
+                <with variable="activeFocusControlId">
+        <handler commandId="org.eclipse.ui.edit.redo" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerRedo">
+        </colorDefinition>
+                        </iterate>
+
+                    <test property="org.jkiss.dbeaver.ui.editors.erd.editor.isERD"/>
+        <editor
+</plugin>
+       <erdConnectionRouter
+                    <with variable="selection">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+            </activeWhen>
+                id="org.jkiss.dbeaver.erd.diagram.fk.highlighting"
+                <with variable="activeFocusControlId">
+       <erdNotation
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+            <command commandId="org.eclipse.ui.edit.redo"/>
+
+            </activeWhen>
+        </colorDefinition>
+       </erdConnectionRouter>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+            <description>
+        <handler commandId="org.eclipse.ui.file.refresh" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerRefresh">
+        <!-- Colors for table headers -->
+
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.notes.background.description</description>
+    </extension>
+                id="org.jkiss.dbeaver.erd.diagram.entity.name.foreground"
+                id="org.jkiss.dbeaver.ui.presentation.erd.headers.color.2"
+        <command id="org.jkiss.dbeaver.erd.diagram.saveAs" name="%command.org.jkiss.dbeaver.erd.diagram.saveAs.name" description="%command.org.jkiss.dbeaver.erd.diagram.saveAs.description" categoryId="org.eclipse.gef.category.view"/>
+                id="org.jkiss.dbeaver.ui.presentation.erd.headers.color.4"
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.notes.foreground.label"
+
+            </enabledWhen>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+            <enabledWhen>
+        <colorDefinition
+                <with variable="activeFocusControl">
+                    </with>
+                                <test property="org.jkiss.dbeaver.core.global.ui.currentProjectResourceEditable"/>
+                <visibleWhen checkEnabled="true"/>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.headers.color.3.label"
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.regular.background.description</description>
+        </handler>
+    </extension>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+            <enabledWhen>
+                value="255,230,100">
+                        <test property="org.jkiss.dbeaver.ui.editors.erd.editor.canUndo"/>
+        <confirmation
+        <command id="org.jkiss.dbeaver.erd.focus.parameter" name="%command.org.jkiss.dbeaver.erd.focus.parameters.name" description="%command.org.jkiss.dbeaver.erd.focus.parameters.description" categoryId="org.eclipse.gef.category.view"/>
+                                    <test property="org.jkiss.dbeaver.core.global.ui.currentProjectResourceEditable"/>
+            toggleMessage="%confirm.erd_open_exported_file.toggleMessage"
+            <activeWhen>
+
+
+                </visibleWhen>
+        <colorDefinition
+            group="%editor.erd.name"/>
+        <colorDefinition
+                %themeElementCategory.org.jkiss.dbeaver.ui.presentation.erd.description
+                </with>
+        </colorDefinition>
+                    </adapt>
+                    </adapt>
+
+             router="org.jkiss.dbeaver.ui.editors.erd.router.shortpath.ShortPathRouting">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+    <extension-point id="org.jkiss.dbeaver.ui.editors.erd.notation.style" name="ER Diagram Notation Style Specification" schema="schema/org.jkiss.dbeaver.ui.editors.erd.notation.style.exsd"/>
+                id="org.jkiss.dbeaver.erd.diagram.notes.foreground"
+                    </with>
+        </colorDefinition>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+            <keywordReference id="org.jkiss.dbeaver.core.keyword.pref.editor.erd"/>
+                    <equals value="org.jkiss.dbeaver.erd.ERDEditor"/>
+        </colorDefinition>
+                icon="platform:/plugin/org.jkiss.dbeaver.model.erd/icons/erd.svg"
+            <activeWhen>
+                value="165,225,135">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.headers.color.2.label"
+        <exportFormat ext="png" label="PNG format" class="org.jkiss.dbeaver.ui.editors.erd.export.ERDExportRasterImage"/>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.borders.color.3.label"
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+        <colorDefinition
+                        <iterate operator="and">
+        <key commandId="org.jkiss.dbeaver.erd.focus.palette" contextId="org.eclipse.ui.contexts.window" schemeId="org.jkiss.dbeaver.keyboardOnlyKeyScheme" sequence="ALT+2"/>
+        <themeElementCategory label="%themeElementCategory.org.jkiss.dbeaver.ui.presentation.erd.headers.label" id="org.jkiss.dbeaver.ui.presentation.erd.headers" parentId="org.jkiss.dbeaver.ui.presentation.erd">
+        <colorDefinition
+                id="org.jkiss.dbeaver.erd.diagram.background"
+        <colorDefinition
+        <colorDefinition
+        </colorDefinition>
+
+                </with>
+                </with>
+
+    </extension>
+                value="255,128,64">
+            </activeWhen>
+                        <count value="1"/>
+                id="org.jkiss.dbeaver.erd.diagram.attributes.foreground"
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.borders.color.7.label"
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart">
+                <with variable="activeFocusControlId">
+        <command id="org.jkiss.dbeaver.erd.focus.palette" name="%command.org.jkiss.dbeaver.erd.focus.palette.name" description="%command.org.jkiss.dbeaver.erd.focus.palette.description" categoryId="org.eclipse.gef.category.view"/>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+        <fontDefinition
+            <adapter type="org.jkiss.dbeaver.model.DBPQualifiedObject"/>
+        <colorDefinition
+                id="org.jkiss.dbeaver.erd.diagram.entity.regular.background"
+            </activeWhen>
+             notation="org.jkiss.dbeaver.ui.editors.erd.notation.crowsfoot.CrowsFootDiagramNotation">
+                        <iterate operator="and">
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.lines.foreground.label"
+        <colorDefinition
+
+
+        <handler commandId="org.jkiss.dbeaver.erd.diagram.create" class="org.jkiss.dbeaver.ui.editors.erd.navigator.CreateDiagramHandler">
+            main="false"
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.attributes.foreground.description</description>
+             notation="org.jkiss.dbeaver.ui.editors.erd.notation.idef1x.IDEF1XDiagramNotation">
+
+                    <equals value="org.jkiss.dbeaver.erd.ERDEditor"/>
+                </with>
+        <themeElementCategory
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.primary.background.description</description>
+                id="org.jkiss.dbeaver.ui.presentation.erd.headers.color.6"
+                </with>
+        </handler>
+           </description>
+                        <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart">
+                value="Segoe UI-regular-8">
+    <extension point="org.eclipse.ui.perspectiveExtensions">
+        </handler>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.attributes.background.label"
+            <description>%fontDefinition.org.jkiss.dbeaver.erd.diagram.font.description</description>
+                value="COLOR_INFO_FOREGROUND">
+                </with>
+        </colorDefinition>
+             id="org.jkiss.dbeaver.erd.router.shortest.path"
+        <colorDefinition
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+        </colorDefinition>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+                <with variable="activeFocusControl">
+                </with>
+                id="org.jkiss.dbeaver.erd.diagram.notes.background"
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.borders.color.5.label"
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+                </visibleWhen>
+        <handler commandId="org.eclipse.ui.edit.undo" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerUndo">
+                    <and>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.search.highlighting.label"
+        <command id="org.jkiss.dbeaver.erd.diagram.view" name="%command.org.jkiss.dbeaver.erd.diagram.view.name" description="%command.org.jkiss.dbeaver.erd.diagram.view.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+        <handler commandId="org.jkiss.dbeaver.erd.focus.parameter" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerFocus">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+    </extension>
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.fk.highlighting.description</description>
+            </enabledWhen>
+    <extension point="org.eclipse.ui.bindings">
+        <handler commandId="org.jkiss.dbeaver.erd.focus.palette" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerFocus">
+                </with>
+                </and>
+            <adapter type="org.jkiss.dbeaver.model.navigator.DBNNode"/>
+            </activeWhen>
+
+                id="org.jkiss.dbeaver.ui.presentation.erd.borders.color.5"
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+        <colorDefinition
+        <themeElementCategory label="%themeElementCategory.org.jkiss.dbeaver.ui.presentation.erd.borders.label" id="org.jkiss.dbeaver.ui.presentation.erd.borders" parentId="org.jkiss.dbeaver.ui.presentation.erd">
+                value="249, 214, 205">
+    <extension point="org.jkiss.dbeaver.databaseEditor">
+        </colorDefinition>
+    </extension>
+        </handler>
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.lines.foreground.description</description>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.background.label"
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+             properties="canUndo,canRedo,canDelete,editable,supportsStructureEdit,editMode,isERD"
+             name="Shortest paths"
+        <image commandId="org.jkiss.dbeaver.erd.diagram.view" icon="platform:/plugin/org.jkiss.dbeaver.model.erd/icons/erd.svg"/>
+    </extension>
+            </activeWhen>
+            </themeid>
+
+             description="Crow's Foot diagram notation"
+                id="org.jkiss.dbeaver.ui.presentation.erd.headers.color.1"
+        <exportFormat ext="graphml" label="GraphML format" class="org.jkiss.dbeaver.ui.editors.erd.export.ERDExportGraphML"/>
+        </menuContribution>
+            </activeWhen>
+        <editor name="%editor.org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorStandalone.name"
+             type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart">
+            <enabledWhen>
+        </colorDefinition>
+        <colorDefinition
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+            <adapter type="org.jkiss.dbeaver.model.struct.DBSEntity"/>
+    </extension>
+                id="org.jkiss.dbeaver.ui.presentation.erd">
+             icon="platform:/plugin/org.jkiss.dbeaver.model.erd/icons/erd.svg"
+                                <test property="org.jkiss.dbeaver.model.isTableContainer"/>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+        </colorDefinition>
+        <stylesheet uri="css/e4-dark-erd-editor.css">
+                value="124, 38, 19">
+                        </iterate>
+        </fontDefinition>
+                id="org.jkiss.dbeaver.ui.presentation.erd.borders.color.3"
+    </extension>
+             description="Integration DEFinition for information modeling (IDEF1X) notation"
+                value="248, 214, 205">
+       </propertyTester>
+            <command commandId="org.eclipse.ui.edit.selectAll"/>
+        <command id="org.jkiss.dbeaver.erd.focus.outline" name="%command.org.jkiss.dbeaver.erd.focus.outline.name" description="%command.org.jkiss.dbeaver.erd.focus.outline.description" categoryId="org.eclipse.gef.category.view"/>
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?after=object">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.headers"
+                    </with>
+                    <equals value="org.jkiss.dbeaver.erd.ERDEditor"/>
+            <activeWhen>
+                value="COLOR_INFO_FOREGROUND">
+    <extension point="org.eclipse.ui.commands">
+    <extension point="org.eclipse.ui.commandImages">
+        </factory>
+                </with>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.borders.color.1.label"
+            <description>%fontDefinition.org.jkiss.dbeaver.erd.diagram.font.notation.description</description>
+        <colorDefinition
+                    <with variable="activeFocusControl">
+        </handler>
+                id="org.jkiss.dbeaver.ui.presentation.erd.borders.color.2"
+                value="242, 132, 35">
+       </erdNotation>
+                value="228, 255, 181">
+    <extension point="org.eclipse.ui.preferencePages">
+        <colorDefinition
+
+        <colorDefinition
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+                <with variable="activeEditor">
+            <command commandId="org.jkiss.dbeaver.erd.diagram.create" label="%menu.create.new.diagram">
+                    <equals value="org.jkiss.dbeaver.erd.ERDEditor"/>
+            <activeWhen>
+    <extension point="org.eclipse.ui.menus">
+                    <adapt type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart">
+            <adapter type="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorPart"/>
+                    <equals value="org.jkiss.dbeaver.erd.ERDEditor"/>
+        <handler commandId="org.jkiss.dbeaver.erd.diagram.saveAs" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerSaveImage">
+
+        <image commandId="org.jkiss.dbeaver.erd.diagram.create" icon="platform:/plugin/org.jkiss.dbeaver.model.erd/icons/erd.svg"/>
+            label="%editor.erd.name"
+    <extension point="org.eclipse.ui.handlers">
+                            <test property="org.jkiss.dbeaver.ui.editors.erd.editor.canDelete"/>
+        <colorDefinition
+                </visibleWhen>
+                    <with variable="selection">
+        </handler>
+                id="org.jkiss.dbeaver.erd.diagram.search.highlighting"
+                <with variable="activeEditor">
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd.borders"
+            title="%confirm.erd_open_exported_file.title"
+             description="Router based on shortest pathes"
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.headers.color.4.label"
+        <handler commandId="org.eclipse.ui.edit.copy" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerCopy">
+            <description>%themeElementCategory.org.jkiss.dbeaver.ui.presentation.erd.borders.description</description>
+
+                defaultsTo="org.jkiss.dbeaver.dbeaver.ui.fonts.main">
+                        <iterate operator="and">
+        </factory>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.association.background.label"
+        </colorDefinition>
+            class="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorEmbedded"
+                    </iterate>
+             namespace="org.jkiss.dbeaver.ui.editors.erd.editor"
+                            </and>
+        <colorDefinition
+        </colorDefinition>
+          point="org.jkiss.dbeaver.ui.editors.erd.routing">
+            </enabledWhen>
+                        <count value="+"/>
+        </wizard>
+            </enabledWhen>
+        <key commandId="org.jkiss.dbeaver.erd.diagram.view" contextId="org.eclipse.ui.contexts.window" schemeId="org.eclipse.ui.defaultAcceleratorConfiguration" sequence="CTRL+SHIFT+ENTER"/>
+             name="Crow's Foot"
+                id="org.jkiss.dbeaver.ui.presentation.erd.headers.color.5"
+            id="erd_open_exported_file"
+        <handler commandId="org.eclipse.ui.edit.delete" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerDelete">
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.notes.background.label"
+            <command commandId="org.jkiss.dbeaver.erd.diagram.create" label="%menu.create.new.diagram">
+        </editor>
+                </with>
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+    <extension point="org.jkiss.dbeaver.confirmations">
+    <extension point="org.eclipse.core.expressions.propertyTesters">
+           <description>
+        <colorDefinition
+    </extension>
+            </activeWhen>
+        <initializer class="org.jkiss.dbeaver.ui.editors.erd.ERDPreferencesInitializer"/>
+        </handler>
+                id="org.jkiss.dbeaver.ui.presentation.erd.borders.color.7"
+        </handler>
+             id="org.jkiss.dbeaver.erd.notaion.crowsfoot"
+                </with>
+                </with>
+             name="%wizard.erd.name">
+        <!-- Colors for table borders -->
+                id="org.jkiss.dbeaver.erd.diagram.font.notation.label"
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.entity.name.foreground.description</description>
+<plugin>
+             id="org.jkiss.dbeaver.erd.notaion.idef1x"
+                <with variable="activeFocusControlId">
+        <page id="org.jkiss.dbeaver.preferences.erd.general" class="org.jkiss.dbeaver.ui.editors.erd.editor.ERDPreferencePage" name="%page.org.jkiss.dbeaver.preferences.erd.general.name">
+             class="org.jkiss.dbeaver.ui.editors.erd.navigator.DiagramCreateWizard"
+                value="0, 143, 207">
+
+        <handler commandId="org.eclipse.ui.edit.selectAll" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerSelectAll">
+            </enabledWhen>
+
+                        <count value="+"/>
+        </fontDefinition>
+                        <adapt type="org.jkiss.dbeaver.model.struct.DBSObject">
+    </extension>
+                <with variable="activePart">
+
+                id="org.jkiss.dbeaver.erd.diagram.entity.association.background"
+                contributorClass="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorContributor"
+    </extension>
+    <extension point="org.eclipse.ui.handlers">
+    </extension>
+        </page>
+    <extension point="org.eclipse.ui.propertyPages">
+                        <test property="org.jkiss.dbeaver.ui.editors.erd.editor.canRedo"/>
+            id="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorEmbedded"
+                value="251, 216, 166">
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.attributes.background.description</description>
+        <!-- All Context menus -->
+            message="%confirm.erd_open_exported_file.message"
+            <activeWhen>
+                    </with>
+                <with variable="activeEditor">
+            <command commandId="org.eclipse.ui.edit.undo"/>
+                <visibleWhen checkEnabled="true">
+            <separator name="selection" visible="true"/>
+                </with>
+
+                        <count value="(1-"/>
+        </colorDefinition>
+        <handler commandId="org.jkiss.dbeaver.erd.focus.outline" class="org.jkiss.dbeaver.ui.editors.erd.action.ERDHandlerFocus">
+                                <adapt type="org.jkiss.dbeaver.model.struct.DBSEntity"/>
+                    <equals value="org.jkiss.dbeaver.erd.ERDEditor"/>
+        <colorDefinition
+        <factory adaptableType="org.eclipse.gef.EditPart" class="org.jkiss.dbeaver.ui.editors.erd.model.ERDObjectAdapter">
+        <menuContribution allPopups="false" locationURI="popup:org.eclipse.ui.popup.any?before=generate">
+          point="org.jkiss.dbeaver.ui.editors.erd.notation.style">
+                <with variable="activeFocusControl">
+            <activeWhen>
+             class="org.jkiss.dbeaver.ui.editors.erd.action.ERDEditorPropertyTester"
+                value="225, 221, 252">
+            <themeid refid="org.eclipse.e4.ui.css.theme.e4_dark">
+                id="org.jkiss.dbeaver.ui.presentation.erd.headers.color.7"
+            </activeWhen>
+        </colorDefinition>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.headers.color.5.label"
+        </menuContribution>
+                    <count value="+"/>
+             category="org.jkiss.dbeaver.core.new.general"
+        <exportFormat ext="gif" label="GIF format" class="org.jkiss.dbeaver.ui.editors.erd.export.ERDExportRasterImage"/>
+        </handler>
+
+                                <instanceof value="org.jkiss.dbeaver.model.struct.rdb.DBSTable"/>
+        <exportFormat ext="bmp" label="BMP format" class="org.jkiss.dbeaver.ui.editors.erd.export.ERDExportRasterImage"/>
+        </colorDefinition>
+        </colorDefinition>
+        </perspectiveExtension>
+        <fontDefinition
+        <colorDefinition
+                        </adapt>
+                label="%colorDefinition.org.jkiss.dbeaver.erd.diagram.borders.color.4.label"
+                categoryId="org.jkiss.dbeaver.ui.presentation.erd"
+        <handler commandId="org.jkiss.dbeaver.erd.diagram.view" class="org.jkiss.dbeaver.ui.editors.erd.navigator.ViewDiagramHandler">
+                <with variable="selection">
+            <description>%colorDefinition.org.jkiss.dbeaver.erd.diagram.background.description</description>
+        <command id="org.jkiss.dbeaver.erd.diagram.create" name="%command.org.jkiss.dbeaver.erd.diagram.create.name" description="%command.org.jkiss.dbeaver.erd.diagram.create.description" categoryId="org.jkiss.dbeaver.core.navigator"/>
+                value="157, 214, 245">
+
+            <command commandId="org.jkiss.dbeaver.erd.diagram.create" label="%menu.create.new.diagram">
+            <adapter type="org.jkiss.dbeaver.model.DBPNamedObject"/>
+    <extension
+                            <adapt type="org.eclipse.core.resources.IFolder">
+
+        <factory adaptableType="org.eclipse.ui.IEditorPart" class="org.jkiss.dbeaver.ui.editors.erd.editor.ERDEditorAdapter">
+        </editor>
+        </colorDefinition>

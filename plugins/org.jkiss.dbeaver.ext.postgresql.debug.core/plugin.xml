@@ -1,0 +1,15 @@
+      </factory>
+         <adapter type="org.jkiss.dbeaver.debug.DBGResolver"/>
+         <adapter type="org.jkiss.dbeaver.debug.DBGBreakpointDescriptor"/>
+   </extension>
+         <adapter type="org.jkiss.dbeaver.debug.DBGControllerFactory"/>
+
+      </factory>
+<plugin>
+      <factory adaptableType="org.jkiss.dbeaver.ext.postgresql.model.PostgreProcedure" class="org.jkiss.dbeaver.ext.postgresql.debug.internal.PostgreBreakpointAdapterFactory">
+   <extension point="org.eclipse.core.runtime.adapters">
+</plugin>
+<?eclipse version="3.4"?>
+      <factory adaptableType="org.jkiss.dbeaver.model.DBPDataSourceContainer" class="org.jkiss.dbeaver.ext.postgresql.debug.internal.PostgreDebugAdapterFactory">
+
+<?xml version="1.0" encoding="UTF-8"?>

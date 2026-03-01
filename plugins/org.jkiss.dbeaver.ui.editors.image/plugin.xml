@@ -1,0 +1,10 @@
+    </extension>
+
+<?xml version="1.0" encoding="UTF-8"?>
+    <extension point="org.jkiss.dbeaver.dataManager">
+
+</plugin>
+<plugin>
+        <streamManager class="org.jkiss.dbeaver.ui.data.managers.image.ImageStreamValueManager" id="image" label="Image" primaryMime="octet/image"
+<?eclipse version="3.2"?>
+                       description="Image viewer" icon="platform:/plugin/org.jkiss.dbeaver.model/icons/types/image.svg"/>

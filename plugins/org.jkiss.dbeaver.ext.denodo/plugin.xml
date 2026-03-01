@@ -1,0 +1,47 @@
+                        defaultPassword="admin"
+    </extension>
+                label="Denodo"
+                        label="Denodo"
+                        webURL="https://community.denodo.com/docs/html/browse/latest/vdp/developer/access_through_jdbc/access_through_jdbc"
+                        description="Denodo Virtual DataPort JDBC driver"
+        </dialect>
+                dialect="generic">
+        <meta id="denodo" class="org.jkiss.dbeaver.ext.denodo.model.DenodoMetaModel" driverClass="com.denodo.vdp.jdbc.Driver"/>
+                        class="com.denodo.vdp.jdbc.Driver"
+                </driver>
+                parent="generic"
+</plugin>
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+
+            </drivers>
+    </extension>
+        <!-- Denodo Platform -->
+                class="org.jkiss.dbeaver.ext.denodo.DenodoDataSourceProvider"
+                icon="icons/denodo_icon.png"
+                id="denodo"
+                        defaultPort="9999"
+<?eclipse version="3.2"?>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                        iconBig="icons/denodo_icon_big.png"
+                    <file type="jar" path="https://community.denodo.com/drivers/jdbc/9/denodo-vdp-jdbcdriver"/>
+        </datasource>
+                <driver
+            <drivers managable="true">
+                        id="denodo8_jdbc"
+
+                        defaultUser="admin"
+                description="Denodo data source"
+<?xml version="1.0" encoding="UTF-8"?>
+        <datasource
+
+
+                        defaultDatabase="admin"
+    </extension>
+<plugin>
+                        icon="icons/denodo_icon.png"
+        <dialect id="denodo" parent="generic" class="org.jkiss.dbeaver.ext.denodo.model.DenodoSQLDialect" label="Denodo" description="Denodo SQL dialect." icon="icons/denodo_icon.png">
+
+
+    <extension point="org.jkiss.dbeaver.generic.meta">
+                        categories="sql,analytic">
+                        sampleURL="jdbc:denodo://{host}:{port}/{database}"

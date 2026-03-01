@@ -1,0 +1,56 @@
+                    <file type="jar" path="maven:/com.mysql:mysql-connector-j:RELEASE[8.2.0]" bundle="!drivers.mysql"/>
+                    class="com.mysql.jdbc.Driver"
+        <authModel
+            class="org.jkiss.dbeaver.ext.oceanbase.model.auth.OceanbaseAuthModelDatabaseNative"
+            default="true">
+                    <parameter name="supports-users" value="true"/>
+                    <parameter name="supports-events" value="false"/>
+            label="Oceanbase">
+            class="org.jkiss.dbeaver.ext.oceanbase.OceanbaseDataSourceProvider"
+
+                    label="OceanBase"
+    
+</plugin>
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+        <datasource
+                    categories="sql">
+                    sampleURL="jdbc:mysql://{host}:{port}[/{database}]"
+                           changeFolderType="org.jkiss.dbeaver.ext.oceanbase.model.OceanbaseMySQLCatalog"/>
+                    id="alipay_oceanbase"
+                <driver
+            <treeInjection path="mysql/database/view/column"
+    <extension point="org.jkiss.dbeaver.dataSourceAuth">
+            </drivers>
+
+<?xml version="1.0" encoding="UTF-8"?>
+                    webURL="https://open.oceanbase.com"
+                    supportedPageFields="host,port,database,server"
+<plugin>
+    </extension>
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+        </datasource>
+            parent="mysql"
+            <replace model="native"/>
+            id="oceanbase"
+            label="Oceanbase Native"
+
+            description="Oceanbase native authentication (name/password)"
+                    description="Driver for OceanBase-MySQL"
+            <datasource id="oceanbase"/>
+                    <file type="jar" path="drivers/mysql/mysql8" bundle="drivers.mysql"/>
+            description="Oceanbase"
+            <drivers managable="true">
+                    icon="icons/ob_icon.png"
+            dialect="mysql"
+        </authModel>
+                    iconBig="icons/ob_icon_big.png"
+    </extension>
+                    <parameter name="supports-plugins" value="false"/>
+
+                    defaultPort="2881"
+                    <parameter name="supports-triggers" value="false"/>
+                           changeFolderType="org.jkiss.dbeaver.ext.oceanbase.model.OceanbaseMySQLViewColumn"/>
+<?eclipse version="3.2"?>
+            id="oceanbase_native"
+            <treeInjection path="mysql/database"
+                </driver>

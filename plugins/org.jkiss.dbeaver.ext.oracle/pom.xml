@@ -1,0 +1,14 @@
+  <packaging>eclipse-plugin</packaging>
+  </parent>
+  <artifactId>org.jkiss.dbeaver.ext.oracle</artifactId>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <version>2.1.260-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
+    <artifactId>plugins</artifactId>
+  <parent>
+<?xml version="1.0" encoding="UTF-8"?>
+  <modelVersion>4.0.0</modelVersion>
+     <relativePath>../</relativePath>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+</project>
+    <groupId>org.jkiss.dbeaver</groupId>

@@ -1,0 +1,14 @@
+    <version>1.0.0-SNAPSHOT</version>
+</project>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+  </parent>
+  <artifactId>org.jkiss.dbeaver.ext.hsqldb</artifactId>
+  <version>1.0.222-SNAPSHOT</version>
+  <parent>
+  <packaging>eclipse-plugin</packaging>
+     <relativePath>../</relativePath>
+  <modelVersion>4.0.0</modelVersion>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <artifactId>plugins</artifactId>
+<?xml version="1.0" encoding="UTF-8"?>
+    <groupId>org.jkiss.dbeaver</groupId>

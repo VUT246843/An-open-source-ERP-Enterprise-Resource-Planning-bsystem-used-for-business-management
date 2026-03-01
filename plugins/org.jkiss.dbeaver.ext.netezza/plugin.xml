@@ -1,0 +1,15 @@
+        </dialect>
+
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+    <extension point="org.jkiss.dbeaver.generic.meta">
+    </extension>
+<?eclipse version="3.2"?>
+</plugin>
+        <dialect id="netezza" parent="generic" class="org.jkiss.dbeaver.ext.netezza.model.NetezzaSQLDialect" label="Netezza" description="Netezza SQL dialect." icon="platform:/plugin/org.jkiss.dbeaver.ext.generic/icons/netezza_icon.png">
+
+<?xml version="1.0" encoding="UTF-8"?>
+        <meta id="netezza" class="org.jkiss.dbeaver.ext.netezza.model.NetezzaMetaModel" driverClass="org.netezza.Driver"/>
+
+
+<plugin>
+    </extension>

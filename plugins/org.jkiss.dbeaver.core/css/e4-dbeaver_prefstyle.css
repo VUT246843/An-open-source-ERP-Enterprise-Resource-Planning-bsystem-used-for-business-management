@@ -1,0 +1,63 @@
+.View Composite Tree,
+    swt-unselected-tabs-color: '#org-eclipse-ui-workbench-INACTIVE_TAB_BG_START' '#org-eclipse-ui-workbench-INACTIVE_TAB_BG_END' 100%;
+    background-color: #fbfbfb;
+}
+}
+
+    swt-selected-tabs-background: '#org-eclipse-ui-workbench-ACTIVE_TAB_BG_START' '#org-eclipse-ui-workbench-ACTIVE_TAB_BG_END' 100%;
+}
+/* ############################# DBeaver preferences ############################# */
+
+ IEclipsePreferences#org-eclipse-ui-workbench:org-eclipse-draw2d {
+
+#org-eclipse-ui-editorss CTabFolder.coloredByConnectionType {
+.View Group Label,
+.View Section,
+}
+.View WebSite,
+#org-eclipse-e4-ui-compatibility-editor Composite {
+}
+    swt-tab-outline: '#org-eclipse-ui-workbench-INACTIVE_TAB_OUTLINE_COLOR';
+
+}
+}
+{
+
+CTabFolder {
+    swt-tab-renderer: url('bundleclass://org.jkiss.dbeaver.core/org.jkiss.dbeaver.ui.e4.DBeaverCTabFolderRenderer');
+.View FigureCanvas
+    swt-unselected-hot-tab-color-background: '#org-eclipse-ui-workbench-ACTIVE_TAB_BG_START' '#org-eclipse-ui-workbench-ACTIVE_TAB_BG_END' 50%;
+    /* Workaround for org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering.TAB_OUTLINE_WIDTH */
+
+/* Includes styles for all plugins. Eclipse bug? */
+#org-eclipse-e4-ui-compatibility-editor Canvas > *
+    preferences:
+
+    swt-outer-keyline-color: '#org-eclipse-ui-workbench-INACTIVE_TAB_OUTER_KEYLINE_COLOR';
+
+    background-color: #f8f8f8;
+    swt-outer-keyline-color: COLOR-WIDGET-BACKGROUND;
+.EditorStack, .MPartStack {
+
+    swt-tab-outline: COLOR-WIDGET-NORMAL-SHADOW;
+#org-eclipse-e4-ui-compatibility-editor Canvas,
+.View Group,
+.View Composite,
+    swt-tab-renderer: url('bundleclass://org.jkiss.dbeaver.core/org.jkiss.dbeaver.ui.e4.DBeaverCTabFolderRenderer');
+.View Hyperlink,
+.View Browser,
+
+
+.View Canvas,
+{
+.View Link,
+
+.View Composite Label,
+    swt-inner-keyline-color: '#org-eclipse-ui-workbench-INACTIVE_TAB_INNER_KEYLINE_COLOR';
+
+    swt-inner-keyline-color: COLOR-WIDGET-BACKGROUND;
+    background-color: #ffffff;
+    swt-corner-radius: 6;
+    padding: 0px -1px -1px -1px;
+.View FormText,
+        'org.eclipse.gef.color.line.foreground=192,192,192'

@@ -1,0 +1,15 @@
+    <artifactId>org.jkiss.dbeaver.ext.altibase.test</artifactId>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+<?xml version="1.0" encoding="UTF-8"?>
+        <groupId>org.jkiss.dbeaver</groupId>
+    <packaging>eclipse-test-plugin</packaging>
+
+        <artifactId>tests</artifactId>
+    </parent>
+    <parent>
+        <relativePath>../</relativePath>
+        <version>1.0.0-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+</project>    <version>1.0.36-SNAPSHOT</version>
+         xmlns="http://maven.apache.org/POM/4.0.0"

@@ -1,0 +1,43 @@
+                <configuration>
+                <artifactId>antlr4-maven-plugin</artifactId>
+        <groupId>org.jkiss.dbeaver</groupId>
+                            </outputDirectory>
+        </plugins>
+    <parent>
+        <plugins>
+                                target/generated-sources/antlr4/org/jkiss/dbeaver/model/lsm/sql/impl/syntax
+                    <listener>false</listener>
+        <relativePath>../</relativePath>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+</project>
+<?xml version="1.0" encoding="UTF-8"?>
+            </plugin>
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    </execution>
+                </executions>
+                            <sourceDirectory>grammar</sourceDirectory>
+                    <execution>
+                        </goals>
+        <artifactId>plugins</artifactId>
+    </parent>
+                            <goal>antlr4</goal>
+
+                        <phase>generate-sources</phase>
+    <version>1.0.70-SNAPSHOT</version>
+                        <goals>
+    <artifactId>org.jkiss.dbeaver.model.lsm</artifactId>
+                <groupId>org.antlr</groupId>
+    <packaging>eclipse-plugin</packaging>
+                </configuration>
+                <executions>
+         xmlns="http://maven.apache.org/POM/4.0.0"
+                            <outputDirectory>
+            <plugin>
+    <modelVersion>4.0.0</modelVersion>
+                        </configuration>
+
+                    <visitor>false</visitor>
+                        <configuration>
+    </build>
+        <version>1.0.0-SNAPSHOT</version>
+    <build>

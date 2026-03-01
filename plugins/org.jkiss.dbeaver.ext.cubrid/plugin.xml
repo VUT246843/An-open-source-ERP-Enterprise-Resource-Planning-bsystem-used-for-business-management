@@ -1,0 +1,252 @@
+                                </items>
+                    sampleURL="jdbc:CUBRID:{host}:{port}:{database}:::"
+        <initializer class="org.jkiss.dbeaver.ext.cubrid.internal.CubridPreferencesInitializer"/>
+                        <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTableIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip">
+                                    </folder>
+</plugin>
+                                </items>
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableForeignKey" label="%tree.foreign_keys.node.name" icon="#foreign-keys" description="%tree.foreign_keys.node.tip">
+                    <property name="usePreparedStmtCache" value="false"/>
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridSequenceManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridSequence"/>
+                    categories="sql">
+                                    <folder type="org.jkiss.dbeaver.ext.generic.model.GenericTableForeignKey" label="%tree.foreign_keys.node.name" icon="#foreign-keys" description="%tree.foreign_keys.node.tip">
+                                </items>
+                    <property name="rcTime" value="600"/>
+            description="Cubrid JDBC connector"
+	                                <folder label="%tree.parameters.node.name" icon="#columns" description="%tree.parameters.node.name">
+                    <property name="zeroDateTimeBehavior" value="exception"/>
+                            <folder label="%tree.procedures.node.name" icon="#procedures" description="%tree.procedures.node.name" type="org.jkiss.dbeaver.ext.cubrid.model.CubridProcedure">
+                                        <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger">
+                </folder>
+                    supportedConfigurationTypes="MANUAL,URL"
+                            </folder>
+
+                        </folder>
+            <datasource id="cubrid"/>
+            </tree>
+                </folder>
+<plugin>
+                                        </items>
+        </dialect>
+    <extension point="org.jkiss.dbeaver.dataTypeProvider">
+                            <items label="%tree.sequence.node.name" path="sequence" property="sequences" icon="#sequence">
+                                            <items label="%tree.uni_key.columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+        </repository>
+                            <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTable" label="%tree.system_tables.node.name" icon="#folder_table" description="%tree.system_table.node.tip" visibleIf="object.supportsSystemTable() &amp;&amp; object.showSystemTableFolder()">
+                                </folder>
+                                    <items label="%tree.foreign_key.node.name" path="association" property="associations" icon="#foreign-key">
+                                <items label="%tree.function.node.name" path="function" property="functionsOnly">
+                        </folder>
+        </provider>
+                                        </items>
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                                        </items>
+
+                                            </items>
+                            <items label="%tree.index.node.name" path="index" property="indexes" icon="#index">
+            parent="generic"
+                    <property name="@dbeaver-default-resultset.maxrows.sql" value="true"/>
+                        description="%tree.users.node.tip" visibleIf="!object.isEOLVersion()">
+                                    <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTableColumn" label="%tree.columns.node.name" icon="#columns" description="View columns">
+                                            <items label="%tree.index_columns.node.name" path="column" property="attributeReferences" icon="#column" navigable="false" inline="true">
+                    <items label="%tree.server.node.name" path="cubridServer" property="cubridServers" icon="#server"/>
+                                <folder label="%tree.references.node.name" icon="#references" description="%tree.references.node.tip" virtual="true">
+                    <items label="Shard Hint" path="cubridShard" property="cubridShards" icon="#button"/>
+
+                    <property name="queryTimeout" value="0"/>
+                                <items label="%tree.table.node.name" path="table" property="physicalSystemTables" icon="#table">
+                                </folder>
+        <dialect id="cubrid" parent="generic" class="org.jkiss.dbeaver.ext.cubrid.model.CubridSQLDialect" label="Cubrid"
+        <meta id="cubrid" class="org.jkiss.dbeaver.ext.cubrid.model.meta.CubridMetaModel" driverClass="cubrid.jdbc.driver.CUBRIDDriver"/>
+            icon="icons/cubrid_icon.png"
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridShardManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridShard"/>
+                                    </items>
+                                </items>
+                                        <items label="%tree.foreign_key_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+<?xml version="1.0" encoding="UTF-8"?>
+                                        </items>
+                                    </items>    
+                    <property name="preparedStmtCacheSqlLimit" value="256"/>
+                                            </items>
+                    <property name="clientCacheSize" value="1"/>
+                            </items>
+                    <property name="logFile" value="cubrid_jdbc.log"/>
+                    <property name="hold_cursor" value="true"/>
+                        <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTable" label="%tree.tables.node.name" icon="#folder_table" description="%tree.tables.node.tip">
+                            </items>
+                    <property name="preparedStmtCacheSize" value="25"/>
+                                <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTrigger" label="%tree.triggers.node.name" icon="#folder_trigger" description="%tree.triggers.node.tip" visibleIf="object.supportsTrigger()">
+                                <items label="%tree.index_columns.node.name" path="column" property="attributeReferences" icon="#column" navigable="false" inline="true">
+                    class="cubrid.jdbc.driver.CUBRIDDriver"
+                                </folder>
+                                    <folder label="%tree.parameters.node.name" icon="#columns" description="%tree.parameters.node.name">
+                <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridServer" label="%tree.servers.node.name" icon="#folder_server" description="%tree.servers.node.tip"
+                                    <items label="%tree.index.node.name" path="index" property="indexes" icon="#index">
+                                        </items>
+                                    <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+
+                    <property name="charset" value="utf-8"/>
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridIndexManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridTableIndex"/>
+                                        </items>
+                    <property name="logOnException" value="false"/>
+    <extension point="org.jkiss.dbeaver.generic.meta">
+                    iconBig="icons/cubrid_icon_big.png"
+                            </folder>
+             </drivers>
+                                    </folder>
+                    <items label="%tree.user.node.name" path="CubridPrivilage" property="CubridPrivilages" icon="#user"/>
+                        </folder>
+                </folder>
+                        <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridSequence" label="%tree.sequences.node.name" icon="#folder_sequence" description="%tree.sequences.node.tip">
+                                        <items label="%tree.reference_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true" virtual="true">
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridTriggerManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridTrigger"/>
+        <repository id="cubrid-maven-repo" name="Cubrid Repository" url="https://maven.cubrid.org">
+                                    <folder type="org.jkiss.dbeaver.ext.generic.model.GenericUniqueKey" label="%tree.uni_keys.node.name" icon="#constraints" description="%tree.uni_keys.node.tip">
+                                        </items>
+                        </folder>
+            class="org.jkiss.dbeaver.ext.cubrid.CubridDataSourceProvider"
+                        <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridSynonym" label="%tree.synonyms.node.name" icon="#folder_synonym" description="%tree.synonyms.node.tip" visibleIf="object.supportsSynonym()">
+                </driver>
+                                        <items label="%tree.parameters.node.name" itemLabel="%tree.column.node.name" path="column" property="params">
+    <extension point="org.jkiss.dbeaver.mavenRepository">
+    <extension point="org.eclipse.core.runtime.preferences">
+                    <property name="useSSL" value="false"/>
+                                <folder type="org.jkiss.dbeaver.ext.generic.model.GenericUniqueKey" label="%tree.uni_keys.node.name" icon="#constraints" description="%tree.uni_keys.node.tip">
+                                        <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                                        </items>
+                                </folder>
+    </extension>
+                    <property name="loadBalance" value="false"/>
+                                        <items label="%tree.parameters.node.name" itemLabel="%tree.column.node.name" path="column" property="params">
+                                            </items>
+                    icon="icons/cubrid_icon.png"
+                                    </folder>
+                                    <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTableIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip">
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridTableManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridTable"/>
+    </extension>
+                            </items>
+                </folder>
+                    <file type="jar" path="drivers/cubrid" bundle="drivers.cubrid"/>
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridProcedureManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridProcedure"/>
+                                </folder>
+                                <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridPartition" label="%tree.partitions.node.name" icon="#partitions" description="%tree.partitions.node.tip">
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridViewManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridView"/>
+
+                                    <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTrigger" label="%tree.triggers.node.name" icon="#folder_trigger" description="%tree.triggers.node.tip" visibleIf="object.supportsTrigger()">
+
+                                    </folder>
+                    defaultPort="30000"
+            label="Cubrid"
+    </extension>
+                    <replace provider="generic" driver="cubrid_jdbc"/>
+                            <items label="%tree.table.node.name" path="table" property="physicalTables" icon="#table">
+                                        <items label="%tree.reference.node.name" path="reference" property="references" icon="#reference" virtual="true">
+                        icon="#folder_schema" description="%tree.schemas.node.tip" visibleIf="!object.isEOLVersion()">
+                    <parameter name="stored-unquoted-case" value="UPPER"/>
+            <scope group="cubrid"/>
+                    label="CUBRID"
+                            </folder>
+                                        </items>
+                            </folder>
+    <extension point="org.jkiss.dbeaver.sqlDialect">
+                 description="Cubrid SQL dialect." icon="icons/cubrid_icon.png">
+                                        </items>
+                                </folder>
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridSynonymManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridSynonym"/>
+                                    </items>
+                                        <items label="%tree.index.node.name" path="index" property="indexes" icon="#index">
+                            <items label="%tree.synonym.node.name" path="synonym" property="synonyms" icon="#synonym">
+                    <property name="slowQueryThresholdMillis" value="60000"/>
+                    <file type="jar" path="maven:/cubrid:cubrid-jdbc:RELEASE" bundle="!drivers.cubrid"/>
+                            <folder label="%tree.functions.node.name" icon="#procedures" description="%tree.functions.node.name" type="org.jkiss.dbeaver.ext.cubrid.model.CubridProcedure">
+    <extension point="org.jkiss.dbeaver.objectManager">
+                            <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridView" label="%tree.system_views.node.name" icon="#folder_view" description="%tree.system_views.node.tip" visibleIf="object.supportsSystemView() &amp;&amp; object.showSystemTableFolder()">
+                    id="cubrid_jdbc"
+            <drivers managable="true">
+                            </items>
+                                    <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTableColumn" label="%tree.columns.node.name" icon="#columns" description="%tree.columns.node.tip">
+                                    <items label="%tree.reference.node.name" path="reference" property="references" icon="#reference" virtual="true">
+
+                    webURL="https://www.cubrid.org/manual/en/11.2/api/jdbc.html#configuration-connection"
+                                            <items label="%tree.reference_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true" virtual="true">
+                <folder type="org.jkiss.dbeaver.model.struct.DBSDataType" label="%tree.dataTypes.node.name" icon="#data_types" description="%tree.dataTypes.node.tip">
+                </folder>
+                                    </items>
+
+                    <property name="useLazyConnection" value="false"/>
+                    <items label="%tree.user.node.name" path="cubridUser" property="cubridUsers" icon="#schema">
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridServerManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridServer"/>
+                                    </folder>
+                                    </items>
+                                    </folder>
+                                        </items>
+                                        <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                                        <items label="%tree.column.node.name" path="attribute" property="attributes" icon="#column">
+                                <items label="%tree.procedure.node.name" path="procedure" property="proceduresOnly">
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridPartitionManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridPartition"/>
+                                        </items>
+    </extension>
+    </extension>
+                                        <items label="%tree.index_columns.node.name" path="column" property="attributeReferences" icon="#column" navigable="false" inline="true">
+                                    </folder>
+                                    </items>
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridUserManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridPrivilage"/>
+        <provider id="CubridValueHandlerProvider" parent="GenericValueHandlerProvider" class="org.jkiss.dbeaver.ext.cubrid.data.CubridValueHandlerProvider" label="Cubrid data types provider" description="Cubrid data types provider">
+                                        </items>
+                                        <items label="%tree.uni_key.node.name" path="uniqueKey" property="constraints" icon="#unique-key">
+                        <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTrigger" label="%tree.triggers.node.name" icon="#folder_trigger" description="%tree.triggers.node.tip" visibleIf="object.supportsTrigger()">
+                        </folder>
+                                    </folder>
+            <tree path="cubrid" label="Cubrid data source" supportsEntityMerge="true">
+                        visibleIf="object.supportsServer() &amp;&amp; !object.isEOLVersion()">
+                                    </items>
+                        <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridView" label="%tree.tviews.node.name" icon="#folder_view" description="%tree.tviews.node.tip">
+                    <property name="altHosts" value=""/>
+                <driver
+                                            </items>
+                        </folder>
+                                </items>
+        </datasource>
+                                    <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger">
+                                        <items label="%tree.uni_key.columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+            <type name="CLASS"/>
+                    <property name="logSlowQueries" value="false"/>
+                            <items label="%tree.trigger.node.name" path="trigger" property="triggers" icon="#trigger">
+                                        </items>
+                                    </folder>
+                <folder id="privilages" type="org.jkiss.dbeaver.ext.cubrid.model.CubridPrivilage" label="%tree.users.node.name" icon="#folder_user"
+                    description="CUBRID JDBC driver"
+                            </items>
+        <datasource
+
+            dialect="cubrid">
+    <extension point="org.jkiss.dbeaver.dataSourceProvider">
+                    <items label="%tree.dataType.node.name" path="dataType" property="dataTypes" icon="#data_type"/>
+                                    <items label="%tree.uni_key.node.name" path="uniqueKey" property="constraints" icon="#unique-key">
+                                    <items label="%tree.partitions.node.name" path="partition" property="partitions" icon="#partition">
+                                <items label="%tree.tview.node.name" path="view" property="systemViews" icon="#view">
+                <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridShard" label="Shard Hint" icon="#folder" description="Shard DB"
+                        <folder id="procedures-or-functions" label="%tree.procedures_functions.node.name" icon="#folder_procedure" description="%tree.procedures_functions.node.tip">
+                                <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTableColumn" label="%tree.columns.node.name" icon="#columns" description="%tree.columns.node.tip">
+                                    <folder label="%tree.references.node.name" icon="#references" description="%tree.references.node.tip" virtual="true">
+                <folder id="schemas" type="org.jkiss.dbeaver.ext.cubrid.model.CubridUser" label="%tree.schemas.node.name"
+
+                                <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTableColumn" label="%tree.columns.node.name" icon="#columns" description="View columns">
+                            </items>
+<?eclipse version="3.2"?>
+                                <folder type="org.jkiss.dbeaver.ext.cubrid.model.CubridTableIndex" label="%tree.indexes.node.name" icon="#indexes" description="%tree.indexes.node.tip">
+                                </folder>
+                        </folder>
+        <manager class="org.jkiss.dbeaver.ext.cubrid.edit.CubridTableColumnManager" objectType="org.jkiss.dbeaver.ext.cubrid.model.CubridTableColumn"/>
+                                    </items>
+                            <items label="%tree.tview.node.name" path="view" property="views" icon="#view">
+                    <property name="connectTimeout" value="30"/>
+                    </items>
+                                            <items label="%tree.foreign_key_columns.node.name" itemLabel="%tree.column.node.name" path="column" property="attributeReferences" navigable="false" inline="true">
+    </extension>
+                                        <items label="%tree.foreign_key.node.name" path="association" property="associations" icon="#foreign-key">
+                                </folder>
+                        visibleIf="object.isShard() &amp;&amp; !object.isEOLVersion()">
+            id="cubrid"
+    </extension>
+

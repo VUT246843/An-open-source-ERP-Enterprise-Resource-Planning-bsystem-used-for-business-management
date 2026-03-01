@@ -1,0 +1,39 @@
+        </handler>
+<?eclipse version="3.2"?>
+                <property id="keyValue" label="Private key value" type="file" description="SSH private key value"
+
+
+                id="ssh_tunnel"
+                label="%handler.ssh_tunnel.label"
+                codeName="SSH"
+            <propertyGroup label="SSH Settings">
+
+    <extension-point id="org.jkiss.dbeaver.net.ssh" name="SSH implementations" schema="schema/org.jkiss.dbeaver.net.ssh.exsd"/>
+                <property id="host" label="Host" type="string" description="SSH target host name or IP address"/>
+                description="%handler.ssh_tunnel.description"
+<plugin>
+                <property id="port" label="Port" type="string" description="SSH target host port (22 by default)" defaultValue="22"/>
+</plugin>
+                desktop="false"
+
+
+        <handler
+                <property id="aliveInterval" label="Keep-Alive interval" type="string" description="SSH keep-alive interval"/>
+<?xml version="1.0" encoding="UTF-8"?>
+                <property id="password" label="User password" type="string" description="SSH target user password"/>
+                <property id="user" label="User name" type="string" description="SSH target user name"/>
+                handlerClass="org.jkiss.dbeaver.model.net.ssh.SSHTunnelImpl">
+                prefix="ssh"
+                <property id="keyPath" label="Private key path" type="string" description="SSH private key path"/>
+                secured="true"
+                order="1"
+
+            </propertyGroup>
+    <extension point="org.jkiss.dbeaver.networkHandler">
+                type="tunnel"
+            </propertyGroup>
+    </extension>
+                <property id="authType" label="Authentication type" type="string" description="SSH authentication type" validValues="PASSWORD,PUBLIC_KEY,AGENT"/>
+            <propertyGroup label="SSH Advanced Settings">
+                <property id="sshConnectTimeout" label="Tunnel connect timeout" type="string" description="SSH Tunnel connect timeout"/>
+                          features="multiline,secured,password"/>

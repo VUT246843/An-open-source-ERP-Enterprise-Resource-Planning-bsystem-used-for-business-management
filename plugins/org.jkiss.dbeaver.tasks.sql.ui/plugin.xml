@@ -1,0 +1,9 @@
+<plugin>
+</plugin>
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+    </extension>
+    <extension point="org.jkiss.dbeaver.task.ui">
+        <configurator handler="org.jkiss.dbeaver.model.sql.task.SQLToolExecuteHandler" class="org.jkiss.dbeaver.tasks.ui.sql.SQLToolTaskConfigurator"/>
